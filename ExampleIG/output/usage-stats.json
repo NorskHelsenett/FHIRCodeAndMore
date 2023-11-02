@@ -5,7 +5,7 @@
   "jurisdiction": "NO",
   "extensions": [
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/representant",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",
       "title": "Representant",
       "types": [
         "HumanName",

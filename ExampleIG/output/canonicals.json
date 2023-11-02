@@ -400,10 +400,10 @@
     "name" : "MyPatient"
   },
   {
-    "id" : "representant",
+    "id" : "hn-extension-representant",
     "type" : "StructureDefinition",
-    "url" : "http://helsenorge.no/fhir/StructureDefinition/representant",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",
     "version" : "0.1.0",
-    "name" : "Representant"
+    "name" : "HnExtensionRepresentant"
   }
 ]

@@ -10,7 +10,7 @@
   "name" : "CodesAndExtensions",
   "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-02T22:24:37+01:00",
+  "date" : "2023-11-02T22:29:48+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -1215,10 +1215,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/representant"
+        "reference" : "StructureDefinition/hn-extension-representant"
       },
       "name" : "Representant",
-      "description" : "Person som representerer en annen etter avtale.",
+      "description" : "Person som representerer en annen etter avtale, vedtakk mm.",
       "exampleBoolean" : false
     }],
     "page" : {

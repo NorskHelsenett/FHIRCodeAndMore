@@ -1,7 +1,7 @@
-Extension: Representant
-Id: representant
+Extension: HnExtensionRepresentant
+Id: hn-extension-representant
 Title: "Representant"
-Description: "Person som representerer en annen etter avtale."
+Description: "Person som representerer en annen etter avtale, vedtakk mm."
 * extension contains
     name 0..1 MS and
     idType 1..1 MS 

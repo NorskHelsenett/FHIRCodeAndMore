@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-02T22:24:37+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-02T22:29:48+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1130,11 +1130,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/representant> ;
-         fhir:reference [ fhir:v "StructureDefinition/representant" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-extension-representant" ]
        ] ;
        fhir:name [ fhir:v "Representant" ] ;
-       fhir:description [ fhir:v "Person som representerer en annen etter avtale." ] ;
+       fhir:description [ fhir:v "Person som representerer en annen etter avtale, vedtakk mm." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [

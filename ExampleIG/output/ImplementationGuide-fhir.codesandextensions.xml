@@ -11,7 +11,7 @@
   <name value="CodesAndExtensions"/>
   <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-02T22:24:37+01:00"/>
+  <date value="2023-11-02T22:29:48+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>
@@ -1009,10 +1009,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/representant"/>
+        <reference value="StructureDefinition/hn-extension-representant"/>
       </reference>
       <name value="Representant"/>
-      <description value="Person som representerer en annen etter avtale."/>
+      <description value="Person som representerer en annen etter avtale, vedtakk mm."/>
       <exampleBoolean value="false"/>
     </resource>
     <page>
