@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0",
-  "date" : "20231102135414",
+  "date" : "20231102142219",
   "notForPublication" : true,
-  "name" : "fhir.example.r4"
+  "name" : "fhir.codesandextensions.r4"
 }

@@ -3,10 +3,10 @@
 # │  used properties are included. For a list of all supported properties and their functions,     │
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
-id: fhir.example
+id: fhir.codesandextensions
 canonical: http://helsenorge.no/fhir
-name: Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG
-title: Codes and extension (mostly meta.tag extension and meta.security extesions) used as landing zone for use by FHIR implimetations
+name: CodesAndExtensions
+title: Codes and extension
 description: Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG
 status: draft # draft | active | retired | unknown
 version: 0.1.0

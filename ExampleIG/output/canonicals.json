@@ -336,11 +336,11 @@
     "oids" : ["2.16.578.1.12.4.1.1.7110"]
   },
   {
-    "id" : "fhir.example",
+    "id" : "fhir.codesandextensions",
     "type" : "ImplementationGuide",
-    "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.example",
+    "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
     "version" : "0.1.0",
-    "name" : "CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG"
+    "name" : "CodesAndExtensions"
   },
   {
     "id" : "no-basis-apotekenes-konsesjonsnr",

@@ -1,9 +1,9 @@
-﻿CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG : Validation Results
+﻿CodesAndExtensions : Validation Results
 =========================================
 
 err = 0, warn = 0, info = 1
 IG Publisher Version: 1.5.1
-Generated Thu Nov 02 13:55:49 CET 2023. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Nov 02 14:23:54 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 0 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-3108.codesystem : 0 / 0 / 1
@@ -47,7 +47,7 @@ Generated Thu Nov 02 13:55:49 CET 2023. FHIR version 4.0.1 for fhir.example#0.1.
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-9505.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-9603.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-ICD-10.codesystem : 0 / 0 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ImplementationGuide-fhir.example : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ImplementationGuide-fhir.codesandextensions : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-apotekenes-konsesjonsnr : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-dnummer : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-foedselsnummer : 0 / 0 / 1
@@ -100,7 +100,7 @@ Generated Thu Nov 02 13:55:49 CET 2023. FHIR version 4.0.1 for fhir.example#0.1.
 == fsh-generated\resources\CodeSystem-no-kodeverk-9505.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-9603.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-ICD-10.codesystem.json ==
-== fsh-generated\resources\ImplementationGuide-fhir.example.json ==
+== fsh-generated\resources\ImplementationGuide-fhir.codesandextensions.json ==
 == fsh-generated\resources\NamingSystem-no-basis-apotekenes-konsesjonsnr.json ==
 == fsh-generated\resources\NamingSystem-no-basis-dnummer.json ==
 == fsh-generated\resources\NamingSystem-no-basis-foedselsnummer.json ==

@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20231102135414",
-  "name" : "fhir.example"
+  "date" : "20231102142219",
+  "name" : "fhir.codesandextensions"
 }

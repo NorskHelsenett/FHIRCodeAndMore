@@ -1,8 +1,8 @@
 ﻿C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient.json: line 1, col 62855, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 
-CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG : Validation Results
+CodesAndExtensions : Validation Results
 =========================================
 
 err = 0, warn = 0, info = 1
 IG Publisher Version: 1.5.1
-Generated Thu Nov 02 13:55:49 CET 2023. FHIR version 4.0.1 for fhir.example#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Nov 02 14:23:54 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)

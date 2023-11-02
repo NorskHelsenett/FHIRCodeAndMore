@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="fhir.example"/>
+  <id value="fhir.codesandextensions"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.example</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>
 </div></div>
   </text>
-  <url value="http://helsenorge.no/fhir/ImplementationGuide/fhir.example"/>
+  <url value="http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"/>
   <version value="0.1.0"/>
-  <name value="CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG"/>
-  <title value="Codes and extension (mostly meta.tag extension and meta.security extesions) used as landing zone for use by FHIR implimetations"/>
+  <name value="CodesAndExtensions"/>
+  <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-02T13:54:52+01:00"/>
+  <date value="2023-11-02T14:22:57+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>
@@ -20,7 +20,7 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <packageId value="fhir.example"/>
+  <packageId value="fhir.codesandextensions"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">

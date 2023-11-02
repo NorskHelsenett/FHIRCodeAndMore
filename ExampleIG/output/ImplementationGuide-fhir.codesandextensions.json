@@ -1,16 +1,16 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "fhir.example",
+  "id" : "fhir.codesandextensions",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.example</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>\n</div></div>"
   },
-  "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.example",
+  "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
   "version" : "0.1.0",
-  "name" : "CodesthatareusualyasoidsandownHelsenorgeextensionsusedformetatagsandmetasecurityIG",
-  "title" : "Codes and extension (mostly meta.tag extension and meta.security extesions) used as landing zone for use by FHIR implimetations",
+  "name" : "CodesAndExtensions",
+  "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-02T13:54:52+01:00",
+  "date" : "2023-11-02T14:22:57+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -19,7 +19,7 @@
       "display" : "Norway"
     }]
   }],
-  "packageId" : "fhir.example",
+  "packageId" : "fhir.codesandextensions",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{

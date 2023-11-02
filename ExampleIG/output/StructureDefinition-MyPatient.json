@@ -9,7 +9,7 @@
   "version" : "0.1.0",
   "name" : "MyPatient",
   "status" : "draft",
-  "date" : "2023-11-02T13:54:52+01:00",
+  "date" : "2023-11-02T14:22:57+01:00",
   "description" : "An example profile of the Patient resource.",
   "jurisdiction" : [{
     "coding" : [{

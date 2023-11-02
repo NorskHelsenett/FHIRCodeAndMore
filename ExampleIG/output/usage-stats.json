@@ -1,5 +1,5 @@
 {
-  "package": "fhir.example",
+  "package": "fhir.codesandextensions",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
