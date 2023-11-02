@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8628.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8628.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8628.codesystem-1\"> </a></td><td>RHF</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8628.codesystem-2\"> </a></td><td>HF</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8628.codesystem-3\"> </a></td><td>Institusjon</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"no-kodeverk-8628.codesystem-9\"> </a></td><td>Annet</td></tr></table></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8628.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8628"
+  }],
+  "version" : "0.1.0",
+  "name" : "NoKodeverk8628",
+  "title" : "8628 Organisatorisk nivå",
+  "status" : "retired",
+  "experimental" : false,
+  "date" : "2006-06-26",
+  "publisher" : "Direktoratet for e-helse",
+  "description" : "Kodeverket er ikke lengre nødvendig i OK 2007. Så lenge applikasjonen RESH krever kode for dette vil det fortsatt være en del av OK 2007.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "1",
+    "display" : "RHF"
+  },
+  {
+    "code" : "2",
+    "display" : "HF"
+  },
+  {
+    "code" : "3",
+    "display" : "Institusjon"
+  },
+  {
+    "code" : "9",
+    "display" : "Annet"
+  }]
+}

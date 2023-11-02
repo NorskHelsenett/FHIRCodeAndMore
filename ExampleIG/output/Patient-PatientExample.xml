@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patient xmlns="http://hl7.org/fhir">
+  <id value="PatientExample"/>
+  <meta>
+    <profile value="http://helsenorge.no/fhir/StructureDefinition/MyPatient"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p style="border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;"><b>James Pond </b> (no stated gender), DoB Unknown ( id: 12345678901)</p><hr/></div>
+  </text>
+  <identifier>
+    <system value="urn:oid:2.16.578.1.12.4.1.4.2"/>
+    <value value="12345678901"/>
+  </identifier>
+  <name>
+    <family value="Pond"/>
+    <given value="James"/>
+  </name>
+</Patient>

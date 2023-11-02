@@ -1,0 +1,47 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8406.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8406.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8406.codesystem-1\"> </a></td><td>Døgnopphold</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8406.codesystem-2\"> </a></td><td>Dagbehandling</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8406.codesystem-3\"> </a></td><td>Poliklinisk konsultasjon/kontakt</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"no-kodeverk-8406.codesystem-8\"> </a></td><td>Poliklinisk kontakt inneliggende pasient stråleterapi, radiologi, NM</td></tr></table></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8406.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8406"
+  }],
+  "version" : "0.1.0",
+  "name" : "NoKodeverk8406",
+  "title" : "8406 Omsorgsnivå",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2021-03-26",
+  "publisher" : "Direktoratet for e-helse",
+  "description" : "Dette kodeverket inneholder koder for avvikling.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Døgnopphold"
+  },
+  {
+    "code" : "2",
+    "display" : "Dagbehandling"
+  },
+  {
+    "code" : "3",
+    "display" : "Poliklinisk konsultasjon/kontakt"
+  },
+  {
+    "code" : "8",
+    "display" : "Poliklinisk kontakt inneliggende pasient stråleterapi, radiologi, NM"
+  }]
+}

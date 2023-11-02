@@ -1,0 +1,68 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8432.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8432.codesystem-1\"> </a></td><td>Utredning</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"no-kodeverk-8432.codesystem-2\"> </a></td><td>Behandling</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8432.codesystem-3\"> </a></td><td>Kontroll</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"no-kodeverk-8432.codesystem-5\"> </a></td><td>Indirekte pasientkontakt</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"no-kodeverk-8432.codesystem-6\"> </a></td><td>Videokonsultasjon</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"no-kodeverk-8432.codesystem-7\"> </a></td><td>Telefonkonsultasjon</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"no-kodeverk-8432.codesystem-12\"> </a></td><td>Pasientadministrert behandling</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"no-kodeverk-8432.codesystem-13\"> </a></td><td>Opplæring</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"no-kodeverk-8432.codesystem-14\"> </a></td><td>Screening</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8432" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8432"] ; # 
+  fhir:title [ fhir:v "8432 Kontakttype"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2021-10-04"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Dette kodeverket inneholder koder som katogoriserer type kontakter. Gjelder for polikliniske konsultasjoner og dagbehandlinger etc."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Utredning" ]
+  ] [
+     fhir:code [ fhir:v "2" ] ;
+     fhir:display [ fhir:v "Behandling" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Kontroll" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Indirekte pasientkontakt" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Videokonsultasjon" ]
+  ] [
+     fhir:code [ fhir:v "7" ] ;
+     fhir:display [ fhir:v "Telefonkonsultasjon" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Pasientadministrert behandling" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Opplæring" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Screening" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

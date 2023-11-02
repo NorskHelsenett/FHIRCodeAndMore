@@ -1,0 +1,150 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-9060.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">AA<a name=\"no-kodeverk-9060.codesystem-AA\"> </a></td><td>Ambulansearbeider</td><td/></tr><tr><td style=\"white-space:nowrap\">AT<a name=\"no-kodeverk-9060.codesystem-AT\"> </a></td><td>Apotektekniker</td><td/></tr><tr><td style=\"white-space:nowrap\">AU<a name=\"no-kodeverk-9060.codesystem-AU\"> </a></td><td>Audiograf</td><td/></tr><tr><td style=\"white-space:nowrap\">BI<a name=\"no-kodeverk-9060.codesystem-BI\"> </a></td><td>Bioingeniør</td><td/></tr><tr><td style=\"white-space:nowrap\">ET<a name=\"no-kodeverk-9060.codesystem-ET\"> </a></td><td>Ergoterapeut</td><td/></tr><tr><td style=\"white-space:nowrap\">FA1<a name=\"no-kodeverk-9060.codesystem-FA1\"> </a></td><td>Provisorfarmasøyt</td><td/></tr><tr><td style=\"white-space:nowrap\">FA2<a name=\"no-kodeverk-9060.codesystem-FA2\"> </a></td><td>Reseptarfarmasøyt</td><td/></tr><tr><td style=\"white-space:nowrap\">FB<a name=\"no-kodeverk-9060.codesystem-FB\"> </a></td><td>Fiskehelsebiolog</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-9060.codesystem-FO\"> </a></td><td>Fotterapeut</td><td/></tr><tr><td style=\"white-space:nowrap\">FT<a name=\"no-kodeverk-9060.codesystem-FT\"> </a></td><td>Fysioterapeut</td><td/></tr><tr><td style=\"white-space:nowrap\">HE<a name=\"no-kodeverk-9060.codesystem-HE\"> </a></td><td>Helsesekretær</td><td/></tr><tr><td style=\"white-space:nowrap\">HF<a name=\"no-kodeverk-9060.codesystem-HF\"> </a></td><td>Helsefagarbeider</td><td/></tr><tr><td style=\"white-space:nowrap\">HP<a name=\"no-kodeverk-9060.codesystem-HP\"> </a></td><td>Hjelpepleier</td><td/></tr><tr><td style=\"white-space:nowrap\">JO<a name=\"no-kodeverk-9060.codesystem-JO\"> </a></td><td>Jordmor</td><td/></tr><tr><td style=\"white-space:nowrap\">KE<a name=\"no-kodeverk-9060.codesystem-KE\"> </a></td><td>Klinisk ernæringsfysiolog</td><td/></tr><tr><td style=\"white-space:nowrap\">KI<a name=\"no-kodeverk-9060.codesystem-KI\"> </a></td><td>Kiropraktor</td><td/></tr><tr><td style=\"white-space:nowrap\">LE<a name=\"no-kodeverk-9060.codesystem-LE\"> </a></td><td>Lege</td><td/></tr><tr><td style=\"white-space:nowrap\">NP<a name=\"no-kodeverk-9060.codesystem-NP\"> </a></td><td>Naprapat</td><td/></tr><tr><td style=\"white-space:nowrap\">OA<a name=\"no-kodeverk-9060.codesystem-OA\"> </a></td><td>Omsorgsarbeider</td><td/></tr><tr><td style=\"white-space:nowrap\">OI<a name=\"no-kodeverk-9060.codesystem-OI\"> </a></td><td>Ortopediingeniør</td><td/></tr><tr><td style=\"white-space:nowrap\">OP<a name=\"no-kodeverk-9060.codesystem-OP\"> </a></td><td>Optiker</td><td/></tr><tr><td style=\"white-space:nowrap\">OR<a name=\"no-kodeverk-9060.codesystem-OR\"> </a></td><td>Ortoptist</td><td/></tr><tr><td style=\"white-space:nowrap\">OS<a name=\"no-kodeverk-9060.codesystem-OS\"> </a></td><td>Osteopat</td><td/></tr><tr><td style=\"white-space:nowrap\">PE<a name=\"no-kodeverk-9060.codesystem-PE\"> </a></td><td>Perfusjonist</td><td/></tr><tr><td style=\"white-space:nowrap\">PM<a name=\"no-kodeverk-9060.codesystem-PM\"> </a></td><td>Paramedisiner</td><td/></tr><tr><td style=\"white-space:nowrap\">PS<a name=\"no-kodeverk-9060.codesystem-PS\"> </a></td><td>Psykolog</td><td/></tr><tr><td style=\"white-space:nowrap\">RA<a name=\"no-kodeverk-9060.codesystem-RA\"> </a></td><td>Radiograf</td><td/></tr><tr><td style=\"white-space:nowrap\">SP<a name=\"no-kodeverk-9060.codesystem-SP\"> </a></td><td>Sykepleier</td><td/></tr><tr><td style=\"white-space:nowrap\">TH<a name=\"no-kodeverk-9060.codesystem-TH\"> </a></td><td>Tannhelsesekretær</td><td/></tr><tr><td style=\"white-space:nowrap\">TL<a name=\"no-kodeverk-9060.codesystem-TL\"> </a></td><td>Tannlege</td><td/></tr><tr><td style=\"white-space:nowrap\">TP<a name=\"no-kodeverk-9060.codesystem-TP\"> </a></td><td>Tannpleier</td><td/></tr><tr><td style=\"white-space:nowrap\">TT<a name=\"no-kodeverk-9060.codesystem-TT\"> </a></td><td>Tanntekniker</td><td/></tr><tr><td style=\"white-space:nowrap\">VE<a name=\"no-kodeverk-9060.codesystem-VE\"> </a></td><td>Veterinær</td><td/></tr><tr><td style=\"white-space:nowrap\">VP<a name=\"no-kodeverk-9060.codesystem-VP\"> </a></td><td>Vernepleier</td><td/></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-9060.codesystem-XX\"> </a></td><td>Ukjent/uspesifisert</td><td/></tr><tr><td style=\"white-space:nowrap\">MT<a name=\"no-kodeverk-9060.codesystem-MT\"> </a></td><td>Manuellterapeut</td><td>Utgått</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9060" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk9060"] ; # 
+  fhir:title [ fhir:v "9060 Kategori helsepersonell"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-11-02T13:54:52+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Helsedirektoratet"] ; # 
+  fhir:description [ fhir:v "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "36"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "AA" ] ;
+     fhir:display [ fhir:v "Ambulansearbeider" ]
+  ] [
+     fhir:code [ fhir:v "AT" ] ;
+     fhir:display [ fhir:v "Apotektekniker" ]
+  ] [
+     fhir:code [ fhir:v "AU" ] ;
+     fhir:display [ fhir:v "Audiograf" ]
+  ] [
+     fhir:code [ fhir:v "BI" ] ;
+     fhir:display [ fhir:v "Bioingeniør" ]
+  ] [
+     fhir:code [ fhir:v "ET" ] ;
+     fhir:display [ fhir:v "Ergoterapeut" ]
+  ] [
+     fhir:code [ fhir:v "FA1" ] ;
+     fhir:display [ fhir:v "Provisorfarmasøyt" ]
+  ] [
+     fhir:code [ fhir:v "FA2" ] ;
+     fhir:display [ fhir:v "Reseptarfarmasøyt" ]
+  ] [
+     fhir:code [ fhir:v "FB" ] ;
+     fhir:display [ fhir:v "Fiskehelsebiolog" ]
+  ] [
+     fhir:code [ fhir:v "FO" ] ;
+     fhir:display [ fhir:v "Fotterapeut" ]
+  ] [
+     fhir:code [ fhir:v "FT" ] ;
+     fhir:display [ fhir:v "Fysioterapeut" ]
+  ] [
+     fhir:code [ fhir:v "HE" ] ;
+     fhir:display [ fhir:v "Helsesekretær" ]
+  ] [
+     fhir:code [ fhir:v "HF" ] ;
+     fhir:display [ fhir:v "Helsefagarbeider" ]
+  ] [
+     fhir:code [ fhir:v "HP" ] ;
+     fhir:display [ fhir:v "Hjelpepleier" ]
+  ] [
+     fhir:code [ fhir:v "JO" ] ;
+     fhir:display [ fhir:v "Jordmor" ]
+  ] [
+     fhir:code [ fhir:v "KE" ] ;
+     fhir:display [ fhir:v "Klinisk ernæringsfysiolog" ]
+  ] [
+     fhir:code [ fhir:v "KI" ] ;
+     fhir:display [ fhir:v "Kiropraktor" ]
+  ] [
+     fhir:code [ fhir:v "LE" ] ;
+     fhir:display [ fhir:v "Lege" ]
+  ] [
+     fhir:code [ fhir:v "NP" ] ;
+     fhir:display [ fhir:v "Naprapat" ]
+  ] [
+     fhir:code [ fhir:v "OA" ] ;
+     fhir:display [ fhir:v "Omsorgsarbeider" ]
+  ] [
+     fhir:code [ fhir:v "OI" ] ;
+     fhir:display [ fhir:v "Ortopediingeniør" ]
+  ] [
+     fhir:code [ fhir:v "OP" ] ;
+     fhir:display [ fhir:v "Optiker" ]
+  ] [
+     fhir:code [ fhir:v "OR" ] ;
+     fhir:display [ fhir:v "Ortoptist" ]
+  ] [
+     fhir:code [ fhir:v "OS" ] ;
+     fhir:display [ fhir:v "Osteopat" ]
+  ] [
+     fhir:code [ fhir:v "PE" ] ;
+     fhir:display [ fhir:v "Perfusjonist" ]
+  ] [
+     fhir:code [ fhir:v "PM" ] ;
+     fhir:display [ fhir:v "Paramedisiner" ]
+  ] [
+     fhir:code [ fhir:v "PS" ] ;
+     fhir:display [ fhir:v "Psykolog" ]
+  ] [
+     fhir:code [ fhir:v "RA" ] ;
+     fhir:display [ fhir:v "Radiograf" ]
+  ] [
+     fhir:code [ fhir:v "SP" ] ;
+     fhir:display [ fhir:v "Sykepleier" ]
+  ] [
+     fhir:code [ fhir:v "TH" ] ;
+     fhir:display [ fhir:v "Tannhelsesekretær" ]
+  ] [
+     fhir:code [ fhir:v "TL" ] ;
+     fhir:display [ fhir:v "Tannlege" ]
+  ] [
+     fhir:code [ fhir:v "TP" ] ;
+     fhir:display [ fhir:v "Tannpleier" ]
+  ] [
+     fhir:code [ fhir:v "TT" ] ;
+     fhir:display [ fhir:v "Tanntekniker" ]
+  ] [
+     fhir:code [ fhir:v "VE" ] ;
+     fhir:display [ fhir:v "Veterinær" ]
+  ] [
+     fhir:code [ fhir:v "VP" ] ;
+     fhir:display [ fhir:v "Vernepleier" ]
+  ] [
+     fhir:code [ fhir:v "XX" ] ;
+     fhir:display [ fhir:v "Ukjent/uspesifisert" ]
+  ] [
+     fhir:code [ fhir:v "MT" ] ;
+     fhir:display [ fhir:v "Manuellterapeut" ] ;
+     fhir:definition [ fhir:v "Utgått" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

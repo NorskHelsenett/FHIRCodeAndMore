@@ -3,6 +3,8 @@ Id: no-kodeverk-1101.codesystem
 Title: "1101 Ja, nei"
 Description: "Dette kodeverket inneholder koder for å angi svar Ja eller Nei."
 //* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-1101"
+* ^experimental = false
+* ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.1101"
 * ^status = #active

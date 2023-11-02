@@ -2,7 +2,9 @@ CodeSystem: NoKodeverk9505
 Id: no-kodeverk-9505.codesystem
 Title: "9505 Alderstrinn"
 Description: "Dette kodeverket inneholder koder som benyttes for å identifisere de faste alderstrinn (intervall) som er relevante i forbindelse med arbeidet på helsestasjoner og i skolehelsetjenesten."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-9505"
+//* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-9505"
+* ^experimental = false
+* ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.9505"
 * ^status = #retired

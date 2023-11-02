@@ -2,7 +2,9 @@ CodeSystem: NoKodeverk8446
 Id: no-kodeverk-8446.codesystem
 Title: "8446 Utsettelseskode"
 Description: "Dette kodeverket inneholder koder som beskriver grunner for utsettelse."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8446"
+//* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8446"
+* ^experimental = false
+* ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986" 
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8446"
 * ^status = #active 

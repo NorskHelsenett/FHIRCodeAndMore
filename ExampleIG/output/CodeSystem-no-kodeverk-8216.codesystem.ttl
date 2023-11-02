@@ -1,0 +1,98 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8216.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8216.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8216.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">VAG<a name=\"no-kodeverk-8216.codesystem-VAG\"> </a></td><td>Vagina</td></tr><tr><td style=\"white-space:nowrap\">VUL<a name=\"no-kodeverk-8216.codesystem-VUL\"> </a></td><td>Vulva</td></tr><tr><td style=\"white-space:nowrap\">ASC<a name=\"no-kodeverk-8216.codesystem-ASC\"> </a></td><td>Ascites</td></tr><tr><td style=\"white-space:nowrap\">CVX<a name=\"no-kodeverk-8216.codesystem-CVX\"> </a></td><td>Cervix</td></tr><tr><td style=\"white-space:nowrap\">ENDM<a name=\"no-kodeverk-8216.codesystem-ENDM\"> </a></td><td>Endometrium</td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8216.codesystem-AN\"> </a></td><td>Annet materiale</td></tr><tr><td style=\"white-space:nowrap\">FIN<a name=\"no-kodeverk-8216.codesystem-FIN\"> </a></td><td>Finnålsaspirasjon</td></tr><tr><td style=\"white-space:nowrap\">BRO<a name=\"no-kodeverk-8216.codesystem-BRO\"> </a></td><td>Bronchialutstryk</td></tr><tr><td style=\"white-space:nowrap\">PLR<a name=\"no-kodeverk-8216.codesystem-PLR\"> </a></td><td>Plevravæske</td></tr><tr><td style=\"white-space:nowrap\">PLRH<a name=\"no-kodeverk-8216.codesystem-PLRH\"> </a></td><td>Plevravæske Høyre</td></tr><tr><td style=\"white-space:nowrap\">PLRV<a name=\"no-kodeverk-8216.codesystem-PLRV\"> </a></td><td>Plevravæske Venstre</td></tr><tr><td style=\"white-space:nowrap\">UR<a name=\"no-kodeverk-8216.codesystem-UR\"> </a></td><td>Urin (spontan)</td></tr><tr><td style=\"white-space:nowrap\">UR1<a name=\"no-kodeverk-8216.codesystem-UR1\"> </a></td><td>Urin Prøve 1</td></tr><tr><td style=\"white-space:nowrap\">UR2<a name=\"no-kodeverk-8216.codesystem-UR2\"> </a></td><td>Urin Prøve 2</td></tr><tr><td style=\"white-space:nowrap\">UR3<a name=\"no-kodeverk-8216.codesystem-UR3\"> </a></td><td>Urin Prøve 3</td></tr><tr><td style=\"white-space:nowrap\">EKSP<a name=\"no-kodeverk-8216.codesystem-EKSP\"> </a></td><td>Ekspektorat</td></tr><tr><td style=\"white-space:nowrap\">EKSP1<a name=\"no-kodeverk-8216.codesystem-EKSP1\"> </a></td><td>Ekspektorat Prøve 1</td></tr><tr><td style=\"white-space:nowrap\">EKSP2<a name=\"no-kodeverk-8216.codesystem-EKSP2\"> </a></td><td>Ekspektorat Prøve 2</td></tr><tr><td style=\"white-space:nowrap\">EKSP3<a name=\"no-kodeverk-8216.codesystem-EKSP3\"> </a></td><td>Ekspektorat Prøve 3</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8216.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8216" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8216"] ; # 
+  fhir:title [ fhir:v "8216 Kodeverk for cytologisk materiale"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-11-02T13:54:52+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Gynekologisk materiale eller annet cytologisk materiale som er tatt for cytologiske undersøkelser. Kodene dekker opp valgmuligheter fra standard rekvisisjonsskjema for cytologiske undersøkelser."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "19"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "VAG" ] ;
+     fhir:display [ fhir:v "Vagina" ]
+  ] [
+     fhir:code [ fhir:v "VUL" ] ;
+     fhir:display [ fhir:v "Vulva" ]
+  ] [
+     fhir:code [ fhir:v "ASC" ] ;
+     fhir:display [ fhir:v "Ascites" ]
+  ] [
+     fhir:code [ fhir:v "CVX" ] ;
+     fhir:display [ fhir:v "Cervix" ]
+  ] [
+     fhir:code [ fhir:v "ENDM" ] ;
+     fhir:display [ fhir:v "Endometrium" ]
+  ] [
+     fhir:code [ fhir:v "AN" ] ;
+     fhir:display [ fhir:v "Annet materiale" ]
+  ] [
+     fhir:code [ fhir:v "FIN" ] ;
+     fhir:display [ fhir:v "Finnålsaspirasjon" ]
+  ] [
+     fhir:code [ fhir:v "BRO" ] ;
+     fhir:display [ fhir:v "Bronchialutstryk" ]
+  ] [
+     fhir:code [ fhir:v "PLR" ] ;
+     fhir:display [ fhir:v "Plevravæske" ]
+  ] [
+     fhir:code [ fhir:v "PLRH" ] ;
+     fhir:display [ fhir:v "Plevravæske Høyre" ]
+  ] [
+     fhir:code [ fhir:v "PLRV" ] ;
+     fhir:display [ fhir:v "Plevravæske Venstre" ]
+  ] [
+     fhir:code [ fhir:v "UR" ] ;
+     fhir:display [ fhir:v "Urin (spontan)" ]
+  ] [
+     fhir:code [ fhir:v "UR1" ] ;
+     fhir:display [ fhir:v "Urin Prøve 1" ]
+  ] [
+     fhir:code [ fhir:v "UR2" ] ;
+     fhir:display [ fhir:v "Urin Prøve 2" ]
+  ] [
+     fhir:code [ fhir:v "UR3" ] ;
+     fhir:display [ fhir:v "Urin Prøve 3" ]
+  ] [
+     fhir:code [ fhir:v "EKSP" ] ;
+     fhir:display [ fhir:v "Ekspektorat" ]
+  ] [
+     fhir:code [ fhir:v "EKSP1" ] ;
+     fhir:display [ fhir:v "Ekspektorat Prøve 1" ]
+  ] [
+     fhir:code [ fhir:v "EKSP2" ] ;
+     fhir:display [ fhir:v "Ekspektorat Prøve 2" ]
+  ] [
+     fhir:code [ fhir:v "EKSP3" ] ;
+     fhir:display [ fhir:v "Ekspektorat Prøve 3" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

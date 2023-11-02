@@ -4,7 +4,9 @@ Title: "8628 Organisatorisk nivå"
 Description: "Kodeverket er ikke lengre nødvendig i OK 2007. Så lenge applikasjonen RESH krever kode for dette vil det fortsatt være en del av OK 2007."
 * ^status = #retired
 * ^content = #complete
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8628"
+//* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-8628"
+* ^experimental = false
+* ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8628"
 * ^date = "2006-06-26"

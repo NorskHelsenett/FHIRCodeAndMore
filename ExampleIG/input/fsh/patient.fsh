@@ -12,3 +12,5 @@ Description: "An example of a patient with a license to krill."
 * name
   * given[0] = "James"
   * family = "Pond"
+* identifier[0].system = "urn:oid:2.16.578.1.12.4.1.4.2"
+* identifier[=].value = "12345678901"

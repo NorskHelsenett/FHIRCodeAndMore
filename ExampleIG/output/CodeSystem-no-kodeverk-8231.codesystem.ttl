@@ -1,0 +1,98 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8231.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8231.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8231.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">BG<a name=\"no-kodeverk-8231.codesystem-BG\"> </a></td><td>Begrunnelse</td><td>Uspesifisert</td></tr><tr><td style=\"white-space:nowrap\">BUP-BM<a name=\"no-kodeverk-8231.codesystem-BUP-BM\"> </a></td><td>Henvisningsgrunn barnets miljø</td><td/></tr><tr><td style=\"white-space:nowrap\">BUP-HG<a name=\"no-kodeverk-8231.codesystem-BUP-HG\"> </a></td><td>Henvisningsgrunn barnet</td><td/></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8231.codesystem-DIAG\"> </a></td><td>Diagnose</td><td>Når den ikke oppgis strukturert</td></tr><tr><td style=\"white-space:nowrap\">FA<a name=\"no-kodeverk-8231.codesystem-FA\"> </a></td><td>Familie/sosialt</td><td/></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-8231.codesystem-FO\"> </a></td><td>Forløp og behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8231.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td><td/></tr><tr><td style=\"white-space:nowrap\">HJ<a name=\"no-kodeverk-8231.codesystem-HJ\"> </a></td><td>Funksjonsnivå/hjelpetiltak</td><td/></tr><tr><td style=\"white-space:nowrap\">IP<a name=\"no-kodeverk-8231.codesystem-IP\"> </a></td><td>Informasjon til pasient/pårørende</td><td/></tr><tr><td style=\"white-space:nowrap\">KF<a name=\"no-kodeverk-8231.codesystem-KF\"> </a></td><td>Kontroll pga. tidligere funn</td><td/></tr><tr><td style=\"white-space:nowrap\">MAAL<a name=\"no-kodeverk-8231.codesystem-MAAL\"> </a></td><td>Mål for oppholdet</td><td/></tr><tr><td style=\"white-space:nowrap\">MU<a name=\"no-kodeverk-8231.codesystem-MU\"> </a></td><td>Innkalt til masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">PROB<a name=\"no-kodeverk-8231.codesystem-PROB\"> </a></td><td>Aktuell problemstilling</td><td/></tr><tr><td style=\"white-space:nowrap\">RU<a name=\"no-kodeverk-8231.codesystem-RU\"> </a></td><td>Rutineundersøkelse utenom masseundersøkelse</td><td/></tr><tr><td style=\"white-space:nowrap\">SVU<a name=\"no-kodeverk-8231.codesystem-SVU\"> </a></td><td>Spesialistvurdering</td><td>Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet.</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8231.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td><td/></tr><tr><td style=\"white-space:nowrap\">UTRED<a name=\"no-kodeverk-8231.codesystem-UTRED\"> </a></td><td>Forventet utredning/behandling</td><td/></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8231.codesystem-VU\"> </a></td><td>Vurdering</td><td/></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8231.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8231" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8231"] ; # 
+  fhir:title [ fhir:v "8231 Type tekstsvar"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-11-02T13:54:52+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Begrunnelse for rekvisisjon/henvisning"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "18"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BG" ] ;
+     fhir:display [ fhir:v "Begrunnelse" ] ;
+     fhir:definition [ fhir:v "Uspesifisert" ]
+  ] [
+     fhir:code [ fhir:v "BUP-BM" ] ;
+     fhir:display [ fhir:v "Henvisningsgrunn barnets miljø" ]
+  ] [
+     fhir:code [ fhir:v "BUP-HG" ] ;
+     fhir:display [ fhir:v "Henvisningsgrunn barnet" ]
+  ] [
+     fhir:code [ fhir:v "DIAG" ] ;
+     fhir:display [ fhir:v "Diagnose" ] ;
+     fhir:definition [ fhir:v "Når den ikke oppgis strukturert" ]
+  ] [
+     fhir:code [ fhir:v "FA" ] ;
+     fhir:display [ fhir:v "Familie/sosialt" ]
+  ] [
+     fhir:code [ fhir:v "FO" ] ;
+     fhir:display [ fhir:v "Forløp og behandling" ]
+  ] [
+     fhir:code [ fhir:v "FU" ] ;
+     fhir:display [ fhir:v "Funn og undersøkelsesresultater" ]
+  ] [
+     fhir:code [ fhir:v "HJ" ] ;
+     fhir:display [ fhir:v "Funksjonsnivå/hjelpetiltak" ]
+  ] [
+     fhir:code [ fhir:v "IP" ] ;
+     fhir:display [ fhir:v "Informasjon til pasient/pårørende" ]
+  ] [
+     fhir:code [ fhir:v "KF" ] ;
+     fhir:display [ fhir:v "Kontroll pga. tidligere funn" ]
+  ] [
+     fhir:code [ fhir:v "MAAL" ] ;
+     fhir:display [ fhir:v "Mål for oppholdet" ]
+  ] [
+     fhir:code [ fhir:v "MU" ] ;
+     fhir:display [ fhir:v "Innkalt til masseundersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "PROB" ] ;
+     fhir:display [ fhir:v "Aktuell problemstilling" ]
+  ] [
+     fhir:code [ fhir:v "RU" ] ;
+     fhir:display [ fhir:v "Rutineundersøkelse utenom masseundersøkelse" ]
+  ] [
+     fhir:code [ fhir:v "SVU" ] ;
+     fhir:display [ fhir:v "Spesialistvurdering" ] ;
+     fhir:definition [ fhir:v "Dersom henvisningen har blitt vurdert av en spesialist skal det finnes en forekomst av ReasonAsText med SVU som kodeverdi. Relevant epikriseinformasjon kan legges i TectResultValue feltet." ]
+  ] [
+     fhir:code [ fhir:v "UP" ] ;
+     fhir:display [ fhir:v "Ubesvarte prøver" ]
+  ] [
+     fhir:code [ fhir:v "UTRED" ] ;
+     fhir:display [ fhir:v "Forventet utredning/behandling" ]
+  ] [
+     fhir:code [ fhir:v "VU" ] ;
+     fhir:display [ fhir:v "Vurdering" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -4,20 +4,20 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.example
-canonical: http://example.org
-name: ExampleIG
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+canonical: http://helsenorge.no/fhir
+name: Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG
+title: Codes and extension (mostly meta.tag extension and meta.security extesions) used as landing zone for use by FHIR implimetations
+description: Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 # license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
-# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
-publisher:
-  name: Example Publisher
-  url: http://example.org/example-publisher
+jurisdiction: urn:iso:std:iso:3166#NO "Norway" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+#publisher:
+#  name: Example Publisher
+#  url: http://example.org/example-publisher
   # email: test@example.org
 
 # The dependencies property corresponds to IG.dependsOn. The key is the
@@ -77,6 +77,7 @@ publisher:
 menu:
   Home: index.html
   Artifacts: artifacts.html
+  Download: download.html
 
 # ╭───────────────────────────Less Common Implementation Guide Properties──────────────────────────╮
 # │  Uncomment the properties below to configure additional properties on the ImplementationGuide  │

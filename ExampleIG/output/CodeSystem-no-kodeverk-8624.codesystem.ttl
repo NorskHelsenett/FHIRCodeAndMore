@@ -1,0 +1,110 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8624.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8624.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8624.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">01<a name=\"no-kodeverk-8624.codesystem-01\"> </a></td><td>Sykehus</td></tr><tr><td style=\"white-space:nowrap\">02<a name=\"no-kodeverk-8624.codesystem-02\"> </a></td><td>Klinikk</td></tr><tr><td style=\"white-space:nowrap\">03<a name=\"no-kodeverk-8624.codesystem-03\"> </a></td><td>Senter</td></tr><tr><td style=\"white-space:nowrap\">04<a name=\"no-kodeverk-8624.codesystem-04\"> </a></td><td>Divisjon</td></tr><tr><td style=\"white-space:nowrap\">05<a name=\"no-kodeverk-8624.codesystem-05\"> </a></td><td>Avdeling</td></tr><tr><td style=\"white-space:nowrap\">06<a name=\"no-kodeverk-8624.codesystem-06\"> </a></td><td>Seksjon</td></tr><tr><td style=\"white-space:nowrap\">07<a name=\"no-kodeverk-8624.codesystem-07\"> </a></td><td>Fagenhet</td></tr><tr><td style=\"white-space:nowrap\">08<a name=\"no-kodeverk-8624.codesystem-08\"> </a></td><td>Post</td></tr><tr><td style=\"white-space:nowrap\">09<a name=\"no-kodeverk-8624.codesystem-09\"> </a></td><td>Team</td></tr><tr><td style=\"white-space:nowrap\">10<a name=\"no-kodeverk-8624.codesystem-10\"> </a></td><td>Avsnitt</td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"no-kodeverk-8624.codesystem-11\"> </a></td><td>Poliklinikk</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"no-kodeverk-8624.codesystem-12\"> </a></td><td>Institusjon</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"no-kodeverk-8624.codesystem-13\"> </a></td><td>Område</td></tr><tr><td style=\"white-space:nowrap\">14<a name=\"no-kodeverk-8624.codesystem-14\"> </a></td><td>Laboratorium</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"no-kodeverk-8624.codesystem-21\"> </a></td><td>Hotell</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"no-kodeverk-8624.codesystem-31\"> </a></td><td>DPS</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"no-kodeverk-8624.codesystem-41\"> </a></td><td>Tun</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"no-kodeverk-8624.codesystem-51\"> </a></td><td>Skole</td></tr><tr><td style=\"white-space:nowrap\">61<a name=\"no-kodeverk-8624.codesystem-61\"> </a></td><td>Privat avtalespesialist</td></tr><tr><td style=\"white-space:nowrap\">71<a name=\"no-kodeverk-8624.codesystem-71\"> </a></td><td>Kontor</td></tr><tr><td style=\"white-space:nowrap\">72<a name=\"no-kodeverk-8624.codesystem-72\"> </a></td><td>Ressurspool</td></tr><tr><td style=\"white-space:nowrap\">73<a name=\"no-kodeverk-8624.codesystem-73\"> </a></td><td>Stab</td></tr><tr><td style=\"white-space:nowrap\">88<a name=\"no-kodeverk-8624.codesystem-88\"> </a></td><td>Annet</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8624.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8624" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8624"] ; # 
+  fhir:title [ fhir:v "8624 Organisatorisk betegnelse"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2020-12-04"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
+  fhir:description [ fhir:v "Hvilken type enheten er, hva enheten kalles lokalt. Valg av term har ingen betydning for bestemmelse av nivå eller hierarkisk plassering. Betydningen av slike ord varierer mye fra organisasjon til organisasjon."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "23"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "01" ] ;
+     fhir:display [ fhir:v "Sykehus" ]
+  ] [
+     fhir:code [ fhir:v "02" ] ;
+     fhir:display [ fhir:v "Klinikk" ]
+  ] [
+     fhir:code [ fhir:v "03" ] ;
+     fhir:display [ fhir:v "Senter" ]
+  ] [
+     fhir:code [ fhir:v "04" ] ;
+     fhir:display [ fhir:v "Divisjon" ]
+  ] [
+     fhir:code [ fhir:v "05" ] ;
+     fhir:display [ fhir:v "Avdeling" ]
+  ] [
+     fhir:code [ fhir:v "06" ] ;
+     fhir:display [ fhir:v "Seksjon" ]
+  ] [
+     fhir:code [ fhir:v "07" ] ;
+     fhir:display [ fhir:v "Fagenhet" ]
+  ] [
+     fhir:code [ fhir:v "08" ] ;
+     fhir:display [ fhir:v "Post" ]
+  ] [
+     fhir:code [ fhir:v "09" ] ;
+     fhir:display [ fhir:v "Team" ]
+  ] [
+     fhir:code [ fhir:v "10" ] ;
+     fhir:display [ fhir:v "Avsnitt" ]
+  ] [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "Poliklinikk" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "Institusjon" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "Område" ]
+  ] [
+     fhir:code [ fhir:v "14" ] ;
+     fhir:display [ fhir:v "Laboratorium" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Hotell" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "DPS" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "Tun" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "Skole" ]
+  ] [
+     fhir:code [ fhir:v "61" ] ;
+     fhir:display [ fhir:v "Privat avtalespesialist" ]
+  ] [
+     fhir:code [ fhir:v "71" ] ;
+     fhir:display [ fhir:v "Kontor" ]
+  ] [
+     fhir:code [ fhir:v "72" ] ;
+     fhir:display [ fhir:v "Ressurspool" ]
+  ] [
+     fhir:code [ fhir:v "73" ] ;
+     fhir:display [ fhir:v "Stab" ]
+  ] [
+     fhir:code [ fhir:v "88" ] ;
+     fhir:display [ fhir:v "Annet" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

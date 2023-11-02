@@ -2,7 +2,9 @@ CodeSystem: NoKodeverk7617
 Id: no-kodeverk-7617.codesystem
 Title: "7617 Timetype innbyggerportal"
 Description: "Tilleggsopplysning til diagnose."
-* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7617"
+//* ^url = "http://ehelse.no/fhir/CodeSystem/no-kodeverk-7617"
+* ^experimental = false
+* ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986"
 * ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7617"
 * ^status = #active
