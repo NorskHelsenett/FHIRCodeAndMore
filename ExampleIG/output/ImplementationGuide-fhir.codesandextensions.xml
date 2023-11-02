@@ -11,7 +11,7 @@
   <name value="CodesAndExtensions"/>
   <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-02T14:52:41+01:00"/>
+  <date value="2023-11-02T22:24:37+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>
@@ -503,6 +503,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/no-kodeverk-7611.codesystem"/>
+      </reference>
+      <name value="7611 Representasjonsrolle."/>
+      <description value="Dersom en innbygger benytter dialogtjenester på vegne av pasient fra helsenorge.no så skal informasjon om hvem som benytter tjeneste oppgis vha. objektet Pasientrelasjon. Pasienten oppgis som vanlig under patient-tagen i Hodemeldingen, mens personen som benytter en dialogtjeneste på vegne av pasienten skal oppgis i objektet Pasientrelasjon. Relasjon angir her representasjonsolle person som benytter tjeneste har til pasient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/no-kodeverk-7617.codesystem"/>
       </reference>
       <name value="7617 Timetype innbyggerportal"/>
@@ -978,7 +989,7 @@
       <reference>
         <reference value="CodeSystem/no-kodeverk-7010-norpat.codesystem"/>
       </reference>
-      <name value="Norsk patologikodeverk (NORPAT)."/>
+      <name value="Norsk patologikodeverk (NORPAT)"/>
       <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -992,6 +1003,17 @@
       <name value="PatientExample"/>
       <description value="An example of a patient with a license to krill."/>
       <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/MyPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/representant"/>
+      </reference>
+      <name value="Representant"/>
+      <description value="Person som representerer en annen etter avtale."/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

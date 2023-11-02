@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "MyPatient"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-02T14:52:41+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-02T22:24:37+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "An example profile of the Patient resource."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

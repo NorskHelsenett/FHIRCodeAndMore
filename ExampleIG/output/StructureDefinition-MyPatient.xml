@@ -11,7 +11,7 @@
   <version value="0.1.0"/>
   <name value="MyPatient"/>
   <status value="draft"/>
-  <date value="2023-11-02T14:52:41+01:00"/>
+  <date value="2023-11-02T22:24:37+01:00"/>
   <description value="An example profile of the Patient resource."/>
   <jurisdiction>
     <coding>

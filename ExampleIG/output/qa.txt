@@ -1,9 +1,9 @@
 ﻿CodesAndExtensions : Validation Results
 =========================================
 
-err = 0, warn = 0, info = 1
+err = 2, warn = 2, info = 1
 IG Publisher Version: 1.5.1
-Generated Thu Nov 02 14:53:36 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Nov 02 22:25:35 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 0 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-3108.codesystem : 0 / 0 / 1
@@ -13,8 +13,9 @@ Generated Thu Nov 02 14:53:36 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7280-nlk.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7303.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7305.codesystem : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7611.codesystem : 1 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7617.codesystem : 0 / 0 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8116.codesystem : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8116.codesystem : 1 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8202.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8212.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8216.codesystem : 0 / 0 / 1
@@ -56,6 +57,7 @@ Generated Thu Nov 02 14:53:36 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-resh-id : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-representant : 0 / 2 / 1
 </table>
 == n/a ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem.json ==
@@ -66,8 +68,11 @@ Generated Thu Nov 02 14:53:36 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
 == fsh-generated\resources\CodeSystem-no-kodeverk-7280-nlk.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-7303.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-7305.codesystem.json ==
+== fsh-generated\resources\CodeSystem-no-kodeverk-7611.codesystem.json ==
+ERROR: Resource: The OID '2.16.578.1.12.4.1.1.8116' is also used by no-kodeverk-8116.codesystem in C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-8116.codesystem
 == fsh-generated\resources\CodeSystem-no-kodeverk-7617.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-8116.codesystem.json ==
+ERROR: Resource: The OID '2.16.578.1.12.4.1.1.8116' has already been used by no-kodeverk-7611.codesystem in C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-7611.codesystem
 == fsh-generated\resources\CodeSystem-no-kodeverk-8202.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-8212.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-8216.codesystem.json ==
@@ -110,3 +115,6 @@ Generated Thu Nov 02 14:53:36 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
 == fsh-generated\resources\Patient-PatientExample.json ==
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated\resources\StructureDefinition-representant.json ==
+WARNING: StructureDefinition/representant: StructureDefinition.context[0]: Review the extension type for representant: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/representant'): The Implementation Guide contains no examples for this extension
