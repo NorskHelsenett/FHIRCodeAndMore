@@ -9,3 +9,6 @@ Description: "Person som representerer en annen etter avtale, vedtakk mm."
 * extension[name].value[x] only HumanName
 * extension[ident].value[x] only Identifier
 * extension[ident].value[x].type.coding.system = "urn:oid:2.16.578.1.12.4.1.1.8116"
+* extension[ident].value[x].type.coding.system 1..1
+* extension[ident].value[x].type.coding.code 1..1
+* extension[ident].value[x].value 1..1
