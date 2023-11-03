@@ -19,12 +19,17 @@
              fhir:given ( [ fhir:v "Line" ] )
            ]
          ] [
-           fhir:url [ fhir:v "idType"^^xsd:anyURI ] ;
+           fhir:url [ fhir:v "ident"^^xsd:anyURI ] ;
            fhir:value [
-             a fhir:Coding ;
-             fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8116"^^xsd:anyURI ] ;
-             fhir:code [ fhir:v "FNR" ] ;
-             fhir:display [ fhir:v "Fødselsnummer" ]
+             a fhir:Identifier ;
+             fhir:type [
+               fhir:coding ( [
+                 fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8116"^^xsd:anyURI ] ;
+                 fhir:code [ fhir:v "FNR" ] ;
+                 fhir:display [ fhir:v "Fødselsnummer" ]
+               ] )
+             ] ;
+             fhir:value [ fhir:v "12345678901" ]
            ]
          ] ) ;
          fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"^^xsd:anyURI ]

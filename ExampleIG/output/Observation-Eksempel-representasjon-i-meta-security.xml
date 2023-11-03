@@ -11,12 +11,17 @@
             <given value="Line"/>
           </valueHumanName>
         </extension>
-        <extension url="idType">
-          <valueCoding>
-            <system value="urn:oid:2.16.578.1.12.4.1.1.8116"/>
-            <code value="FNR"/>
-            <display value="Fødselsnummer"/>
-          </valueCoding>
+        <extension url="ident">
+          <valueIdentifier>
+            <type>
+              <coding>
+                <system value="urn:oid:2.16.578.1.12.4.1.1.8116"/>
+                <code value="FNR"/>
+                <display value="Fødselsnummer"/>
+              </coding>
+            </type>
+            <value value="12345678901"/>
+          </valueIdentifier>
         </extension>
       </extension>
       <system value="urn:oid:2.16.578.1.12.4.1.1.7611"/>

@@ -9,8 +9,9 @@ Usage: #example
 * meta.security.extension.extension[0].url = "name"
 * meta.security.extension.extension[=].valueHumanName.family = "Danser"
 * meta.security.extension.extension[=].valueHumanName.given = "Line"
-* meta.security.extension.extension[+].url = "idType"
-* meta.security.extension.extension[=].valueCoding = urn:oid:2.16.578.1.12.4.1.1.8116#FNR "Fødselsnummer"
+* meta.security.extension.extension[+].url = "ident"
+* meta.security.extension.extension[=].valueIdentifier[0].type.coding[0] = urn:oid:2.16.578.1.12.4.1.1.8116#FNR "Fødselsnummer"
+* meta.security.extension.extension[=].valueIdentifier[=].value = "12345678901"
 * status = #final
 * category = $observation-category#survey "Survey"
 * code.text = "Foreldres observasjon av barnets symptomer"

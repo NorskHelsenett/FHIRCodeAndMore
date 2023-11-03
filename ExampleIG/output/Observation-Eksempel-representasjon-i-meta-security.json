@@ -12,11 +12,16 @@
           }
         },
         {
-          "url" : "idType",
-          "valueCoding" : {
-            "system" : "urn:oid:2.16.578.1.12.4.1.1.8116",
-            "code" : "FNR",
-            "display" : "Fødselsnummer"
+          "url" : "ident",
+          "valueIdentifier" : {
+            "type" : {
+              "coding" : [{
+                "system" : "urn:oid:2.16.578.1.12.4.1.1.8116",
+                "code" : "FNR",
+                "display" : "Fødselsnummer"
+              }]
+            },
+            "value" : "12345678901"
           }
         }],
         "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"
