@@ -1,5 +1,3 @@
-<!-- get modelType -->
-
 
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -7,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>MyPatient - Testing - Codes and extension v0.1.0</title>
+    <title>line-danser - JSON Representation - Codes and extension v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.1"}
-    h3,h4,h5,h6{--heading-prefix:"3.1"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.54"}
+    h3,h4,h5,h6{--heading-prefix:"3.54"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -105,7 +103,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>MyPatient</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>line-danser</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -117,11 +115,8 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 6" class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Codes and extension - Local Development build (v0.1.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
-  
-
-
+<div style="counter-reset: section 8" class="col-12">
+<!--ReleaseHeader--><p id="publish-box">Codes and extension - Local Development build (v0.1.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -134,106 +129,91 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="StructureDefinition-MyPatient.html">Content</a>
-  </li>
-
-
-
-  <li>
-    <a href="StructureDefinition-MyPatient-definitions.html">Detailed Descriptions</a>
+    <a href="RelatedPerson-line-danser.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="StructureDefinition-MyPatient-mappings.html">Mappings</a>
+      <a href="RelatedPerson-line-danser.xml.html">XML</a>
     </li>
   
 
 
-
-
-
-
   
-    
-      <li>
-        <a href="StructureDefinition-MyPatient-examples.html">Examples</a>
-      </li>
-    
-  
-
-
-
-
-  
-    <li>
-      <a href="StructureDefinition-MyPatient.profile.xml.html">XML</a>
+    <li class="active">
+      <a href="#">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="StructureDefinition-MyPatient.profile.json.html">JSON</a>
+      <a href="RelatedPerson-line-danser.ttl.html">TTL</a>
     </li>
   
 
-
-  
-    <li>
-      <a href="StructureDefinition-MyPatient.profile.ttl.html">TTL</a>
-    </li>
-  
 
 
 </ul>
 
 
-  <a name="root"> </a>
-  <h2 id="root">Resource Profile: MyPatient - Testing</h2>
+<a name="root"> </a>
 
-  <table class="colsd">
-    <tr>
 
-      <td colspan="2">
-        
-          Draft
-          
-            as of 2023-11-02
-          
-        
-      </td>
+<h2 id="root">: line-danser - JSON Representation</h2>
 
-    </tr>
-  </table>
+
+<p><a href="RelatedPerson-line-danser.json" no-download="true">Raw json</a> | <a href="RelatedPerson-line-danser.json" download>Download</a></p>
+
+  <!-- insert intro if present -->
+  
 
 
 
+  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
+{
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson">resourceType</a>" : "RelatedPerson",
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.id">id</a>" : "line-danser",
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RelatedPerson&lt;/b&gt;&lt;a name=\&quot;line-danser\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource RelatedPerson &amp;quot;line-danser&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\&quot;Patient-example-girl.html\&quot;&gt;Patient/example-girl&lt;/a&gt; &amp;quot; DANSER&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;relationship&lt;/b&gt;: Mor &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (unknown#MO)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Line Danser &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: female&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1990-11-02&lt;/p&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  },
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.active">active</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.patient">patient</a>" : {
+    "<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">reference</a>" : "Patient/example-girl"
+  },
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.relationship">relationship</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+        {
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.1.9033",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "MO",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">display</a>" : "Mor"
+        }
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.name">name</a>" : [
+    {
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Danser",
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
+        "Line"
+      ]
+    }
+  ],
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.gender">gender</a>" : "female",
+  "<a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.birthDate">birthDate</a>" : "1990-11-02"
+}</code></pre>
 
-<!-- insert intro if present -->
 
-
-
-
-<h3>Test Plans</h3>
-
-  <p><b>No test plans are currently available for the  Profile.</b></p>
-
-
-<h3>Test Scripts</h3>
-
-  <p><b>No test scripts are currently available for the  Profile.</b></p>
-
-
-<!-- insert notes if present -->
-
+  <!-- insert notes if present -->
+  
 
 
 
 </div>
-
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -241,29 +221,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -278,7 +235,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 2, 2023 22:29+0100">2023-11-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 3, 2023 00:58+0100">2023-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

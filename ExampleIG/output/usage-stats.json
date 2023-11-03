@@ -9,56 +9,14 @@
       "title": "Representant",
       "types": [
         "HumanName",
-        "base64Binary",
-        "boolean",
-        "canonical",
-        "code",
-        "date",
-        "dateTime",
-        "decimal",
-        "id",
-        "instant",
-        "integer",
-        "markdown",
-        "oid",
-        "positiveInt",
-        "string",
-        "time",
-        "unsignedInt",
-        "uri",
-        "url",
-        "uuid",
-        "Address",
-        "Age",
-        "Annotation",
-        "Attachment",
-        "CodeableConcept",
         "Coding",
-        "ContactPoint",
-        "Count",
-        "Distance",
-        "Duration",
-        "HumanName",
-        "Identifier",
-        "Money",
-        "Period",
-        "Quantity",
-        "Range",
-        "Ratio",
-        "Reference",
-        "SampledData",
-        "Signature",
-        "Timing",
-        "ContactDetail",
-        "Contributor",
-        "DataRequirement",
-        "Expression",
-        "ParameterDefinition",
-        "RelatedArtifact",
-        "TriggerDefinition",
-        "UsageContext",
-        "Dosage",
-        "Meta",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
         "base64Binary",
         "boolean",
         "canonical",
@@ -112,43 +70,21 @@
       ]
     }
   ],
-  "profiles": {
-    "Patient": [
-      {
-        "url": "http://helsenorge.no/fhir/StructureDefinition/MyPatient",
-        "title": "MyPatient"
-      }
-    ]
-  },
+  "profiles": {},
   "usage": {
+    "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant": [
+      "Observation.meta.security"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.version": [
       "NamingSystem"
     ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
-      "StructureDefinition.snapshot.element.constraint"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice-explanation": [
-      "StructureDefinition.snapshot.element.constraint"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-isCommonBinding": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
-      "StructureDefinition.snapshot.element.binding"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-explicit-type-name": [
+    "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
-      "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [

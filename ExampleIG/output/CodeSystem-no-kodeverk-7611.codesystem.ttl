@@ -15,7 +15,7 @@
   fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem"^^xsd:anyURI] ; # 
   fhir:identifier ( [
      fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
-     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8116" ]
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7611" ]
   ] ) ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "NoKodeverk7611"] ; # 

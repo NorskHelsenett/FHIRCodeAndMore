@@ -69,7 +69,7 @@
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem",
     "version" : "0.1.0",
     "name" : "NoKodeverk7611",
-    "oids" : ["2.16.578.1.12.4.1.1.8116"]
+    "oids" : ["2.16.578.1.12.4.1.1.7611"]
   },
   {
     "id" : "no-kodeverk-7617.codesystem",
@@ -312,6 +312,14 @@
     "oids" : ["2.16.578.1.12.4.1.1.8628"]
   },
   {
+    "id" : "no-kodeverk-9033.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9033.codesystem",
+    "version" : "0.1.0",
+    "name" : "NoKodeverk9033",
+    "oids" : ["2.16.578.1.12.4.1.1.9033"]
+  },
+  {
     "id" : "no-kodeverk-9060.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem",
@@ -391,13 +399,6 @@
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-resh-id",
     "version" : "0.1.0",
     "name" : "RESHid"
-  },
-  {
-    "id" : "MyPatient",
-    "type" : "StructureDefinition",
-    "url" : "http://helsenorge.no/fhir/StructureDefinition/MyPatient",
-    "version" : "0.1.0",
-    "name" : "MyPatient"
   },
   {
     "id" : "hn-extension-representant",

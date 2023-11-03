@@ -8,7 +8,7 @@
   <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem"/>
   <identifier>
     <system value="urn:ietf:rfc:3986"/>
-    <value value="urn:oid:2.16.578.1.12.4.1.1.8116"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7611"/>
   </identifier>
   <version value="0.1.0"/>
   <name value="NoKodeverk7611"/>

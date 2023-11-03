@@ -11,7 +11,7 @@
   <name value="CodesAndExtensions"/>
   <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-02T22:29:48+01:00"/>
+  <date value="2023-11-03T00:58:12+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>
@@ -844,6 +844,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/no-kodeverk-9033.codesystem"/>
+      </reference>
+      <name value="9033 Slektskap mv. til pasient"/>
+      <description value="Dette kodeverket inneholder koder som benyttes for å angi hvilket slektskap eller annet forhold , det er mellom pasienten og den pårørende."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/no-kodeverk-9060.codesystem"/>
       </reference>
       <name value="9060 Kategori helsepersonell"/>
@@ -874,6 +885,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Observation"/>
+      </extension>
+      <reference>
+        <reference value="Observation/Eksempel-representasjon-i-meta-security"/>
+      </reference>
+      <name value="Eksempel-representasjon-i-meta-security"/>
+      <description value="Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon."/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/example-girl"/>
+      </reference>
+      <name value="example-girl"/>
+      <description value="Eksampel pasient"/>
+      <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -885,14 +918,14 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
+        <valueString value="RelatedPerson"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/MyPatient"/>
+        <reference value="RelatedPerson/line-danser"/>
       </reference>
-      <name value="MyPatient"/>
-      <description value="An example profile of the Patient resource."/>
-      <exampleBoolean value="false"/>
+      <name value="line-danser"/>
+      <description value="Eksampel pårørende"/>
+      <exampleBoolean value="true"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -992,17 +1025,6 @@
       <name value="Norsk patologikodeverk (NORPAT)"/>
       <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
       <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <reference>
-        <reference value="Patient/PatientExample"/>
-      </reference>
-      <name value="PatientExample"/>
-      <description value="An example of a patient with a license to krill."/>
-      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/MyPatient"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

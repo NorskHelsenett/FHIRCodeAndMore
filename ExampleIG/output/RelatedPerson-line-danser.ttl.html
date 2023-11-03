@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>PatientExample - JSON Representation - Codes and extension v0.1.0</title>
+    <title>line-danser - TTL Representation - Codes and extension v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.52"}
-    h3,h4,h5,h6{--heading-prefix:"3.52"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.54"}
+    h3,h4,h5,h6{--heading-prefix:"3.54"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -103,7 +103,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>line-danser</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -115,7 +115,7 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 8" class="col-12">
+<div style="counter-reset: section 9" class="col-12">
 <!--ReleaseHeader--><p id="publish-box">Codes and extension - Local Development build (v0.1.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
@@ -129,28 +129,28 @@
 <ul class="nav nav-tabs">
 
   <li>
-    <a href="Patient-PatientExample.html">Narrative Content</a>
+    <a href="RelatedPerson-line-danser.html">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Patient-PatientExample.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li class="active">
-      <a href="#">JSON</a>
+      <a href="RelatedPerson-line-danser.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Patient-PatientExample.ttl.html">TTL</a>
+      <a href="RelatedPerson-line-danser.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li class="active">
+      <a href="#">TTL</a>
     </li>
   
 
@@ -162,44 +162,50 @@
 <a name="root"> </a>
 
 
-<h2 id="root">: PatientExample - JSON Representation</h2>
+<h2 id="root">: line-danser - TTL Representation</h2>
 
 
-<p><a href="Patient-PatientExample.json" no-download="true">Raw json</a> | <a href="Patient-PatientExample.json" download>Download</a></p>
+<p><a href="RelatedPerson-line-danser.ttl" no-download="true">Raw ttl</a> | <a href="RelatedPerson-line-danser.ttl" download>Download</a></p>
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="json" style="white-space: pre; overflow: hidden"><code class="language-json">
-{
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient">resourceType</a>" : "Patient",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a>" : "PatientExample",
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>" : [
-      "http://helsenorge.no/fhir/StructureDefinition/MyPatient"
-    ]
-  },
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p style=\&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\&quot;&gt;&lt;b&gt;James Pond &lt;/b&gt; (no stated gender), DoB Unknown ( id:\u00a012345678901)&lt;/p&gt;&lt;hr/&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
-  },
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a>" : "urn:oid:2.16.578.1.12.4.1.4.2",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a>" : "12345678901"
-    }
-  ],
-  "<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>" : [
-    {
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a>" : "Pond",
-      "<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a>" : [
-        "James"
-      ]
-    }
-  ]
-}</code></pre>
+  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+@prefix fhir: &lt;http://hl7.org/fhir/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+# - resource -------------------------------------------------------------------
+
+ a fhir:RelatedPerson ;
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;line-danser&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p&gt;&lt;b&gt;Generated Narrative: RelatedPerson&lt;/b&gt;&lt;a name=\&quot;line-danser\&quot;&gt; &lt;/a&gt;&lt;/p&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Resource RelatedPerson &amp;quot;line-danser&amp;quot; &lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;active&lt;/b&gt;: true&lt;/p&gt;&lt;p&gt;&lt;b&gt;patient&lt;/b&gt;: &lt;a href=\&quot;Patient-example-girl.html\&quot;&gt;Patient/example-girl&lt;/a&gt; &amp;quot; DANSER&amp;quot;&lt;/p&gt;&lt;p&gt;&lt;b&gt;relationship&lt;/b&gt;: Mor &lt;span style=\&quot;background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\&quot;&gt; (unknown#MO)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;name&lt;/b&gt;: Line Danser &lt;/p&gt;&lt;p&gt;&lt;b&gt;gender&lt;/b&gt;: female&lt;/p&gt;&lt;p&gt;&lt;b&gt;birthDate&lt;/b&gt;: 1990-11-02&lt;/p&gt;&lt;/div&gt;&quot;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.active">fhir:active</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> &quot;true&quot;^^xsd:boolean] ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.patient">fhir:patient</a> [
+<a href="http://hl7.org/fhir/R4/references.html#Reference#Reference.reference">fhir:reference</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Patient/example-girl&quot; ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.relationship">fhir:relationship</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:oid:2.16.578.1.12.4.1.1.9033&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mor&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.name">fhir:name</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">fhir:family</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Danser&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">fhir:given</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line&quot; ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.gender">fhir:gender</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;female&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/relatedperson.html#RelatedPerson.birthDate">fhir:birthDate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#date">fhir:v</a> &quot;1990-11-02&quot;^^xsd:date] . # 
+
+</code></pre>
+
 
 
   <!-- insert notes if present -->
@@ -229,7 +235,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 2, 2023 22:29+0100">2023-11-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 3, 2023 00:58+0100">2023-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

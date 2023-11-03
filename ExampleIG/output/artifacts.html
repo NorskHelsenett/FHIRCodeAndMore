@@ -133,19 +133,16 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Structures: Extension Definitions</a>
       </li>
       <li>
-         <a href="#2">Structures: Extension Definitions</a>
+         <a href="#2">Terminology: Code Systems</a>
       </li>
       <li>
-         <a href="#3">Terminology: Code Systems</a>
+         <a href="#3">Terminology: Naming Systems</a>
       </li>
       <li>
-         <a href="#4">Terminology: Naming Systems</a>
-      </li>
-      <li>
-         <a href="#5">Example: Example Instances</a>
+         <a href="#4">Example: Example Instances</a>
       </li>
    </ul>
 </div>
@@ -154,23 +151,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
-   <h3>Structures: Resource Profiles </h3>
-    <p>These define constraints on FHIR resources for systems conforming to this implementation guide.</p>
-<table class="grid">
-      <col style="width:20%"/>
-      <tbody>
-         <tr>
-            <td style="column-width:30%">
-               <a href="StructureDefinition-MyPatient.html"
-                  title="StructureDefinition/MyPatient">MyPatient</a>
-            </td>
-            <td>
-<p>An example profile of the Patient resource.</p>
-</td>
-         </tr>
-      </tbody>
-   </table>
-   <a name="2"> </a>
    <h3>Structures: Extension Definitions </h3>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -187,7 +167,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="2"> </a>
    <h3>Terminology: Code Systems </h3>
     <p>These define new code systems used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -519,6 +499,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-no-kodeverk-9033.codesystem.html"
+                  title="CodeSystem/no-kodeverk-9033.codesystem">9033 Slektskap mv. til pasient</a>
+            </td>
+            <td>
+<p>Dette kodeverket inneholder koder som benyttes for å angi hvilket slektskap eller annet forhold , det er mellom pasienten og den pårørende.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-no-kodeverk-9060.codesystem.html"
                   title="CodeSystem/no-kodeverk-9060.codesystem">9060 Kategori helsepersonell</a>
             </td>
@@ -582,7 +571,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="4"> </a>
+   <a name="3"> </a>
    <h3>Terminology: Naming Systems </h3>
     <p>These define identifier and/or code system identities used by systems conforming to this implementation guide.</p>
 <table class="grid">
@@ -644,7 +633,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="5"> </a>
+   <a name="4"> </a>
    <h3>Example: Example Instances </h3>
     <p>These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like.</p>
 <table class="grid">
@@ -652,10 +641,27 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
-               <a href="Patient-PatientExample.html" title="Patient/PatientExample">PatientExample</a>
+               <a href="Observation-Eksempel-representasjon-i-meta-security.html"
+                  title="Observation/Eksempel-representasjon-i-meta-security">Eksempel-representasjon-i-meta-security</a>
             </td>
             <td>
-<p>An example of a patient with a license to krill.</p>
+<p>Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="Patient-example-girl.html" title="Patient/example-girl">example-girl</a>
+            </td>
+            <td>
+<p>Eksampel pasient</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="RelatedPerson-line-danser.html" title="RelatedPerson/line-danser">line-danser</a>
+            </td>
+            <td>
+<p>Eksampel pårørende</p>
 </td>
          </tr>
       </tbody>
@@ -684,7 +690,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 2, 2023 22:29+0100">2023-11-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 3, 2023 00:58+0100">2023-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

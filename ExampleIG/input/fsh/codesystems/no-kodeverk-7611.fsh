@@ -6,7 +6,7 @@ Description: "Dersom en innbygger benytter dialogtjenester på vegne av pasient 
 * ^experimental = false
 * ^caseSensitive = true
 * ^identifier.system = "urn:ietf:rfc:3986"
-* ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.8116"
+* ^identifier.value = "urn:oid:2.16.578.1.12.4.1.1.7611"
 * ^status = #active
 * ^date = "2023-03-29" //sist endret dato
 * ^publisher = "Direktoratet for e-helse"

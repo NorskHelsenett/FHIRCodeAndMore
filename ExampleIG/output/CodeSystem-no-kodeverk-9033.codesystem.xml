@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-9033.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9033.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">MO<a name="no-kodeverk-9033.codesystem-MO"> </a></td><td>Mor</td><td>Biologisk eller juridisk (ved adopsjon) mor til person. Gyldig fra 27. september 2010</td></tr><tr><td style="white-space:nowrap">FA<a name="no-kodeverk-9033.codesystem-FA"> </a></td><td>Far</td><td>Biologisk eller juridisk (ved adopsjon) far til person. Gyldig fra 27. september 2010</td></tr><tr><td style="white-space:nowrap">SM<a name="no-kodeverk-9033.codesystem-SM"> </a></td><td>Stemor</td><td>Sosial morsrelasjon som f. eks ekteskap eller samboerskap med pasientens biologiske far eller adoptivfar</td></tr><tr><td style="white-space:nowrap">SF<a name="no-kodeverk-9033.codesystem-SF"> </a></td><td>Stefar</td><td>Sosial farsrelasjon som f. eks ekteskap eller samboerskap med pasientens biologiske mor eller adoptivmor</td></tr><tr><td style="white-space:nowrap">FM<a name="no-kodeverk-9033.codesystem-FM"> </a></td><td>Fostermor</td><td>Midlertidig foreldrerelasjon ved offentlig avtale</td></tr><tr><td style="white-space:nowrap">FF<a name="no-kodeverk-9033.codesystem-FF"> </a></td><td>Fosterfar</td><td>Midlertidig foreldrerelasjon ved offentlig avtale</td></tr><tr><td style="white-space:nowrap">MF<a name="no-kodeverk-9033.codesystem-MF"> </a></td><td>Medfar</td><td>Medfar har blitt et begrep på lik linje med medmor (se dette). Juridisk sett finnes ikke en slik betegnelse, siden den mannlige partner til biologisk far ikke kan være far fra fødselen av. For at to menn skal bli fedre sammen må den ikke-biologiske faren stebarnsadoptere. Det er slik to menn kan bli fedre gjennom surrogati.</td></tr><tr><td style="white-space:nowrap">MM<a name="no-kodeverk-9033.codesystem-MM"> </a></td><td>Medmor</td><td>Kvinne som gis juridisk foreldrestatus for hennes kvinnelige ektefelle eller samboers biologiske barn født etter assistert befruktning.</td></tr><tr><td style="white-space:nowrap">EF<a name="no-kodeverk-9033.codesystem-EF"> </a></td><td>Ektefelle</td><td>Ektefelle ved juridisk inngått ekteskap eller partnerskap</td></tr><tr><td style="white-space:nowrap">SA<a name="no-kodeverk-9033.codesystem-SA"> </a></td><td>Samboer</td><td>Lever sammen med pasient og har felles adresse i folkeregistrert</td></tr><tr><td style="white-space:nowrap">SI<a name="no-kodeverk-9033.codesystem-SI"> </a></td><td>Søster</td><td>Relasjon der kvinnen har minst en felles forelder (juridisk og/eller biologisk) med personen.</td></tr><tr><td style="white-space:nowrap">HS<a name="no-kodeverk-9033.codesystem-HS"> </a></td><td>Halvsøster</td><td>Relasjon der kvinnen kun har én felles forelder (juridisk og/eller biologisk) med personen.</td></tr><tr><td style="white-space:nowrap">SS<a name="no-kodeverk-9033.codesystem-SS"> </a></td><td>Stesøster</td><td>Relasjon der man har samme sosiale relasjon som personen til minst en forelder. Stebror eller stesøster.</td></tr><tr><td style="white-space:nowrap">BR<a name="no-kodeverk-9033.codesystem-BR"> </a></td><td>Bror</td><td>Relasjon der mannen har minst en felles forelder (juridisk og/eller biologisk) med personen</td></tr><tr><td style="white-space:nowrap">HB<a name="no-kodeverk-9033.codesystem-HB"> </a></td><td>Halvbror</td><td>Relasjon der mannen kun har én felles forelder (juridisk og/eller biologisk) med personen</td></tr><tr><td style="white-space:nowrap">SB<a name="no-kodeverk-9033.codesystem-SB"> </a></td><td>Stebror</td><td>Relasjon der man har samme sosiale relasjon som personen til minst en forelder. Stebror eller stesøster.</td></tr><tr><td style="white-space:nowrap">DA<a name="no-kodeverk-9033.codesystem-DA"> </a></td><td>Datter</td><td>Biologisk eller juridisk (ved adopsjon) datter av person.</td></tr><tr><td style="white-space:nowrap">SO<a name="no-kodeverk-9033.codesystem-SO"> </a></td><td>Sønn</td><td>Biologisk eller juridisk (ved adopsjon) sønn av person.</td></tr><tr><td style="white-space:nowrap">SD<a name="no-kodeverk-9033.codesystem-SD"> </a></td><td>Stedatter</td><td>Biologisk eller juridisk barn (ved adopsjon) av ektefelle eller samboer.</td></tr><tr><td style="white-space:nowrap">SN<a name="no-kodeverk-9033.codesystem-SN"> </a></td><td>Stesønn</td><td>Biologisk eller juridisk sønn (ved adopsjon) av ektefelle eller samboer.</td></tr><tr><td style="white-space:nowrap">GM<a name="no-kodeverk-9033.codesystem-GM"> </a></td><td>Bestemor</td><td>Biologisk eller juridisk forhold som bestemor.</td></tr><tr><td style="white-space:nowrap">GF<a name="no-kodeverk-9033.codesystem-GF"> </a></td><td>Bestefar</td><td>Biologisk eller juridisk forhold som bestefar.</td></tr><tr><td style="white-space:nowrap">BB<a name="no-kodeverk-9033.codesystem-BB"> </a></td><td>Barnebarn</td><td>Biologisk, juridisk eller sosialt barn av pasientens barn</td></tr><tr><td style="white-space:nowrap">TO<a name="no-kodeverk-9033.codesystem-TO"> </a></td><td>Foreldres søsken</td><td>Biologisk, juridisk eller sosialt søskenforhold til pasientens mor eller far. Onkel eller tante.</td></tr><tr><td style="white-space:nowrap">AS<a name="no-kodeverk-9033.codesystem-AS"> </a></td><td>Annen slektning</td><td>Annen familierelasjon f. eks oldebarn, søskenbarn.</td></tr><tr><td style="white-space:nowrap">AN<a name="no-kodeverk-9033.codesystem-AN"> </a></td><td>Annen foresatt</td><td/></tr><tr><td style="white-space:nowrap">AP<a name="no-kodeverk-9033.codesystem-AP"> </a></td><td>Annen personlig relasjon</td><td>Nær relasjon til pasient ikke basert på biologisk eller juridisk slektskap. Eks: kjæreste, venn, nabo, kollega.</td></tr><tr><td style="white-space:nowrap">BM<a name="no-kodeverk-9033.codesystem-BM"> </a></td><td>Biologisk mor</td><td>Genetisk foreldrerelasjon. Utgått fra 27. september 2010</td></tr><tr><td style="white-space:nowrap">BF<a name="no-kodeverk-9033.codesystem-BF"> </a></td><td>Biologisk far</td><td>Genetisk foreldrerelasjon Utgått fra 27. september 2010</td></tr><tr><td style="white-space:nowrap">AM<a name="no-kodeverk-9033.codesystem-AM"> </a></td><td>Adoptivmor</td><td>Juridisk inngått foreldrerelasjon ved adopsjon. Utgått fra 27. september 2010</td></tr><tr><td style="white-space:nowrap">AF<a name="no-kodeverk-9033.codesystem-AF"> </a></td><td>Adoptivfar</td><td>Juridisk inngått foreldrerelasjon ved adopsjon. Utgått fra 27. september 2010</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9033.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.9033"/>
+  </identifier>
+  <version value="0.1.0"/>
+  <name value="NoKodeverk9033"/>
+  <title value="9033 Slektskap mv. til pasient"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-11-11"/>
+  <publisher value="Direktoratet for e-helse"/>
+  <description value="Dette kodeverket inneholder koder som benyttes for å angi hvilket slektskap eller annet forhold , det er mellom pasienten og den pårørende."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="31"/>
+  <concept>
+    <code value="MO"/>
+    <display value="Mor"/>
+    <definition value="Biologisk eller juridisk (ved adopsjon) mor til person. Gyldig fra 27. september 2010"/>
+  </concept>
+  <concept>
+    <code value="FA"/>
+    <display value="Far"/>
+    <definition value="Biologisk eller juridisk (ved adopsjon) far til person. Gyldig fra 27. september 2010"/>
+  </concept>
+  <concept>
+    <code value="SM"/>
+    <display value="Stemor"/>
+    <definition value="Sosial morsrelasjon som f. eks ekteskap eller samboerskap med pasientens biologiske far eller adoptivfar"/>
+  </concept>
+  <concept>
+    <code value="SF"/>
+    <display value="Stefar"/>
+    <definition value="Sosial farsrelasjon som f. eks ekteskap eller samboerskap med pasientens biologiske mor eller adoptivmor"/>
+  </concept>
+  <concept>
+    <code value="FM"/>
+    <display value="Fostermor"/>
+    <definition value="Midlertidig foreldrerelasjon ved offentlig avtale"/>
+  </concept>
+  <concept>
+    <code value="FF"/>
+    <display value="Fosterfar"/>
+    <definition value="Midlertidig foreldrerelasjon ved offentlig avtale"/>
+  </concept>
+  <concept>
+    <code value="MF"/>
+    <display value="Medfar"/>
+    <definition value="Medfar har blitt et begrep på lik linje med medmor (se dette). Juridisk sett finnes ikke en slik betegnelse, siden den mannlige partner til biologisk far ikke kan være far fra fødselen av. For at to menn skal bli fedre sammen må den ikke-biologiske faren stebarnsadoptere. Det er slik to menn kan bli fedre gjennom surrogati."/>
+  </concept>
+  <concept>
+    <code value="MM"/>
+    <display value="Medmor"/>
+    <definition value="Kvinne som gis juridisk foreldrestatus for hennes kvinnelige ektefelle eller samboers biologiske barn født etter assistert befruktning."/>
+  </concept>
+  <concept>
+    <code value="EF"/>
+    <display value="Ektefelle"/>
+    <definition value="Ektefelle ved juridisk inngått ekteskap eller partnerskap"/>
+  </concept>
+  <concept>
+    <code value="SA"/>
+    <display value="Samboer"/>
+    <definition value="Lever sammen med pasient og har felles adresse i folkeregistrert"/>
+  </concept>
+  <concept>
+    <code value="SI"/>
+    <display value="Søster"/>
+    <definition value="Relasjon der kvinnen har minst en felles forelder (juridisk og/eller biologisk) med personen."/>
+  </concept>
+  <concept>
+    <code value="HS"/>
+    <display value="Halvsøster"/>
+    <definition value="Relasjon der kvinnen kun har én felles forelder (juridisk og/eller biologisk) med personen."/>
+  </concept>
+  <concept>
+    <code value="SS"/>
+    <display value="Stesøster"/>
+    <definition value="Relasjon der man har samme sosiale relasjon som personen til minst en forelder. Stebror eller stesøster."/>
+  </concept>
+  <concept>
+    <code value="BR"/>
+    <display value="Bror"/>
+    <definition value="Relasjon der mannen har minst en felles forelder (juridisk og/eller biologisk) med personen"/>
+  </concept>
+  <concept>
+    <code value="HB"/>
+    <display value="Halvbror"/>
+    <definition value="Relasjon der mannen kun har én felles forelder (juridisk og/eller biologisk) med personen"/>
+  </concept>
+  <concept>
+    <code value="SB"/>
+    <display value="Stebror"/>
+    <definition value="Relasjon der man har samme sosiale relasjon som personen til minst en forelder. Stebror eller stesøster."/>
+  </concept>
+  <concept>
+    <code value="DA"/>
+    <display value="Datter"/>
+    <definition value="Biologisk eller juridisk (ved adopsjon) datter av person."/>
+  </concept>
+  <concept>
+    <code value="SO"/>
+    <display value="Sønn"/>
+    <definition value="Biologisk eller juridisk (ved adopsjon) sønn av person."/>
+  </concept>
+  <concept>
+    <code value="SD"/>
+    <display value="Stedatter"/>
+    <definition value="Biologisk eller juridisk barn (ved adopsjon) av ektefelle eller samboer."/>
+  </concept>
+  <concept>
+    <code value="SN"/>
+    <display value="Stesønn"/>
+    <definition value="Biologisk eller juridisk sønn (ved adopsjon) av ektefelle eller samboer."/>
+  </concept>
+  <concept>
+    <code value="GM"/>
+    <display value="Bestemor"/>
+    <definition value="Biologisk eller juridisk forhold som bestemor."/>
+  </concept>
+  <concept>
+    <code value="GF"/>
+    <display value="Bestefar"/>
+    <definition value="Biologisk eller juridisk forhold som bestefar."/>
+  </concept>
+  <concept>
+    <code value="BB"/>
+    <display value="Barnebarn"/>
+    <definition value="Biologisk, juridisk eller sosialt barn av pasientens barn"/>
+  </concept>
+  <concept>
+    <code value="TO"/>
+    <display value="Foreldres søsken"/>
+    <definition value="Biologisk, juridisk eller sosialt søskenforhold til pasientens mor eller far. Onkel eller tante."/>
+  </concept>
+  <concept>
+    <code value="AS"/>
+    <display value="Annen slektning"/>
+    <definition value="Annen familierelasjon f. eks oldebarn, søskenbarn."/>
+  </concept>
+  <concept>
+    <code value="AN"/>
+    <display value="Annen foresatt"/>
+  </concept>
+  <concept>
+    <code value="AP"/>
+    <display value="Annen personlig relasjon"/>
+    <definition value="Nær relasjon til pasient ikke basert på biologisk eller juridisk slektskap. Eks: kjæreste, venn, nabo, kollega."/>
+  </concept>
+  <concept>
+    <code value="BM"/>
+    <display value="Biologisk mor"/>
+    <definition value="Genetisk foreldrerelasjon. Utgått fra 27. september 2010"/>
+  </concept>
+  <concept>
+    <code value="BF"/>
+    <display value="Biologisk far"/>
+    <definition value="Genetisk foreldrerelasjon Utgått fra 27. september 2010"/>
+  </concept>
+  <concept>
+    <code value="AM"/>
+    <display value="Adoptivmor"/>
+    <definition value="Juridisk inngått foreldrerelasjon ved adopsjon. Utgått fra 27. september 2010"/>
+  </concept>
+  <concept>
+    <code value="AF"/>
+    <display value="Adoptivfar"/>
+    <definition value="Juridisk inngått foreldrerelasjon ved adopsjon. Utgått fra 27. september 2010"/>
+  </concept>
+</CodeSystem>

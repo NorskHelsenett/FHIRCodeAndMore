@@ -1,11 +1,9 @@
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>PatientExample - XML Representation - Codes and extension v0.1.0</title>
+    <title>line-danser - Codes and extension v0.1.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.52"}
-    h3,h4,h5,h6{--heading-prefix:"3.52"}</style>
+    <style type="text/css">h2{--heading-prefix:"3.54"}
+    h3,h4,h5,h6{--heading-prefix:"3.54"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -103,7 +101,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>PatientExample</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>line-danser</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -115,9 +113,10 @@
         <div class="row">
           <div class="inner-wrapper">
 
-<div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">Codes and extension - Local Development build (v0.1.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Codes and extension - Local Development build (v0.1.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
+  
 
 
 
@@ -128,29 +127,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="Patient-PatientExample.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
-    <li class="active">
-      <a href="#">XML</a>
+    <li>
+      <a href="RelatedPerson-line-danser.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Patient-PatientExample.json.html">JSON</a>
+      <a href="RelatedPerson-line-danser.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Patient-PatientExample.ttl.html">TTL</a>
+      <a href="RelatedPerson-line-danser.ttl.html">TTL</a>
     </li>
   
 
@@ -159,40 +158,22 @@
 </ul>
 
 
-<a name="root"> </a>
+  <a name="root"> </a>
 
 
-<h2 id="root">: PatientExample - XML Representation</h2>
+  <h2 id="root">Example RelatedPerson: line-danser</h2>
 
 
-<p><a href="Patient-PatientExample.xml" no-download="true">Raw xml</a> | <a href="Patient-PatientExample.xml" download>Download</a></p>
+
 
   <!-- insert intro if present -->
   
 
 
 
-  <pre class="xml" style="white-space: pre; overflow: hidden"><code class="language-xml">
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: RelatedPerson</b><a name="line-danser"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource RelatedPerson &quot;line-danser&quot; </p></div><p><b>active</b>: true</p><p><b>patient</b>: <a href="Patient-example-girl.html">Patient/example-girl</a> &quot; DANSER&quot;</p><p><b>relationship</b>: Mor <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (unknown#MO)</span></p><p><b>name</b>: Line Danser </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1990-11-02</p></div>
 
-&lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient">Patient</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;PatientExample&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://helsenorge.no/fhir/StructureDefinition/MyPatient&quot;/&gt;
-  &lt;/meta&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.text">text</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
-    &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p style=&quot;border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;&quot;&gt;&lt;b&gt;James Pond &lt;/b&gt; (no stated gender), DoB Unknown ( id: 12345678901)&lt;/p&gt;&lt;hr/&gt;&lt;/div&gt;<a name="end-xhtml"></a>
-  &lt;/text&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.identifier">identifier</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;urn:oid:2.16.578.1.12.4.1.4.2&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;12345678901&quot;/&gt;
-  &lt;/identifier&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/patient.html#Patient.name">name</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.family">family</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Pond&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#HumanName#HumanName.given">given</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;James&quot;/&gt;
-  &lt;/name&gt;
-&lt;/Patient&gt;</code></pre>
-
+  
 
   <!-- insert notes if present -->
   
@@ -221,7 +202,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Nov 2, 2023 22:29+0100">2023-11-02</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 3, 2023 00:58+0100">2023-11-03</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

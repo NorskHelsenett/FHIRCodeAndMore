@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/Observation/Eksempel-representasjon-i-meta-security> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Eksempel-representasjon-i-meta-security"] ; # 
+  fhir:meta [
+     fhir:security ( [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:HumanName ;
+             fhir:family [ fhir:v "Danser" ] ;
+             fhir:given ( [ fhir:v "Line" ] )
+           ]
+         ] [
+           fhir:url [ fhir:v "idType"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:Coding ;
+             fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8116"^^xsd:anyURI ] ;
+             fhir:code [ fhir:v "FNR" ] ;
+             fhir:display [ fhir:v "Fødselsnummer" ]
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"^^xsd:anyURI ]
+       ] ) ;
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7611"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FO" ] ;
+       fhir:display [ fhir:v "Foreldreansvar" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Observation</b><a name=\"Eksempel-representasjon-i-meta-security\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Observation &quot;Eksempel-representasjon-i-meta-security&quot; </p><p style=\"margin-bottom: 0px\">Security Labels: <span title=\"{urn:oid:2.16.578.1.12.4.1.1.7611 urn:oid:2.16.578.1.12.4.1.1.7611}\">urn:oid:2.16.578.1.12.4.1.1.7611</span></p></div><p><b>status</b>: final</p><p><b>category</b>: Survey <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html\">Observation Category Codes</a>#survey)</span></p><p><b>code</b>: Foreldres observasjon av barnets symptomer <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> ()</span></p><p><b>subject</b>: <a href=\"Patient-example-girl.html\">Patient/example-girl</a> &quot; DANSER&quot;</p><p><b>effective</b>: 2023-11-02 10:30:00+0000</p><p><b>performer</b>: <a href=\"RelatedPerson-line-danser.html\">RelatedPerson/line-danser</a> &quot; DANSER&quot;</p><p><b>note</b>: Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert.</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ] ;
+       fhir:display [ fhir:v "Survey" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:text [ fhir:v "Foreldres observasjon av barnets symptomer" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://helsenorge.no/fhir/Patient/example-girl> ;
+     fhir:reference [ fhir:v "Patient/example-girl" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2023-11-02T10:30:00Z"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <http://helsenorge.no/fhir/RelatedPerson/line-danser> ;
+     fhir:reference [ fhir:v "RelatedPerson/line-danser" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
