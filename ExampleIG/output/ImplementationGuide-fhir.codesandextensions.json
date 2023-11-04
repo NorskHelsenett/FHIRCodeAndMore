@@ -10,7 +10,7 @@
   "name" : "CodesAndExtensions",
   "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-04T02:45:56+01:00",
+  "date" : "2023-11-04T23:57:32+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -1261,6 +1261,30 @@
       },
       "name" : "Representant",
       "description" : "Person som representerer en annen etter avtale, vedtakk mm.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-extension-varselorganisasjon"
+      },
+      "name" : "Varselorganisasjon",
+      "description" : "Varselorganisasjon som kjem frem i varsel til innbygger.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/hn-kodeverk-varsling.codesystem"
+      },
+      "name" : "Varsling",
+      "description" : "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
       "exampleBoolean" : false
     }],
     "page" : {

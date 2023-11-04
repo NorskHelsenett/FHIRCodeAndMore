@@ -1,5 +1,12 @@
 [
   {
+    "id" : "hn-kodeverk-varsling.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem",
+    "version" : "0.1.0",
+    "name" : "HnKodeverkVarsling"
+  },
+  {
     "id" : "no-kodeverk-1101.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-1101.codesystem",
@@ -406,6 +413,13 @@
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",
     "version" : "0.1.0",
     "name" : "HnExtensionRepresentant"
+  },
+  {
+    "id" : "hn-extension-varselorganisasjon",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon",
+    "version" : "0.1.0",
+    "name" : "HnExtensionVarselorganisasjon"
   },
   {
     "id" : "cs-8116-Dnr-Fnr-vs",

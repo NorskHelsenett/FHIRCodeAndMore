@@ -80,6 +80,13 @@
         "Dosage",
         "Meta"
       ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon",
+      "title": "Varselorganisasjon",
+      "types": [
+        "string"
+      ]
     }
   ],
   "profiles": {},

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "hn-kodeverk-varsling.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"hn-kodeverk-varsling.codesystem-1\"> </a></td><td>Innbygger skal ikke varsles</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"hn-kodeverk-varsling.codesystem-2\"> </a></td><td>Benytt angitt navn som avsender i varsel til innbygger</td></tr></table></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem",
+  "version" : "0.1.0",
+  "name" : "HnKodeverkVarsling",
+  "title" : "Varsling",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2023-11-04T23:57:32+01:00",
+  "publisher" : "Helsenorge",
+  "description" : "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 2,
+  "concept" : [{
+    "code" : "1",
+    "display" : "Innbygger skal ikke varsles"
+  },
+  {
+    "code" : "2",
+    "display" : "Benytt angitt navn som avsender i varsel til innbygger"
+  }]
+}
