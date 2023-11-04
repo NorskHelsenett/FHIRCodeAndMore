@@ -7,6 +7,8 @@ Description: "Angir om innbygger skal varsles når en ekstern aktør lagrer elle
 * ^caseSensitive = true
 * ^status = #active 
 * ^publisher = "Helsenorge"
+//* ^identifier.system = "urn:ietf:rfc:3986"
+* ^identifier.value = "http://helsenorge.no/fhir/varsling"
 * ^content = #complete
 * #1 "Innbygger skal ikke varsles"
 * #2 "Benytt angitt navn som avsender i varsel til innbygger"

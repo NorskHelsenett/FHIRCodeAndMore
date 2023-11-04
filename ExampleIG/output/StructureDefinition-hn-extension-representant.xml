@@ -26,8 +26,9 @@
   <version value="0.1.0"/>
   <name value="HnExtensionRepresentant"/>
   <title value="Representant"/>
-  <status value="draft"/>
-  <date value="2023-11-04T23:57:32+01:00"/>
+  <status value="active"/>
+  <date value="2023-11-05T00:35:42+01:00"/>
+  <publisher value="Helsenorge"/>
   <description value="Person som representerer en annen etter avtale, vedtakk mm."/>
   <jurisdiction>
     <coding>

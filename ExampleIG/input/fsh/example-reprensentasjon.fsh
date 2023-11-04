@@ -6,6 +6,7 @@ Description: "Eksempel av bruk av representasjon i meta.security tag. Dersom en 
 Usage: #example
 * meta.security = urn:oid:2.16.578.1.12.4.1.1.7611#FO "Foreldreansvar"
 * meta.security.extension.url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"
+//* meta.security.extension.url = "http://helsenorge.no/fhir/extension/hn-extension-representant"
 * meta.security.extension.extension[0].url = "name"
 * meta.security.extension.extension[=].valueHumanName.family = "Danser"
 * meta.security.extension.extension[=].valueHumanName.given = "Line"

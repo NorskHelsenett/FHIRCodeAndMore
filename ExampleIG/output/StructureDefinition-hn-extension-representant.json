@@ -9,8 +9,9 @@
   "version" : "0.1.0",
   "name" : "HnExtensionRepresentant",
   "title" : "Representant",
-  "status" : "draft",
-  "date" : "2023-11-04T23:57:32+01:00",
+  "status" : "active",
+  "date" : "2023-11-05T00:35:42+01:00",
+  "publisher" : "Helsenorge",
   "description" : "Person som representerer en annen etter avtale, vedtakk mm.",
   "jurisdiction" : [{
     "coding" : [{

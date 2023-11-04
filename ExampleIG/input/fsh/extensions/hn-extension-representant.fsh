@@ -2,7 +2,8 @@ Extension: HnExtensionRepresentant
 Id: hn-extension-representant
 Title: "Representant"
 Description: "Person som representerer en annen etter avtale, vedtakk mm."
-//* ^url = "http://helsenorge.no/fhir/extension/hn-extension-representant"
+* ^status = #active 
+* ^publisher = "Helsenorge"
 * extension contains
     name 0..1 MS and
     ident 1..1 MS 
