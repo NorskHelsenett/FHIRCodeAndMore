@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-04T02:36:33+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-04T02:45:56+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Forholdsoperatorer i svarrapportering av medisinske tjeneste"] ; # 
   fhir:jurisdiction ( [

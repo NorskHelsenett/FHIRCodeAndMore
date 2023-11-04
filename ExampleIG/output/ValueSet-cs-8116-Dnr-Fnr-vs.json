@@ -11,7 +11,7 @@
   "title" : "DNR og FNR fra Volven 8116",
   "status" : "draft",
   "experimental" : false,
-  "date" : "2023-11-04T02:36:33+01:00",
+  "date" : "2023-11-04T02:45:56+01:00",
   "description" : "ValueSet basert på 8116 som inkluderer kun FNR og DNR",
   "jurisdiction" : [{
     "coding" : [{

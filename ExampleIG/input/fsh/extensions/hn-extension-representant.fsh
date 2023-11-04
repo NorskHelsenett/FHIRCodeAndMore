@@ -9,6 +9,7 @@ Description: "Person som representerer en annen etter avtale, vedtakk mm."
 * extension[name].value[x] only HumanName or no-basis-HumanName
 * extension[ident].value[x] only Identifier
 * extension[ident].value[x].type.coding from CS8116DnrFnrVS
+* extension[ident].value[x].type.coding 1..1
 * extension[ident].value[x].type.coding.system 1..1
 * extension[ident].value[x].type.coding.code 1..1
 * extension[ident].value[x].value 1..1
