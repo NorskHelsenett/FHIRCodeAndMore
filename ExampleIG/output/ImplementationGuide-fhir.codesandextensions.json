@@ -10,7 +10,7 @@
   "name" : "CodesAndExtensions",
   "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-03T08:05:33+01:00",
+  "date" : "2023-11-04T02:36:33+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -41,6 +41,12 @@
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "1.0.0"
+  },
+  {
+    "id" : "hl7_fhir_no_basis",
+    "uri" : "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis",
+    "packageId" : "hl7.fhir.no.basis",
+    "version" : "2.2.0"
   }],
   "definition" : {
     "extension" : [{
@@ -1075,6 +1081,18 @@
       },
       "name" : "9603 Sperring og nekting av dokumenter",
       "description" : "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/cs-8116-Dnr-Fnr-vs"
+      },
+      "name" : "DNR og FNR fra Volven 8116",
+      "description" : "ValueSet basert på 8116 som inkluderer kun FNR og DNR",
       "exampleBoolean" : false
     },
     {

@@ -7,6 +7,10 @@
         "extension" : [{
           "url" : "name",
           "valueHumanName" : {
+            "extension" : [{
+              "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+              "valueString" : "Grete"
+            }],
             "family" : "Danser",
             "given" : ["Line"]
           }

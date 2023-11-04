@@ -1,3 +1,13 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CS8116DnrFnrVS",
+      "title" : "DNR og FNR fra Volven 8116",
+      "description" : "ValueSet basert på 8116 som inkluderer kun FNR og DNR",
+      "systems" : ["urn:oid:2.16.578.1.12.4.1.1.8116"]
+    }
+  ]
 }

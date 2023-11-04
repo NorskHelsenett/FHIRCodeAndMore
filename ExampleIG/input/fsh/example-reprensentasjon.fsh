@@ -9,6 +9,8 @@ Usage: #example
 * meta.security.extension.extension[0].url = "name"
 * meta.security.extension.extension[=].valueHumanName.family = "Danser"
 * meta.security.extension.extension[=].valueHumanName.given = "Line"
+* meta.security.extension.extension[=].valueHumanName.extension.url = "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"
+* meta.security.extension.extension[=].valueHumanName.extension.valueString = "Grete"
 * meta.security.extension.extension[+].url = "ident"
 * meta.security.extension.extension[=].valueIdentifier.type = urn:oid:2.16.578.1.12.4.1.1.8116#FNR "Fødselsnummer"
 * meta.security.extension.extension[=].valueIdentifier.value = "12345678901"

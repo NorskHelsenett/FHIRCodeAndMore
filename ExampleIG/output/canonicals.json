@@ -406,5 +406,12 @@
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",
     "version" : "0.1.0",
     "name" : "HnExtensionRepresentant"
+  },
+  {
+    "id" : "cs-8116-Dnr-Fnr-vs",
+    "type" : "ValueSet",
+    "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
+    "version" : "0.1.0",
+    "name" : "CS8116DnrFnrVS"
   }
 ]

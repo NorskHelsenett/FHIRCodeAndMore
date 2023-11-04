@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-03T08:05:33+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-04T02:36:33+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -53,6 +53,14 @@
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "1.0.0" ]
+  ] [
+     fhir:id [ fhir:v "hl7_fhir_no_basis" ] ;
+     fhir:uri [
+       fhir:v "http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"^^xsd:anyURI ;
+       fhir:link <http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis>
+     ] ;
+     fhir:packageId [ fhir:v "hl7.fhir.no.basis" ] ;
+     fhir:version [ fhir:v "2.2.0" ]
   ] ) ; # 
   fhir:definition [
      fhir:extension ( [
@@ -988,6 +996,18 @@
        ] ;
        fhir:name [ fhir:v "9603 Sperring og nekting av dokumenter" ] ;
        fhir:description [ fhir:v "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs> ;
+         fhir:reference [ fhir:v "ValueSet/cs-8116-Dnr-Fnr-vs" ]
+       ] ;
+       fhir:name [ fhir:v "DNR og FNR fra Volven 8116" ] ;
+       fhir:description [ fhir:v "ValueSet basert på 8116 som inkluderer kun FNR og DNR" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -7,6 +7,9 @@
       <extension url="http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant">
         <extension url="name">
           <valueHumanName>
+            <extension url="http://hl7.no/fhir/StructureDefinition/no-basis-middlename">
+              <valueString value="Grete"/>
+            </extension>
             <family value="Danser"/>
             <given value="Line"/>
           </valueHumanName>

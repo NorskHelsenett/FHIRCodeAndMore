@@ -15,6 +15,10 @@
            fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
            fhir:value [
              a fhir:HumanName ;
+             fhir:extension ( [
+               fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"^^xsd:anyURI ] ;
+               fhir:value [ fhir:v "Grete" ]
+             ] ) ;
              fhir:family [ fhir:v "Danser" ] ;
              fhir:given ( [ fhir:v "Line" ] )
            ]
