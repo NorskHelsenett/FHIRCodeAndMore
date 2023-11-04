@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-02T14:52:41+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-03T08:05:33+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -575,6 +575,18 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7611.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "7611 Representasjonsrolle." ] ;
+       fhir:description [ fhir:v "Dersom en innbygger benytter dialogtjenester på vegne av pasient fra helsenorge.no så skal informasjon om hvem som benytter tjeneste oppgis vha. objektet Pasientrelasjon. Pasienten oppgis som vanlig under patient-tagen i Hodemeldingen, mens personen som benytter en dialogtjeneste på vegne av pasienten skal oppgis i objektet Pasientrelasjon. Relasjon angir her representasjonsolle person som benytter tjeneste har til pasient." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem> ;
          fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7617.codesystem" ]
        ] ;
@@ -935,6 +947,18 @@
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9033.codesystem> ;
+         fhir:reference [ fhir:v "CodeSystem/no-kodeverk-9033.codesystem" ]
+       ] ;
+       fhir:name [ fhir:v "9033 Slektskap mv. til pasient" ] ;
+       fhir:description [ fhir:v "Dette kodeverket inneholder koder som benyttes for å angi hvilket slektskap eller annet forhold , det er mellom pasienten og den pårørende." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem> ;
          fhir:reference [ fhir:v "CodeSystem/no-kodeverk-9060.codesystem" ]
        ] ;
@@ -968,6 +992,30 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Observation/Eksempel-representasjon-i-meta-security> ;
+         fhir:reference [ fhir:v "Observation/Eksempel-representasjon-i-meta-security" ]
+       ] ;
+       fhir:name [ fhir:v "Eksempel-representasjon-i-meta-security" ] ;
+       fhir:description [ fhir:v "Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon." ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Patient/example-girl> ;
+         fhir:reference [ fhir:v "Patient/example-girl" ]
+       ] ;
+       fhir:name [ fhir:v "example-girl" ] ;
+       fhir:description [ fhir:v "Eksampel pasient" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -980,15 +1028,15 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
+         fhir:value [ fhir:v "RelatedPerson" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/MyPatient> ;
-         fhir:reference [ fhir:v "StructureDefinition/MyPatient" ]
+         fhir:link <http://helsenorge.no/fhir/RelatedPerson/line-danser> ;
+         fhir:reference [ fhir:v "RelatedPerson/line-danser" ]
        ] ;
-       fhir:name [ fhir:v "MyPatient" ] ;
-       fhir:description [ fhir:v "An example profile of the Patient resource." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
+       fhir:name [ fhir:v "line-danser" ] ;
+       fhir:description [ fhir:v "Eksampel pårørende" ] ;
+       fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
@@ -1094,24 +1142,21 @@
          fhir:link <http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem> ;
          fhir:reference [ fhir:v "CodeSystem/no-kodeverk-7010-norpat.codesystem" ]
        ] ;
-       fhir:name [ fhir:v "Norsk patologikodeverk (NORPAT)." ] ;
+       fhir:name [ fhir:v "Norsk patologikodeverk (NORPAT)" ] ;
        fhir:description [ fhir:v "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "Patient" ]
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/Patient/PatientExample> ;
-         fhir:reference [ fhir:v "Patient/PatientExample" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-extension-representant" ]
        ] ;
-       fhir:name [ fhir:v "PatientExample" ] ;
-       fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
-       fhir:example [
-         fhir:v "http://helsenorge.no/fhir/StructureDefinition/MyPatient"^^xsd:anyURI ;
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/MyPatient>
-       ]
+       fhir:name [ fhir:v "Representant" ] ;
+       fhir:description [ fhir:v "Person som representerer en annen etter avtale, vedtakk mm." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

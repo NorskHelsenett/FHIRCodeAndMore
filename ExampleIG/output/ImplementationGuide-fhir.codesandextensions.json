@@ -10,7 +10,7 @@
   "name" : "CodesAndExtensions",
   "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-02T14:52:41+01:00",
+  "date" : "2023-11-03T08:05:33+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -663,6 +663,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/no-kodeverk-7611.codesystem"
+      },
+      "name" : "7611 Representasjonsrolle.",
+      "description" : "Dersom en innbygger benytter dialogtjenester på vegne av pasient fra helsenorge.no så skal informasjon om hvem som benytter tjeneste oppgis vha. objektet Pasientrelasjon. Pasienten oppgis som vanlig under patient-tagen i Hodemeldingen, mens personen som benytter en dialogtjeneste på vegne av pasienten skal oppgis i objektet Pasientrelasjon. Relasjon angir her representasjonsolle person som benytter tjeneste har til pasient.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/no-kodeverk-7617.codesystem"
       },
       "name" : "7617 Timetype innbyggerportal",
@@ -1023,6 +1035,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/no-kodeverk-9033.codesystem"
+      },
+      "name" : "9033 Slektskap mv. til pasient",
+      "description" : "Dette kodeverket inneholder koder som benyttes for å angi hvilket slektskap eller annet forhold , det er mellom pasienten og den pårørende.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/no-kodeverk-9060.codesystem"
       },
       "name" : "9060 Kategori helsepersonell",
@@ -1056,6 +1080,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/Eksempel-representasjon-i-meta-security"
+      },
+      "name" : "Eksempel-representasjon-i-meta-security",
+      "description" : "Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon.",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/example-girl"
+      },
+      "name" : "example-girl",
+      "description" : "Eksampel pasient",
+      "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1068,14 +1116,14 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
+        "valueString" : "RelatedPerson"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/MyPatient"
+        "reference" : "RelatedPerson/line-danser"
       },
-      "name" : "MyPatient",
-      "description" : "An example profile of the Patient resource.",
-      "exampleBoolean" : false
+      "name" : "line-danser",
+      "description" : "Eksampel pårørende",
+      "exampleBoolean" : true
     },
     {
       "extension" : [{
@@ -1181,21 +1229,21 @@
       "reference" : {
         "reference" : "CodeSystem/no-kodeverk-7010-norpat.codesystem"
       },
-      "name" : "Norsk patologikodeverk (NORPAT).",
+      "name" : "Norsk patologikodeverk (NORPAT)",
       "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
       "exampleBoolean" : false
     },
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "Patient"
+        "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "Patient/PatientExample"
+        "reference" : "StructureDefinition/hn-extension-representant"
       },
-      "name" : "PatientExample",
-      "description" : "An example of a patient with a license to krill.",
-      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/MyPatient"
+      "name" : "Representant",
+      "description" : "Person som representerer en annen etter avtale, vedtakk mm.",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

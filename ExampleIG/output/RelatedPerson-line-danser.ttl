@@ -1,0 +1,35 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/RelatedPerson/line-danser> a fhir:RelatedPerson ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "line-danser"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: RelatedPerson</b><a name=\"line-danser\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource RelatedPerson &quot;line-danser&quot; </p></div><p><b>active</b>: true</p><p><b>patient</b>: <a href=\"Patient-example-girl.html\">Patient/example-girl</a> &quot; DANSER&quot;</p><p><b>relationship</b>: Mor <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#MO)</span></p><p><b>name</b>: Line Danser </p><p><b>gender</b>: female</p><p><b>birthDate</b>: 1990-11-02</p></div>"
+  ] ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:patient [
+     fhir:link <http://helsenorge.no/fhir/Patient/example-girl> ;
+     fhir:reference [ fhir:v "Patient/example-girl" ]
+  ] ; # 
+  fhir:relationship ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9033"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "MO" ] ;
+       fhir:display [ fhir:v "Mor" ]
+     ] )
+  ] ) ; # 
+  fhir:name ( [
+     fhir:family [ fhir:v "Danser" ] ;
+     fhir:given ( [ fhir:v "Line" ] )
+  ] ) ; # 
+  fhir:gender [ fhir:v "female"] ; # 
+  fhir:birthDate [ fhir:v "1990-11-02"^^xsd:date] . # 
+
+# -------------------------------------------------------------------------------------
+
