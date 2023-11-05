@@ -2,8 +2,9 @@ Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation
 
 Instance: Eksempel-representasjon-i-meta-security
 InstanceOf: Observation
-Description: "Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon."
+Description: "Eksempel av bruk av extension for representasjon i meta.security og extension for varselsorganisasjon i meta.tag."
 Usage: #example
+* meta.tag = http://helsenorge.no/fhir/extension/varselorganisasjon#9 "Benytt angitt navn som avsender i varsel til innbygger"
 * meta.security = urn:oid:2.16.578.1.12.4.1.1.7611#FO "Foreldreansvar"
 * meta.security.extension.url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"
 //* meta.security.extension.url = "http://helsenorge.no/fhir/extension/hn-extension-representant"

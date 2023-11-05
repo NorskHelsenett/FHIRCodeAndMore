@@ -1,9 +1,9 @@
 ﻿CodesAndExtensions : Validation Results
 =========================================
 
-err = 0, warn = 5, info = 5
+err = 0, warn = 5, info = 6
 IG Publisher Version: 1.5.1
-Generated Sun Nov 05 00:36:44 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sun Nov 05 15:53:14 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 0 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
@@ -57,7 +57,7 @@ Generated Sun Nov 05 00:36:44 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-her-id : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-orgnr : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-resh-id : 0 / 0 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security : 0 / 0 / 3
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security : 0 / 0 / 4
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-example-girl : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
@@ -120,6 +120,7 @@ Generated Sun Nov 05 00:36:44 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
 == fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json ==
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7611' is unknown so the code cannot be validated
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.8116' is unknown so the code cannot be validated
+INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: Code System URI 'http://helsenorge.no/fhir/extension/varselorganisasjon' is unknown so the code cannot be validated
 == fsh-generated\resources\Patient-example-girl.json ==
 == fsh-generated\resources\RelatedPerson-line-danser.json ==
 INFORMATION: RelatedPerson/line-danser: RelatedPerson.relationship[0]: None of the codings provided are in the value set 'Patient relationship type' (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype|4.0.1), and a coding is recommended to come from this value set) (codes = urn:oid:2.16.578.1.12.4.1.1.9033#MO)

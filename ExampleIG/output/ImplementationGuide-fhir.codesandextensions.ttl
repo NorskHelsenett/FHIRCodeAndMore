@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-05T00:35:42+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-05T15:52:07+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1019,7 +1019,7 @@
          fhir:reference [ fhir:v "Observation/Eksempel-representasjon-i-meta-security" ]
        ] ;
        fhir:name [ fhir:v "Eksempel-representasjon-i-meta-security" ] ;
-       fhir:description [ fhir:v "Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon." ] ;
+       fhir:description [ fhir:v "Eksempel av bruk av extension for representasjon i meta.security og extension for varselsorganisasjon i meta.tag." ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
      ] [
        fhir:extension ( [

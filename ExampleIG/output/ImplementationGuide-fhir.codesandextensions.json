@@ -10,7 +10,7 @@
   "name" : "CodesAndExtensions",
   "title" : "Codes and extension",
   "status" : "draft",
-  "date" : "2023-11-05T00:35:42+01:00",
+  "date" : "2023-11-05T15:52:07+01:00",
   "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
   "jurisdiction" : [{
     "coding" : [{
@@ -1104,7 +1104,7 @@
         "reference" : "Observation/Eksempel-representasjon-i-meta-security"
       },
       "name" : "Eksempel-representasjon-i-meta-security",
-      "description" : "Eksempel av bruk av representasjon i meta.security tag. Dersom en innbygger benytter enkelte tjenester på helsenorge.no på vegne av pasient så skal informasjon om hvem som benytter tjeneste oppgis vha. Pasientrelasjon.",
+      "description" : "Eksempel av bruk av extension for representasjon i meta.security og extension for varselsorganisasjon i meta.tag.",
       "exampleBoolean" : true
     },
     {
