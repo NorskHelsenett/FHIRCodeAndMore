@@ -11,7 +11,7 @@
   <name value="CodesAndExtensions"/>
   <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-05T18:57:51+01:00"/>
+  <date value="2023-11-05T19:05:15+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>

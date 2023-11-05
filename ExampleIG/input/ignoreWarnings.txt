@@ -9,3 +9,8 @@ The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced
 An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+# other warnings that are Suppressed
+Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown (from Tx-Server))
+Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116
+Review the extension type for hn-extension-varselorganisasjon: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+Review the extension type for hn-extension-representant: extensions should not have a context of Element unless it's really intended that they can be used anywhere

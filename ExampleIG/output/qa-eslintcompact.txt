@@ -4,14 +4,10 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-represent
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser.json: line 5, col 6, Info - None of the codings provided are in the value set 'Patient relationship type' (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype|4.0.1), and a coding is recommended to come from this value set) (codes = urn:oid:2.16.578.1.12.4.1.1.9033#MO) (CODEINVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser.json: line 7, col 10, Info - Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9033' is unknown so the code cannot be validated (UNKNOWN)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant.json: line 1, col 73178, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant.json: line 0, col 0, Warning - Review the extension type for hn-extension-representant: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json: line 0, col 0, Warning - Review the extension type for hn-extension-varselorganisasjon: extensions should not have a context of Element unless it's really intended that they can be used anywhere (BUSINESSRULE)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json: line 0, col 0, Warning - Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown (from Tx-Server)) (BUSINESSRULE)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116 (EXCEPTION)
 
 CodesAndExtensions : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 6
+err = 0, warn = 0, info = 6
 IG Publisher Version: 1.5.1
-Generated Sun Nov 05 18:58:57 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sun Nov 05 19:06:20 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
