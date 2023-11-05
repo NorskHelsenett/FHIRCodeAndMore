@@ -3,7 +3,7 @@
   "id" : "hn-kodeverk-varsling.codesystem",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"hn-kodeverk-varsling.codesystem-1\"> </a></td><td>Innbygger skal ikke varsles</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"hn-kodeverk-varsling.codesystem-2\"> </a></td><td>Benytt angitt navn som avsender i varsel til innbygger</td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"hn-kodeverk-varsling.codesystem-1\"> </a></td><td>Innbygger skal ikke varsles</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"hn-kodeverk-varsling.codesystem-9\"> </a></td><td>Benytt angitt navn som avsender i varsel til innbygger</td></tr></table></div>"
   },
   "url" : "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem",
   "identifier" : [{
@@ -14,7 +14,7 @@
   "title" : "Varsling",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-11-05T15:52:07+01:00",
+  "date" : "2023-11-05T18:57:51+01:00",
   "publisher" : "Helsenorge",
   "description" : "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
   "jurisdiction" : [{
@@ -32,7 +32,7 @@
     "display" : "Innbygger skal ikke varsles"
   },
   {
-    "code" : "2",
+    "code" : "9",
     "display" : "Benytt angitt navn som avsender i varsel til innbygger"
   }]
 }

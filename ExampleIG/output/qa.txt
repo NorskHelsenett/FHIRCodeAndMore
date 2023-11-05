@@ -1,9 +1,9 @@
 ﻿CodesAndExtensions : Validation Results
 =========================================
 
-err = 0, warn = 5, info = 6
+err = 0, warn = 4, info = 6
 IG Publisher Version: 1.5.1
-Generated Sun Nov 05 15:53:14 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sun Nov 05 18:58:57 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 0 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
@@ -61,7 +61,7 @@ Generated Sun Nov 05 15:53:14 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-example-girl : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
 </table>
 == n/a ==
@@ -120,7 +120,7 @@ Generated Sun Nov 05 15:53:14 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
 == fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json ==
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.7611' is unknown so the code cannot be validated
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.8116' is unknown so the code cannot be validated
-INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: Code System URI 'http://helsenorge.no/fhir/extension/varselorganisasjon' is unknown so the code cannot be validated
+INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: Code System URI 'http://helsenorge.no/fhir/varsling' is unknown so the code cannot be validated
 == fsh-generated\resources\Patient-example-girl.json ==
 == fsh-generated\resources\RelatedPerson-line-danser.json ==
 INFORMATION: RelatedPerson/line-danser: RelatedPerson.relationship[0]: None of the codings provided are in the value set 'Patient relationship type' (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype|4.0.1), and a coding is recommended to come from this value set) (codes = urn:oid:2.16.578.1.12.4.1.1.9033#MO)
@@ -130,7 +130,6 @@ INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.
 WARNING: StructureDefinition/hn-extension-representant: StructureDefinition.context[0]: Review the extension type for hn-extension-representant: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
 WARNING: StructureDefinition/hn-extension-varselorganisasjon: StructureDefinition.context[0]: Review the extension type for hn-extension-varselorganisasjon: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown (from Tx-Server))
 WARNING: ValueSet.where(id = 'cs-8116-Dnr-Fnr-vs'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116

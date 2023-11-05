@@ -94,6 +94,9 @@
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant": [
       "Observation.meta.security"
     ],
+    "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon": [
+      "Observation.meta.tag"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"
     ],

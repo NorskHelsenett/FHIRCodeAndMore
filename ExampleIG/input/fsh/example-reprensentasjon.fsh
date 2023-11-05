@@ -4,7 +4,10 @@ Instance: Eksempel-representasjon-i-meta-security
 InstanceOf: Observation
 Description: "Eksempel av bruk av extension for representasjon i meta.security og extension for varselsorganisasjon i meta.tag."
 Usage: #example
-* meta.tag = http://helsenorge.no/fhir/extension/varselorganisasjon#9 "Benytt angitt navn som avsender i varsel til innbygger"
+* meta.tag = http://helsenorge.no/fhir/varsling#9 "Benytt angitt navn som avsender i varsel til innbygger"
+* meta.tag.extension.url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon"
+* meta.tag.extension.valueString = "Oslo University Hospital"
+// 
 * meta.security = urn:oid:2.16.578.1.12.4.1.1.7611#FO "Foreldreansvar"
 * meta.security.extension.url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"
 //* meta.security.extension.url = "http://helsenorge.no/fhir/extension/hn-extension-representant"

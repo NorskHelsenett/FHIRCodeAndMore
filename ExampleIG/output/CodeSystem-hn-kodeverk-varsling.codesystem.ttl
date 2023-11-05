@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "hn-kodeverk-varsling.codesystem"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"hn-kodeverk-varsling.codesystem-1\"> </a></td><td>Innbygger skal ikke varsles</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"hn-kodeverk-varsling.codesystem-2\"> </a></td><td>Benytt angitt navn som avsender i varsel til innbygger</td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"hn-kodeverk-varsling.codesystem-1\"> </a></td><td>Innbygger skal ikke varsles</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"hn-kodeverk-varsling.codesystem-9\"> </a></td><td>Benytt angitt navn som avsender i varsel til innbygger</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem"^^xsd:anyURI] ; # 
   fhir:identifier ( [
@@ -21,7 +21,7 @@
   fhir:title [ fhir:v "Varsling"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-05T15:52:07+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-05T18:57:51+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Helsenorge"] ; # 
   fhir:description [ fhir:v "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger."] ; # 
   fhir:jurisdiction ( [
@@ -38,7 +38,7 @@
      fhir:code [ fhir:v "1" ] ;
      fhir:display [ fhir:v "Innbygger skal ikke varsles" ]
   ] [
-     fhir:code [ fhir:v "2" ] ;
+     fhir:code [ fhir:v "9" ] ;
      fhir:display [ fhir:v "Benytt angitt navn som avsender i varsel til innbygger" ]
   ] ) . # 
 
