@@ -10,7 +10,8 @@
   "name" : "ServiceRequestPerformerTypeVS",
   "title" : "ServiceRequest PerformerType Value Set",
   "status" : "draft",
-  "date" : "2023-11-13T19:18:44+01:00",
+  "experimental" : true,
+  "date" : "2023-11-13T21:18:10+01:00",
   "description" : "Koder for valgte profesjonstyper.",
   "jurisdiction" : [{
     "coding" : [{

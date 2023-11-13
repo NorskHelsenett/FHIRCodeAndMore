@@ -10,7 +10,8 @@
   <name value="ServiceRequestCategoryVS"/>
   <title value="ServiceRequest Category Value Set"/>
   <status value="draft"/>
-  <date value="2023-11-13T19:18:44+01:00"/>
+  <experimental value="true"/>
+  <date value="2023-11-13T21:18:10+01:00"/>
   <description value="Kode som klassifiserer tjenesten for søk, sortering og visningsformål."/>
   <jurisdiction>
     <coding>

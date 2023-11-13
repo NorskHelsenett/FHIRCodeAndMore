@@ -6,11 +6,13 @@ Alias: $9060 =  urn:oid:2.16.578.1.12.4.1.1.9060
 Profile: HnBasisServiceRequest
 Id: hn-basis-serviceRequest
 Parent: ServiceRequest
-Description: "ServiceRequest sendes til tjenestetilbyderer for å informere hvilken tjenester er ønskes fra tjenestetilbyder"
+Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren."
+* ^status = #draft 
+* ^publisher = "Helsenorge"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
-* identifier ^definition = "En identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
+* identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
 * identifier.system 1..1
 * identifier.value 1..1 
 * identifier.value obeys uuid-format
@@ -33,7 +35,7 @@ Description: "ServiceRequest sendes til tjenestetilbyderer for å informere hvil
 * subject.identifier.system obeys ValidSubjectSystemURL
 * subject.identifier.system ^short = "Det skal benyttes fødselsnummer eller d-nummer."
 * performerType from ServiceRequestPerformerTypeVS
-* supportingInfo ^short = "Frykt for smitte." 
+* supportingInfo ^short = "Supporting info kan brukes for å sende informasjon når det er frykt for smitte." 
 * supportingInfo ^definition = "Hvis det er frykt for smitte eller bevist smitte er slik informasjonen referert fra supportingInformation som ‘contained’ ressurs." 
 
 
@@ -41,6 +43,7 @@ ValueSet: ServiceRequestCodeVS
 Id: serviceRequest-code-vs
 Title: "ServiceRequest code Value Set"
 Description: "Kode for tjenesten for søkt om."
+* ^experimental = true
 * include codes from system $SCT where concept is-a #15220000 "Laboratory test"
 * include codes from system $SCT where concept is-a #11429006 "Consultation"
 * include codes from system $SCT where concept is-a #1237136005 "Consultation with patient"
@@ -52,6 +55,7 @@ ValueSet: ServiceRequestCategoryVS
 Id: serviceRequest-category-vs
 Title: "ServiceRequest Category Value Set"
 Description: "Kode som klassifiserer tjenesten for søk, sortering og visningsformål."
+* ^experimental = true
 * $SCT#15220000 "Laboratory test"
 * $SCT#11429006 "Consultation"
 * $SCT#1237136005 "Consultation with patient"
@@ -63,36 +67,38 @@ ValueSet: ServiceRequestPerformerTypeVS
 Id: serviceRequest-performerType-vs
 Title: "ServiceRequest PerformerType Value Set"
 Description: "Koder for valgte profesjonstyper."
+* ^experimental = true
 * include codes from system $SCT where concept is-a #158965000 "Healthcare professional"
 * include codes from system $9060
 
 
 Invariant: PriorityUrgentOrRoutine
-Description: "The priority must be either 'routine' or 'urgent'."
+Description: "priority må være enten 'routine' eller 'urgent'."
 Expression: "value='routine' or value='urgent'"
 Severity: #error
 
 
 Invariant: StatusActiveOrCompleted
-Description: "The status must be either 'active' or 'completed'."
+Description: "status må være enten 'active' eller 'completed'."
 Expression: "value='active' or value='completed'"
 Severity: #error
 
 Invariant: IntentOrder
-Description: "The intent must be 'order'."
+Description: "intent må være 'order'."
 Expression: "value='order'"
 Severity: #error
 
 Invariant: ValidSubjectSystemURL
-Description: "The system URL must be either urn:oid:2.16.578.1.12.4.1.4.1' or 'urn:oid:2.16.578.1.12.4.1.4.2'."
+Description: "system URL må være enten urn:oid:2.16.578.1.12.4.1.4.1' eller 'urn:oid:2.16.578.1.12.4.1.4.2'."
 Expression: "value='urn:oid:2.16.578.1.12.4.1.4.1' or value='urn:oid:2.16.578.1.12.4.1.4.2'"
 Severity: #error
 
 
 Invariant: uuid-format
-Description: "The identifier value must be a UUID."
+Description: "identifier value må være UUID."
 Expression: "value.matches('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89ab][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$')"
 Severity: #error
+
 
 
 

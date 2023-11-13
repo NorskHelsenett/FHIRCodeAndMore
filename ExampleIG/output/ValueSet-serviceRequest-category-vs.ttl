@@ -17,7 +17,8 @@
   fhir:name [ fhir:v "ServiceRequestCategoryVS"] ; # 
   fhir:title [ fhir:v "ServiceRequest Category Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-13T19:18:44+01:00"^^xsd:dateTime] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-11-13T21:18:10+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Kode som klassifiserer tjenesten for søk, sortering og visningsformål."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

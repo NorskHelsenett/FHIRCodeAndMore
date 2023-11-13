@@ -1,9 +1,9 @@
 ﻿CodesAndExtensions : Validation Results
 =========================================
 
-err = 0, warn = 5, info = 8
+err = 0, warn = 2, info = 8
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.3
-Generated Mon Nov 13 19:19:56 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Mon Nov 13 21:19:27 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 0 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
@@ -64,9 +64,9 @@ Generated Mon Nov 13 19:19:56 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-category-vs : 0 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-code-vs : 0 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs : 0 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-category-vs : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-code-vs : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs : 0 / 1 / 1
 </table>
 == n/a ==
 == fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem.json ==
@@ -138,9 +138,6 @@ INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 == fsh-generated\resources\ValueSet-serviceRequest-category-vs.json ==
-WARNING: ValueSet/serviceRequest-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated\resources\ValueSet-serviceRequest-code-vs.json ==
-WARNING: ValueSet/serviceRequest-code-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 == fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json ==
-WARNING: ValueSet/serviceRequest-performerType-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
 WARNING: ValueSet.where(id = 'serviceRequest-performerType-vs'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060

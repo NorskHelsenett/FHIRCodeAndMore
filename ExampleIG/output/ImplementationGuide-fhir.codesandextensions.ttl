@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-13T19:18:44+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T21:18:10+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1043,7 +1043,7 @@
          fhir:reference [ fhir:v "StructureDefinition/hn-basis-serviceRequest" ]
        ] ;
        fhir:name [ fhir:v "HnBasisServiceRequest" ] ;
-       fhir:description [ fhir:v "ServiceRequest sendes til tjenestetilbyderer for å informere hvilken tjenester er ønskes fra tjenestetilbyder" ] ;
+       fhir:description [ fhir:v "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
