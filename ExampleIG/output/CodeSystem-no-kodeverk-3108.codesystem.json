@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.3108"
   }],
-  "version" : "0.1.0",
+  "version" : "0.2.0",
   "name" : "NoKodeverk3108",
   "title" : "3108 Reservasjon mot registrering",
   "status" : "active",
   "experimental" : false,
-  "date" : "2023-11-05T19:05:15+01:00",
+  "date" : "2023-11-13T19:18:44+01:00",
   "publisher" : "Direktoratet for e-helse",
   "description" : "Opplysning om pasienten holdning til registrering av informasjon i register",
   "jurisdiction" : [{

@@ -2,12 +2,39 @@
   "codeSystems" : [
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
-      "version" : "0.1.0",
+      "version" : "0.2.0",
       "status" : "draft",
       "name" : "CS8116DnrFnrVS",
       "title" : "DNR og FNR fra Volven 8116",
       "description" : "ValueSet basert på 8116 som inkluderer kun FNR og DNR",
       "systems" : ["urn:oid:2.16.578.1.12.4.1.1.8116"]
+    },
+    {
+      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCategoryVS",
+      "title" : "ServiceRequest Category Value Set",
+      "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-code-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ServiceRequestCodeVS",
+      "title" : "ServiceRequest code Value Set",
+      "description" : "Kode for tjenesten for søkt om.",
+      "systems" : ["http://snomed.info/sct"]
+    },
+    {
+      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "ServiceRequestPerformerTypeVS",
+      "title" : "ServiceRequest PerformerType Value Set",
+      "description" : "Koder for valgte profesjonstyper.",
+      "systems" : ["http://snomed.info/sct", "urn:oid:2.16.578.1.12.4.1.1.9060"]
     }
   ]
 }

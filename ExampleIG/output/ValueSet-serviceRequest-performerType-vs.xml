@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="serviceRequest-performerType-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  158965000 (null)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs"/>
+  <version value="0.2.0"/>
+  <name value="ServiceRequestPerformerTypeVS"/>
+  <title value="ServiceRequest PerformerType Value Set"/>
+  <status value="draft"/>
+  <date value="2023-11-13T19:18:44+01:00"/>
+  <description value="Koder for valgte profesjonstyper."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="is-a"/>
+        <value value="158965000"/>
+      </filter>
+    </include>
+    <include>
+      <system value="urn:oid:2.16.578.1.12.4.1.1.9060"/>
+    </include>
+  </compose>
+</ValueSet>

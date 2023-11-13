@@ -1,3 +1,18 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "http://snomed.info/sct",
+      "version" : null,
+      "status" : "active",
+      "name" : "SNOMED_CT",
+      "title" : "SNOMED CT (all versions)",
+      "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+      "oids" : ["2.16.840.1.113883.6.96"],
+      "uses" : {
+      },
+      "ValueSet-serviceRequest-code-vs.html" : "ServiceRequest code Value Set",
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
+      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set"
+    }
+  ]
 }

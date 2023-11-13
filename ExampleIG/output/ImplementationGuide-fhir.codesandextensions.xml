@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"/>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="CodesAndExtensions"/>
   <title value="Codes and extension"/>
   <status value="draft"/>
-  <date value="2023-11-05T19:05:15+01:00"/>
+  <date value="2023-11-13T19:18:44+01:00"/>
   <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
   <jurisdiction>
     <coding>
@@ -923,6 +923,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hn-basis-serviceRequest"/>
+      </reference>
+      <name value="HnBasisServiceRequest"/>
+      <description value="ServiceRequest sendes til tjenestetilbyderer for å informere hvilken tjenester er ønskes fra tjenestetilbyder"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -1051,6 +1062,39 @@
       </reference>
       <name value="Representant"/>
       <description value="Person som representerer en annen etter avtale, vedtakk mm."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/serviceRequest-category-vs"/>
+      </reference>
+      <name value="ServiceRequest Category Value Set"/>
+      <description value="Kode som klassifiserer tjenesten for søk, sortering og visningsformål."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/serviceRequest-code-vs"/>
+      </reference>
+      <name value="ServiceRequest code Value Set"/>
+      <description value="Kode for tjenesten for søkt om."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/serviceRequest-performerType-vs"/>
+      </reference>
+      <name value="ServiceRequest PerformerType Value Set"/>
+      <description value="Koder for valgte profesjonstyper."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "serviceRequest-category-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/15220000\">15220000</a></td><td>Laboratory test</td></tr><tr><td><a href=\"http://snomed.info/id/11429006\">11429006</a></td><td>Consultation</td></tr><tr><td><a href=\"http://snomed.info/id/1237136005\">1237136005</a></td><td>Consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face-to-face encounter</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "ServiceRequestCategoryVS"] ; # 
+  fhir:title [ fhir:v "ServiceRequest Category Value Set"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2023-11-13T19:18:44+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Kode som klassifiserer tjenesten for søk, sortering og visningsformål."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "15220000" ] ;
+         fhir:display [ fhir:v "Laboratory test" ]
+       ] [
+         fhir:code [ fhir:v "11429006" ] ;
+         fhir:display [ fhir:v "Consultation" ]
+       ] [
+         fhir:code [ fhir:v "1237136005" ] ;
+         fhir:display [ fhir:v "Consultation with patient" ]
+       ] [
+         fhir:code [ fhir:v "1269515004" ] ;
+         fhir:display [ fhir:v "Face-to-face encounter" ]
+       ] [
+         fhir:code [ fhir:v "719410009" ] ;
+         fhir:display [ fhir:v "Consultation via video conference" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

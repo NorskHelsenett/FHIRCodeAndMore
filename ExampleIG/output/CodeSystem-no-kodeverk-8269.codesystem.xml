@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8269"/>
   </identifier>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8269"/>
   <title value="8269 Kommentar til svarrapport"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-11-05T19:05:15+01:00"/>
+  <date value="2023-11-13T19:18:44+01:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Kodet kommentar til svarrapport"/>
   <jurisdiction>

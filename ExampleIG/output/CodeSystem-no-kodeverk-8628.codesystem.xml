@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8628"/>
   </identifier>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8628"/>
   <title value="8628 Organisatorisk nivå"/>
   <status value="retired"/>

@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "CodesAndExtensions"] ; # 
   fhir:title [ fhir:v "Codes and extension"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-05T19:05:15+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-13T19:18:44+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1036,6 +1036,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-basis-serviceRequest" ]
+       ] ;
+       fhir:name [ fhir:v "HnBasisServiceRequest" ] ;
+       fhir:description [ fhir:v "ServiceRequest sendes til tjenestetilbyderer for å informere hvilken tjenester er ønskes fra tjenestetilbyder" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -1176,6 +1188,42 @@
        ] ;
        fhir:name [ fhir:v "Representant" ] ;
        fhir:description [ fhir:v "Person som representerer en annen etter avtale, vedtakk mm." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/serviceRequest-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ServiceRequest Category Value Set" ] ;
+       fhir:description [ fhir:v "Kode som klassifiserer tjenesten for søk, sortering og visningsformål." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/serviceRequest-code-vs> ;
+         fhir:reference [ fhir:v "ValueSet/serviceRequest-code-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ServiceRequest code Value Set" ] ;
+       fhir:description [ fhir:v "Kode for tjenesten for søkt om." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs> ;
+         fhir:reference [ fhir:v "ValueSet/serviceRequest-performerType-vs" ]
+       ] ;
+       fhir:name [ fhir:v "ServiceRequest PerformerType Value Set" ] ;
+       fhir:description [ fhir:v "Koder for valgte profesjonstyper." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

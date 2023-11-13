@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8264"/>
   </identifier>
-  <version value="0.1.0"/>
+  <version value="0.2.0"/>
   <name value="NoKodeverk8264"/>
   <title value="8264 Tjenestekoder for timereservasjon"/>
   <status value="retired"/>
   <experimental value="false"/>
-  <date value="2023-11-05T19:05:15+01:00"/>
+  <date value="2023-11-13T19:18:44+01:00"/>
   <publisher value="Direktoratet for e-helse"/>
   <description value="Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."/>
   <jurisdiction>
