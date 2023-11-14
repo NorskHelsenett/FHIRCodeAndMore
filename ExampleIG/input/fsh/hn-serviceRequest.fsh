@@ -14,7 +14,6 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
 * identifier.system 1..1
-* identifier.system = "http://helsenorge.no/fhir/identifiers/uuid"
 * identifier.value 1..1 
 * identifier.value obeys uuid-format
 * status = #active
