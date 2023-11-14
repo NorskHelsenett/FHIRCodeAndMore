@@ -115,7 +115,7 @@ Description: "Ekstensjon som muliggjør å legge til flere koder som alternative
 
 
 Instance: hn-basis-serviceRequest-example
-InstanceOf: ServiceRequest
+InstanceOf: HnBasisServiceRequest
 Usage: #example
 * meta.profile = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
 * identifier.system = "http://helsenorge.no/fhir/identifiers/uuid"

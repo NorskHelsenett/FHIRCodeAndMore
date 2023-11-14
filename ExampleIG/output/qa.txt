@@ -3,7 +3,7 @@
 
 err = 0, warn = 3, info = 8
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.3
-Generated Wed Nov 15 00:13:12 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Wed Nov 15 00:21:25 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 0 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
