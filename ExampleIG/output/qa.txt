@@ -1,10 +1,10 @@
 ﻿CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 8
+err = 0, warn = 3, info = 8
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.3
-Generated Wed Nov 15 00:01:48 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
- Build Errors : 0 / 2 / 0
+Generated Wed Nov 15 00:13:12 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+ Build Errors : 0 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-no-kodeverk-3108.codesystem : 0 / 0 / 1
@@ -71,7 +71,6 @@ Generated Wed Nov 15 00:01:48 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs : 0 / 1 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/additional-code.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/hn-basis-serviceRequest-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem.json ==
 == fsh-generated\resources\CodeSystem-no-kodeverk-1101.codesystem.json ==

@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "ServiceRequest code Value Set"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-11-15T00:00:31+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-11-15T00:11:46+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Kode for tjenesten for søkt om."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

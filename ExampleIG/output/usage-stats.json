@@ -6,7 +6,7 @@
   "extensions": [
     {
       "url": "http://helsenorge.no/fhir/StructureDefinition/additional-code",
-      "title": "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
+      "title": "Alternative codes på serviceRequest.code",
       "types": [
         "CodeableConcept"
       ]

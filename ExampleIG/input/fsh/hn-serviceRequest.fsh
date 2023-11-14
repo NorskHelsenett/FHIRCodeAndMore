@@ -106,7 +106,8 @@ Severity: #error
 
 Extension: AdditionalCode
 Id: additional-code
-Title: "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"
+Title: "Alternative codes på serviceRequest.code"
+Description: "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"
 * ^context.type = #element
 * ^context.expression = "ServiceRequest"
 * value[x] only CodeableConcept

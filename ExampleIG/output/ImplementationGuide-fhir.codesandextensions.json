@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-11-15T00:00:31+01:00",
+  "date" : "2023-11-15T00:11:46+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1086,6 +1086,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/additional-code"
+      },
+      "name" : "Alternative codes på serviceRequest.code",
+      "description" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1106,17 +1118,6 @@
       "name" : "Eksempel-representasjon-i-meta-security",
       "description" : "Eksempel av bruk av extension for representasjon i meta.security og extension for varselsorganisasjon i meta.tag.",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/additional-code"
-      },
-      "name" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{

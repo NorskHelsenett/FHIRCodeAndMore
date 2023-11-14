@@ -134,7 +134,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
 "ServiceRequest.code.extension:alternativeCode","ServiceRequest.code.extension","alternativeCode","","",0,*,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/additional-code]]} {[]}
-","Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","Alternative codes på serviceRequest.code","Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ServiceRequest.code.extension:alternativeCode.id","ServiceRequest.code.extension.id","","","",0,1,"","","","string {[]} {[]}
