@@ -3,16 +3,16 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="fhir.codesandextensions"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>
 </div></div>
   </text>
   <url value="http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"/>
   <version value="0.2.0"/>
-  <name value="CodesAndExtensions"/>
-  <title value="Codes and extension"/>
+  <name value="CodesExtensionsAndMore"/>
+  <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-11-13T21:18:10+01:00"/>
-  <description value="Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"/>
+  <date value="2023-11-15T00:00:31+01:00"/>
+  <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -912,6 +912,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/additional-code"/>
+      </reference>
+      <name value="Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Patient"/>
       </extension>
       <reference>
@@ -920,6 +930,16 @@
       <name value="example-girl"/>
       <description value="Eksampel pasient"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ServiceRequest"/>
+      </extension>
+      <reference>
+        <reference value="ServiceRequest/hn-basis-serviceRequest-example"/>
+      </reference>
+      <name value="hn-basis-serviceRequest-example"/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

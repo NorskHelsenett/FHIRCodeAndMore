@@ -10,15 +10,15 @@
   fhir:id [ fhir:v "fhir.codesandextensions"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
-  fhir:name [ fhir:v "CodesAndExtensions"] ; # 
-  fhir:title [ fhir:v "Codes and extension"] ; # 
+  fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
+  fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-13T21:18:10+01:00"^^xsd:dateTime] ; # 
-  fhir:description [ fhir:v "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG"] ; # 
+  fhir:date [ fhir:v "2023-11-15T00:00:31+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
@@ -1024,6 +1024,17 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/additional-code> ;
+         fhir:reference [ fhir:v "StructureDefinition/additional-code" ]
+       ] ;
+       fhir:name [ fhir:v "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "Patient" ]
        ] ) ;
        fhir:reference [
@@ -1033,6 +1044,20 @@
        fhir:name [ fhir:v "example-girl" ] ;
        fhir:description [ fhir:v "Eksampel pasient" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ServiceRequest" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ServiceRequest/hn-basis-serviceRequest-example> ;
+         fhir:reference [ fhir:v "ServiceRequest/hn-basis-serviceRequest-example" ]
+       ] ;
+       fhir:name [ fhir:v "hn-basis-serviceRequest-example" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

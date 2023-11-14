@@ -14,6 +14,7 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
 * identifier.system 1..1
+* identifier.system = "http://helsenorge.no/fhir/identifiers/uuid"
 * identifier.value 1..1 
 * identifier.value obeys uuid-format
 * status = #active
@@ -22,10 +23,13 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
 * intent = #order
 * intent obeys IntentOrder
-* code 1..1
+* code 0..1
 * code from ServiceRequestCodeVS
+* code.extension contains AdditionalCode named alternativeCode 0..*
+* code.extension[alternativeCode].value[x] from ServiceRequestCodeVS
 * category 1..*
 * category from ServiceRequestCategoryVS
+* category ^short = "Hvis category er brukt og det mangler code bør beskrivelse av bestilling være i note"
 * priority 1..1 
 * priority obeys PriorityUrgentOrRoutine
 * subject only Reference(Patient)
@@ -100,7 +104,32 @@ Expression: "value.matches('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[
 Severity: #error
 
 
+Extension: AdditionalCode
+Id: additional-code
+Title: "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"
+* ^context.type = #element
+* ^context.expression = "ServiceRequest"
+* value[x] only CodeableConcept
 
+
+
+Instance: hn-basis-serviceRequest-example
+InstanceOf: ServiceRequest
+Usage: #example
+* meta.profile = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
+* identifier.system = "http://helsenorge.no/fhir/identifiers/uuid"
+* identifier.value = "cdeaceeb-4119-42c6-8a3a-b8d495970cb9"
+* status = #active
+* intent = #order
+* category = $SCT#15220000 "Laboratory test"
+* priority = #routine
+* subject.type = "Patient"
+* subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
+* subject.identifier.value = "12345678901"
+* note.text = "Jeg har fått beskjed om at jeg trenger diverse tester regelmessig på grunn av hjertetilstanden min. Jeg har følt meg mer sliten i det siste, og noen ganger får jeg denne stramheten i brystet. Det er viktig for meg å forstå om det har skjedd noen endringer med hjertet mitt, så jeg følger opp som anbefalt."
+* reasonCode = $SCT#49436004 "Atrial fibrillation"
+* occurrencePeriod.start = "2023-11-15T09:00:00Z"
+* occurrencePeriod.end = "2023-11-20T15:30:00Z"
 
 
 // @Name: Selected External Code System Aliases (not complete)

@@ -11,7 +11,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"bc3674c0-44db-4238-b589-6aa7c0ea69f6"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0732d2dd-5aa0-47cb-acfe-9470222e3229"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -24,13 +24,45 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Mon, 13 Nov 2023 20:18:14 GMT
-last-modified:Mon, 13 Nov 2023 20:18:14 GMT
+date:Tue, 14 Nov 2023 23:00:33 GMT
+last-modified:Tue, 14 Nov 2023 23:00:33 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-6430925
+x-request-id:35-6772404
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
+
+</pre><hr/>
+<a name="l2"> </a><h3>2</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"49436004","display":"Atrial fibrillation"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0732d2dd-5aa0-47cb-acfe-9470222e3229"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:347
+content-type:application/fhir+json
+date:Tue, 14 Nov 2023 23:00:37 GMT
+last-modified:Tue, 14 Nov 2023 23:00:37 GMT
+pragma:no-cache
+server:nginx
+x-request-id:35-6772422
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "49436004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "display","valueString" : "Atrial fibrillation"}]}
 
 --- 1 -----------------
 Request: 
@@ -41,7 +73,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"bc3674c0-44db-4238-b589-6aa7c0ea69f6"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0732d2dd-5aa0-47cb-acfe-9470222e3229"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -54,11 +86,41 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Mon, 13 Nov 2023 20:18:14 GMT
-last-modified:Mon, 13 Nov 2023 20:18:14 GMT
+date:Tue, 14 Nov 2023 23:00:33 GMT
+last-modified:Tue, 14 Nov 2023 23:00:33 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-6430925
+x-request-id:35-6772404
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
+
+--- 2 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"49436004","display":"Atrial fibrillation"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"0732d2dd-5aa0-47cb-acfe-9470222e3229"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:347
+content-type:application/fhir+json
+date:Tue, 14 Nov 2023 23:00:37 GMT
+last-modified:Tue, 14 Nov 2023 23:00:37 GMT
+pragma:no-cache
+server:nginx
+x-request-id:35-6772422
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "49436004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "display","valueString" : "Atrial fibrillation"}]}
 </pre></head></html>

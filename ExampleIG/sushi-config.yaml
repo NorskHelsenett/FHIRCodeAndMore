@@ -5,9 +5,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: fhir.codesandextensions
 canonical: http://helsenorge.no/fhir
-name: CodesAndExtensions
-title: Codes and extension
-description: Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG
+name: CodesExtensionsAndMore
+title: Codes, extension, profiles and more
+description: Codes, extension, profiles and more
 status: draft # draft | active | retired | unknown
 version: 0.2.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html

@@ -3,15 +3,15 @@
   "id" : "fhir.codesandextensions",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesAndExtensions</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   },
   "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
   "version" : "0.2.0",
-  "name" : "CodesAndExtensions",
-  "title" : "Codes and extension",
+  "name" : "CodesExtensionsAndMore",
+  "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-11-13T21:18:10+01:00",
-  "description" : "Codes that are usualy as oids and own Helsenorge extensions used for meta.tags and meta.security IG",
+  "date" : "2023-11-15T00:00:31+01:00",
+  "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -1110,6 +1110,17 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/additional-code"
+      },
+      "name" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Patient"
       }],
       "reference" : {
@@ -1118,6 +1129,17 @@
       "name" : "example-girl",
       "description" : "Eksampel pasient",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ServiceRequest"
+      }],
+      "reference" : {
+        "reference" : "ServiceRequest/hn-basis-serviceRequest-example"
+      },
+      "name" : "hn-basis-serviceRequest-example",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
     },
     {
       "extension" : [{

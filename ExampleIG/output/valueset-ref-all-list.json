@@ -74,8 +74,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
-      "StructureDefinition-hn-extension-representant.html" : "Representant"
+      "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -89,8 +89,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
-      "StructureDefinition-hn-extension-representant.html" : "Representant"
+      "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",

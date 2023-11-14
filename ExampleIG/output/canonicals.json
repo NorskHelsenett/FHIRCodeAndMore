@@ -363,7 +363,7 @@
     "type" : "ImplementationGuide",
     "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
     "version" : "0.2.0",
-    "name" : "CodesAndExtensions"
+    "name" : "CodesExtensionsAndMore"
   },
   {
     "id" : "no-basis-apotekenes-konsesjonsnr",
@@ -406,6 +406,13 @@
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-resh-id",
     "version" : "0.2.0",
     "name" : "RESHid"
+  },
+  {
+    "id" : "additional-code",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/additional-code",
+    "version" : "0.2.0",
+    "name" : "AdditionalCode"
   },
   {
     "id" : "hn-basis-serviceRequest",

@@ -1,8 +1,8 @@
 ﻿<!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 0, warn = 2, info = 8-->
+<!-- broken links = 0, errors = 0, warn = 4, info = 8-->
 <head>
-  <title>CodesAndExtensions : Validation Results</title>
+  <title>CodesExtensionsAndMore : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
   <style>
     span.flip  { background-color: #4CAF50; color: white; border: solid 1px #a6d8a8; padding: 2px }
@@ -35,13 +35,13 @@
   </script>
 </head>
 <body style="margin: 20px; background-color: #ffffff">
- <h1>Validation Results for CodesAndExtensions</h1>
- <p>Generated Mon Nov 13 21:19:27 CET 2023, FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
+ <h1>Validation Results for CodesExtensionsAndMore</h1>
+ <p>Generated Wed Nov 15 00:01:48 CET 2023, FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.5.1, which is out of date. The current version is v1.5.3 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.codesandextensions, Canonical = http://helsenorge.no/fhir</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
- <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://www.helsenorge.no/fhir/package-list.json?nocache=1699906766408 (Not Found) (content in C:\Users\arman\AppData\Local\Temp\http-log\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
+ <tr><td>Publication Request:</td><td><ul><li><span title="Invalid HTTP response 404 from https://www.helsenorge.no/fhir/package-list.json?nocache=1700002907938 (Not Found) (content in C:\Users\arman\AppData\Local\Temp\http-log\fhir-http-3.log)">This IG has never been published</span> <img src="information.png" height="16px" width="16px"/></li>
 <li>This IG has never been published, so the version should start with '0.' or include a patch version e.g. '-ballot' <img src="icon-warning.png" height="16px" width="16px"/></li>
 <li>No publication request found <img src="information.png" height="16px" width="16px"/></li>
 </ul>
@@ -60,13 +60,13 @@
  <tr><td>Draft Dependencies:</td><td><ul>
   <li>
 hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
- (15 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
+ (15 uses),     <code>fhir-type</code>
+ (20 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
  (4 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bestpractice.html">bestpractice</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bestpractice-explanation.html">bestpractice-explanation</a>
- (1 uses),     <code>fhir-type</code>
- (15 uses),     <a href="http://hl7.org/fhir/R4/extension-structuredefinition-standards-status.html">standards-status</a>
- (56 uses),     <a href="http://hl7.org/fhir/R4/extension-structuredefinition-normative-version.html">normative-version</a>
- (56 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">maxValueSet</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/extension-structuredefinition-standards-status.html">standards-status</a>
+ (59 uses),     <a href="http://hl7.org/fhir/R4/extension-structuredefinition-normative-version.html">normative-version</a>
+ (59 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-maxvalueset.html">maxValueSet</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-bindingname.html">bindingName</a>
  (16 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-iscommonbinding.html">isCommonBinding</a>
  (4 uses),     <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a>
@@ -79,9 +79,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-status.html">RequestStatus</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-intent.html">RequestIntent</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-priority.html">RequestPriority</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html">ServiceRequestOrderDetailsCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/extension-elementdefinition-translatable.html">translatable</a>
- (3 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html">ServiceRequestOrderDetailsCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html">SNOMEDCTMedicationAsNeededReasonCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
  (2 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
@@ -103,7 +103,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
   </li>
   <li>
 hl7.fhir.uv.tools#1.0.0-candidate:     <a href="https://build.fhir.org/ig/FHIR/fhir-tools-ig//StructureDefinition-resource-sort.html">ResourceSortExt</a>
- (61 uses)
+ (63 uses)
   </li>
   <li>
 hl7.terminology.r4#5.3.0:     <a href="http://terminology.hl7.org/5.3.0/CodeSystem-observation-category.html">ObservationCategoryCodes</a>
@@ -112,19 +112,19 @@ hl7.terminology.r4#5.3.0:     <a href="http://terminology.hl7.org/5.3.0/CodeSyst
 </ul>
 </td></tr>
  <tr><td>Modifier Extensions:</td><td><span style="color: grey">(none)</span></td></tr>
- <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://helsenorge.no/fhir (Problem #1 with package-list.json at http://helsenorge.no/fhir: Invalid HTTP response 404 from https://www.helsenorge.no/fhir/package-list.json?nocache=1699906689126 (Not Found) (content in C:\Users\arman\AppData\Local\Temp\http-log\fhir-http-2.log))</td></tr>
+ <tr><td>Previous Version Comparison:</td><td> Unable to compare with previous version: Unable to find version history at http://helsenorge.no/fhir (Problem #1 with package-list.json at http://helsenorge.no/fhir: Invalid HTTP response 404 from https://www.helsenorge.no/fhir/package-list.json?nocache=1700002829578 (Not Found) (content in C:\Users\arman\AppData\Local\Temp\http-log\fhir-http-2.log))</td></tr>
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
- <tr><td>Summary:</td><td> errors = 0, warn = 2, info = 8, broken links = 0</td></tr>
+ <tr><td>Summary:</td><td> errors = 0, warn = 4, info = 8, broken links = 0</td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>0</b></td><td><b>2</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-basis-serviceRequest"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>2</b></td>
+     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-additional-code"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-serviceRequest-performerType-vs"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -135,24 +135,24 @@ hl7.terminology.r4#5.3.0:     <a href="http://terminology.hl7.org/5.3.0/CodeSyst
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/additional-code.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
+   <tr style="background-color: #ffebcc">
+     <td><b></b></td><td><b>warning</b></td><td title=""><b>Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/hn-basis-serviceRequest-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b></td>
+   </tr>
 </table>
 <hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-basis-serviceRequest"> </a>
-<h2><a href="StructureDefinition-hn-basis-serviceRequest.html">fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
+<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-additional-code"> </a>
+<h2><a href="StructureDefinition-additional-code.html">fsh-generated\resources\StructureDefinition-additional-code.json</a> <span id="svi1" class="toggle" onclick="toggle('vi1')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi1')">(1)</span></h2>
  <div style="border: 1px grey solid; display: none" id="vi1"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
    </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[16]&#8203;.mapping[2]&#8203;.map (l1&#8203;/c65944)</b></td><td><b>information</b></td><td title="SECURITY_STRING_CONTENT_WARNING"><b>The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk</b></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>StructureDefinition&#8203;.snapshot&#8203;.element[43]&#8203;.mapping[2]&#8203;.map (l1&#8203;/c114457)</b></td><td><b>information</b></td><td title="SECURITY_STRING_CONTENT_WARNING"><b>The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk</b></td>
-   </tr>
    <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/helsenorge&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/hn-basis-serviceRequest')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this profile</b></td>
+     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/helsenorge&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/additional-code')</b></td><td><b>warning</b></td><td title=""><b>The Implementation Guide contains no examples for this extension</b></td>
    </tr>
 </table>
 <hr/>

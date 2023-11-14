@@ -11,7 +11,7 @@
   <title value="ServiceRequest code Value Set"/>
   <status value="draft"/>
   <experimental value="true"/>
-  <date value="2023-11-13T21:18:10+01:00"/>
+  <date value="2023-11-15T00:00:31+01:00"/>
   <description value="Kode for tjenesten for søkt om."/>
   <jurisdiction>
     <coding>

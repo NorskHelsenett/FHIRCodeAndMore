@@ -3,15 +3,15 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-represent
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json: line 6, col 8, Info - Code System URI 'http://helsenorge.no/fhir/varsling' is unknown so the code cannot be validated (UNKNOWN)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser.json: line 5, col 6, Info - None of the codings provided are in the value set 'Patient relationship type' (http://hl7.org/fhir/ValueSet/relatedperson-relationshiptype|4.0.1), and a coding is recommended to come from this value set) (codes = urn:oid:2.16.578.1.12.4.1.1.9033#MO) (CODEINVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser.json: line 7, col 10, Info - Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9033' is unknown so the code cannot be validated (UNKNOWN)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 65944, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 114457, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 70563, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 129392, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant.json: line 1, col 73178, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060 (EXCEPTION)
 
-CodesAndExtensions : Validation Results
+CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 2, info = 8
+err = 0, warn = 4, info = 8
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.3
-Generated Mon Nov 13 21:19:27 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Wed Nov 15 00:01:48 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
