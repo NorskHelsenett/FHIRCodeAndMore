@@ -18,19 +18,7 @@
       "status" : "draft",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
-      "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål.",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
-    },
-    {
-      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-code-vs",
-      "version" : "0.2.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCodeVS",
-      "title" : "ServiceRequest code Value Set",
-      "description" : "Kode for tjenesten for søkt om.",
+      "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },
@@ -74,8 +62,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -89,8 +77,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -116,6 +104,20 @@
       "systems" : ["http://snomed.info/sct"],
       "oids" : ["2.16.840.1.113883.4.642.3.96"],
       "sources" : ["2.16.840.1.113883.4.642.3.96"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ProcedureCodes(SNOMEDCT)",
+      "title" : "Procedure Codes (SNOMED CT)",
+      "description" : "Procedure Code: All SNOMED CT procedure codes.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.4.642.3.427"],
+      "sources" : ["2.16.840.1.113883.4.642.3.427"],
       "uses" : {
       },
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"

@@ -105,9 +105,6 @@
     ]
   },
   "usage": {
-    "http://helsenorge.no/fhir/StructureDefinition/additional-code": [
-      "ServiceRequest.code"
-    ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant": [
       "Observation.meta.security"
     ],

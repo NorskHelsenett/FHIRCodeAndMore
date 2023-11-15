@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-11-15T00:28:16+01:00"/>
+  <date value="2023-11-15T22:57:05+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1093,18 +1093,7 @@
         <reference value="ValueSet/serviceRequest-category-vs"/>
       </reference>
       <name value="ServiceRequest Category Value Set"/>
-      <description value="Kode som klassifiserer tjenesten for søk, sortering og visningsformål."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/serviceRequest-code-vs"/>
-      </reference>
-      <name value="ServiceRequest code Value Set"/>
-      <description value="Kode for tjenesten for søkt om."/>
+      <description value="Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

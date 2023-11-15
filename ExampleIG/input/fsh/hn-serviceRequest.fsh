@@ -22,10 +22,6 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
 * intent = #order
 * intent obeys IntentOrder
-* code 0..1
-* code from ServiceRequestCodeVS
-* code.extension contains AdditionalCode named alternativeCode 0..*
-* code.extension[alternativeCode].value[x] from ServiceRequestCodeVS
 * category 1..*
 * category from ServiceRequestCategoryVS
 * category ^short = "Hvis category er brukt og det mangler code bør beskrivelse av bestilling være i note"
@@ -42,27 +38,12 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * supportingInfo ^definition = "Hvis det er frykt for smitte eller bevist smitte er slik informasjonen referert fra supportingInformation som ‘contained’ ressurs." 
 
 
-ValueSet: ServiceRequestCodeVS
-Id: serviceRequest-code-vs
-Title: "ServiceRequest code Value Set"
-Description: "Kode for tjenesten for søkt om."
-* ^experimental = true
-* include codes from system $SCT where concept is-a #15220000 "Laboratory test"
-* include codes from system $SCT where concept is-a #11429006 "Consultation"
-* include codes from system $SCT where concept is-a #1237136005 "Consultation with patient"
-* exclude $SCT#12843005 "Subsequent hospital visit by physician"
-* $SCT#1269515004 "Face-to-face encounter"
-* $SCT#719410009 "Consultation via video conference"
-
 ValueSet: ServiceRequestCategoryVS
 Id: serviceRequest-category-vs
 Title: "ServiceRequest Category Value Set"
-Description: "Kode som klassifiserer tjenesten for søk, sortering og visningsformål."
+Description: "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)"
 * ^experimental = true
-* $SCT#15220000 "Laboratory test"
-* $SCT#11429006 "Consultation"
-* $SCT#1237136005 "Consultation with patient"
-* $SCT#1269515004 "Face-to-face encounter"
+* $SCT#1269515004 "Face to face consultation with patient"
 * $SCT#719410009 "Consultation via video conference"
 
 
@@ -121,15 +102,17 @@ Usage: #example
 * identifier.value = "cdeaceeb-4119-42c6-8a3a-b8d495970cb9"
 * status = #active
 * intent = #order
-* category = $SCT#15220000 "Laboratory test"
+* category[0] = $SCT#1269515004 "Face to face consultation with patient" 
+* category[+] = $SCT#719410009 "Consultation via video conference"
 * priority = #routine
 * subject.type = "Patient"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
 * subject.identifier.value = "12345678901"
-* note.text = "Jeg har fått beskjed om at jeg trenger diverse tester regelmessig på grunn av hjertetilstanden min. Jeg har følt meg mer sliten i det siste, og noen ganger får jeg denne stramheten i brystet. Det er viktig for meg å forstå om det har skjedd noen endringer med hjertet mitt, så jeg følger opp som anbefalt."
+* note.text = "Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon"
 * reasonCode = $SCT#49436004 "Atrial fibrillation"
 * occurrencePeriod.start = "2023-11-15T09:00:00Z"
 * occurrencePeriod.end = "2023-11-20T15:30:00Z"
+* performerType = $9060#LE "Lege"
 
 
 // @Name: Selected External Code System Aliases (not complete)

@@ -18,19 +18,7 @@
       "status" : "draft",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
-      "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål.",
-      "systems" : ["http://snomed.info/sct"],
-      "uses" : {
-      },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
-    },
-    {
-      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-code-vs",
-      "version" : "0.2.0",
-      "status" : "draft",
-      "name" : "ServiceRequestCodeVS",
-      "title" : "ServiceRequest code Value Set",
-      "description" : "Kode for tjenesten for søkt om.",
+      "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",
       "systems" : ["http://snomed.info/sct"],
       "uses" : {
       },

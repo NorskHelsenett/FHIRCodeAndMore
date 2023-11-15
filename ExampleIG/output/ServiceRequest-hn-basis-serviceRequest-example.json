@@ -6,7 +6,7 @@
   },
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"hn-basis-serviceRequest-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;hn-basis-serviceRequest-example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hn-basis-serviceRequest.html\">HnBasisServiceRequest</a></p></div><p><b>identifier</b>: id:\u00a0cdeaceeb-4119-42c6-8a3a-b8d495970cb9</p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Laboratory test <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#15220000)</span></p><p><b>priority</b>: routine</p><p><b>subject</b>: <span>id:\u00a012345678901</span></p><p><b>occurrence</b>: 2023-11-15 09:00:00+0000 --&gt; 2023-11-20 15:30:00+0000</p><p><b>reasonCode</b>: Atrial fibrillation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#49436004)</span></p><p><b>note</b>: Jeg har fått beskjed om at jeg trenger diverse tester regelmessig på grunn av hjertetilstanden min. Jeg har følt meg mer sliten i det siste, og noen ganger får jeg denne stramheten i brystet. Det er viktig for meg å forstå om det har skjedd noen endringer med hjertet mitt, så jeg følger opp som anbefalt.</p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: ServiceRequest</b><a name=\"hn-basis-serviceRequest-example\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource ServiceRequest &quot;hn-basis-serviceRequest-example&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hn-basis-serviceRequest.html\">HnBasisServiceRequest</a></p></div><p><b>identifier</b>: id:\u00a0cdeaceeb-4119-42c6-8a3a-b8d495970cb9</p><p><b>status</b>: active</p><p><b>intent</b>: order</p><p><b>category</b>: Face to face consultation with patient <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#1269515004)</span>, Consultation via video conference <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#719410009)</span></p><p><b>priority</b>: routine</p><p><b>subject</b>: <span>id:\u00a012345678901</span></p><p><b>occurrence</b>: 2023-11-15 09:00:00+0000 --&gt; 2023-11-20 15:30:00+0000</p><p><b>performerType</b>: Lege <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#LE)</span></p><p><b>reasonCode</b>: Atrial fibrillation <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"https://browser.ihtsdotools.org/\">SNOMED CT</a>#49436004)</span></p><p><b>note</b>: Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon</p></div>"
   },
   "identifier" : [{
     "system" : "http://helsenorge.no/fhir/identifiers/uuid",
@@ -17,8 +17,15 @@
   "category" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
-      "code" : "15220000",
-      "display" : "Laboratory test"
+      "code" : "1269515004",
+      "display" : "Face to face consultation with patient"
+    }]
+  },
+  {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "719410009",
+      "display" : "Consultation via video conference"
     }]
   }],
   "priority" : "routine",
@@ -33,6 +40,13 @@
     "start" : "2023-11-15T09:00:00Z",
     "end" : "2023-11-20T15:30:00Z"
   },
+  "performerType" : {
+    "coding" : [{
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.9060",
+      "code" : "LE",
+      "display" : "Lege"
+    }]
+  },
   "reasonCode" : [{
     "coding" : [{
       "system" : "http://snomed.info/sct",
@@ -41,6 +55,6 @@
     }]
   }],
   "note" : [{
-    "text" : "Jeg har fått beskjed om at jeg trenger diverse tester regelmessig på grunn av hjertetilstanden min. Jeg har følt meg mer sliten i det siste, og noen ganger får jeg denne stramheten i brystet. Det er viktig for meg å forstå om det har skjedd noen endringer med hjertet mitt, så jeg følger opp som anbefalt."
+    "text" : "Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon"
   }]
 }

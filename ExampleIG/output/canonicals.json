@@ -450,13 +450,6 @@
     "name" : "ServiceRequestCategoryVS"
   },
   {
-    "id" : "serviceRequest-code-vs",
-    "type" : "ValueSet",
-    "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-code-vs",
-    "version" : "0.2.0",
-    "name" : "ServiceRequestCodeVS"
-  },
-  {
     "id" : "serviceRequest-performerType-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
