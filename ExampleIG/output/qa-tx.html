@@ -5,13 +5,13 @@
 <pre>
 Request: 
 
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"12206e7f-1615-46b5-912b-2f1d2439ef44"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -22,92 +22,28 @@ access-control-allow-origin:*
 access-control-expose-headers:Content-Location, Location
 cache-control:public, max-age=600
 connection:keep-alive
-content-length:777
+content-length:524
 content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:06 GMT
-last-modified:Wed, 15 Nov 2023 21:57:06 GMT
+date:Wed, 15 Nov 2023 22:05:17 GMT
+last-modified:Wed, 15 Nov 2023 22:05:17 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-7124431
+x-request-id:35-7126153
 
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"identifier" : "urn:uuid:a1978323-6035-4c67-911d-c10a9f3004cf","timestamp" : "2023-11-15T21:57:06.029Z","total" : 2,"parameter" : [{"name" : "limitedExpansion","valueBoolean" : true},{"name" : "excludeNested","valueBoolean" : true},{"name" : "used-codesystem","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "version","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"}],"contains" : [{"system" : "http://snomed.info/sct","code" : "1269515004","display" : "Face to face consultation with patient"},{"system" : "http://snomed.info/sct","code" : "719410009","display" : "Consultation via video conference"}]}}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
 <pre>
 Request: 
 
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:524
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:07 GMT
-last-modified:Wed, 15 Nov 2023 21:57:07 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124443
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
-
-</pre><hr/>
-<a name="l3"> </a><h3>3</h3>
-<pre>
-Request: 
-
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004","display":"Face to face consultation with patient"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-category-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs","version":"0.2.0","name":"ServiceRequestCategoryVS","title":"ServiceRequest Category Value Set","status":"draft","experimental":true,"date":"2023-11-15T22:57:05+01:00","description":"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:380
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:10 GMT
-last-modified:Wed, 15 Nov 2023 21:57:10 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124456
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
-
-</pre><hr/>
-<a name="l4"> </a><h3>4</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"12206e7f-1615-46b5-912b-2f1d2439ef44"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -120,86 +56,24 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:878
 content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:11 GMT
-last-modified:Wed, 15 Nov 2023 21:57:11 GMT
+date:Wed, 15 Nov 2023 22:05:21 GMT
+last-modified:Wed, 15 Nov 2023 22:05:21 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-7124457
+x-request-id:35-7126171
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown"},"location" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},"location" : ["Coding"]}]}}]}
-
-</pre><hr/>
-<a name="l5"> </a><h3>5</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:778
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:32 GMT
-last-modified:Wed, 15 Nov 2023 21:57:32 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124544
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"identifier" : "urn:uuid:d9699043-1e4f-4749-86dd-2b89fac78d60","timestamp" : "2023-11-15T21:57:32.107Z","total" : 2,"parameter" : [{"name" : "limitedExpansion","valueBoolean" : true},{"name" : "excludeNested","valueBoolean" : false},{"name" : "used-codesystem","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "version","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"}],"contains" : [{"system" : "http://snomed.info/sct","code" : "1269515004","display" : "Face to face consultation with patient"},{"system" : "http://snomed.info/sct","code" : "719410009","display" : "Consultation via video conference"}]}}
 
 --- 1 -----------------
 Request: 
 
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:777
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:06 GMT
-last-modified:Wed, 15 Nov 2023 21:57:06 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124431
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"identifier" : "urn:uuid:a1978323-6035-4c67-911d-c10a9f3004cf","timestamp" : "2023-11-15T21:57:06.029Z","total" : 2,"parameter" : [{"name" : "limitedExpansion","valueBoolean" : true},{"name" : "excludeNested","valueBoolean" : true},{"name" : "used-codesystem","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "version","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"}],"contains" : [{"system" : "http://snomed.info/sct","code" : "1269515004","display" : "Face to face consultation with patient"},{"system" : "http://snomed.info/sct","code" : "719410009","display" : "Consultation via video conference"}]}}
-
---- 2 -----------------
-Request: 
-
 POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
 User-Agent: hapi-fhir-tooling-client
 Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"12206e7f-1615-46b5-912b-2f1d2439ef44"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -212,15 +86,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:07 GMT
-last-modified:Wed, 15 Nov 2023 21:57:07 GMT
+date:Wed, 15 Nov 2023 22:05:17 GMT
+last-modified:Wed, 15 Nov 2023 22:05:17 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-7124443
+x-request-id:35-7126153
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
 
---- 3 -----------------
+--- 2 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -229,37 +103,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004","display":"Face to face consultation with patient"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-category-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs","version":"0.2.0","name":"ServiceRequestCategoryVS","title":"ServiceRequest Category Value Set","status":"draft","experimental":true,"date":"2023-11-15T22:57:05+01:00","description":"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:380
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:10 GMT
-last-modified:Wed, 15 Nov 2023 21:57:10 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124456
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
-
---- 4 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"12206e7f-1615-46b5-912b-2f1d2439ef44"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -272,41 +116,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:878
 content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:11 GMT
-last-modified:Wed, 15 Nov 2023 21:57:11 GMT
+date:Wed, 15 Nov 2023 22:05:21 GMT
+last-modified:Wed, 15 Nov 2023 22:05:21 GMT
 pragma:no-cache
 server:nginx
-x-request-id:35-7124457
+x-request-id:35-7126171
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown"},"location" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},"location" : ["Coding"]}]}}]}
-
---- 5 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"c6d721d4-3c86-422b-bf4b-8b56c89b9816"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:778
-content-type:application/fhir+json
-date:Wed, 15 Nov 2023 21:57:32 GMT
-last-modified:Wed, 15 Nov 2023 21:57:32 GMT
-pragma:no-cache
-server:nginx
-x-request-id:35-7124544
-
-{"resourceType" : "ValueSet","status" : "active","expansion" : {"identifier" : "urn:uuid:d9699043-1e4f-4749-86dd-2b89fac78d60","timestamp" : "2023-11-15T21:57:32.107Z","total" : 2,"parameter" : [{"name" : "limitedExpansion","valueBoolean" : true},{"name" : "excludeNested","valueBoolean" : false},{"name" : "used-codesystem","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"},{"name" : "version","valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20230901"}],"contains" : [{"system" : "http://snomed.info/sct","code" : "1269515004","display" : "Face to face consultation with patient"},{"system" : "http://snomed.info/sct","code" : "719410009","display" : "Consultation via video conference"}]}}
 </pre></head></html>

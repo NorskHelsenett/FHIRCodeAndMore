@@ -102,8 +102,8 @@ Usage: #example
 * identifier.value = "cdeaceeb-4119-42c6-8a3a-b8d495970cb9"
 * status = #active
 * intent = #order
-* category[0] = $SCT#1269515004 "Face to face consultation with patient" 
-* category[+] = $SCT#719410009 "Consultation via video conference"
+* category.coding[0] = $SCT#1269515004 "Face to face consultation with patient" 
+* category.coding[+] = $SCT#719410009 "Consultation via video conference"
 * priority = #routine
 * subject.type = "Patient"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"
