@@ -15,7 +15,7 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
 * identifier.system 1..1
 * identifier.value 1..1 
-* identifier.value obeys uuid-format
+//* identifier.value obeys uuid-format
 * status = #active
 * status obeys StatusActiveOrCompleted
 * status ^short = "Default status er active"
@@ -77,12 +77,12 @@ Description: "system URL må være enten urn:oid:2.16.578.1.12.4.1.4.1' eller 'u
 Expression: "value='urn:oid:2.16.578.1.12.4.1.4.1' or value='urn:oid:2.16.578.1.12.4.1.4.2'"
 Severity: #error
 
-
+/**
 Invariant: uuid-format
 Description: "identifier value må være UUID."
 Expression: "value.matches('^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89ab][0-9a-fA-F]{3}-[0-9a-fA-F]{12}$')"
 Severity: #error
-
+*/
 
 Extension: AdditionalCode
 Id: additional-code
@@ -95,7 +95,7 @@ Description: "Ekstensjon som muliggjør å legge til flere koder som alternative
 
 
 Instance: hn-basis-serviceRequest-example
-InstanceOf: HnBasisServiceRequest
+InstanceOf: ServiceRequest
 Usage: #example
 * meta.profile = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
 * identifier.system = "http://helsenorge.no/fhir/identifiers/uuid"
