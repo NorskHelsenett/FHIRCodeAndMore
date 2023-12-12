@@ -24,9 +24,9 @@
   <url value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
   <version value="0.2.0"/>
   <name value="HnBasisSchedule"/>
-  <title value="hn-basis-schedule"/>
+  <title value="HnBasisSchedule"/>
   <status value="draft"/>
-  <date value="2023-12-13T00:38:53+01:00"/>
+  <date value="2023-12-13T00:44:24+01:00"/>
   <description value="FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."/>
   <jurisdiction>
     <coding>

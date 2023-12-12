@@ -15,9 +15,9 @@
   fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "HnBasisSchedule"] ; # 
-  fhir:title [ fhir:v "hn-basis-schedule"] ; # 
+  fhir:title [ fhir:v "HnBasisSchedule"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T00:38:53+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T00:44:24+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -1,7 +1,7 @@
 Profile: HnBasisSchedule
 Parent: Schedule
 Id: hn-basis-schedule
-Title: "hn-basis-schedule"
+Title: "HnBasisSchedule"
 Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."
 * ^version = "0.1.0"
 * ^status = #draft

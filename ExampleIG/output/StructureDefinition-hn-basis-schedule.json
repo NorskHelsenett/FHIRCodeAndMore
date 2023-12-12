@@ -8,9 +8,9 @@
   "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
   "version" : "0.2.0",
   "name" : "HnBasisSchedule",
-  "title" : "hn-basis-schedule",
+  "title" : "HnBasisSchedule",
   "status" : "draft",
-  "date" : "2023-12-13T00:38:53+01:00",
+  "date" : "2023-12-13T00:44:24+01:00",
   "description" : "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4.",
   "jurisdiction" : [{
     "coding" : [{

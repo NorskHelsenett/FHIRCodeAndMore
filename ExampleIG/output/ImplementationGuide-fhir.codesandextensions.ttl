@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T00:38:53+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T00:44:24+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1072,18 +1072,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule> ;
-         fhir:reference [ fhir:v "StructureDefinition/hn-basis-schedule" ]
-       ] ;
-       fhir:name [ fhir:v "hn-basis-schedule" ] ;
-       fhir:description [ fhir:v "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
@@ -1106,6 +1094,18 @@
        ] ;
        fhir:name [ fhir:v "hn-scheduleandslot-type-vs" ] ;
        fhir:description [ fhir:v "Value set for schedule and slot type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-basis-schedule" ]
+       ] ;
+       fhir:name [ fhir:v "HnBasisSchedule" ] ;
+       fhir:description [ fhir:v "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

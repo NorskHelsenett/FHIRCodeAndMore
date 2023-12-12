@@ -25,7 +25,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
@@ -77,7 +77,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -92,7 +92,7 @@
       "uses" : {
       },
       "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -108,7 +108,7 @@
       "uses" : {
       },
       "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -123,7 +123,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -222,7 +222,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -237,7 +237,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",

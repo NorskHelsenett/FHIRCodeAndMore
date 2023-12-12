@@ -158,7 +158,7 @@
     "Schedule": [
       {
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
-        "title": "hn-basis-schedule"
+        "title": "HnBasisSchedule"
       }
     ],
     "ServiceRequest": [
