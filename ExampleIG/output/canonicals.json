@@ -436,6 +436,13 @@
     "name" : "HnBasisServiceRequest"
   },
   {
+    "id" : "hn-extension-first-available-free-slot",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot",
+    "version" : "0.2.0",
+    "name" : "HnExtensionFirstAvailableFreeSlot"
+  },
+  {
     "id" : "hn-extension-representant",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",

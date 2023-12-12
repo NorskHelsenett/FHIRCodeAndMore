@@ -31,6 +31,10 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
+"Schedule.extension:firstFreeSlot","Schedule.extension","firstFreeSlot","","",0,1,"Y","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot]]} {[]}
+","Første ledige slot i timebok","Første ledige slot i timebok. Tid og referanse","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Schedule.modifierExtension","Schedule.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
 ","Extensions that cannot be ignored","May be used to represent additional information that is not part of the basic definition of the resource and that modifies the understanding of the element that contains it and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer is allowed to define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -102,7 +106,7 @@ inv-4:If code is used in a codable consept the system must be used {code > '' im
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a","./originalText[mediaType/code=""text/plain""]/data"
 "Schedule.serviceType","Schedule.serviceType","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
-","Specific service","The specific service that is to be performed during this appointment.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"example","","http://hl7.org/fhir/ValueSet/service-type","",,,,"Schedule.serviceType",0,*,"ele-1
+","Specific service","The specific service that is to be performed during this appointment.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"required","","http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs","",,,,"Schedule.serviceType",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a","CD","n/a","FiveWs.class"
 "Schedule.serviceType.id","Schedule.serviceType.id","","","",0,1,"","","","string {[]} {[]}

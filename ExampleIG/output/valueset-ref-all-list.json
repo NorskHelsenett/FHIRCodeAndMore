@@ -22,7 +22,10 @@
       "systems" : [
         "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
         "urn:oid:2.16.578.1.12.4.1.1.7617"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
@@ -88,8 +91,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -104,8 +107,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -232,20 +235,6 @@
       "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
       "oids" : ["2.16.840.1.113883.4.642.3.516"],
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
-      "uses" : {
-      },
-      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
-    },
-    {
-      "url" : "http://hl7.org/fhir/ValueSet/service-type",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "ServiceType",
-      "title" : "Service type",
-      "description" : "This value set defines an example set of codes of service-types.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.518"],
-      "sources" : ["2.16.840.1.113883.4.642.3.518"],
       "uses" : {
       },
       "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"

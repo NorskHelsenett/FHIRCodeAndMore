@@ -15,7 +15,7 @@
   "title" : "8264 Tjenestekoder for timereservasjon",
   "status" : "retired",
   "experimental" : false,
-  "date" : "2023-12-12T23:44:27+01:00",
+  "date" : "2023-12-13T00:38:53+01:00",
   "publisher" : "Direktoratet for e-helse",
   "description" : "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time.",
   "jurisdiction" : [{

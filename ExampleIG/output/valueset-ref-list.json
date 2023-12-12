@@ -22,7 +22,10 @@
       "systems" : [
         "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
         "urn:oid:2.16.578.1.12.4.1.1.7617"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",

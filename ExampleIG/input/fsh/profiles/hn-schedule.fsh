@@ -2,9 +2,11 @@ Profile: HnBasisSchedule
 Parent: Schedule
 Id: hn-basis-schedule
 Title: "hn-basis-schedule"
-Description: "Profile used for Scheduler in HN. Based on FHIR Schedule (R4)"
+Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."
 * ^version = "0.1.0"
 * ^status = #draft
+* extension contains 
+    hn-extension-first-available-free-slot named firstFreeSlot 0..1 MS
 * identifier.value 1..
 * identifier 1..1
 * identifier ^short = "Identifer must be UUID/GUID"
@@ -15,6 +17,7 @@ Description: "Profile used for Scheduler in HN. Based on FHIR Schedule (R4)"
 * serviceCategory from http://hl7.org/fhir/ValueSet/service-category
 * serviceCategory.coding obeys inv-4
 * serviceType.coding obeys inv-4
+* serviceType from hn-scheduleandslot-type-vs
 * specialty.coding obeys inv-4 
 * actor.type 1..
 * actor only Reference(HealthcareService or Practitioner)
