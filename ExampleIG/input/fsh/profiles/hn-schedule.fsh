@@ -19,7 +19,7 @@ Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for tim
 * serviceType.coding obeys inv-4
 * serviceType from hn-scheduleandslot-type-vs
 * specialty.coding obeys inv-4 
-* actor.type 1..
+//* actor.type 1..
 * actor only Reference(HealthcareService or Practitioner)
 * actor ^short = "Currently only HealthcareService or Practitioner are referenced as valid actors."
 * comment ^short = "Comments regarding the scheduler."

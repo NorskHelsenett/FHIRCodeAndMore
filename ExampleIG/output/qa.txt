@@ -3,7 +3,7 @@
 
 err = 0, warn = 10, info = 11
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.5
-Generated Wed Dec 13 00:45:41 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Wed Dec 13 00:54:30 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -148,7 +148,7 @@ INFORMATION: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.perf
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==
 INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[17].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[42].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[36].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json ==
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[16].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

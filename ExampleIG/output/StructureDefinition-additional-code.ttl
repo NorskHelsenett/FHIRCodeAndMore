@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AdditionalCode"] ; # 
   fhir:title [ fhir:v "Alternative codes på serviceRequest.code"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T00:44:24+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T00:53:03+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
