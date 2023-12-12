@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-11-17T13:16:17+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-12T23:44:27+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1012,6 +1012,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/hn-scheduleAndSlot-type-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Codes that should be used for schedule and SlotType." ] ;
+       fhir:description [ fhir:v "Codes that should be used for schedule and SlotType." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ValueSet" ]
        ] ) ;
        fhir:reference [
@@ -1048,6 +1060,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-basis-schedule" ]
+       ] ;
+       fhir:name [ fhir:v "hn-basis-schedule" ] ;
+       fhir:description [ fhir:v "Profile used for Scheduler in HN. Based on FHIR Schedule (R4)" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "ServiceRequest" ]
        ] ) ;
        fhir:reference [
@@ -1059,6 +1083,18 @@
          fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"^^xsd:anyURI ;
          fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs> ;
+         fhir:reference [ fhir:v "ValueSet/hn-scheduleandslot-type-vs" ]
+       ] ;
+       fhir:name [ fhir:v "hn-scheduleandslot-type-vs" ] ;
+       fhir:description [ fhir:v "Value set for schedule and slot type" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

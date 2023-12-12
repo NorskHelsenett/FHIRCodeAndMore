@@ -1,6 +1,17 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeCS",
+      "title" : "Codes that should be used for schedule and SlotType.",
+      "description" : "Codes that should be used for schedule and SlotType.",
+      "uses" : {
+      },
+      "ValueSet-hn-scheduleandslot-type-vs.html" : "hn-scheduleandslot-type-vs"
+    },
+    {
       "url" : "http://hl7.org/fhir/fhir-types",
       "version" : "5.0.0",
       "status" : "active",
@@ -70,13 +81,38 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
-      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)"
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/service-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1144"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-service-category.html" : "Service category"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/service-type",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1145"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-service-type.html" : "Service type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",

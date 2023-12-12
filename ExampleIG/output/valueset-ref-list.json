@@ -13,6 +13,18 @@
       "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeVS",
+      "title" : "hn-scheduleandslot-type-vs",
+      "description" : "Value set for schedule and slot type",
+      "systems" : [
+        "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+        "urn:oid:2.16.578.1.12.4.1.1.7617"
+      ]
+    },
+    {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
       "version" : "0.2.0",
       "status" : "draft",
@@ -35,6 +47,20 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.516"],
+      "sources" : ["2.16.840.1.113883.4.642.3.516"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
     }
   ]
 }

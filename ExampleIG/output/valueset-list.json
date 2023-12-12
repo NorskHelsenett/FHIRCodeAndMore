@@ -10,6 +10,18 @@
       "systems" : ["urn:oid:2.16.578.1.12.4.1.1.8116"]
     },
     {
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeVS",
+      "title" : "hn-scheduleandslot-type-vs",
+      "description" : "Value set for schedule and slot type",
+      "systems" : [
+        "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+        "urn:oid:2.16.578.1.12.4.1.1.7617"
+      ]
+    },
+    {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
       "version" : "0.2.0",
       "status" : "draft",

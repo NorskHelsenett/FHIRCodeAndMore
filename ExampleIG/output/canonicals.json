@@ -7,6 +7,13 @@
     "name" : "HnKodeverkVarsling"
   },
   {
+    "id" : "hn-scheduleAndSlot-type-cs",
+    "type" : "CodeSystem",
+    "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+    "version" : "0.2.0",
+    "name" : "HnScheduleAndSlotTypeCS"
+  },
+  {
     "id" : "no-kodeverk-1101.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-1101.codesystem",
@@ -415,6 +422,13 @@
     "name" : "AdditionalCode"
   },
   {
+    "id" : "hn-basis-schedule",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
+    "version" : "0.2.0",
+    "name" : "HnBasisSchedule"
+  },
+  {
     "id" : "hn-basis-serviceRequest",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest",
@@ -441,6 +455,13 @@
     "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
     "version" : "0.2.0",
     "name" : "CS8116DnrFnrVS"
+  },
+  {
+    "id" : "hn-scheduleandslot-type-vs",
+    "type" : "ValueSet",
+    "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
+    "version" : "0.2.0",
+    "name" : "HnScheduleAndSlotTypeVS"
   },
   {
     "id" : "serviceRequest-category-vs",

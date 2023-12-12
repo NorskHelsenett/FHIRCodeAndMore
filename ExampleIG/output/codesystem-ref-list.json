@@ -1,6 +1,17 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeCS",
+      "title" : "Codes that should be used for schedule and SlotType.",
+      "description" : "Codes that should be used for schedule and SlotType.",
+      "uses" : {
+      },
+      "ValueSet-hn-scheduleandslot-type-vs.html" : "hn-scheduleandslot-type-vs"
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : null,
       "status" : "active",
@@ -12,6 +23,18 @@
       },
       "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
       "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set"
+    },
+    {
+      "url" : "http://terminology.hl7.org/CodeSystem/service-category",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "oids" : ["2.16.840.1.113883.4.642.1.1144"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-service-category.html" : "Service category"
     }
   ]
 }

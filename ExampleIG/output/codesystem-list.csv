@@ -1,5 +1,6 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
 http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem,0.2.0,active,,HnKodeverkVarsling,Varsling,"Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
+http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs,0.2.0,draft,,HnScheduleAndSlotTypeCS,Codes that should be used for schedule and SlotType.,"Codes that should be used for schedule and SlotType.",
 http://helsenorge.no/fhir/CodeSystem/no-kodeverk-1101.codesystem,0.2.0,active,"2.16.578.1.12.4.1.1.1101",NoKodeverk1101,1101 Ja, nei,"Dette kodeverket inneholder koder for å angi svar Ja eller Nei.",
 http://helsenorge.no/fhir/CodeSystem/no-kodeverk-3108.codesystem,0.2.0,active,"2.16.578.1.12.4.1.1.3108",NoKodeverk3108,3108 Reservasjon mot registrering,"Opplysning om pasienten holdning til registrering av informasjon i register",
 http://helsenorge.no/fhir/CodeSystem/no-kodeverk-4101.codesystem,0.2.0,active,"2.16.578.1.12.4.1.1.4101",NoKodeverk4101,4101 Betalingskategori,"Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig.",

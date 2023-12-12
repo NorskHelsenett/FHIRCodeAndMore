@@ -9,6 +9,14 @@
       "description" : "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger."
     },
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeCS",
+      "title" : "Codes that should be used for schedule and SlotType.",
+      "description" : "Codes that should be used for schedule and SlotType."
+    },
+    {
       "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-1101.codesystem",
       "version" : "0.2.0",
       "status" : "active",

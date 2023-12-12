@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-11-17T13:16:17+01:00",
+  "date" : "2023-12-12T23:44:27+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1098,6 +1098,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/hn-scheduleAndSlot-type-cs"
+      },
+      "name" : "Codes that should be used for schedule and SlotType.",
+      "description" : "Codes that should be used for schedule and SlotType.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -1134,6 +1146,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-schedule"
+      },
+      "name" : "hn-basis-schedule",
+      "description" : "Profile used for Scheduler in HN. Based on FHIR Schedule (R4)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ServiceRequest"
       }],
       "reference" : {
@@ -1141,6 +1165,18 @@
       },
       "name" : "hn-basis-serviceRequest-example",
       "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/hn-scheduleandslot-type-vs"
+      },
+      "name" : "hn-scheduleandslot-type-vs",
+      "description" : "Value set for schedule and slot type",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

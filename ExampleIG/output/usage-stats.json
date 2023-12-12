@@ -97,6 +97,12 @@
     }
   ],
   "profiles": {
+    "Schedule": [
+      {
+        "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
+        "title": "hn-basis-schedule"
+      }
+    ],
     "ServiceRequest": [
       {
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest",

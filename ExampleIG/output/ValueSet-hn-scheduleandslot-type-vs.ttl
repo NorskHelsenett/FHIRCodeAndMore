@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hn-scheduleandslot-type-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.7617</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Vaksine</td><td>Vaksine time</td></tr><tr><td>Lab</td><td>Lab time</td></tr><tr><td>Koronatest</td><td>Innført for håndtering av pandemien</td></tr><tr><td>Koronavaksine</td><td>Innført for håndtering av pandemien</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-hn-scheduleAndSlot-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.2.0"] ; # 
+  fhir:name [ fhir:v "HnScheduleAndSlotTypeVS"] ; # 
+  fhir:title [ fhir:v "hn-scheduleandslot-type-vs"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-12-12T23:44:27+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Value set for schedule and slot type"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7617"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Vaksine" ] ;
+         fhir:display [ fhir:v "Vaksine time" ]
+       ] [
+         fhir:code [ fhir:v "Lab" ] ;
+         fhir:display [ fhir:v "Lab time" ]
+       ] [
+         fhir:code [ fhir:v "Koronatest" ] ;
+         fhir:display [ fhir:v "Innført for håndtering av pandemien" ]
+       ] [
+         fhir:code [ fhir:v "Koronavaksine" ] ;
+         fhir:display [ fhir:v "Innført for håndtering av pandemien" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

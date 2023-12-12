@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-11-17T13:16:17+01:00"/>
+  <date value="2023-12-12T23:44:27+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -901,6 +901,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/hn-scheduleAndSlot-type-cs"/>
+      </reference>
+      <name value="Codes that should be used for schedule and SlotType."/>
+      <description value="Codes that should be used for schedule and SlotType."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -934,6 +945,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hn-basis-schedule"/>
+      </reference>
+      <name value="hn-basis-schedule"/>
+      <description value="Profile used for Scheduler in HN. Based on FHIR Schedule (R4)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ServiceRequest"/>
       </extension>
       <reference>
@@ -941,6 +963,17 @@
       </reference>
       <name value="hn-basis-serviceRequest-example"/>
       <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hn-scheduleandslot-type-vs"/>
+      </reference>
+      <name value="hn-scheduleandslot-type-vs"/>
+      <description value="Value set for schedule and slot type"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

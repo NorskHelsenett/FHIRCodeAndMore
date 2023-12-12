@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hn-scheduleAndSlot-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Poliklinisktime<a name="hn-scheduleAndSlot-type-cs-Poliklinisktime"> </a></td><td>Poliklinisk time</td></tr><tr><td style="white-space:nowrap">Innleggelse<a name="hn-scheduleAndSlot-type-cs-Innleggelse"> </a></td><td>Innleggelse</td></tr><tr><td style="white-space:nowrap">Dagbehandling<a name="hn-scheduleAndSlot-type-cs-Dagbehandling"> </a></td><td>Dagbehandling</td></tr><tr><td style="white-space:nowrap">Hjemmebesøk<a name="hn-scheduleAndSlot-type-cs-Hjemmebes.248k"> </a></td><td>Hjemmebesøk</td></tr><tr><td style="white-space:nowrap">Konsultasjon<a name="hn-scheduleAndSlot-type-cs-Konsultasjon"> </a></td><td>Konsultasjon</td></tr><tr><td style="white-space:nowrap">Bildediagnostikk<a name="hn-scheduleAndSlot-type-cs-Bildediagnostikk"> </a></td><td>Bildediagnostikk</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"/>
+  <version value="0.2.0"/>
+  <name value="HnScheduleAndSlotTypeCS"/>
+  <title value="Codes that should be used for schedule and SlotType."/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2023-12-12T23:44:27+01:00"/>
+  <description value="Codes that should be used for schedule and SlotType."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="Poliklinisktime"/>
+    <display value="Poliklinisk time"/>
+  </concept>
+  <concept>
+    <code value="Innleggelse"/>
+    <display value="Innleggelse"/>
+  </concept>
+  <concept>
+    <code value="Dagbehandling"/>
+    <display value="Dagbehandling"/>
+  </concept>
+  <concept>
+    <code value="Hjemmebesøk"/>
+    <display value="Hjemmebesøk"/>
+  </concept>
+  <concept>
+    <code value="Konsultasjon"/>
+    <display value="Konsultasjon"/>
+  </concept>
+  <concept>
+    <code value="Bildediagnostikk"/>
+    <display value="Bildediagnostikk"/>
+  </concept>
+</CodeSystem>

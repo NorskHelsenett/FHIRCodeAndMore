@@ -14,7 +14,7 @@
   <title value="Varsling"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2023-11-17T13:16:17+01:00"/>
+  <date value="2023-12-12T23:44:27+01:00"/>
   <publisher value="Helsenorge"/>
   <description value="Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger."/>
   <jurisdiction>

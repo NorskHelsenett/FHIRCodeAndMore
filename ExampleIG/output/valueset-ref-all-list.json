@@ -13,6 +13,18 @@
       "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
+      "version" : "0.2.0",
+      "status" : "draft",
+      "name" : "HnScheduleAndSlotTypeVS",
+      "title" : "hn-scheduleandslot-type-vs",
+      "description" : "Value set for schedule and slot type",
+      "systems" : [
+        "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+        "urn:oid:2.16.578.1.12.4.1.1.7617"
+      ]
+    },
+    {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
       "version" : "0.2.0",
       "status" : "draft",
@@ -51,6 +63,20 @@
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
+      "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
+      "version" : "4.0.1",
+      "status" : "active",
+      "name" : "PracticeSettingCodeValueSet",
+      "title" : "Practice Setting Code Value Set",
+      "description" : "This is the code representing the clinical specialty of the clinician or provider who interacted with, treated, or provided a service to/for the patient. The value set used for clinical specialty has been limited by HITSP to the value set reproduced from HITSP C80 Table 2-149 Clinical Specialty Value Set Definition.",
+      "systems" : ["http://snomed.info/sct"],
+      "oids" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
+    },
+    {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
       "version" : "4.0.1",
       "status" : "active",
@@ -62,6 +88,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
@@ -77,6 +104,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
@@ -92,6 +120,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
@@ -190,7 +219,36 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-category",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceCategory",
+      "title" : "Service category",
+      "description" : "This value set defines an example set of codes that can be used to classify groupings of service-types/specialties.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-category"],
+      "oids" : ["2.16.840.1.113883.4.642.3.516"],
+      "sources" : ["2.16.840.1.113883.4.642.3.516"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-schedule.html" : "hn-basis-schedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
