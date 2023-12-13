@@ -1,0 +1,66 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/Schedule/Eksempel-schedule-vaksine> a fhir:Schedule ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Eksempel-schedule-vaksine"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+       fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Schedule</b><a name=\"Eksempel-schedule-vaksine\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Schedule &quot;Eksempel-schedule-vaksine&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hn-basis-schedule.html\">HnBasisSchedule</a></p></div><blockquote><p><b>Periode for første og siste ledige slot i timebok</b></p><blockquote><p><b>url</b></p><code>freePlanningHorizon</code></blockquote><p><b>value</b>: 2023-12-18 12:10:00+0000 --&gt; 2023-12-19 14:30:00+0000</p></blockquote><p><b>identifier</b>: id: bf3de63e-0a21-4712-ae2c-0b5d44b4e0af</p><p><b>active</b>: true</p><p><b>serviceCategory</b>: General Practice <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/5.3.0/CodeSystem-service-category.html\">Service category</a>#17)</span></p><p><b>serviceType</b>: Vaksine time <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (unknown#Vaksine)</span></p><p><b>actor</b>: <span>: Sørbygda legevakt</span></p><p><b>planningHorizon</b>: 2023-12-01 09:15:00+0000 --&gt; 2023-12-22 17:00:00+0000</p><p><b>comment</b>: Schedule influense vaksinering i desember 2023</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "freePlanningHorizon"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Period ;
+         fhir:start [ fhir:v "2023-12-18T12:10:00Z"^^xsd:dateTime ] ;
+         fhir:end [ fhir:v "2023-12-19T14:30:00Z"^^xsd:dateTime ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://example.org/schedule-identifiers"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "bf3de63e-0a21-4712-ae2c-0b5d44b4e0af" ]
+  ] ) ; # 
+  fhir:active [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:serviceCategory ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/service-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "17" ] ;
+       fhir:display [ fhir:v "General Practice" ]
+     ] )
+  ] ) ; # 
+  fhir:serviceType ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7617"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Vaksine" ] ;
+       fhir:display [ fhir:v "Vaksine time" ]
+     ] )
+  ] ) ; # 
+  fhir:actor ( [
+     fhir:type [ fhir:v "HealthcareService"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8653"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "Legevakt" ]
+     ] ;
+     fhir:display [ fhir:v "Sørbygda legevakt" ]
+  ] ) ; # 
+  fhir:planningHorizon [
+     fhir:start [ fhir:v "2023-12-01T09:15:00Z"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "2023-12-22T17:00:00Z"^^xsd:dateTime ]
+  ] ; # 
+  fhir:comment [ fhir:v "Schedule influense vaksinering i desember 2023"] . # 
+
+# -------------------------------------------------------------------------------------
+

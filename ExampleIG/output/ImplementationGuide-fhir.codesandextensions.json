@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-12-13T16:14:30+01:00",
+  "date" : "2023-12-13T17:25:33+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1141,6 +1141,18 @@
       },
       "name" : "Eksempel-schedule-poliklinikk",
       "description" : "Schedule for Doctor Feelgood",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Schedule"
+      }],
+      "reference" : {
+        "reference" : "Schedule/Eksempel-schedule-vaksine"
+      },
+      "name" : "Eksempel-schedule-vaksine",
+      "description" : "Schedule for vaksine timer",
       "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
     },
     {

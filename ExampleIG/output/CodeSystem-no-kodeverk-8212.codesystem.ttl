@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8212 Uspesifisert laboratoriekodeverk"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-13T16:14:30+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T17:25:33+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Direktoratet for e-helse"] ; # 
   fhir:description [ fhir:v "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder"] ; # 
   fhir:jurisdiction ( [

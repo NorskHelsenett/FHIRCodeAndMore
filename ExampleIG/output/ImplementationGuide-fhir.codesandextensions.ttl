@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T16:14:30+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T17:25:33+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1056,6 +1056,21 @@
        ] ;
        fhir:name [ fhir:v "Eksempel-schedule-poliklinikk" ] ;
        fhir:description [ fhir:v "Schedule for Doctor Feelgood" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Schedule" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Schedule/Eksempel-schedule-vaksine> ;
+         fhir:reference [ fhir:v "Schedule/Eksempel-schedule-vaksine" ]
+       ] ;
+       fhir:name [ fhir:v "Eksempel-schedule-vaksine" ] ;
+       fhir:description [ fhir:v "Schedule for vaksine timer" ] ;
        fhir:example [
          fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
          fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
