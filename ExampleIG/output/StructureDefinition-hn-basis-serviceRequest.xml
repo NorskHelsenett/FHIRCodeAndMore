@@ -24,7 +24,7 @@
   <version value="0.2.0"/>
   <name value="HnBasisServiceRequest"/>
   <status value="draft"/>
-  <date value="2023-12-13T00:53:03+01:00"/>
+  <date value="2023-12-13T00:58:42+01:00"/>
   <publisher value="Helsenorge"/>
   <description value="ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren."/>
   <jurisdiction>

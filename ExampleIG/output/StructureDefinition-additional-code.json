@@ -10,7 +10,7 @@
   "name" : "AdditionalCode",
   "title" : "Alternative codes på serviceRequest.code",
   "status" : "draft",
-  "date" : "2023-12-13T00:53:03+01:00",
+  "date" : "2023-12-13T00:58:42+01:00",
   "description" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
   "jurisdiction" : [{
     "coding" : [{

@@ -122,7 +122,7 @@ inv-4:If code is used in a codable consept the system must be used {code > '' im
 ","Plain text representation of the concept","A human language representation of the concept as seen/selected/uttered by the user who entered the data and/or which represents the intended meaning of the user.","Very often the text is the same as a displayName of one of the codings.","The codes from the terminologies do not always capture the correct meaning with all the nuances of the human using them, or sometimes there is no appropriate code at all. In these cases, the text is used to capture the full meaning of the source.","","","","","","","",,,,,"",,,,"CodeableConcept.text",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"hn-basis-schedule","Schedule.serviceType","Schedule.serviceType","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
+"hn-basis-schedule","Schedule.serviceType","Schedule.serviceType","","","",1,*,"","","Y","CodeableConcept {[]} {[]}
 ","Specific service","The specific service that is to be performed during this appointment.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"required","","http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs","",,,,"Schedule.serviceType",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
