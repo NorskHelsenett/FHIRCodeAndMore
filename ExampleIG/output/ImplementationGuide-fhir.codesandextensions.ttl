@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T00:58:42+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T10:40:21+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1063,11 +1063,11 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot> ;
-         fhir:reference [ fhir:v "StructureDefinition/hn-extension-first-available-free-slot" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-extension-first-and-last-available-free-slot" ]
        ] ;
-       fhir:name [ fhir:v "Første ledige slot i timebok" ] ;
-       fhir:description [ fhir:v "Første ledige slot i timebok. Tid og referanse" ] ;
+       fhir:name [ fhir:v "Første og siste ledige slot i timebok" ] ;
+       fhir:description [ fhir:v "Første og siste ledige slot i timebok. Tid og referanse" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

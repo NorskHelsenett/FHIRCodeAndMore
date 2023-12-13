@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-12-13T00:58:42+01:00",
+  "date" : "2023-12-13T10:40:21+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1149,10 +1149,10 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/hn-extension-first-available-free-slot"
+        "reference" : "StructureDefinition/hn-extension-first-and-last-available-free-slot"
       },
-      "name" : "Første ledige slot i timebok",
-      "description" : "Første ledige slot i timebok. Tid og referanse",
+      "name" : "Første og siste ledige slot i timebok",
+      "description" : "Første og siste ledige slot i timebok. Tid og referanse",
       "exampleBoolean" : false
     },
     {

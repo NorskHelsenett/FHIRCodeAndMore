@@ -12,9 +12,11 @@
       ]
     },
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot",
-      "title": "Første ledige slot i timebok",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot",
+      "title": "Første og siste ledige slot i timebok",
       "types": [
+        "dateTime",
+        "Reference",
         "dateTime",
         "Reference",
         "base64Binary",
@@ -169,7 +171,7 @@
     ]
   },
   "usage": {
-    "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot": [
+    "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot": [
       "Schedule"
     ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant": [

@@ -31,8 +31,8 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a","N/A"
-"Schedule.extension:firstFreeSlot","Schedule.extension","firstFreeSlot","","",0,1,"Y","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-available-free-slot]]} {[]}
-","Første ledige slot i timebok","Første ledige slot i timebok. Tid og referanse","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Schedule.extension:firstAndLastFreeSlots","Schedule.extension","firstAndLastFreeSlots","","",0,1,"Y","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot]]} {[]}
+","Første og siste ledige slot i timebok","Første og siste ledige slot i timebok. Tid og referanse","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Schedule.modifierExtension","Schedule.modifierExtension","","extensions

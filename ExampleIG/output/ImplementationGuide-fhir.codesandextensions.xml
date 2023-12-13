@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-12-13T00:58:42+01:00"/>
+  <date value="2023-12-13T10:40:21+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -948,10 +948,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/hn-extension-first-available-free-slot"/>
+        <reference value="StructureDefinition/hn-extension-first-and-last-available-free-slot"/>
       </reference>
-      <name value="Første ledige slot i timebok"/>
-      <description value="Første ledige slot i timebok. Tid og referanse"/>
+      <name value="Første og siste ledige slot i timebok"/>
+      <description value="Første og siste ledige slot i timebok. Tid og referanse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
