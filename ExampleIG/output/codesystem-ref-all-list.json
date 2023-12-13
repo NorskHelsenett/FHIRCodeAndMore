@@ -115,18 +115,6 @@
       "http://hl7.org/fhir/R4/valueset-service-category.html" : "Service category"
     },
     {
-      "url" : "http://terminology.hl7.org/CodeSystem/service-type",
-      "version" : "0.1.0",
-      "status" : "draft",
-      "name" : "ServiceType",
-      "title" : "Service type",
-      "description" : "This value set defines an example set of codes of service-types.",
-      "oids" : ["2.16.840.1.113883.4.642.1.1145"],
-      "uses" : {
-      },
-      "http://hl7.org/fhir/R4/valueset-service-type.html" : "Service type"
-    },
-    {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
       "version" : "3.0.0",
       "status" : "active",

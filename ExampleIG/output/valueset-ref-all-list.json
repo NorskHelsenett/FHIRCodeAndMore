@@ -245,20 +245,6 @@
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/service-type",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "ServiceType",
-      "title" : "Service type",
-      "description" : "This value set defines an example set of codes of service-types.",
-      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
-      "oids" : ["2.16.840.1.113883.4.642.3.518"],
-      "sources" : ["2.16.840.1.113883.4.642.3.518"],
-      "uses" : {
-      },
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
       "version" : "4.0.1",
       "status" : "draft",
