@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "hn-scheduleandslot-type-vs"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2023-12-13T11:11:11+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T11:17:26+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Value set for schedule and slot type"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

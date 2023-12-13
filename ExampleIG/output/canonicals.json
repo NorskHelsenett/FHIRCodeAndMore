@@ -436,13 +436,6 @@
     "name" : "HnBasisServiceRequest"
   },
   {
-    "id" : "hn-extension-first-and-last-available-free-slot",
-    "type" : "StructureDefinition",
-    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot",
-    "version" : "0.2.0",
-    "name" : "HnExtensionFirstLastAvailableFreeSlot"
-  },
-  {
     "id" : "hn-extension-free-slot-planningHorizon",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon",

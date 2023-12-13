@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-12-13T11:11:11+01:00"/>
+  <date value="2023-12-13T11:17:26+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -942,17 +942,6 @@
       <name value="example-girl"/>
       <description value="Eksampel pasient"/>
       <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/hn-extension-first-and-last-available-free-slot"/>
-      </reference>
-      <name value="Første og siste ledige slot i timebok"/>
-      <description value="Første og siste ledige slot i timebok. Tid og referanse"/>
-      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

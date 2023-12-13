@@ -13,7 +13,6 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-s
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 63364, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json: line 1, col 112624, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-first-and-last-available-free-slot.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant.json: line 1, col 73178, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json: line 0, col 0, Warning - Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown (from Tx-Server)) (BUSINESSRULE)
@@ -23,6 +22,6 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-perfor
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 11, info = 11
+err = 0, warn = 10, info = 11
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.5
-Generated Wed Dec 13 11:12:31 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Wed Dec 13 11:18:41 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
