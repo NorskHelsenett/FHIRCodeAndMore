@@ -11,7 +11,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -24,11 +24,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:37 GMT
-last-modified:Wed, 13 Dec 2023 16:25:37 GMT
+date:Wed, 13 Dec 2023 16:36:04 GMT
+last-modified:Wed, 13 Dec 2023 16:36:04 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979123
+x-request-id:53-982618
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
 
@@ -43,7 +43,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Vaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Vaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -56,48 +56,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:37 GMT
-last-modified:Wed, 13 Dec 2023 16:25:37 GMT
+date:Wed, 13 Dec 2023 16:36:05 GMT
+last-modified:Wed, 13 Dec 2023 16:36:05 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979124
+x-request-id:53-982620
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown"},"location" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
 <a name="l3"> </a><h3>3</h3>
-<pre>
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://terminology.hl7.org/CodeSystem/service-category","code":"17"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:999
-content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:41 GMT
-last-modified:Wed, 13 Dec 2023 16:25:41 GMT
-pragma:no-cache
-server:nginx
-x-request-id:53-979137
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://terminology.hl7.org/CodeSystem/service-category"},{"name" : "code","valueCode" : "17"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "General Practice"},{"name" : "message","valueString" : "The system http://terminology.hl7.org/CodeSystem/service-category was found but did not contain enough information to properly validate the code \"17\" (\"\") (mode = example)"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"text" : "MSG_DRAFT"},"location" : ["Coding"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "The system http://terminology.hl7.org/CodeSystem/service-category was found but did not contain enough information to properly validate the code \"17\" (\"\") (mode = example)"},"location" : ["Coding"]}]}}]}
-
-</pre><hr/>
-<a name="l4"> </a><h3>4</h3>
 <pre>
 Request: 
 
@@ -107,7 +75,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -120,11 +88,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:878
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:41 GMT
-last-modified:Wed, 13 Dec 2023 16:25:41 GMT
+date:Wed, 13 Dec 2023 16:36:09 GMT
+last-modified:Wed, 13 Dec 2023 16:36:09 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979138
+x-request-id:53-982637
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown"},"location" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},"location" : ["Coding"]}]}}]}
 
@@ -137,7 +105,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -150,11 +118,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:37 GMT
-last-modified:Wed, 13 Dec 2023 16:25:37 GMT
+date:Wed, 13 Dec 2023 16:36:04 GMT
+last-modified:Wed, 13 Dec 2023 16:36:04 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979123
+x-request-id:53-982618
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.8116 is unknown"},"location" : ["Coding.system"]}]}}]}
 
@@ -167,7 +135,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Vaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Vaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -180,45 +148,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:524
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:37 GMT
-last-modified:Wed, 13 Dec 2023 16:25:37 GMT
+date:Wed, 13 Dec 2023 16:36:05 GMT
+last-modified:Wed, 13 Dec 2023 16:36:05 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979124
+x-request-id:53-982620
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown"},"location" : ["Coding.system"]}]}}]}
 
 --- 3 -----------------
-Request: 
-
-POST http://tx.fhir.org/r4/CodeSystem/$validate-code? HTTP/1.0
-User-Agent: hapi-fhir-tooling-client
-Accept-Charset: UTF-8
-Accept: application/fhir+json
-Content-Type: application/fhir+json;charset=UTF-8
-
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://terminology.hl7.org/CodeSystem/service-category","code":"17"}},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
-
-
-Response: 
-
-200
-access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
-access-control-allow-origin:*
-access-control-expose-headers:Content-Location, Location
-cache-control:public, max-age=600
-connection:keep-alive
-content-length:999
-content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:41 GMT
-last-modified:Wed, 13 Dec 2023 16:25:41 GMT
-pragma:no-cache
-server:nginx
-x-request-id:53-979137
-
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://terminology.hl7.org/CodeSystem/service-category"},{"name" : "code","valueCode" : "17"},{"name" : "version","valueString" : "4.0.1"},{"name" : "display","valueString" : "General Practice"},{"name" : "message","valueString" : "The system http://terminology.hl7.org/CodeSystem/service-category was found but did not contain enough information to properly validate the code \"17\" (\"\") (mode = example)"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "information","code" : "business-rule","details" : {"text" : "MSG_DRAFT"},"location" : ["Coding"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "The system http://terminology.hl7.org/CodeSystem/service-category was found but did not contain enough information to properly validate the code \"17\" (\"\") (mode = example)"},"location" : ["Coding"]}]}}]}
-
---- 4 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -227,7 +165,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"ffdc488b-6283-4b91-bccb-918c98d618d5"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"094efddd-b3aa-413f-8bc8-9d090e2a5921"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -240,11 +178,11 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:878
 content-type:application/fhir+json
-date:Wed, 13 Dec 2023 16:25:41 GMT
-last-modified:Wed, 13 Dec 2023 16:25:41 GMT
+date:Wed, 13 Dec 2023 16:36:09 GMT
+last-modified:Wed, 13 Dec 2023 16:36:09 GMT
 pragma:no-cache
 server:nginx
-x-request-id:53-979138
+x-request-id:53-982637
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "message","valueString" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"text" : "The CodeSystem urn:oid:2.16.578.1.12.4.1.1.9060 is unknown"},"location" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"text" : "Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0"},"location" : ["Coding"]}]}}]}
 </pre></head></html>

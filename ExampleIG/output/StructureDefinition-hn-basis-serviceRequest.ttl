@@ -16,7 +16,7 @@
   fhir:version [ fhir:v "0.2.0"] ; # 
   fhir:name [ fhir:v "HnBasisServiceRequest"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T17:25:33+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-13T17:36:01+01:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Helsenorge"] ; # 
   fhir:description [ fhir:v "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren."] ; # 
   fhir:jurisdiction ( [

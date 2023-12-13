@@ -11,7 +11,7 @@
   "title" : "hn-scheduleandslot-type-vs",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2023-12-13T17:25:33+01:00",
+  "date" : "2023-12-13T17:36:01+01:00",
   "description" : "Value set for schedule and slot type",
   "jurisdiction" : [{
     "coding" : [{

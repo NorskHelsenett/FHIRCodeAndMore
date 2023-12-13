@@ -41,8 +41,8 @@ Usage: #example
 * serviceType[=].coding[=].code = #Vaksine
 * serviceType[=].coding[=].display = "Vaksine time"
 * actor[0].type = "HealthcareService"
-* actor[=].identifier.system = "urn:oid:2.16.578.1.12.4.1.1.8653"
-* actor[=].identifier.value = "Legevakt"
+* actor[=].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.101"
+* actor[=].identifier.value = "orgnr11112233344"
 * actor[=].display = "Sørbygda legevakt"
 * comment = "Schedule influense vaksinering i desember 2023"
 * planningHorizon.start = "2023-12-01T09:15:00Z"

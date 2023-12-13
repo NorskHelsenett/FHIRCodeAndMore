@@ -40,8 +40,8 @@
   "actor" : [{
     "type" : "HealthcareService",
     "identifier" : {
-      "system" : "urn:oid:2.16.578.1.12.4.1.1.8653",
-      "value" : "Legevakt"
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.101",
+      "value" : "orgnr11112233344"
     },
     "display" : "Sørbygda legevakt"
   }],

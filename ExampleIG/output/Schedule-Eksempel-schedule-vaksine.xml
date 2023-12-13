@@ -38,8 +38,8 @@
   <actor>
     <type value="HealthcareService"/>
     <identifier>
-      <system value="urn:oid:2.16.578.1.12.4.1.1.8653"/>
-      <value value="Legevakt"/>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.101"/>
+      <value value="orgnr11112233344"/>
     </identifier>
     <display value="Sørbygda legevakt"/>
   </actor>

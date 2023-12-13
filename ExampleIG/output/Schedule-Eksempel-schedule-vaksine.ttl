@@ -51,8 +51,8 @@
   fhir:actor ( [
      fhir:type [ fhir:v "HealthcareService"^^xsd:anyURI ] ;
      fhir:identifier [
-       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8653"^^xsd:anyURI ] ;
-       fhir:value [ fhir:v "Legevakt" ]
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.101"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "orgnr11112233344" ]
      ] ;
      fhir:display [ fhir:v "Sørbygda legevakt" ]
   ] ) ; # 
