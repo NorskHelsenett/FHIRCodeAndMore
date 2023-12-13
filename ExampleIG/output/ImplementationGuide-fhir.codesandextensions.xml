@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-12-13T10:40:21+01:00"/>
+  <date value="2023-12-13T11:06:00+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1116,6 +1116,17 @@
       </reference>
       <name value="Norsk patologikodeverk (NORPAT)"/>
       <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hn-extension-free-slot-planningHorizon"/>
+      </reference>
+      <name value="Periode for første og siste ledige slot i timebok"/>
+      <description value="Periode for første og siste ledige slot i timebok. Tid og referanse"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
