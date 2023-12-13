@@ -9,7 +9,7 @@
   "version" : "0.2.0",
   "name" : "HnBasisServiceRequest",
   "status" : "draft",
-  "date" : "2023-12-13T16:08:28+01:00",
+  "date" : "2023-12-13T16:14:30+01:00",
   "publisher" : "Helsenorge",
   "description" : "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren.",
   "jurisdiction" : [{

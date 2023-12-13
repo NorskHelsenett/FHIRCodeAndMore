@@ -1,13 +1,9 @@
-<!-- layouts\layout-changehistory.html -->
-<!-- get modelType -->
-
-
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE HTML>
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title> - Codes, extension, profiles and more v0.2.0</title>
+    <title>Eksempel-schedule-poliklinikk - Codes, extension, profiles and more v0.2.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:""}
-    h3,h4,h5,h6{--heading-prefix:""}</style>
+    <style type="text/css">h2{--heading-prefix:"3.64"}
+    h3,h4,h5,h6{--heading-prefix:"3.64"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -105,7 +101,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Eksempel-schedule-poliklinikk</b></li>
 
         </ul>
       </div>  <!-- /container -->
@@ -117,9 +113,9 @@
         <div class="row">
           <div class="inner-wrapper">
 
-
-<div style="counter-reset: section 10" class="col-12">
+<div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Codes, extension, profiles and more - Local Development build (v0.2.0). See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+
   
 
 
@@ -131,29 +127,29 @@
 
 <ul class="nav nav-tabs">
 
-  <li>
-    <a href="Schedule-Eksempel-scedule-poliklinikk.html">Narrative Content</a>
+  <li class="active">
+    <a href="#">Narrative Content</a>
   </li>
 
 
 
   
     <li>
-      <a href="Schedule-Eksempel-scedule-poliklinikk.xml.html">XML</a>
+      <a href="Schedule-Eksempel-schedule-poliklinikk.xml.html">XML</a>
     </li>
   
 
 
   
     <li>
-      <a href="Schedule-Eksempel-scedule-poliklinikk.json.html">JSON</a>
+      <a href="Schedule-Eksempel-schedule-poliklinikk.json.html">JSON</a>
     </li>
   
 
 
   
     <li>
-      <a href="Schedule-Eksempel-scedule-poliklinikk.ttl.html">TTL</a>
+      <a href="Schedule-Eksempel-schedule-poliklinikk.ttl.html">TTL</a>
     </li>
   
 
@@ -163,13 +159,28 @@
 
 
   <a name="root"> </a>
-  <h2 id="root">: Schedule/Eksempel-scedule-poliklinikk - Change History</h2>
-  <p>History of changes for Eksempel-scedule-poliklinikk .</p>
+
+
+  <h2 id="root">Example Schedule: Eksempel-schedule-poliklinikk</h2>
+
+
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Schedule</b><a name="Eksempel-schedule-poliklinikk"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Schedule &quot;Eksempel-schedule-poliklinikk&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></p></div><blockquote><p><b>Periode for første og siste ledige slot i timebok</b></p><blockquote><p><b>url</b></p><code>freePlanningHorizon</code></blockquote><p><b>value</b>: 2023-12-18 12:15:00+0000 --&gt; 2023-12-22 15:15:00+0000</p></blockquote><p><b>identifier</b>: id: 925ad87b-31e6-4312-8a55-9d0fce62dac4</p><p><b>active</b>: true</p><p><b>serviceCategory</b>: Specialist Medical <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-service-category.html">Service category</a>#27)</span></p><p><b>serviceType</b>: Poliklinisk time <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-hn-scheduleAndSlot-type-cs.html">Codes that should be used for schedule and SlotType.</a>#Poliklinisktime)</span></p><p><b>actor</b>: <span>: Doctor Feelgood</span></p><p><b>planningHorizon</b>: 2023-09-01 09:15:00+0000 --&gt; 2023-12-31 17:00:00+0000</p><p><b>comment</b>: Schedule for Doctor Feelgood</p></div>
 
   
 
-</div>
+  <!-- insert notes if present -->
+  
 
+
+
+</div>
         </div>  <!-- /inner-wrapper -->
       </div>  <!-- /row -->
     </div>  <!-- /container -->
@@ -177,29 +188,6 @@
 
   <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
   <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
-
-  <script type="text/javascript">
-    try {
-      var currentTabIndex = sessionStorage.getItem('fhir-resource-tab-index');
-    } catch(exception) {
-    }
-
-    if (!currentTabIndex)
-      currentTabIndex = '0';
-
-    $( '#tabs' ).tabs({
-      active: currentTabIndex,
-      activate: function( event, ui ) {
-        var active = $('.selector').tabs('option', 'active');
-        currentTabIndex = ui.newTab.index();
-        document.activeElement.blur();
-        try {
-          sessionStorage.setItem('fhir-resource-tab-index', currentTabIndex);
-        } catch(exception) {
-        }
-      }
-    });
-  </script>
 
   <script type="text/javascript">
     $(document).ready(function(){
@@ -214,7 +202,7 @@
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 13, 2023 16:08+0100">2023-12-13</span>
+          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#0.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Dec 13, 2023 16:14+0100">2023-12-13</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

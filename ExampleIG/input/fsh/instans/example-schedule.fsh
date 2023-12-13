@@ -1,4 +1,4 @@
-Instance: Eksempel-scedule-poliklinikk
+Instance: Eksempel-schedule-poliklinikk
 InstanceOf: HnBasisSchedule
 Description: "Schedule for Doctor Feelgood"
 Usage: #example

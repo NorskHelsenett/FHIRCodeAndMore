@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-12-13T16:08:28+01:00",
+  "date" : "2023-12-13T16:14:30+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1137,9 +1137,9 @@
         "valueString" : "Schedule"
       }],
       "reference" : {
-        "reference" : "Schedule/Eksempel-scedule-poliklinikk"
+        "reference" : "Schedule/Eksempel-schedule-poliklinikk"
       },
-      "name" : "Eksempel-scedule-poliklinikk",
+      "name" : "Eksempel-schedule-poliklinikk",
       "description" : "Schedule for Doctor Feelgood",
       "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
     },

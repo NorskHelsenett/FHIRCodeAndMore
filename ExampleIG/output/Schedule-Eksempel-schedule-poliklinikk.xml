@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Schedule xmlns="http://hl7.org/fhir">
+  <id value="Eksempel-schedule-poliklinikk"/>
+  <meta>
+    <profile value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative: Schedule</b><a name="Eksempel-schedule-poliklinikk"> </a></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource Schedule &quot;Eksempel-schedule-poliklinikk&quot; </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></p></div><blockquote><p><b>Periode for første og siste ledige slot i timebok</b></p><blockquote><p><b>url</b></p><code>freePlanningHorizon</code></blockquote><p><b>value</b>: 2023-12-18 12:15:00+0000 --&gt; 2023-12-22 15:15:00+0000</p></blockquote><p><b>identifier</b>: id: 925ad87b-31e6-4312-8a55-9d0fce62dac4</p><p><b>active</b>: true</p><p><b>serviceCategory</b>: Specialist Medical <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="http://terminology.hl7.org/5.3.0/CodeSystem-service-category.html">Service category</a>#27)</span></p><p><b>serviceType</b>: Poliklinisk time <span style="background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki"> (<a href="CodeSystem-hn-scheduleAndSlot-type-cs.html">Codes that should be used for schedule and SlotType.</a>#Poliklinisktime)</span></p><p><b>actor</b>: <span>: Doctor Feelgood</span></p><p><b>planningHorizon</b>: 2023-09-01 09:15:00+0000 --&gt; 2023-12-31 17:00:00+0000</p><p><b>comment</b>: Schedule for Doctor Feelgood</p></div>
+  </text>
+  <extension url="http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon">
+    <extension url="freePlanningHorizon">
+      <valuePeriod>
+        <start value="2023-12-18T12:15:00Z"/>
+        <end value="2023-12-22T15:15:00Z"/>
+      </valuePeriod>
+    </extension>
+  </extension>
+  <identifier>
+    <system value="http://example.org/schedule-identifiers"/>
+    <value value="925ad87b-31e6-4312-8a55-9d0fce62dac4"/>
+  </identifier>
+  <active value="true"/>
+  <serviceCategory>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/service-category"/>
+      <code value="27"/>
+      <display value="Specialist Medical"/>
+    </coding>
+  </serviceCategory>
+  <serviceType>
+    <coding>
+      <system value="http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"/>
+      <code value="Poliklinisktime"/>
+      <display value="Poliklinisk time"/>
+    </coding>
+  </serviceType>
+  <actor>
+    <type value="Practitioner"/>
+    <identifier>
+      <system value="urn:oid:2.16.578.1.12.4.1.4.4"/>
+      <value value="1010101010"/>
+    </identifier>
+    <display value="Doctor Feelgood"/>
+  </actor>
+  <planningHorizon>
+    <start value="2023-09-01T09:15:00Z"/>
+    <end value="2023-12-31T17:00:00Z"/>
+  </planningHorizon>
+  <comment value="Schedule for Doctor Feelgood"/>
+</Schedule>
