@@ -167,6 +167,12 @@
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest",
         "title": "HnBasisServiceRequest"
       }
+    ],
+    "Slot": [
+      {
+        "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
+        "title": "HnBasisSlot"
+      }
     ]
   },
   "usage": {

@@ -21,8 +21,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
-      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set"
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
+      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",

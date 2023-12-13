@@ -25,6 +25,7 @@
       ],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
@@ -77,6 +78,7 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
@@ -91,6 +93,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-extension-representant.html" : "Representant"
@@ -107,6 +110,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-extension-representant.html" : "Representant"
@@ -123,6 +127,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
@@ -236,7 +241,22 @@
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/service-type",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "ServiceType",
+      "title" : "Service type",
+      "description" : "This value set defines an example set of codes of service-types.",
+      "systems" : ["http://terminology.hl7.org/CodeSystem/service-type"],
+      "oids" : ["2.16.840.1.113883.4.642.3.518"],
+      "sources" : ["2.16.840.1.113883.4.642.3.518"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",
@@ -251,6 +271,20 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
+      "url" : "http://hl7.org/fhir/ValueSet/slotstatus",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "SlotStatus",
+      "title" : "SlotStatus",
+      "description" : "The free/busy status of the slot.",
+      "systems" : ["http://hl7.org/fhir/slotstatus"],
+      "oids" : ["2.16.840.1.113883.4.642.3.482"],
+      "sources" : ["2.16.840.1.113883.4.642.3.482"],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",

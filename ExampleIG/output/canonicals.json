@@ -436,6 +436,13 @@
     "name" : "HnBasisServiceRequest"
   },
   {
+    "id" : "hn-basis-slot",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
+    "version" : "0.2.0",
+    "name" : "HnBasisSlot"
+  },
+  {
     "id" : "hn-extension-free-slot-planningHorizon",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon",

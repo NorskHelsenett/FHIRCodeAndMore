@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-13T17:36:01+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2023-12-14T00:07:25+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1136,6 +1136,18 @@
        ] ;
        fhir:name [ fhir:v "HnBasisServiceRequest" ] ;
        fhir:description [ fhir:v "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot> ;
+         fhir:reference [ fhir:v "StructureDefinition/hn-basis-slot" ]
+       ] ;
+       fhir:name [ fhir:v "HnBasisSlot" ] ;
+       fhir:description [ fhir:v "Profil for slot i Helsenorge. Basert på FHIR Slot (R4)" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-12-13T17:36:01+01:00",
+  "date" : "2023-12-14T00:07:25+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1212,6 +1212,18 @@
       },
       "name" : "HnBasisServiceRequest",
       "description" : "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/hn-basis-slot"
+      },
+      "name" : "HnBasisSlot",
+      "description" : "Profil for slot i Helsenorge. Basert på FHIR Slot (R4)",
       "exampleBoolean" : false
     },
     {

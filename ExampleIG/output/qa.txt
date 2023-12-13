@@ -1,9 +1,9 @@
 ﻿CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 11, info = 12
-IG Publisher Version: 1.5.1 Out of date - current version is 1.5.5
-Generated Wed Dec 13 17:37:19 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+err = 0, warn = 12, info = 13
+IG Publisher Version: 1.5.1 Out of date - current version is 1.5.6
+Generated Thu Dec 14 00:08:45 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -67,6 +67,7 @@ Generated Wed Dec 13 17:37:19 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 0 / 3
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
@@ -160,6 +161,9 @@ INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot
 == fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json ==
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[16].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[43].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated\resources\StructureDefinition-hn-basis-slot.json ==
+INFORMATION: StructureDefinition/hn-basis-slot: StructureDefinition.snapshot.element[16].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon.json ==
 == fsh-generated\resources\StructureDefinition-hn-extension-representant.json ==
 INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

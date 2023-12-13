@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-12-13T17:36:01+01:00"/>
+  <date value="2023-12-14T00:07:25+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1006,6 +1006,17 @@
       </reference>
       <name value="HnBasisServiceRequest"/>
       <description value="ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/hn-basis-slot"/>
+      </reference>
+      <name value="HnBasisSlot"/>
+      <description value="Profil for slot i Helsenorge. Basert på FHIR Slot (R4)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
