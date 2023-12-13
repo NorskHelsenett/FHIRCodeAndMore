@@ -18,3 +18,5 @@ Description: "Profil for slot i Helsenorge. Basert på FHIR Slot (R4)"
 * serviceCategory.coding obeys inv-4 
 * serviceCategory from http://hl7.org/fhir/ValueSet/service-category
 * appointmentType from hn-scheduleandslot-type-vs
+* appointmentType.coding obeys inv-4
+* schedule only Reference(Schedule or hn-basis-schedule )
