@@ -6,7 +6,7 @@ Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for tim
 * ^version = "0.1.0"
 * ^status = #draft
 * extension contains 
-    hn-extension-first-and-last-available-free-slot named firstAndLastFreeSlots 0..1 MS
+    hn-extension-free-slot-planningHorizon named freeSlotPlanningHorizon 0..1 MS
 * identifier.value 1..
 * identifier 1..1
 * identifier ^short = "Identifer must be UUID/GUID"

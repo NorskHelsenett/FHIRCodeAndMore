@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Schedule</sch:title>
     <sch:rule context="f:Schedule">
-      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/hn-extension-first-and-last-available-free-slot': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:serviceType) &gt;= 1">serviceType: minimum cardinality of 'serviceType' is 1</sch:assert>
