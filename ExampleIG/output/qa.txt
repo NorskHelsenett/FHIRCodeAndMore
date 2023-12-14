@@ -1,9 +1,9 @@
 ﻿CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 12, info = 13
+err = 0, warn = 14, info = 14
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.6
-Generated Thu Dec 14 00:33:07 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Dec 14 15:11:43 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -71,7 +71,7 @@ Generated Thu Dec 14 00:33:07 CET 2023. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 3 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-category-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs : 0 / 1 / 1
@@ -169,6 +169,9 @@ WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDef
 INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
+WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0].concept[0]: The code 'FNR' is not valid in the system urn:oid:2.16.578.1.12.4.1.1.8116
+INFORMATION: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0].concept[0]: java.net.ConnectException: Failed to connect to tx.fhir.org/104.196.166.17:80
+WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0].concept[1]: The code 'DNR' is not valid in the system urn:oid:2.16.578.1.12.4.1.1.8116
 == fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json ==
 WARNING: ValueSet/hn-scheduleandslot-type-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown (from Tx-Server))
 WARNING: ValueSet.where(id = 'hn-scheduleandslot-type-vs'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617

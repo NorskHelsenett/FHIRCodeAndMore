@@ -10,7 +10,7 @@
   "name" : "HnBasisSchedule",
   "title" : "HnBasisSchedule",
   "status" : "draft",
-  "date" : "2023-12-14T00:31:44+01:00",
+  "date" : "2023-12-14T15:10:19+01:00",
   "description" : "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4.",
   "jurisdiction" : [{
     "coding" : [{

@@ -2,8 +2,8 @@ Instance: Eksempel-schedule-poliklinikk
 InstanceOf: HnBasisSchedule
 Description: "Schedule for Doctor Feelgood"
 Usage: #example
-* identifier.system = "http://example.org/schedule-identifiers"
-* identifier.value = "925ad87b-31e6-4312-8a55-9d0fce62dac4"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:925ad87b-31e6-4312-8a55-9d0fce62dac4"
 * active = true
 * serviceCategory[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/service-category"
 * serviceCategory[=].coding[=].code = #27
@@ -31,8 +31,8 @@ Instance: Eksempel-schedule-vaksine
 InstanceOf: HnBasisSchedule
 Description: "Schedule for vaksine timer"
 Usage: #example
-* identifier.system = "http://example.org/schedule-identifiers"
-* identifier.value = "bf3de63e-0a21-4712-ae2c-0b5d44b4e0af"
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:bf3de63e-0a21-4712-ae2c-0b5d44b4e0af"
 * active = true
 * serviceCategory[0].coding[0].system = "http://terminology.hl7.org/CodeSystem/service-category"
 * serviceCategory[=].coding[=].code = #17

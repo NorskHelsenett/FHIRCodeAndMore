@@ -19,6 +19,9 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-s
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot.json: line 1, col 59872, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant.json: line 1, col 73178, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json: line 0, col 0, Warning - The code 'FNR' is not valid in the system urn:oid:2.16.578.1.12.4.1.1.8116 (BUSINESSRULE)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json: line 0, col 0, Info - java.net.ConnectException: Failed to connect to tx.fhir.org/104.196.166.17:80 (BUSINESSRULE)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json: line 0, col 0, Warning - The code 'DNR' is not valid in the system urn:oid:2.16.578.1.12.4.1.1.8116 (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json: line 0, col 0, Warning - Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: The CodeSystem urn:oid:2.16.578.1.12.4.1.1.7617 is unknown (from Tx-Server)) (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617 (EXCEPTION)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060 (EXCEPTION)
@@ -26,6 +29,6 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-perfor
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 0, warn = 12, info = 13
+err = 0, warn = 14, info = 14
 IG Publisher Version: 1.5.1 Out of date - current version is 1.5.6
-Generated Thu Dec 14 00:33:07 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Dec 14 15:11:43 CET 2023. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
