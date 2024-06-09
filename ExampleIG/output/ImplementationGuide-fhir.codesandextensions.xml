@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="draft"/>
-  <date value="2023-12-14T15:10:19+01:00"/>
+  <date value="2024-06-09T15:34:44+02:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -29,7 +29,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="5.3.0"/>
+    <version value="5.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -37,7 +37,7 @@
     </extension>
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
-    <version value="1.0.0"/>
+    <version value="5.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
@@ -1043,6 +1043,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/MyPatient"/>
+      </reference>
+      <name value="MyPatient"/>
+      <description value="An example profile of the Patient resource."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -1142,6 +1153,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Patient"/>
+      </extension>
+      <reference>
+        <reference value="Patient/PatientExample"/>
+      </reference>
+      <name value="PatientExample"/>
+      <description value="An example of a patient with a license to krill."/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/MyPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
@@ -1161,6 +1183,50 @@
       <name value="Representant"/>
       <description value="Person som representerer en annen etter avtale, vedtakk mm."/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Schedule"/>
+      </extension>
+      <reference>
+        <reference value="Schedule/Schedule-Fastlege-Hans-Hansen"/>
+      </reference>
+      <name value="Schedule-Fastlege-Hans-Hansen"/>
+      <description value="Schedule for Fastlege Hans Hansen"/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Schedule"/>
+      </extension>
+      <reference>
+        <reference value="Schedule/Schedule-Koronavaksine"/>
+      </reference>
+      <name value="Schedule-Koronavaksine"/>
+      <description value="Schedule for Koronavaksine"/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Schedule"/>
+      </extension>
+      <reference>
+        <reference value="Schedule/Schedule-Lab"/>
+      </reference>
+      <name value="Schedule-Lab"/>
+      <description value="Schedule for Lab på legekontoret"/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Schedule"/>
+      </extension>
+      <reference>
+        <reference value="Schedule/Schedule-Vikar-September-August"/>
+      </reference>
+      <name value="Schedule-Vikar-September-August"/>
+      <description value="Schedule for Vikar September August"/>
+      <exampleCanonical value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

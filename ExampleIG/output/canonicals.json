@@ -415,6 +415,13 @@
     "name" : "RESHid"
   },
   {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/MyPatient",
+    "version" : "0.2.0",
+    "name" : "MyPatient"
+  },
+  {
     "id" : "additional-code",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/additional-code",

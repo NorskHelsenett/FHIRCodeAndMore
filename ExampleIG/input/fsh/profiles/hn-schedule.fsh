@@ -3,7 +3,7 @@ Parent: Schedule
 Id: hn-basis-schedule
 Title: "HnBasisSchedule"
 Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."
-* ^version = "0.1.0"
+* ^version = "0.2.0"
 * ^status = #draft
 * extension contains 
     hn-extension-free-slot-planningHorizon named freeSlotPlanningHorizon 0..1 MS
@@ -15,13 +15,13 @@ Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for tim
 * active = true
 * identifier.system 1..1
 * serviceCategory from http://hl7.org/fhir/ValueSet/service-category
-* serviceCategory.coding obeys inv-4
+//* serviceCategory.coding obeys inv-4
 * serviceType 1..*
-* serviceType.coding obeys inv-4
+//* serviceType.coding obeys inv-4
 * serviceType from hn-scheduleandslot-type-vs
-* specialty.coding obeys inv-4 
-//* actor.type 1..
-* actor only Reference(HealthcareService or Practitioner)
-* actor ^short = "Currently only HealthcareService or Practitioner are referenced as valid actors."
+//* specialty.coding obeys inv-4 
+* actor.type 1..
+* actor only Reference(HealthcareService or Practitioner or no-basis-HealthcareService or no-basis-Practitioner)
+* actor ^short = "Currently only HealthcareService or Practitioner (basic and no-basic profiles) are referenced as valid actors."
 * comment ^short = "Comments regarding the scheduler."
 * comment ^definition = "Comments regarding the scheduler including short information about the timebook."

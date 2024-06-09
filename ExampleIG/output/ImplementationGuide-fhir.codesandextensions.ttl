@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2023-12-14T15:10:19+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-06-09T15:34:44+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -40,7 +40,7 @@
        fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "5.3.0" ]
+     fhir:version [ fhir:v "5.5.0" ]
   ] [
      fhir:id [ fhir:v "hl7ext" ] ;
      fhir:extension ( [
@@ -52,7 +52,7 @@
        fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
-     fhir:version [ fhir:v "1.0.0" ]
+     fhir:version [ fhir:v "5.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_no_basis" ] ;
      fhir:uri [
@@ -1176,6 +1176,18 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/MyPatient> ;
+         fhir:reference [ fhir:v "StructureDefinition/MyPatient" ]
+       ] ;
+       fhir:name [ fhir:v "MyPatient" ] ;
+       fhir:description [ fhir:v "An example profile of the Patient resource." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -1284,6 +1296,21 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Patient" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Patient/PatientExample> ;
+         fhir:reference [ fhir:v "Patient/PatientExample" ]
+       ] ;
+       fhir:name [ fhir:v "PatientExample" ] ;
+       fhir:description [ fhir:v "An example of a patient with a license to krill." ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/MyPatient"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/MyPatient>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
@@ -1305,6 +1332,66 @@
        fhir:name [ fhir:v "Representant" ] ;
        fhir:description [ fhir:v "Person som representerer en annen etter avtale, vedtakk mm." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Schedule" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Schedule/Schedule-Fastlege-Hans-Hansen> ;
+         fhir:reference [ fhir:v "Schedule/Schedule-Fastlege-Hans-Hansen" ]
+       ] ;
+       fhir:name [ fhir:v "Schedule-Fastlege-Hans-Hansen" ] ;
+       fhir:description [ fhir:v "Schedule for Fastlege Hans Hansen" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Schedule" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Schedule/Schedule-Koronavaksine> ;
+         fhir:reference [ fhir:v "Schedule/Schedule-Koronavaksine" ]
+       ] ;
+       fhir:name [ fhir:v "Schedule-Koronavaksine" ] ;
+       fhir:description [ fhir:v "Schedule for Koronavaksine" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Schedule" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Schedule/Schedule-Lab> ;
+         fhir:reference [ fhir:v "Schedule/Schedule-Lab" ]
+       ] ;
+       fhir:name [ fhir:v "Schedule-Lab" ] ;
+       fhir:description [ fhir:v "Schedule for Lab på legekontoret" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Schedule" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Schedule/Schedule-Vikar-September-August> ;
+         fhir:reference [ fhir:v "Schedule/Schedule-Vikar-September-August" ]
+       ] ;
+       fhir:name [ fhir:v "Schedule-Vikar-September-August" ] ;
+       fhir:description [ fhir:v "Schedule for Vikar September August" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

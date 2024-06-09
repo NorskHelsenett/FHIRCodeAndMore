@@ -1,0 +1,19 @@
+{
+  "resourceType" : "Patient",
+  "id" : "PatientExample",
+  "meta" : {
+    "profile" : ["http://helsenorge.no/fhir/StructureDefinition/MyPatient"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\"><b>James Pond </b> (no stated gender), DoB Unknown ( id:\u00a012345678901)</p><hr/></div>"
+  },
+  "identifier" : [{
+    "system" : "urn:oid:2.16.578.1.12.4.1.4.2",
+    "value" : "12345678901"
+  }],
+  "name" : [{
+    "family" : "Pond",
+    "given" : ["James"]
+  }]
+}

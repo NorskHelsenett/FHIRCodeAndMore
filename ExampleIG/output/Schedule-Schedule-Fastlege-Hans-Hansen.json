@@ -1,0 +1,40 @@
+{
+  "resourceType" : "Schedule",
+  "id" : "Schedule-Fastlege-Hans-Hansen",
+  "meta" : {
+    "profile" : ["http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"]
+  },
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: Schedule</b><a name=\"Schedule-Fastlege-Hans-Hansen\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource Schedule &quot;Schedule-Fastlege-Hans-Hansen&quot; </p><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-hn-basis-schedule.html\">HnBasisSchedule</a></p></div><blockquote><p><b>Periode for første og siste ledige slot i timebok</b></p><blockquote><p><b>url</b></p><code>freePlanningHorizon</code></blockquote><p><b>value</b>: 2024-06-08 09:00:00+0000 --&gt; 2024-11-20 15:30:00+0000</p></blockquote><p><b>identifier</b>: id:\u00a0urn:uuid:d082e865-7a93-46fc-a0a3-681571aed13c</p><p><b>serviceType</b>: Personlig <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"CodeSystem-hn-scheduleAndSlot-type-cs.html\">Codes that should be used for schedule and SlotType.</a>#Personlig)</span></p><p><b>actor</b>: <span>: Fastlege Hans Hansen</span></p><p><b>comment</b>: Jobber mandag, onsdag og fredag</p></div>"
+  },
+  "extension" : [{
+    "extension" : [{
+      "url" : "freePlanningHorizon",
+      "valuePeriod" : {
+        "start" : "2024-06-08T09:00:00Z",
+        "end" : "2024-11-20T15:30:00Z"
+      }
+    }],
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
+  }],
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:uuid:d082e865-7a93-46fc-a0a3-681571aed13c"
+  }],
+  "serviceType" : [{
+    "coding" : [{
+      "system" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
+      "code" : "Personlig"
+    }]
+  }],
+  "actor" : [{
+    "type" : "Practitioner",
+    "identifier" : {
+      "system" : "urn:oid:2.16.578.1.12.4.1.4.4",
+      "value" : "123456789"
+    },
+    "display" : "Fastlege Hans Hansen"
+  }],
+  "comment" : "Jobber mandag, onsdag og fredag"
+}

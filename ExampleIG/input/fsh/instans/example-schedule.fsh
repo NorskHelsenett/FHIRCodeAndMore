@@ -27,6 +27,7 @@ Usage: #example
 //* extension[=].extension[=].valueReference.reference = "slot/fe8010e8-b36a-4984-8e1a-20e6612e1b14"
 * extension[=].url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
 
+
 Instance: Eksempel-schedule-vaksine
 InstanceOf: HnBasisSchedule
 Description: "Schedule for vaksine timer"
@@ -55,3 +56,79 @@ Usage: #example
 //* extension[=].extension[+].url = "lastFreeSlot"
 //* extension[=].extension[=].valueReference.reference = "slot/fe8010e8-b36a-4984-8e1a-20e6612e1b14"
 * extension[=].url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
+
+//nye instancer
+
+Instance: Schedule-Fastlege-Hans-Hansen
+InstanceOf: HnBasisSchedule
+Description: "Schedule for Fastlege Hans Hansen"
+Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:d082e865-7a93-46fc-a0a3-681571aed13c"
+* serviceType[0].coding[0].system = "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"
+* serviceType[0].coding[0].code = #Personlig
+* actor[0].type = "Practitioner"
+* actor[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.4"
+* actor[0].identifier.value = "123456789"
+* actor[0].display = "Fastlege Hans Hansen"
+* comment = "Jobber mandag, onsdag og fredag"
+* extension[0].url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
+* extension[0].extension[0].url = "freePlanningHorizon"
+* extension[0].extension[0].valuePeriod.start = "2024-06-08T09:00:00Z"
+* extension[0].extension[0].valuePeriod.end = "2024-11-20T15:30:00Z"
+
+
+Instance: Schedule-Vikar-September-August
+InstanceOf: HnBasisSchedule
+Description: "Schedule for Vikar September August"
+Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:0cd7fe84-94c3-41b8-83f6-3c64451447bc"
+* serviceType[0].coding[0].system = "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"
+* serviceType[0].coding[0].code = #Personlig
+* actor[0].type = "Practitioner"
+* actor[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.4.4"
+* actor[0].identifier.value = "431001875"
+* actor[0].display = "Vikar September August"
+* comment = "Jobber tirsdag og torsdag"
+* extension[0].url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
+* extension[0].extension[0].url = "freePlanningHorizon"
+* extension[0].extension[0].valuePeriod.start = "2024-06-07T09:00:00Z"
+* extension[0].extension[0].valuePeriod.end = "2024-09-20T15:30:00Z"
+
+
+Instance: Schedule-Koronavaksine
+InstanceOf: HnBasisSchedule
+Description: "Schedule for Koronavaksine"
+Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:03b4a6cf-7c8b-4171-a171-8b7abbec2eaf"
+* serviceType[0].coding[0].system = "urn:oid:2.16.578.1.12.4.1.1.7617"
+* serviceType[0].coding[0].code = #Koronavaksine
+* actor[0].type = "HealthcareService"
+* actor[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.1.9051"
+* actor[0].identifier.value = "ABCDEF123456"
+* actor[0].display = "Koronavaksine"
+* comment = "Koronavaksine tilbys til risikopasienter i henhold til retningslinjer fra FHI"
+* extension[0].url = "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"
+* extension[0].extension[0].url = "freePlanningHorizon"
+* extension[0].extension[0].valuePeriod.start = "2024-06-05T09:00:00Z"
+* extension[0].extension[0].valuePeriod.end = "2024-06-09T15:30:00Z"
+
+
+Instance: Schedule-Lab
+InstanceOf: HnBasisSchedule
+Description: "Schedule for Lab på legekontoret"
+Usage: #example
+* identifier.system = "urn:ietf:rfc:3986"
+* identifier.value = "urn:uuid:50aa673f-3456-4855-9eec-5f1aea3966a7"
+* serviceType[0].coding[0].system = "urn:oid:2.16.578.1.12.4.1.1.7617"
+* serviceType[0].coding[0].code = #Lab
+* actor[0].type = "HealthcareService"
+* actor[0].identifier.system = "urn:oid:2.16.578.1.12.4.1.1.9051"
+* actor[0].identifier.value = "3546c8f7-3cd3-4693-929e-66501642504c"
+* actor[0].display = "Lab på legekontoret"
+* comment = "Lab tilbyr blodprøver og andre tester hver dag fra 10-15"
+
+
+

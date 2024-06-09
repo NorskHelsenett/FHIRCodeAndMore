@@ -3,7 +3,7 @@ Id:         hn-scheduleAndSlot-type-cs
 Title:     "Codes that should be used for schedule and SlotType."
 Description: "Codes that should be used for schedule and SlotType."
 * ^status = #draft
-* ^version = "0.1.0"
+* ^version = "0.2.0"
 * ^experimental = true
 * ^caseSensitive = true
 * #Poliklinisktime "Poliklinisk time"
@@ -12,3 +12,4 @@ Description: "Codes that should be used for schedule and SlotType."
 * #Hjemmebesøk "Hjemmebesøk"
 * #Konsultasjon "Konsultasjon"
 * #Bildediagnostikk "Bildediagnostikk"
+* #Personlig "Personlig"

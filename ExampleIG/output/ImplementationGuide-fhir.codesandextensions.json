@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "draft",
-  "date" : "2023-12-14T15:10:19+01:00",
+  "date" : "2024-06-09T15:34:44+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "5.3.0"
+    "version" : "5.5.0"
   },
   {
     "id" : "hl7ext",
@@ -40,7 +40,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "1.0.0"
+    "version" : "5.1.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -1253,6 +1253,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/MyPatient"
+      },
+      "name" : "MyPatient",
+      "description" : "An example profile of the Patient resource.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1361,6 +1373,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Patient"
+      }],
+      "reference" : {
+        "reference" : "Patient/PatientExample"
+      },
+      "name" : "PatientExample",
+      "description" : "An example of a patient with a license to krill.",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/MyPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
@@ -1381,6 +1405,54 @@
       "name" : "Representant",
       "description" : "Person som representerer en annen etter avtale, vedtakk mm.",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Schedule"
+      }],
+      "reference" : {
+        "reference" : "Schedule/Schedule-Fastlege-Hans-Hansen"
+      },
+      "name" : "Schedule-Fastlege-Hans-Hansen",
+      "description" : "Schedule for Fastlege Hans Hansen",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Schedule"
+      }],
+      "reference" : {
+        "reference" : "Schedule/Schedule-Koronavaksine"
+      },
+      "name" : "Schedule-Koronavaksine",
+      "description" : "Schedule for Koronavaksine",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Schedule"
+      }],
+      "reference" : {
+        "reference" : "Schedule/Schedule-Lab"
+      },
+      "name" : "Schedule-Lab",
+      "description" : "Schedule for Lab på legekontoret",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Schedule"
+      }],
+      "reference" : {
+        "reference" : "Schedule/Schedule-Vikar-September-August"
+      },
+      "name" : "Schedule-Vikar-September-August",
+      "description" : "Schedule for Vikar September August",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"
     },
     {
       "extension" : [{
