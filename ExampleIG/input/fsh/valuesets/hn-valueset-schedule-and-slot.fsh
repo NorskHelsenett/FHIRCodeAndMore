@@ -5,8 +5,8 @@ Description: "Value set for schedule and slot type"
 * ^status = #draft
 * ^version = "0.1.0"
 * ^experimental = true
-* urn:oid:2.16.578.1.12.4.1.1.7617#Vaksine "Vaksine time"
-* urn:oid:2.16.578.1.12.4.1.1.7617#Lab "Lab time"
+* urn:oid:2.16.578.1.12.4.1.1.7617#Vaksine "Time for vaksine"
+* urn:oid:2.16.578.1.12.4.1.1.7617#Lab "Time på lab"
 * urn:oid:2.16.578.1.12.4.1.1.7617#Koronatest "Innført for håndtering av pandemien"
 * urn:oid:2.16.578.1.12.4.1.1.7617#Koronavaksine "Innført for håndtering av pandemien"
 * include codes from system hn-scheduleAndSlot-type-cs

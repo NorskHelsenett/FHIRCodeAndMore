@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.8116</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FNR</td><td>Fødselsnummer</td></tr><tr><td>DNR</td><td>D-nummer</td></tr></table></li></ul></div>
   </text>
   <url value="http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="CS8116DnrFnrVS"/>
   <title value="DNR og FNR fra Volven 8116"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-06-09T15:34:44+02:00"/>
+  <date value="2024-06-12T14:59:11+02:00"/>
   <description value="ValueSet basert på 8116 som inkluderer kun FNR og DNR"/>
   <jurisdiction>
     <coding>

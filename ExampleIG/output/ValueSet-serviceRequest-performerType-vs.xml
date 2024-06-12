@@ -6,12 +6,12 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  is-a  158965000 (null)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>
   </text>
   <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="ServiceRequestPerformerTypeVS"/>
   <title value="ServiceRequest PerformerType Value Set"/>
-  <status value="draft"/>
+  <status value="active"/>
   <experimental value="true"/>
-  <date value="2024-06-09T15:34:44+02:00"/>
+  <date value="2024-06-12T14:59:11+02:00"/>
   <description value="Koder for valgte profesjonstyper."/>
   <jurisdiction>
     <coding>

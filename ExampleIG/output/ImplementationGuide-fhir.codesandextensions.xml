@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"/>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
-  <status value="draft"/>
-  <date value="2024-06-09T15:34:44+02:00"/>
+  <status value="active"/>
+  <date value="2024-06-12T14:59:11+02:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="97f688be-d524-4b80-be5c-76c7da000c64"/>
+  <id value="dc09b669-c0ba-4245-afd4-40c203535d3d"/>
   <meta>
-    <lastUpdated value="2024-06-09T15:34:44.206+02:00"/>
+    <lastUpdated value="2024-06-12T14:59:11.835+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -53,12 +53,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"/>
-        <version value="0.2.0"/>
+        <version value="1.0.0"/>
         <name value="ServiceRequestCategoryVS"/>
         <title value="ServiceRequest Category Value Set"/>
-        <status value="draft"/>
+        <status value="active"/>
         <experimental value="true"/>
-        <date value="2024-06-09T15:34:44+02:00"/>
+        <date value="2024-06-12T14:59:11+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -67,8 +67,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:23a3db1d-a984-435d-8238-39ce89432692"/>
-          <timestamp value="2024-06-09T15:35:19+02:00"/>
+          <identifier value="urn:uuid:94629e5e-d6a2-4dac-9557-4582dbb5fda4"/>
+          <timestamp value="2024-06-12T14:59:53+02:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>

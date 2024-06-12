@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8272"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "NoKodeverk8272",
   "title" : "8272 Anbefaling om ny undersøkelse",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-09T15:34:44+02:00",
+  "date" : "2024-06-12T14:59:11+02:00",
   "publisher" : "Helsedirektoratet",
   "description" : "Anbefaling om ny undersøkelse.",
   "jurisdiction" : [{

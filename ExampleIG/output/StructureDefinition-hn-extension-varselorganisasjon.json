@@ -9,11 +9,11 @@
   "identifier" : [{
     "value" : "http://helsenorge.no/fhir/extension/varselorganisasjon"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "HnExtensionVarselorganisasjon",
   "title" : "Varselorganisasjon",
   "status" : "active",
-  "date" : "2024-06-09T15:34:44+02:00",
+  "date" : "2024-06-12T14:59:11+02:00",
   "publisher" : "Helsenorge",
   "description" : "Varselorganisasjon som kjem frem i varsel til innbygger.",
   "jurisdiction" : [{

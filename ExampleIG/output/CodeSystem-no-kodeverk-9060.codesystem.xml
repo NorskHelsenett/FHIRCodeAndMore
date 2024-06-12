@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9060"/>
   </identifier>
-  <version value="0.2.0"/>
+  <version value="1.0.0"/>
   <name value="NoKodeverk9060"/>
   <title value="9060 Kategori helsepersonell"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-06-09T15:34:44+02:00"/>
+  <date value="2024-06-12T14:59:11+02:00"/>
   <publisher value="Helsedirektoratet"/>
   <description value="Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4."/>
   <jurisdiction>

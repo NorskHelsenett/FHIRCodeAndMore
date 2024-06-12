@@ -11,7 +11,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Koronavaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Koronavaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -24,16 +24,74 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:885
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:35 GMT
-last-modified:Sun, 09 Jun 2024 13:34:35 GMT
+date:Wed, 12 Jun 2024 12:59:12 GMT
+last-modified:Wed, 12 Jun 2024 12:59:12 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380184
+x-request-id:143-1676608
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "code","valueCode" : "Koronavaksine"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 </pre><hr/>
 <a name="l2"> </a><h3>2</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:13 GMT
+server:nginx
+x-request-id:143-1676611
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+</pre><hr/>
+<a name="l3"> </a><h3>3</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs-inc-0","status":"active","compose":{"inactive":false,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:14 GMT
+server:nginx
+x-request-id:143-1676614
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+</pre><hr/>
+<a name="l4"> </a><h3>4</h3>
 <pre>
 Request: 
 
@@ -56,16 +114,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1092
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:37 GMT
-last-modified:Sun, 09 Jun 2024 13:34:37 GMT
+date:Wed, 12 Jun 2024 12:59:15 GMT
+last-modified:Wed, 12 Jun 2024 12:59:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380185
+x-request-id:143-1676615
 
-{"resourceType" : "Bundle","id" : "fb8dea78-a6c1-43a3-be4f-d678e5b6132a","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "DNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-06-09T13:34:37.461Z"}}]}
+{"resourceType" : "Bundle","id" : "1859e629-0db8-444e-a3a0-0fb67262ccff","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "DNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-06-12T12:59:15.180Z"}}]}
 
 </pre><hr/>
-<a name="l3"> </a><h3>3</h3>
+<a name="l5"> </a><h3>5</h3>
 <pre>
 Request: 
 
@@ -75,7 +133,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0","version":"1.0.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -88,16 +146,16 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1428
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:43 GMT
-last-modified:Sun, 09 Jun 2024 13:34:43 GMT
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380186
+x-request-id:143-1676617
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "FNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "FNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"}}]}}]}
 
 </pre><hr/>
-<a name="l4"> </a><h3>4</h3>
+<a name="l6"> </a><h3>6</h3>
 <pre>
 Request: 
 
@@ -107,7 +165,135 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs--0","version":"1.0.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:380
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676618
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
+
+</pre><hr/>
+<a name="l7"> </a><h3>7</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"719410009"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"url","valueUri":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs--0|1.0.0"},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:374
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676619
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "719410009"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Consultation via video conference (procedure)"}]}
+
+</pre><hr/>
+<a name="l8"> </a><h3>8</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004","display":"Face to face consultation with patient"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-category-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs","version":"1.0.0","name":"ServiceRequestCategoryVS","title":"ServiceRequest Category Value Set","status":"active","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:380
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676620
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
+
+</pre><hr/>
+<a name="l9"> </a><h3>9</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"719410009","display":"Consultation via video conference"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"url","valueUri":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs|1.0.0"},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:374
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:22 GMT
+last-modified:Wed, 12 Jun 2024 12:59:22 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676621
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "719410009"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Consultation via video conference (procedure)"}]}
+
+</pre><hr/>
+<a name="l10"> </a><h3>10</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"1.0.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -120,13 +306,129 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1453
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:43 GMT
-last-modified:Sun, 09 Jun 2024 13:34:43 GMT
+date:Wed, 12 Jun 2024 12:59:22 GMT
+last-modified:Wed, 12 Jun 2024 12:59:22 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380187
+x-request-id:143-1676622
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "code","valueCode" : "LE"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "code","valueCode" : "LE"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"}}]}}]}
+
+</pre><hr/>
+<a name="l11"> </a><h3>11</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"cs-8116-Dnr-Fnr-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.8116</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FNR</td><td>Fødselsnummer</td></tr><tr><td>DNR</td><td>D-nummer</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs","version":"1.0.0","name":"CS8116DnrFnrVS","title":"DNR og FNR fra Volven 8116","status":"active","experimental":false,"date":"2024-06-12T14:59:11+02:00","description":"ValueSet basert på 8116 som inkluderer kun FNR og DNR","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:49 GMT
+server:nginx
+x-request-id:143-1676626
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116"}}]}
+
+</pre><hr/>
+<a name="l12"> </a><h3>12</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:49 GMT
+server:nginx
+x-request-id:143-1676629
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+</pre><hr/>
+<a name="l13"> </a><h3>13</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"hn-scheduleAndSlot-type-cs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Poliklinisktime<a name=\"hn-scheduleAndSlot-type-cs-Poliklinisktime\"> </a></td><td>Poliklinisk time</td></tr><tr><td style=\"white-space:nowrap\">Innleggelse<a name=\"hn-scheduleAndSlot-type-cs-Innleggelse\"> </a></td><td>Innleggelse</td></tr><tr><td style=\"white-space:nowrap\">Dagbehandling<a name=\"hn-scheduleAndSlot-type-cs-Dagbehandling\"> </a></td><td>Dagbehandling</td></tr><tr><td style=\"white-space:nowrap\">Hjemmebesøk<a name=\"hn-scheduleAndSlot-type-cs-Hjemmebes.248k\"> </a></td><td>Hjemmebesøk</td></tr><tr><td style=\"white-space:nowrap\">Konsultasjon<a name=\"hn-scheduleAndSlot-type-cs-Konsultasjon\"> </a></td><td>Konsultasjon</td></tr><tr><td style=\"white-space:nowrap\">Bildediagnostikk<a name=\"hn-scheduleAndSlot-type-cs-Bildediagnostikk\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-scheduleAndSlot-type-cs-Personlig\"> </a></td><td>Personlig</td></tr></table></div>"},"url":"http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs","version":"1.0.0","name":"HnScheduleAndSlotTypeCS","title":"Codes that should be used for schedule and SlotType.","status":"draft","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Codes that should be used for schedule and SlotType.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"caseSensitive":true,"content":"complete","count":7,"concept":[{"code":"Poliklinisktime","display":"Poliklinisk time"},{"code":"Innleggelse","display":"Innleggelse"},{"code":"Dagbehandling","display":"Dagbehandling"},{"code":"Hjemmebesøk","display":"Hjemmebesøk"},{"code":"Konsultasjon","display":"Konsultasjon"},{"code":"Bildediagnostikk","display":"Bildediagnostikk"},{"code":"Personlig","display":"Personlig"}]}},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"hn-scheduleandslot-type-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.7617</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Vaksine</td><td>Time for vaksine</td></tr><tr><td>Lab</td><td>Time på lab</td></tr><tr><td>Koronatest</td><td>Innført for håndtering av pandemien</td></tr><tr><td>Koronavaksine</td><td>Innført for håndtering av pandemien</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-hn-scheduleAndSlot-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code></a></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs","version":"1.0.0","name":"HnScheduleAndSlotTypeVS","title":"hn-scheduleandslot-type-vs","status":"draft","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Value set for schedule and slot type","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]},{"system":"http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:50 GMT
+server:nginx
+x-request-id:143-1676632
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+</pre><hr/>
+<a name="l14"> </a><h3>14</h3>
+<pre>
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-performerType-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  158965000 (null)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs","version":"1.0.0","name":"ServiceRequestPerformerTypeVS","title":"ServiceRequest PerformerType Value Set","status":"active","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Koder for valgte profesjonstyper.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","filter":[{"property":"concept","op":"is-a","value":"158965000"}]},{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:50 GMT
+server:nginx
+x-request-id:143-1676635
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060"}}]}
 
 --- 1 -----------------
 Request: 
@@ -137,7 +439,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Koronavaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","code":"Koronavaksine"}},{"name":"displayLanguage","valueString":"en, en-US"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -150,15 +452,69 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:885
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:35 GMT
-last-modified:Sun, 09 Jun 2024 13:34:35 GMT
+date:Wed, 12 Jun 2024 12:59:12 GMT
+last-modified:Wed, 12 Jun 2024 12:59:12 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380184
+x-request-id:143-1676608
 
 {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.7617"},{"name" : "code","valueCode" : "Koronavaksine"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]}
 
 --- 2 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":false,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:13 GMT
+server:nginx
+x-request-id:143-1676611
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+--- 3 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs-inc-0","status":"active","compose":{"inactive":false,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:14 GMT
+server:nginx
+x-request-id:143-1676614
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+--- 4 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ HTTP/1.0
@@ -180,15 +536,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1092
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:37 GMT
-last-modified:Sun, 09 Jun 2024 13:34:37 GMT
+date:Wed, 12 Jun 2024 12:59:15 GMT
+last-modified:Wed, 12 Jun 2024 12:59:15 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380185
+x-request-id:143-1676615
 
-{"resourceType" : "Bundle","id" : "fb8dea78-a6c1-43a3-be4f-d678e5b6132a","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "DNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-06-09T13:34:37.461Z"}}]}
+{"resourceType" : "Bundle","id" : "1859e629-0db8-444e-a3a0-0fb67262ccff","type" : "batch-response","entry" : [{"resource" : {"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "DNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]}]}}]},"response" : {"status" : "200","etag" : "W/","lastModified" : "2024-06-12T12:59:15.180Z"}}]}
 
---- 3 -----------------
+--- 5 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -197,7 +553,7 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","code":"FNR"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0","version":"1.0.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -210,15 +566,15 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1428
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:43 GMT
-last-modified:Sun, 09 Jun 2024 13:34:43 GMT
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380186
+x-request-id:143-1676617
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "FNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.8116"},{"name" : "code","valueCode" : "FNR"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs--0|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.8116| was not found"}}]}}]}
 
---- 4 -----------------
+--- 6 -----------------
 Request: 
 
 POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
@@ -227,7 +583,127 @@ Accept-Charset: UTF-8
 Accept: application/fhir+json
 Content-Type: application/fhir+json;charset=UTF-8
 
-{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"0.2.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"86fb0140-a1b5-44ce-a456-ae72f7414e24"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs--0","version":"1.0.0","status":"active","compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:380
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676618
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
+
+--- 7 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"719410009"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"url","valueUri":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs--0|1.0.0"},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:374
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676619
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "719410009"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Consultation via video conference (procedure)"}]}
+
+--- 8 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"1269515004","display":"Face to face consultation with patient"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-category-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs","version":"1.0.0","name":"ServiceRequestCategoryVS","title":"ServiceRequest Category Value Set","status":"active","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","concept":[{"code":"1269515004","display":"Face to face consultation with patient"},{"code":"719410009","display":"Consultation via video conference"}]}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:380
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:21 GMT
+last-modified:Wed, 12 Jun 2024 12:59:21 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676620
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "1269515004"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Face to face consultation with patient (procedure)"}]}
+
+--- 9 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"http://snomed.info/sct","code":"719410009","display":"Consultation via video conference"}},{"name":"valueSetMode","valueString":"NO_MEMBERSHIP_CHECK"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"url","valueUri":"http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs|1.0.0"},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
+
+
+Response: 
+
+200
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+cache-control:public, max-age=600
+connection:keep-alive
+content-length:374
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:22 GMT
+last-modified:Wed, 12 Jun 2024 12:59:22 GMT
+pragma:no-cache
+server:nginx
+x-request-id:143-1676621
+
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : true},{"name" : "system","valueUri" : "http://snomed.info/sct"},{"name" : "code","valueCode" : "719410009"},{"name" : "version","valueString" : "http://snomed.info/sct/900000000000207008/version/20240201"},{"name" : "display","valueString" : "Consultation via video conference (procedure)"}]}
+
+--- 10 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$validate-code? HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"coding","valueCoding":{"system":"urn:oid:2.16.578.1.12.4.1.1.9060","code":"LE"}},{"name":"valueSetMode","valueString":"CHECK_MEMERSHIP_ONLY"},{"name":"default-to-latest-version","valueBoolean":true},{"name":"valueSet","resource":{"resourceType":"ValueSet","url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1","version":"1.0.0","status":"active","compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"}]}
 
 
 Response: 
@@ -240,11 +716,119 @@ cache-control:public, max-age=600
 connection:keep-alive
 content-length:1453
 content-type:application/fhir+json
-date:Sun, 09 Jun 2024 13:34:43 GMT
-last-modified:Sun, 09 Jun 2024 13:34:43 GMT
+date:Wed, 12 Jun 2024 12:59:22 GMT
+last-modified:Wed, 12 Jun 2024 12:59:22 GMT
 pragma:no-cache
 server:nginx
-x-request-id:143-1380187
+x-request-id:143-1676622
 
-{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "code","valueCode" : "LE"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|0.2.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"}}]}}]}
+{"resourceType" : "Parameters","parameter" : [{"name" : "result","valueBoolean" : false},{"name" : "system","valueUri" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "x-caused-by-unknown-system","valueCanonical" : "urn:oid:2.16.578.1.12.4.1.1.9060"},{"name" : "code","valueCode" : "LE"},{"name" : "message","valueString" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"},{"name" : "issues","resource" : {"resourceType" : "OperationOutcome","issue" : [{"severity" : "error","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "not-found"}],"text" : "A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated"},"location" : ["Coding.system"],"expression" : ["Coding.system"]},{"severity" : "warning","code" : "not-found","details" : {"coding" : [{"system" : "http://hl7.org/fhir/tools/CodeSystem/tx-issue-type","code" : "vs-invalid"}],"text" : "Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs--1|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060| was not found"}}]}}]}
+
+--- 11 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"cs-8116-Dnr-Fnr-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.8116</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>FNR</td><td>Fødselsnummer</td></tr><tr><td>DNR</td><td>D-nummer</td></tr></table></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs","version":"1.0.0","name":"CS8116DnrFnrVS","title":"DNR og FNR fra Volven 8116","status":"active","experimental":false,"date":"2024-06-12T14:59:11+02:00","description":"ValueSet basert på 8116 som inkluderer kun FNR og DNR","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.8116","concept":[{"code":"FNR","display":"Fødselsnummer"},{"code":"DNR","display":"D-nummer"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:49 GMT
+server:nginx
+x-request-id:143-1676626
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.8116"}}]}
+
+--- 12 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"includeDefinition","valueBoolean":false},{"name":"excludeNested","valueBoolean":false},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","status":"active","compose":{"inactive":true,"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:49 GMT
+server:nginx
+x-request-id:143-1676629
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+--- 13 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"tx-resource","resource":{"resourceType":"CodeSystem","id":"hn-scheduleAndSlot-type-cs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Poliklinisktime<a name=\"hn-scheduleAndSlot-type-cs-Poliklinisktime\"> </a></td><td>Poliklinisk time</td></tr><tr><td style=\"white-space:nowrap\">Innleggelse<a name=\"hn-scheduleAndSlot-type-cs-Innleggelse\"> </a></td><td>Innleggelse</td></tr><tr><td style=\"white-space:nowrap\">Dagbehandling<a name=\"hn-scheduleAndSlot-type-cs-Dagbehandling\"> </a></td><td>Dagbehandling</td></tr><tr><td style=\"white-space:nowrap\">Hjemmebesøk<a name=\"hn-scheduleAndSlot-type-cs-Hjemmebes.248k\"> </a></td><td>Hjemmebesøk</td></tr><tr><td style=\"white-space:nowrap\">Konsultasjon<a name=\"hn-scheduleAndSlot-type-cs-Konsultasjon\"> </a></td><td>Konsultasjon</td></tr><tr><td style=\"white-space:nowrap\">Bildediagnostikk<a name=\"hn-scheduleAndSlot-type-cs-Bildediagnostikk\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-scheduleAndSlot-type-cs-Personlig\"> </a></td><td>Personlig</td></tr></table></div>"},"url":"http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs","version":"1.0.0","name":"HnScheduleAndSlotTypeCS","title":"Codes that should be used for schedule and SlotType.","status":"draft","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Codes that should be used for schedule and SlotType.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"caseSensitive":true,"content":"complete","count":7,"concept":[{"code":"Poliklinisktime","display":"Poliklinisk time"},{"code":"Innleggelse","display":"Innleggelse"},{"code":"Dagbehandling","display":"Dagbehandling"},{"code":"Hjemmebesøk","display":"Hjemmebesøk"},{"code":"Konsultasjon","display":"Konsultasjon"},{"code":"Bildediagnostikk","display":"Bildediagnostikk"},{"code":"Personlig","display":"Personlig"}]}},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"hn-scheduleandslot-type-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.7617</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Vaksine</td><td>Time for vaksine</td></tr><tr><td>Lab</td><td>Time på lab</td></tr><tr><td>Koronatest</td><td>Innført for håndtering av pandemien</td></tr><tr><td>Koronavaksine</td><td>Innført for håndtering av pandemien</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-hn-scheduleAndSlot-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code></a></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs","version":"1.0.0","name":"HnScheduleAndSlotTypeVS","title":"hn-scheduleandslot-type-vs","status":"draft","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Value set for schedule and slot type","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"urn:oid:2.16.578.1.12.4.1.1.7617","concept":[{"code":"Vaksine","display":"Time for vaksine"},{"code":"Lab","display":"Time på lab"},{"code":"Koronatest","display":"Innført for håndtering av pandemien"},{"code":"Koronavaksine","display":"Innført for håndtering av pandemien"}]},{"system":"http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:50 GMT
+server:nginx
+x-request-id:143-1676632
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617"}}]}
+
+--- 14 -----------------
+Request: 
+
+POST http://tx.fhir.org/r4/ValueSet/$expand?_limit=1000&_incomplete=true HTTP/1.0
+User-Agent: hapi-fhir-tooling-client
+Accept-Charset: UTF-8
+Accept: application/fhir+json
+Content-Type: application/fhir+json;charset=UTF-8
+
+{"resourceType":"Parameters","parameter":[{"name":"x-system-cache-id","valueString":"dc8fd4bc-091a-424a-8a3b-6198ef146891"},{"name":"excludeNested","valueBoolean":false},{"name":"incomplete-ok","valueBoolean":true},{"name":"cache-id","valueId":"edc06c21-7063-4f98-932b-98d6a0852db4"},{"name":"valueSet","resource":{"resourceType":"ValueSet","id":"serviceRequest-performerType-vs","text":{"status":"generated","div":"<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a  158965000 (null)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>"},"url":"http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs","version":"1.0.0","name":"ServiceRequestPerformerTypeVS","title":"ServiceRequest PerformerType Value Set","status":"active","experimental":true,"date":"2024-06-12T14:59:11+02:00","description":"Koder for valgte profesjonstyper.","jurisdiction":[{"coding":[{"system":"urn:iso:std:iso:3166","code":"NO","display":"Norway"}]}],"compose":{"include":[{"system":"http://snomed.info/sct","filter":[{"property":"concept","op":"is-a","value":"158965000"}]},{"system":"urn:oid:2.16.578.1.12.4.1.1.9060"}]}}},{"name":"_limit","valueString":"1000"},{"name":"_incomplete","valueString":"true"}]}
+
+
+Response: 
+
+422
+access-control-allow-methods:GET, POST, PUT, PATCH, DELETE
+access-control-allow-origin:*
+access-control-expose-headers:Content-Location, Location
+connection:keep-alive
+content-length:373
+content-type:application/fhir+json
+date:Wed, 12 Jun 2024 12:59:50 GMT
+server:nginx
+x-request-id:143-1676635
+
+{"resourceType" : "OperationOutcome","text" : {"status" : "generated","div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060</p></div>"},"issue" : [{"severity" : "error","code" : "not-supported","details" : {"text" : "Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060"}}]}
 </pre></head></html>

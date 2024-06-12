@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "97f688be-d524-4b80-be5c-76c7da000c64",
+  "id" : "dc09b669-c0ba-4245-afd4-40c203535d3d",
   "meta" : {
-    "lastUpdated" : "2024-06-09T15:34:44.206+02:00"
+    "lastUpdated" : "2024-06-12T14:59:11.835+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -14,12 +14,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set contains 2 concepts</p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion based on: </p><ul><li>SNOMED CT International edition 01-sep. 2023</li><li>SNOMED CT International edition 01-sep. 2023</li></ul></div><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-1269515004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>http://snomed.info/sct</td><td>Face to face consultation with patient</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"http---snomed.info-sct-719410009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>http://snomed.info/sct</td><td>Consultation via video conference</td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-      "version" : "0.2.0",
+      "version" : "1.0.0",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
-      "status" : "draft",
+      "status" : "active",
       "experimental" : true,
-      "date" : "2024-06-09T15:34:44+02:00",
+      "date" : "2024-06-12T14:59:11+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:23a3db1d-a984-435d-8238-39ce89432692",
-        "timestamp" : "2024-06-09T15:35:19+02:00",
+        "identifier" : "urn:uuid:94629e5e-d6a2-4dac-9557-4582dbb5fda4",
+        "timestamp" : "2024-06-12T14:59:53+02:00",
         "total" : 2,
         "parameter" : [{
           "name" : "excludeNested",

@@ -3,7 +3,7 @@
 
 err = 0, warn = 16, info = 17
 IG Publisher Version: 1.5.1 Out of date - current version is 1.6.11
-Generated Sun Jun 09 15:36:11 CEST 2024. FHIR version 4.0.1 for fhir.codesandextensions#0.2.0 (canonical = http://helsenorge.no/fhir)
+Generated Wed Jun 12 15:00:56 CEST 2024. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -165,8 +165,8 @@ INFORMATION: Schedule/Schedule-Lab: Schedule.serviceType[0].coding[0]: Code Syst
 == fsh-generated\resources\Schedule-Schedule-Vikar-September-August.json ==
 == fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example.json ==
 WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated
-WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|0.2.0
-WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|0.2.0
+WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.0.0
+WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated; Unable to check whether the code is in the value set http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.0.0
 INFORMATION: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType.coding[0]: Code System URI 'urn:oid:2.16.578.1.12.4.1.1.9060' is unknown so the code cannot be validated
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
@@ -174,7 +174,7 @@ INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==
 INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[17].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[56].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json ==
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[16].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[43].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk

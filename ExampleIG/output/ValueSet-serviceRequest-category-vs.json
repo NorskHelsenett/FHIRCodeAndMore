@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"
   },
   "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "ServiceRequestCategoryVS",
   "title" : "ServiceRequest Category Value Set",
-  "status" : "draft",
+  "status" : "active",
   "experimental" : true,
-  "date" : "2024-06-09T15:34:44+02:00",
+  "date" : "2024-06-12T14:59:11+02:00",
   "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",
   "jurisdiction" : [{
     "coding" : [{

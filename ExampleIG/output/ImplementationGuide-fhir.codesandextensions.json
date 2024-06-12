@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   },
   "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
-  "status" : "draft",
-  "date" : "2024-06-09T15:34:44+02:00",
+  "status" : "active",
+  "date" : "2024-06-12T14:59:11+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{

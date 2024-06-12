@@ -10,7 +10,7 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.7611"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "NoKodeverk7611",
   "title" : "7611 Representasjonsrolle.",
   "status" : "active",

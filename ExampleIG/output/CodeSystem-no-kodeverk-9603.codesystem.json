@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.9603"
   }],
-  "version" : "0.2.0",
+  "version" : "1.0.0",
   "name" : "NoKodeverk9603",
   "title" : "9603 Sperring og nekting av dokumenter",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-06-09T15:34:44+02:00",
+  "date" : "2024-06-12T14:59:11+02:00",
   "publisher" : "Direktoratet for e-helse",
   "description" : "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert.",
   "jurisdiction" : [{
