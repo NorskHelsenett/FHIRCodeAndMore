@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="8073f63e-0862-4c87-92de-2aeeece0cc5f"/>
+  <meta>
+    <lastUpdated value="2024-11-06T23:06:55.243+01:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.0.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab">Lab</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Lab</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine">Vaksine</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Vaksine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine">Koronavaksine</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Koronavaksine</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest">Koronatest</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Koronatest</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Personlig"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Personlig">Personlig</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Personlig</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"/>
+        <version value="1.0.0"/>
+        <name value="HnScheduleTypeVS"/>
+        <title value="hn-schedule-type-vs"/>
+        <status value="draft"/>
+        <experimental value="true"/>
+        <date value="2024-11-06T23:06:55+01:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:1e92ea90-62f1-441c-b062-0622a04bf1e2"/>
+          <timestamp value="2024-11-06T23:07:33+01:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.0.0"/>
+          </parameter>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Lab"/>
+            <display value="Lab"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Vaksine"/>
+            <display value="Vaksine"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Koronavaksine"/>
+            <display value="Koronavaksine"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Koronatest"/>
+            <display value="Koronatest"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Personlig"/>
+            <display value="Personlig"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-aug. 2024</p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-1269515004"> </a>  
+                  <a href="http://snomed.info/id/1269515004">1269515004</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Face to face consultation with patient (procedure)</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://snomed.info/sct-719410009"> </a>  
+                  <a href="http://snomed.info/id/719410009">719410009</a>
+                </td>
+                <td>http://snomed.info/sct</td>
+                <td>Consultation via video conference (procedure)</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"/>
+        <version value="1.0.0"/>
+        <name value="ServiceRequestCategoryVS"/>
+        <title value="ServiceRequest Category Value Set"/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2024-11-06T23:06:55+01:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:8519db30-43a0-4435-8cf1-fa75db247c32"/>
+          <timestamp value="2024-11-06T23:07:33+01:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="1269515004"/>
+            <display value="Face to face consultation with patient (procedure)"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="719410009"/>
+            <display value="Consultation via video conference (procedure)"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

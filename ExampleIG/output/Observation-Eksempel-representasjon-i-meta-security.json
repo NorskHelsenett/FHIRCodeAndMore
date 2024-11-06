@@ -1,0 +1,72 @@
+{
+  "resourceType" : "Observation",
+  "id" : "Eksempel-representasjon-i-meta-security",
+  "meta" : {
+    "security" : [{
+      "extension" : [{
+        "extension" : [{
+          "url" : "name",
+          "valueHumanName" : {
+            "extension" : [{
+              "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-middlename",
+              "valueString" : "Grete"
+            }],
+            "family" : "Danser",
+            "given" : ["Line"]
+          }
+        },
+        {
+          "url" : "ident",
+          "valueIdentifier" : {
+            "type" : {
+              "coding" : [{
+                "system" : "urn:oid:2.16.578.1.12.4.1.1.8116",
+                "code" : "FNR",
+                "display" : "Fødselsnummer"
+              }]
+            },
+            "value" : "12345678901"
+          }
+        }],
+        "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"
+      }],
+      "system" : "urn:oid:2.16.578.1.12.4.1.1.7611",
+      "code" : "FO",
+      "display" : "Foreldreansvar"
+    }],
+    "tag" : [{
+      "extension" : [{
+        "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon",
+        "valueString" : "Oslo University Hospital"
+      }],
+      "system" : "http://helsenorge.no/fhir/varsling",
+      "code" : "9",
+      "display" : "Benytt angitt navn som avsender i varsel til innbygger"
+    }]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Eksempel-representasjon-i-meta-security</b></p><a name=\"Eksempel-representasjon-i-meta-security\"> </a><a name=\"hcEksempel-representasjon-i-meta-security\"> </a><a name=\"Eksempel-representasjon-i-meta-security-no-NO\"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:\">Foreldres observasjon av barnets symptomer</span></p><p><b>subject</b>: <a href=\"Patient-example-girl.html\">Jane Danser  Female, DoB: 2015-11-02</a></p><p><b>effective</b>: 2023-11-02 10:30:00+0000</p><p><b>performer</b>: <a href=\"RelatedPerson-line-danser.html\">RelatedPerson Line Danser </a></p><p><b>note</b>: Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert.</p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "survey",
+      "display" : "Survey"
+    }]
+  }],
+  "code" : {
+    "text" : "Foreldres observasjon av barnets symptomer"
+  },
+  "subject" : {
+    "reference" : "Patient/example-girl"
+  },
+  "effectiveDateTime" : "2023-11-02T10:30:00Z",
+  "performer" : [{
+    "reference" : "RelatedPerson/line-danser"
+  }],
+  "note" : [{
+    "text" : "Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert."
+  }]
+}

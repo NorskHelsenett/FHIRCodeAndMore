@@ -1,0 +1,29 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-3108.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-3108.codesystem</b></p><a name=\"no-kodeverk-3108.codesystem\"> </a><a name=\"hcno-kodeverk-3108.codesystem\"> </a><a name=\"no-kodeverk-3108.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-3108.codesystem</code> defines codes, but no codes are represented here</p></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-3108.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.3108"
+  }],
+  "version" : "1.0.0",
+  "name" : "NoKodeverk3108",
+  "title" : "3108 Reservasjon mot registrering",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-06T23:06:55+01:00",
+  "description" : "Opplysning om pasienten holdning til registrering av informasjon i register",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "not-present"
+}

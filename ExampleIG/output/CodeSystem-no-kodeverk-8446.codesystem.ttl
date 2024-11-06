@@ -1,0 +1,61 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8446.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8446.codesystem</b></p><a name=\"no-kodeverk-8446.codesystem\"> </a><a name=\"hcno-kodeverk-8446.codesystem\"> </a><a name=\"no-kodeverk-8446.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"no-kodeverk-8446.codesystem-1\"> </a></td><td>Institusjonen/sykehuset har bestemt utsettelsen av kapasitetsgrunner</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"no-kodeverk-8446.codesystem-21\"> </a></td><td>Pasienten har ikke møtt opp</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"no-kodeverk-8446.codesystem-22\"> </a></td><td>Pasienten har selv bestemt utsettelsen av velferdsgrunner</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"no-kodeverk-8446.codesystem-3\"> </a></td><td>Medisinske årsaker hos pasienten til utsettelsen</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"no-kodeverk-8446.codesystem-4\"> </a></td><td>Oppstart av helsehjelp er utsatt grunnet manglende kapasitet ved påfølgende behandlingssted</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"no-kodeverk-8446.codesystem-5\"> </a></td><td>Pasienten har takket nei til tilbud fra HF om helsehjelp ved annet behandlingssted enn sitt primære ønske</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"no-kodeverk-8446.codesystem-6\"> </a></td><td>Pasienten har takket nei til tilbud fra Helfo om helsehjelp ved annet behandlingssted enn sitt primære ønske</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8446" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8446"] ; # 
+  fhir:title [ fhir:v "8446 Utsettelseskode"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2018-10-01"^^xsd:date] ; # 
+  fhir:description [ fhir:v "Dette kodeverket inneholder koder som beskriver grunner for utsettelse."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "1" ] ;
+     fhir:display [ fhir:v "Institusjonen/sykehuset har bestemt utsettelsen av kapasitetsgrunner" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "Pasienten har ikke møtt opp" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "Pasienten har selv bestemt utsettelsen av velferdsgrunner" ]
+  ] [
+     fhir:code [ fhir:v "3" ] ;
+     fhir:display [ fhir:v "Medisinske årsaker hos pasienten til utsettelsen" ]
+  ] [
+     fhir:code [ fhir:v "4" ] ;
+     fhir:display [ fhir:v "Oppstart av helsehjelp er utsatt grunnet manglende kapasitet ved påfølgende behandlingssted" ]
+  ] [
+     fhir:code [ fhir:v "5" ] ;
+     fhir:display [ fhir:v "Pasienten har takket nei til tilbud fra HF om helsehjelp ved annet behandlingssted enn sitt primære ønske" ]
+  ] [
+     fhir:code [ fhir:v "6" ] ;
+     fhir:display [ fhir:v "Pasienten har takket nei til tilbud fra Helfo om helsehjelp ved annet behandlingssted enn sitt primære ønske" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

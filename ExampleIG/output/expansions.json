@@ -1,0 +1,143 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "8073f63e-0862-4c87-92de-2aeeece0cc5f",
+  "meta" : {
+    "lastUpdated" : "2024-11-06T23:06:55.243+01:00"
+  },
+  "type" : "collection",
+  "entry" : [{
+    "fullUrl" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on <a href=\"CodeSystem-hn-schedule-type-cs.html\">codesystem Codes that should be used for schedule type v1.0.0 (CodeSystem)</a></p><p>This value set contains 5 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab\">Lab</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine\">Vaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine\">Koronavaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest\">Koronatest</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Personlig\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Personlig\">Personlig</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Personlig</td></tr></table></div>"
+      },
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
+      "version" : "1.0.0",
+      "name" : "HnScheduleTypeVS",
+      "title" : "hn-schedule-type-vs",
+      "status" : "draft",
+      "experimental" : true,
+      "date" : "2024-11-06T23:06:55+01:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:1e92ea90-62f1-441c-b062-0622a04bf1e2",
+        "timestamp" : "2024-11-06T23:07:33+01:00",
+        "total" : 5,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.0.0"
+        }],
+        "contains" : [{
+          "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
+          "code" : "Lab",
+          "display" : "Lab"
+        },
+        {
+          "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
+          "code" : "Vaksine",
+          "display" : "Vaksine"
+        },
+        {
+          "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
+          "code" : "Koronavaksine",
+          "display" : "Koronavaksine"
+        },
+        {
+          "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
+          "code" : "Koronatest",
+          "display" : "Koronatest"
+        },
+        {
+          "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
+          "code" : "Personlig",
+          "display" : "Personlig"
+        }]
+      }
+    }
+  },
+  {
+    "fullUrl" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
+    "resource" : {
+      "resourceType" : "ValueSet",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion based on SNOMED CT International edition 01-aug. 2024</p><p>This value set contains 2 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1269515004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>http://snomed.info/sct</td><td>Face to face consultation with patient (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-719410009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>http://snomed.info/sct</td><td>Consultation via video conference (procedure)</td></tr></table></div>"
+      },
+      "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
+      "version" : "1.0.0",
+      "name" : "ServiceRequestCategoryVS",
+      "title" : "ServiceRequest Category Value Set",
+      "status" : "active",
+      "experimental" : true,
+      "date" : "2024-11-06T23:06:55+01:00",
+      "jurisdiction" : [{
+        "coding" : [{
+          "system" : "urn:iso:std:iso:3166",
+          "code" : "NO",
+          "display" : "Norway"
+        }]
+      }],
+      "expansion" : {
+        "identifier" : "urn:uuid:8519db30-43a0-4435-8cf1-fa75db247c32",
+        "timestamp" : "2024-11-06T23:07:33+01:00",
+        "total" : 2,
+        "offset" : 0,
+        "parameter" : [{
+          "name" : "count",
+          "valueInteger" : 1000
+        },
+        {
+          "name" : "offset",
+          "valueInteger" : 0
+        },
+        {
+          "name" : "excludeNested",
+          "valueBoolean" : false
+        },
+        {
+          "name" : "used-valueset",
+          "valueUri" : "null"
+        },
+        {
+          "name" : "used-codesystem",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+        },
+        {
+          "name" : "version",
+          "valueUri" : "http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20240801"
+        }],
+        "contains" : [{
+          "system" : "http://snomed.info/sct",
+          "code" : "1269515004",
+          "display" : "Face to face consultation with patient (procedure)"
+        },
+        {
+          "system" : "http://snomed.info/sct",
+          "code" : "719410009",
+          "display" : "Consultation via video conference (procedure)"
+        }]
+      }
+    }
+  }]
+}

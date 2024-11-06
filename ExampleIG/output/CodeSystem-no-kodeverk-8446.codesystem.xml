@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8446.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8446.codesystem</b></p><a name="no-kodeverk-8446.codesystem"> </a><a name="hcno-kodeverk-8446.codesystem"> </a><a name="no-kodeverk-8446.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-8446.codesystem-1"> </a></td><td>Institusjonen/sykehuset har bestemt utsettelsen av kapasitetsgrunner</td></tr><tr><td style="white-space:nowrap">21<a name="no-kodeverk-8446.codesystem-21"> </a></td><td>Pasienten har ikke møtt opp</td></tr><tr><td style="white-space:nowrap">22<a name="no-kodeverk-8446.codesystem-22"> </a></td><td>Pasienten har selv bestemt utsettelsen av velferdsgrunner</td></tr><tr><td style="white-space:nowrap">3<a name="no-kodeverk-8446.codesystem-3"> </a></td><td>Medisinske årsaker hos pasienten til utsettelsen</td></tr><tr><td style="white-space:nowrap">4<a name="no-kodeverk-8446.codesystem-4"> </a></td><td>Oppstart av helsehjelp er utsatt grunnet manglende kapasitet ved påfølgende behandlingssted</td></tr><tr><td style="white-space:nowrap">5<a name="no-kodeverk-8446.codesystem-5"> </a></td><td>Pasienten har takket nei til tilbud fra HF om helsehjelp ved annet behandlingssted enn sitt primære ønske</td></tr><tr><td style="white-space:nowrap">6<a name="no-kodeverk-8446.codesystem-6"> </a></td><td>Pasienten har takket nei til tilbud fra Helfo om helsehjelp ved annet behandlingssted enn sitt primære ønske</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8446"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NoKodeverk8446"/>
+  <title value="8446 Utsettelseskode"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2018-10-01"/>
+  <description value="Dette kodeverket inneholder koder som beskriver grunner for utsettelse."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="7"/>
+  <concept>
+    <code value="1"/>
+    <display value="Institusjonen/sykehuset har bestemt utsettelsen av kapasitetsgrunner"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="Pasienten har ikke møtt opp"/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="Pasienten har selv bestemt utsettelsen av velferdsgrunner"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Medisinske årsaker hos pasienten til utsettelsen"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Oppstart av helsehjelp er utsatt grunnet manglende kapasitet ved påfølgende behandlingssted"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Pasienten har takket nei til tilbud fra HF om helsehjelp ved annet behandlingssted enn sitt primære ønske"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Pasienten har takket nei til tilbud fra Helfo om helsehjelp ved annet behandlingssted enn sitt primære ønske"/>
+  </concept>
+</CodeSystem>

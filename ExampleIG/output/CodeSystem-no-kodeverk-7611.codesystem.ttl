@@ -1,0 +1,56 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-7611.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7611.codesystem</b></p><a name=\"no-kodeverk-7611.codesystem\"> </a><a name=\"hcno-kodeverk-7611.codesystem\"> </a><a name=\"no-kodeverk-7611.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">FO<a name=\"no-kodeverk-7611.codesystem-FO\"> </a></td><td>Foreldreansvar</td><td>Registrert med foreldreansvar (i FREG). I tillegg må en av foreldrene være registrert med samme bostedsadresse som barnet.</td></tr><tr><td style=\"white-space:nowrap\">VE<a name=\"no-kodeverk-7611.codesystem-VE\"> </a></td><td>Vergemål</td><td>Person som representerer Innbygger basert på  vergemålsvedtak</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-7611.codesystem-FU\"> </a></td><td>Fullmakt</td><td>Fullmektig basert på fullmakt fra innbygger med full samtykkekompetanse. Hvem som helst kan bli opprettet som fullmektig, relasjon mellom fullmaktsgiver og fullmektig er ikke ytterligere spesifisert.</td></tr><tr><td style=\"white-space:nowrap\">TD<a name=\"no-kodeverk-7611.codesystem-TD\"> </a></td><td>Tildelt fullmakt</td><td>Innbyggers nærmeste pårørende kan, etter bekreftelse fra fastlegen, registreres som fullmektig for innbygger som mangler helserettslig samtykkekompetanse.</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7611" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk7611"] ; # 
+  fhir:title [ fhir:v "7611 Representasjonsrolle."] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-29"^^xsd:date] ; # 
+  fhir:description [ fhir:v "Dersom en innbygger benytter dialogtjenester på vegne av pasient fra helsenorge.no så skal informasjon om hvem som benytter tjeneste oppgis vha. objektet Pasientrelasjon. Pasienten oppgis som vanlig under patient-tagen i Hodemeldingen, mens personen som benytter en dialogtjeneste på vegne av pasienten skal oppgis i objektet Pasientrelasjon. Relasjon angir her representasjonsolle person som benytter tjeneste har til pasient."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "4"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "FO" ] ;
+     fhir:display [ fhir:v "Foreldreansvar" ] ;
+     fhir:definition [ fhir:v "Registrert med foreldreansvar (i FREG). I tillegg må en av foreldrene være registrert med samme bostedsadresse som barnet." ]
+  ] [
+     fhir:code [ fhir:v "VE" ] ;
+     fhir:display [ fhir:v "Vergemål" ] ;
+     fhir:definition [ fhir:v "Person som representerer Innbygger basert på  vergemålsvedtak" ]
+  ] [
+     fhir:code [ fhir:v "FU" ] ;
+     fhir:display [ fhir:v "Fullmakt" ] ;
+     fhir:definition [ fhir:v "Fullmektig basert på fullmakt fra innbygger med full samtykkekompetanse. Hvem som helst kan bli opprettet som fullmektig, relasjon mellom fullmaktsgiver og fullmektig er ikke ytterligere spesifisert." ]
+  ] [
+     fhir:code [ fhir:v "TD" ] ;
+     fhir:display [ fhir:v "Tildelt fullmakt" ] ;
+     fhir:definition [ fhir:v "Innbyggers nærmeste pårørende kan, etter bekreftelse fra fastlegen, registreres som fullmektig for innbygger som mangler helserettslig samtykkekompetanse." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

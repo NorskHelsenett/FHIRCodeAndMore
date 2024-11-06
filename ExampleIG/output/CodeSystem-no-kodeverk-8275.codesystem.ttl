@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8275.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8275.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8275.codesystem</b></p><a name=\"no-kodeverk-8275.codesystem\"> </a><a name=\"hcno-kodeverk-8275.codesystem\"> </a><a name=\"no-kodeverk-8275.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8275.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">BS<a name=\"no-kodeverk-8275.codesystem-BS\"> </a></td><td>Børste og spatel</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8275.codesystem-S\"> </a></td><td>Spatel</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"no-kodeverk-8275.codesystem-A\"> </a></td><td>Annet</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8275.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8275" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8275"] ; # 
+  fhir:title [ fhir:v "8275 Cytologisk materiale tatt med"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Cytologisk materiale tatt med."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "3"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "BS" ] ;
+     fhir:display [ fhir:v "Børste og spatel" ]
+  ] [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "Spatel" ]
+  ] [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "Annet" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

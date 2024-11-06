@@ -1,0 +1,146 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-9505.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-9505.codesystem</b></p><a name=\"no-kodeverk-9505.codesystem\"> </a><a name=\"hcno-kodeverk-9505.codesystem\"> </a><a name=\"no-kodeverk-9505.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9505.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">3D<a name=\"no-kodeverk-9505.codesystem-3D\"> </a></td><td>Hjemmebesøk av jordmor</td></tr><tr><td style=\"white-space:nowrap\">10D<a name=\"no-kodeverk-9505.codesystem-10D\"> </a></td><td>Hjemmebesøk av helsesykepleier</td></tr><tr><td style=\"white-space:nowrap\">4U<a name=\"no-kodeverk-9505.codesystem-4U\"> </a></td><td>4 uker</td></tr><tr><td style=\"white-space:nowrap\">6U<a name=\"no-kodeverk-9505.codesystem-6U\"> </a></td><td>6 uker</td></tr><tr><td style=\"white-space:nowrap\">3M<a name=\"no-kodeverk-9505.codesystem-3M\"> </a></td><td>3 måneder</td></tr><tr><td style=\"white-space:nowrap\">4M<a name=\"no-kodeverk-9505.codesystem-4M\"> </a></td><td>4 måneder</td></tr><tr><td style=\"white-space:nowrap\">5M<a name=\"no-kodeverk-9505.codesystem-5M\"> </a></td><td>5 måneder</td></tr><tr><td style=\"white-space:nowrap\">6M<a name=\"no-kodeverk-9505.codesystem-6M\"> </a></td><td>6 måneder</td></tr><tr><td style=\"white-space:nowrap\">8M<a name=\"no-kodeverk-9505.codesystem-8M\"> </a></td><td>8 måneder</td></tr><tr><td style=\"white-space:nowrap\">10M<a name=\"no-kodeverk-9505.codesystem-10M\"> </a></td><td>10 måneder</td></tr><tr><td style=\"white-space:nowrap\">12M<a name=\"no-kodeverk-9505.codesystem-12M\"> </a></td><td>12 måneder</td></tr><tr><td style=\"white-space:nowrap\">15M<a name=\"no-kodeverk-9505.codesystem-15M\"> </a></td><td>15 måneder</td></tr><tr><td style=\"white-space:nowrap\">18M<a name=\"no-kodeverk-9505.codesystem-18M\"> </a></td><td>17-18 måneder</td></tr><tr><td style=\"white-space:nowrap\">2A<a name=\"no-kodeverk-9505.codesystem-2A\"> </a></td><td>2 år</td></tr><tr><td style=\"white-space:nowrap\">4A<a name=\"no-kodeverk-9505.codesystem-4A\"> </a></td><td>4 år</td></tr><tr><td style=\"white-space:nowrap\">6A<a name=\"no-kodeverk-9505.codesystem-6A\"> </a></td><td>6 år, første trinn</td></tr><tr><td style=\"white-space:nowrap\">7A<a name=\"no-kodeverk-9505.codesystem-7A\"> </a></td><td>7 år, andre trinn</td></tr><tr><td style=\"white-space:nowrap\">8A<a name=\"no-kodeverk-9505.codesystem-8A\"> </a></td><td>8 år, tredje trinn</td></tr><tr><td style=\"white-space:nowrap\">9A<a name=\"no-kodeverk-9505.codesystem-9A\"> </a></td><td>9 år, fjerde trinn</td></tr><tr><td style=\"white-space:nowrap\">10A<a name=\"no-kodeverk-9505.codesystem-10A\"> </a></td><td>10 år, femte trinn</td></tr><tr><td style=\"white-space:nowrap\">11A<a name=\"no-kodeverk-9505.codesystem-11A\"> </a></td><td>11 år, sjette trinn</td></tr><tr><td style=\"white-space:nowrap\">12A<a name=\"no-kodeverk-9505.codesystem-12A\"> </a></td><td>12 år, sjuende trinn</td></tr><tr><td style=\"white-space:nowrap\">13A<a name=\"no-kodeverk-9505.codesystem-13A\"> </a></td><td>13 år, åttende trinn</td></tr><tr><td style=\"white-space:nowrap\">14A<a name=\"no-kodeverk-9505.codesystem-14A\"> </a></td><td>14 år, niende trinn</td></tr><tr><td style=\"white-space:nowrap\">15A<a name=\"no-kodeverk-9505.codesystem-15A\"> </a></td><td>15 år, tiende trinn</td></tr><tr><td style=\"white-space:nowrap\">16A<a name=\"no-kodeverk-9505.codesystem-16A\"> </a></td><td>16 år</td></tr><tr><td style=\"white-space:nowrap\">17A<a name=\"no-kodeverk-9505.codesystem-17A\"> </a></td><td>17 år</td></tr><tr><td style=\"white-space:nowrap\">18A<a name=\"no-kodeverk-9505.codesystem-18A\"> </a></td><td>18 år</td></tr><tr><td style=\"white-space:nowrap\">E<a name=\"no-kodeverk-9505.codesystem-E\"> </a></td><td>Ekstra konsultasjon</td></tr></table></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9505.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.9505"
+  }],
+  "version" : "1.0.0",
+  "name" : "NoKodeverk9505",
+  "title" : "9505 Alderstrinn",
+  "status" : "retired",
+  "experimental" : false,
+  "date" : "2022-10-12",
+  "description" : "Dette kodeverket inneholder koder som benyttes for å identifisere de faste alderstrinn (intervall) som er relevante i forbindelse med arbeidet på helsestasjoner og i skolehelsetjenesten.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 29,
+  "concept" : [{
+    "code" : "3D",
+    "display" : "Hjemmebesøk av jordmor"
+  },
+  {
+    "code" : "10D",
+    "display" : "Hjemmebesøk av helsesykepleier"
+  },
+  {
+    "code" : "4U",
+    "display" : "4 uker"
+  },
+  {
+    "code" : "6U",
+    "display" : "6 uker"
+  },
+  {
+    "code" : "3M",
+    "display" : "3 måneder"
+  },
+  {
+    "code" : "4M",
+    "display" : "4 måneder"
+  },
+  {
+    "code" : "5M",
+    "display" : "5 måneder"
+  },
+  {
+    "code" : "6M",
+    "display" : "6 måneder"
+  },
+  {
+    "code" : "8M",
+    "display" : "8 måneder"
+  },
+  {
+    "code" : "10M",
+    "display" : "10 måneder"
+  },
+  {
+    "code" : "12M",
+    "display" : "12 måneder"
+  },
+  {
+    "code" : "15M",
+    "display" : "15 måneder"
+  },
+  {
+    "code" : "18M",
+    "display" : "17-18 måneder"
+  },
+  {
+    "code" : "2A",
+    "display" : "2 år"
+  },
+  {
+    "code" : "4A",
+    "display" : "4 år"
+  },
+  {
+    "code" : "6A",
+    "display" : "6 år, første trinn"
+  },
+  {
+    "code" : "7A",
+    "display" : "7 år, andre trinn"
+  },
+  {
+    "code" : "8A",
+    "display" : "8 år, tredje trinn"
+  },
+  {
+    "code" : "9A",
+    "display" : "9 år, fjerde trinn"
+  },
+  {
+    "code" : "10A",
+    "display" : "10 år, femte trinn"
+  },
+  {
+    "code" : "11A",
+    "display" : "11 år, sjette trinn"
+  },
+  {
+    "code" : "12A",
+    "display" : "12 år, sjuende trinn"
+  },
+  {
+    "code" : "13A",
+    "display" : "13 år, åttende trinn"
+  },
+  {
+    "code" : "14A",
+    "display" : "14 år, niende trinn"
+  },
+  {
+    "code" : "15A",
+    "display" : "15 år, tiende trinn"
+  },
+  {
+    "code" : "16A",
+    "display" : "16 år"
+  },
+  {
+    "code" : "17A",
+    "display" : "17 år"
+  },
+  {
+    "code" : "18A",
+    "display" : "18 år"
+  },
+  {
+    "code" : "E",
+    "display" : "Ekstra konsultasjon"
+  }]
+}

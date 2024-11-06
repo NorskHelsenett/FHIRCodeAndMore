@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-7617.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-7617.codesystem</b></p><a name="no-kodeverk-7617.codesystem"> </a><a name="hcno-kodeverk-7617.codesystem"> </a><a name="no-kodeverk-7617.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Ordinær<a name="no-kodeverk-7617.codesystem-Ordin.230r"> </a></td><td>Ordinær time</td></tr><tr><td style="white-space:nowrap">Hastetime<a name="no-kodeverk-7617.codesystem-Hastetime"> </a></td><td>Hastetime</td></tr><tr><td style="white-space:nowrap">Video<a name="no-kodeverk-7617.codesystem-Video"> </a></td><td>Videotime</td></tr><tr><td style="white-space:nowrap">Tidsvindu<a name="no-kodeverk-7617.codesystem-Tidsvindu"> </a></td><td>Tidsvindu</td></tr><tr><td style="white-space:nowrap">Gruppe<a name="no-kodeverk-7617.codesystem-Gruppe"> </a></td><td>Gruppetime</td></tr><tr><td style="white-space:nowrap">Vaksine<a name="no-kodeverk-7617.codesystem-Vaksine"> </a></td><td>Time for vaksine</td></tr><tr><td style="white-space:nowrap">Lab<a name="no-kodeverk-7617.codesystem-Lab"> </a></td><td>Time på lab</td></tr><tr><td style="white-space:nowrap">Koronatest<a name="no-kodeverk-7617.codesystem-Koronatest"> </a></td><td>Innført for håndtering av pandemien</td></tr><tr><td style="white-space:nowrap">Koronavaksine<a name="no-kodeverk-7617.codesystem-Koronavaksine"> </a></td><td>Innført for håndtering av pandemien</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7617"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NoKodeverk7617"/>
+  <title value="7617 Timetype innbyggerportal"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2023-03-29"/>
+  <description value="Tilleggsopplysning til diagnose."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="Ordinær"/>
+    <display value="Ordinær time"/>
+  </concept>
+  <concept>
+    <code value="Hastetime"/>
+    <display value="Hastetime"/>
+  </concept>
+  <concept>
+    <code value="Video"/>
+    <display value="Videotime"/>
+  </concept>
+  <concept>
+    <code value="Tidsvindu"/>
+    <display value="Tidsvindu"/>
+  </concept>
+  <concept>
+    <code value="Gruppe"/>
+    <display value="Gruppetime"/>
+  </concept>
+  <concept>
+    <code value="Vaksine"/>
+    <display value="Time for vaksine"/>
+  </concept>
+  <concept>
+    <code value="Lab"/>
+    <display value="Time på lab"/>
+  </concept>
+  <concept>
+    <code value="Koronatest"/>
+    <display value="Innført for håndtering av pandemien"/>
+  </concept>
+  <concept>
+    <code value="Koronavaksine"/>
+    <display value="Innført for håndtering av pandemien"/>
+  </concept>
+</CodeSystem>

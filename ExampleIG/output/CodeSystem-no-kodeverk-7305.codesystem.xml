@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-7305.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-7305.codesystem</b></p><a name="no-kodeverk-7305.codesystem"> </a><a name="hcno-kodeverk-7305.codesystem"> </a><a name="no-kodeverk-7305.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7305.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">S<a name="no-kodeverk-7305.codesystem-S"> </a></td><td>ICD10 stjernekode</td><td/></tr><tr><td style="white-space:nowrap">A<a name="no-kodeverk-7305.codesystem-A"> </a></td><td>ATC-kode</td><td>(til bruk ved ICD10)</td></tr><tr><td style="white-space:nowrap">AN<a name="no-kodeverk-7305.codesystem-AN"> </a></td><td>Anatomisk lokalisasjon</td><td/></tr><tr><td style="white-space:nowrap">DI<a name="no-kodeverk-7305.codesystem-DI"> </a></td><td>Diagnosestatus</td><td/></tr><tr><td style="white-space:nowrap">FO<a name="no-kodeverk-7305.codesystem-FO"> </a></td><td>Forløp</td><td/></tr><tr><td style="white-space:nowrap">LA<a name="no-kodeverk-7305.codesystem-LA"> </a></td><td>Lateralitet</td><td/></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7305.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.7305"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NoKodeverk7305"/>
+  <title value="7305 Moderator"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-06T23:06:55+01:00"/>
+  <description value="Tilleggsopplysning til diagnose."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="6"/>
+  <concept>
+    <code value="S"/>
+    <display value="ICD10 stjernekode"/>
+  </concept>
+  <concept>
+    <code value="A"/>
+    <display value="ATC-kode"/>
+    <definition value="(til bruk ved ICD10)"/>
+  </concept>
+  <concept>
+    <code value="AN"/>
+    <display value="Anatomisk lokalisasjon"/>
+  </concept>
+  <concept>
+    <code value="DI"/>
+    <display value="Diagnosestatus"/>
+  </concept>
+  <concept>
+    <code value="FO"/>
+    <display value="Forløp"/>
+  </concept>
+  <concept>
+    <code value="LA"/>
+    <display value="Lateralitet"/>
+  </concept>
+</CodeSystem>

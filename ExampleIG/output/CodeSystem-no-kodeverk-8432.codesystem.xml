@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-8432.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-8432.codesystem</b></p><a name="no-kodeverk-8432.codesystem"> </a><a name="hcno-kodeverk-8432.codesystem"> </a><a name="no-kodeverk-8432.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-8432.codesystem-1"> </a></td><td>Utredning</td></tr><tr><td style="white-space:nowrap">2<a name="no-kodeverk-8432.codesystem-2"> </a></td><td>Behandling</td></tr><tr><td style="white-space:nowrap">3<a name="no-kodeverk-8432.codesystem-3"> </a></td><td>Kontroll</td></tr><tr><td style="white-space:nowrap">5<a name="no-kodeverk-8432.codesystem-5"> </a></td><td>Indirekte pasientkontakt</td></tr><tr><td style="white-space:nowrap">6<a name="no-kodeverk-8432.codesystem-6"> </a></td><td>Videokonsultasjon</td></tr><tr><td style="white-space:nowrap">7<a name="no-kodeverk-8432.codesystem-7"> </a></td><td>Telefonkonsultasjon</td></tr><tr><td style="white-space:nowrap">12<a name="no-kodeverk-8432.codesystem-12"> </a></td><td>Pasientadministrert behandling</td></tr><tr><td style="white-space:nowrap">13<a name="no-kodeverk-8432.codesystem-13"> </a></td><td>Opplæring</td></tr><tr><td style="white-space:nowrap">14<a name="no-kodeverk-8432.codesystem-14"> </a></td><td>Screening</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.8432"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NoKodeverk8432"/>
+  <title value="8432 Kontakttype"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2021-10-04"/>
+  <description value="Dette kodeverket inneholder koder som katogoriserer type kontakter. Gjelder for polikliniske konsultasjoner og dagbehandlinger etc."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="1"/>
+    <display value="Utredning"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Behandling"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Kontroll"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="Indirekte pasientkontakt"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="Videokonsultasjon"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="Telefonkonsultasjon"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="Pasientadministrert behandling"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="Opplæring"/>
+  </concept>
+  <concept>
+    <code value="14"/>
+    <display value="Screening"/>
+  </concept>
+</CodeSystem>

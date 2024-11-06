@@ -1,0 +1,84 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/Observation/Eksempel-representasjon-i-meta-security> a fhir:Observation ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Eksempel-representasjon-i-meta-security"] ; # 
+  fhir:meta [
+     fhir:security ( [
+       fhir:extension ( [
+         fhir:extension ( [
+           fhir:url [ fhir:v "name"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:HumanName ;
+             fhir:extension ( [
+               fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/no-basis-middlename"^^xsd:anyURI ] ;
+               fhir:value [ fhir:v "Grete" ]
+             ] ) ;
+             fhir:family [ fhir:v "Danser" ] ;
+             fhir:given ( [ fhir:v "Line" ] )
+           ]
+         ] [
+           fhir:url [ fhir:v "ident"^^xsd:anyURI ] ;
+           fhir:value [
+             a fhir:Identifier ;
+             fhir:type [
+               fhir:coding ( [
+                 fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8116"^^xsd:anyURI ] ;
+                 fhir:code [ fhir:v "FNR" ] ;
+                 fhir:display [ fhir:v "Fødselsnummer" ]
+               ] )
+             ] ;
+             fhir:value [ fhir:v "12345678901" ]
+           ]
+         ] ) ;
+         fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant"^^xsd:anyURI ]
+       ] ) ;
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7611"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FO" ] ;
+       fhir:display [ fhir:v "Foreldreansvar" ]
+     ] ) ;
+     fhir:tag ( [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Oslo University Hospital" ]
+       ] ) ;
+       fhir:system [ fhir:v "http://helsenorge.no/fhir/varsling"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "9" ] ;
+       fhir:display [ fhir:v "Benytt angitt navn som avsender i varsel til innbygger" ]
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation Eksempel-representasjon-i-meta-security</b></p><a name=\"Eksempel-representasjon-i-meta-security\"> </a><a name=\"hcEksempel-representasjon-i-meta-security\"> </a><a name=\"Eksempel-representasjon-i-meta-security-no-NO\"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category survey}\">Survey</span></p><p><b>code</b>: <span title=\"Codes:\">Foreldres observasjon av barnets symptomer</span></p><p><b>subject</b>: <a href=\"Patient-example-girl.html\">Jane Danser  Female, DoB: 2015-11-02</a></p><p><b>effective</b>: 2023-11-02 10:30:00+0000</p><p><b>performer</b>: <a href=\"RelatedPerson-line-danser.html\">RelatedPerson Line Danser </a></p><p><b>note</b>: Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert.</p></div>"
+  ] ; # 
+  fhir:status [ fhir:v "final"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "survey" ] ;
+       fhir:display [ fhir:v "Survey" ]
+     ] )
+  ] ) ; # 
+  fhir:code [
+     fhir:text [ fhir:v "Foreldres observasjon av barnets symptomer" ]
+  ] ; # 
+  fhir:subject [
+     fhir:link <http://helsenorge.no/fhir/Patient/example-girl> ;
+     fhir:reference [ fhir:v "Patient/example-girl" ]
+  ] ; # 
+  fhir:effective [ fhir:v "2023-11-02T10:30:00Z"^^xsd:dateTime] ; # 
+  fhir:performer ( [
+     fhir:link <http://helsenorge.no/fhir/RelatedPerson/line-danser> ;
+     fhir:reference [ fhir:v "RelatedPerson/line-danser" ]
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Barnet har klaget over øresmerter og har vært mer irritabelt enn vanlig. Periodisk gnissing av øret er observert." ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

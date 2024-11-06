@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hn-scheduleAndSlot-type-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-scheduleAndSlot-type-cs</b></p><a name=\"hn-scheduleAndSlot-type-cs\"> </a><a name=\"hchn-scheduleAndSlot-type-cs\"> </a><a name=\"hn-scheduleAndSlot-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Poliklinisktime<a name=\"hn-scheduleAndSlot-type-cs-Poliklinisktime\"> </a></td><td>Poliklinisk time</td></tr><tr><td style=\"white-space:nowrap\">Innleggelse<a name=\"hn-scheduleAndSlot-type-cs-Innleggelse\"> </a></td><td>Innleggelse</td></tr><tr><td style=\"white-space:nowrap\">Dagbehandling<a name=\"hn-scheduleAndSlot-type-cs-Dagbehandling\"> </a></td><td>Dagbehandling</td></tr><tr><td style=\"white-space:nowrap\">Hjemmebesøk<a name=\"hn-scheduleAndSlot-type-cs-Hjemmebes.248k\"> </a></td><td>Hjemmebesøk</td></tr><tr><td style=\"white-space:nowrap\">Konsultasjon<a name=\"hn-scheduleAndSlot-type-cs-Konsultasjon\"> </a></td><td>Konsultasjon</td></tr><tr><td style=\"white-space:nowrap\">Bildediagnostikk<a name=\"hn-scheduleAndSlot-type-cs-Bildediagnostikk\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-scheduleAndSlot-type-cs-Personlig\"> </a></td><td>Personlig</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "HnScheduleAndSlotTypeCS"] ; # 
+  fhir:title [ fhir:v "Codes that should be used for schedule and SlotType."] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Codes that should be used for schedule and SlotType."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "7"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Poliklinisktime" ] ;
+     fhir:display [ fhir:v "Poliklinisk time" ]
+  ] [
+     fhir:code [ fhir:v "Innleggelse" ] ;
+     fhir:display [ fhir:v "Innleggelse" ]
+  ] [
+     fhir:code [ fhir:v "Dagbehandling" ] ;
+     fhir:display [ fhir:v "Dagbehandling" ]
+  ] [
+     fhir:code [ fhir:v "Hjemmebesøk" ] ;
+     fhir:display [ fhir:v "Hjemmebesøk" ]
+  ] [
+     fhir:code [ fhir:v "Konsultasjon" ] ;
+     fhir:display [ fhir:v "Konsultasjon" ]
+  ] [
+     fhir:code [ fhir:v "Bildediagnostikk" ] ;
+     fhir:display [ fhir:v "Bildediagnostikk" ]
+  ] [
+     fhir:code [ fhir:v "Personlig" ] ;
+     fhir:display [ fhir:v "Personlig" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

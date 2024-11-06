@@ -1,0 +1,70 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8243.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8243.codesystem</b></p><a name=\"no-kodeverk-8243.codesystem\"> </a><a name=\"hcno-kodeverk-8243.codesystem\"> </a><a name=\"no-kodeverk-8243.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8243.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">AN<a name=\"no-kodeverk-8243.codesystem-AN\"> </a></td><td>Analyse</td></tr><tr><td style=\"white-space:nowrap\">DIAG<a name=\"no-kodeverk-8243.codesystem-DIAG\"> </a></td><td>Diagnose</td></tr><tr><td style=\"white-space:nowrap\">FU<a name=\"no-kodeverk-8243.codesystem-FU\"> </a></td><td>Funn og undersøkelsesresultater</td></tr><tr><td style=\"white-space:nowrap\">GR<a name=\"no-kodeverk-8243.codesystem-GR\"> </a></td><td>Gruppe</td></tr><tr><td style=\"white-space:nowrap\">LR<a name=\"no-kodeverk-8243.codesystem-LR\"> </a></td><td>Laboratorieresultat</td></tr><tr><td style=\"white-space:nowrap\">RSB<a name=\"no-kodeverk-8243.codesystem-RSB\"> </a></td><td>Resistensbestemmelse</td></tr><tr><td style=\"white-space:nowrap\">SY<a name=\"no-kodeverk-8243.codesystem-SY\"> </a></td><td>Sykmelding</td></tr><tr><td style=\"white-space:nowrap\">UP<a name=\"no-kodeverk-8243.codesystem-UP\"> </a></td><td>Ubesvarte prøver</td></tr><tr><td style=\"white-space:nowrap\">VU<a name=\"no-kodeverk-8243.codesystem-VU\"> </a></td><td>Vurdering</td></tr><tr><td style=\"white-space:nowrap\">XX<a name=\"no-kodeverk-8243.codesystem-XX\"> </a></td><td>Uspesifisert</td></tr></table></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8243.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8243"
+  }],
+  "version" : "1.0.0",
+  "name" : "NoKodeverk8243",
+  "title" : "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-06T23:06:55+01:00",
+  "description" : "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 10,
+  "concept" : [{
+    "code" : "AN",
+    "display" : "Analyse"
+  },
+  {
+    "code" : "DIAG",
+    "display" : "Diagnose"
+  },
+  {
+    "code" : "FU",
+    "display" : "Funn og undersøkelsesresultater"
+  },
+  {
+    "code" : "GR",
+    "display" : "Gruppe"
+  },
+  {
+    "code" : "LR",
+    "display" : "Laboratorieresultat"
+  },
+  {
+    "code" : "RSB",
+    "display" : "Resistensbestemmelse"
+  },
+  {
+    "code" : "SY",
+    "display" : "Sykmelding"
+  },
+  {
+    "code" : "UP",
+    "display" : "Ubesvarte prøver"
+  },
+  {
+    "code" : "VU",
+    "display" : "Vurdering"
+  },
+  {
+    "code" : "XX",
+    "display" : "Uspesifisert"
+  }]
+}

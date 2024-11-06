@@ -1,0 +1,53 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/Schedule/Schedule-Fastlege-Hans-Hansen> a fhir:Schedule ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Schedule-Fastlege-Hans-Hansen"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule"^^xsd:anyURI ;
+       fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Schedule Schedule-Fastlege-Hans-Hansen</b></p><a name=\"Schedule-Fastlege-Hans-Hansen\"> </a><a name=\"hcSchedule-Fastlege-Hans-Hansen\"> </a><a name=\"Schedule-Fastlege-Hans-Hansen-no-NO\"> </a><blockquote><p><b>Periode for første og siste ledige slot i timebok</b></p><ul><li>freePlanningHorizon: 2024-06-08 09:00:00+0000 --&gt; 2024-11-20 15:30:00+0000</li></ul></blockquote><p><b>identifier</b>: <a href=\"http://terminology.hl7.org/6.0.2/NamingSystem-uri.html\" title=\"As defined by RFC 3986 (http://www.ietf.org/rfc/rfc3986.txt)(with many schemes defined in many RFCs). For OIDs and UUIDs, use the URN form (urn:oid:(note: lowercase) and urn:uuid:). See http://www.ietf.org/rfc/rfc3001.txt and http://www.ietf.org/rfc/rfc4122.txt \r\n\r\nThis oid is used as an identifier II.root to indicate the the extension is an absolute URI (technically, an IRI). Typically, this is used for OIDs and GUIDs. Note that when this OID is used with OIDs and GUIDs, the II.extension should start with urn:oid or urn:uuid: \r\n\r\nNote that this OID is created to aid with interconversion between CDA and FHIR - FHIR uses urn:ietf:rfc:3986 as equivalent to this OID. URIs as identifiers appear more commonly in FHIR.\r\n\r\nThis OID may also be used in CD.codeSystem.\">Uniform Resource Identifier (URI)</a>/urn:uuid:d082e865-7a93-46fc-a0a3-681571aed13c</p><p><b>serviceType</b>: <span title=\"Codes:{http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs Personlig}\">Personlig</span></p><p><b>actor</b>: Fastlege Hans Hansen (Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.4</code>/123456789)</p><p><b>comment</b>: Jobber mandag, onsdag og fredag</p></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:extension ( [
+       fhir:url [ fhir:v "freePlanningHorizon"^^xsd:anyURI ] ;
+       fhir:value [
+         a fhir:Period ;
+         fhir:start [ fhir:v "2024-06-08T09:00:00Z"^^xsd:dateTime ] ;
+         fhir:end [ fhir:v "2024-11-20T15:30:00Z"^^xsd:dateTime ]
+       ]
+     ] ) ;
+     fhir:url [ fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon"^^xsd:anyURI ]
+  ] ) ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:uuid:d082e865-7a93-46fc-a0a3-681571aed13c" ]
+  ] ) ; # 
+  fhir:serviceType ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "Personlig" ]
+     ] )
+  ] ) ; # 
+  fhir:actor ( [
+     fhir:type [ fhir:v "Practitioner"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.4"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "123456789" ]
+     ] ;
+     fhir:display [ fhir:v "Fastlege Hans Hansen" ]
+  ] ) ; # 
+  fhir:comment [ fhir:v "Jobber mandag, onsdag og fredag"] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-8234.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8234.codesystem</b></p><a name=\"no-kodeverk-8234.codesystem\"> </a><a name=\"hcno-kodeverk-8234.codesystem\"> </a><a name=\"no-kodeverk-8234.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8234.codesystem</code> defines codes, but no codes are represented here</p></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8234.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.8234"
+  }],
+  "version" : "1.0.0",
+  "name" : "NoKodeverk8234",
+  "title" : "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-06T23:06:55+01:00",
+  "description" : "Type tekstsvar i kommentar til rekvisisjon og henvisning. kodeverket har ikke noen beskrivelse.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "not-present"
+}

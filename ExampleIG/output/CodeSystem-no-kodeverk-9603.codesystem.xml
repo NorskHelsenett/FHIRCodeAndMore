@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-9603.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-9603.codesystem</b></p><a name="no-kodeverk-9603.codesystem"> </a><a name="hcno-kodeverk-9603.codesystem"> </a><a name="no-kodeverk-9603.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9603.codesystem</code> defines codes, but no codes are represented here</p></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9603.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.9603"/>
+  </identifier>
+  <version value="1.0.0"/>
+  <name value="NoKodeverk9603"/>
+  <title value="9603 Sperring og nekting av dokumenter"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-11-06T23:06:55+01:00"/>
+  <description value="Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="not-present"/>
+</CodeSystem>

@@ -1,0 +1,44 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "serviceRequest-performerType-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet serviceRequest-performerType-vs</b></p><a name=\"serviceRequest-performerType-vs\"> </a><a name=\"hcserviceRequest-performerType-vs\"> </a><a name=\"serviceRequest-performerType-vs-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 158965000 (Medical practitioner)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "ServiceRequestPerformerTypeVS"] ; # 
+  fhir:title [ fhir:v "ServiceRequest PerformerType Value Set"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Koder for valgte profesjonstyper."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:filter ( [
+         fhir:property [ fhir:v "concept" ] ;
+         fhir:op [ fhir:v "is-a" ] ;
+         fhir:value [ fhir:v "158965000" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9060"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

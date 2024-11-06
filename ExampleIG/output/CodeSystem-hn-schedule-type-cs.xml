@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="hn-schedule-type-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem hn-schedule-type-cs</b></p><a name="hn-schedule-type-cs"> </a><a name="hchn-schedule-type-cs"> </a><a name="hn-schedule-type-cs-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">Lab<a name="hn-schedule-type-cs-Lab"> </a></td></tr><tr><td style="white-space:nowrap">Vaksine<a name="hn-schedule-type-cs-Vaksine"> </a></td></tr><tr><td style="white-space:nowrap">Koronavaksine<a name="hn-schedule-type-cs-Koronavaksine"> </a></td></tr><tr><td style="white-space:nowrap">Koronatest<a name="hn-schedule-type-cs-Koronatest"> </a></td></tr><tr><td style="white-space:nowrap">Personlig<a name="hn-schedule-type-cs-Personlig"> </a></td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+  <version value="1.0.0"/>
+  <name value="HnScheduleTypeCS"/>
+  <title value="Codes that should be used for schedule type"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-11-06T23:06:55+01:00"/>
+  <description value="Codes that should be used for schedule type."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="Lab"/>
+    <display value="Lab"/>
+  </concept>
+  <concept>
+    <code value="Vaksine"/>
+    <display value="Vaksine"/>
+  </concept>
+  <concept>
+    <code value="Koronavaksine"/>
+    <display value="Koronavaksine"/>
+  </concept>
+  <concept>
+    <code value="Koronatest"/>
+    <display value="Koronatest"/>
+  </concept>
+  <concept>
+    <code value="Personlig"/>
+    <display value="Personlig"/>
+  </concept>
+</CodeSystem>

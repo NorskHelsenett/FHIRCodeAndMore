@@ -1,0 +1,37 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hn-schedule-type-vs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hn-schedule-type-vs</b></p><a name=\"hn-schedule-type-vs\"> </a><a name=\"hchn-schedule-type-vs\"> </a><a name=\"hn-schedule-type-vs-no-NO\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hn-schedule-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code></a></li></ul></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "HnScheduleTypeVS"] ; # 
+  fhir:title [ fhir:v "hn-schedule-type-vs"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Value set for schedule type"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"^^xsd:anyURI ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

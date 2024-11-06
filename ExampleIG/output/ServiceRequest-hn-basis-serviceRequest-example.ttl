@@ -1,0 +1,74 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/ServiceRequest/hn-basis-serviceRequest-example> a fhir:ServiceRequest ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "hn-basis-serviceRequest-example"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"^^xsd:anyURI ;
+       fhir:link <http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ServiceRequest hn-basis-serviceRequest-example</b></p><a name=\"hn-basis-serviceRequest-example\"> </a><a name=\"hchn-basis-serviceRequest-example\"> </a><a name=\"hn-basis-serviceRequest-example-no-NO\"> </a><p><b>identifier</b>: <code>http://helsenorge.no/fhir/identifiers/uuid</code>/cdeaceeb-4119-42c6-8a3a-b8d495970cb9</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title=\"Codes:{http://snomed.info/sct 1269515004}, {http://snomed.info/sct 719410009}\">Face to face consultation with patient</span></p><p><b>priority</b>: Routine</p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/12345678901</p><p><b>occurrence</b>: 2023-11-15 09:00:00+0000 --&gt; 2023-11-20 15:30:00+0000</p><p><b>performerType</b>: <span title=\"Codes:{urn:oid:2.16.578.1.12.4.1.1.9060 LE}\">Lege</span></p><p><b>reasonCode</b>: <span title=\"Codes:{http://snomed.info/sct 49436004}\">Atrial fibrillation</span></p><p><b>note</b>: Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon</p></div>"
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "http://helsenorge.no/fhir/identifiers/uuid"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "cdeaceeb-4119-42c6-8a3a-b8d495970cb9" ]
+  ] ) ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:intent [ fhir:v "order"] ; # 
+  fhir:category ( [
+     fhir:coding ( [
+       a sct:1269515004 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "1269515004" ] ;
+       fhir:display [ fhir:v "Face to face consultation with patient" ]
+     ] [
+       a sct:719410009 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "719410009" ] ;
+       fhir:display [ fhir:v "Consultation via video conference" ]
+     ] )
+  ] ) ; # 
+  fhir:priority [ fhir:v "routine"] ; # 
+  fhir:subject [
+     fhir:type [ fhir:v "Patient"^^xsd:anyURI ] ;
+     fhir:identifier [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.4.1"^^xsd:anyURI ] ;
+       fhir:value [ fhir:v "12345678901" ]
+     ]
+  ] ; # 
+  fhir:occurrence [
+     a fhir:Period ;
+     fhir:start [ fhir:v "2023-11-15T09:00:00Z"^^xsd:dateTime ] ;
+     fhir:end [ fhir:v "2023-11-20T15:30:00Z"^^xsd:dateTime ]
+  ] ; # 
+  fhir:performerType [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.9060"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "LE" ] ;
+       fhir:display [ fhir:v "Lege" ]
+     ] )
+  ] ; # 
+  fhir:reasonCode ( [
+     fhir:coding ( [
+       a sct:49436004 ;
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "49436004" ] ;
+       fhir:display [ fhir:v "Atrial fibrillation" ]
+     ] )
+  ] ) ; # 
+  fhir:note ( [
+     fhir:text [ fhir:v "Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

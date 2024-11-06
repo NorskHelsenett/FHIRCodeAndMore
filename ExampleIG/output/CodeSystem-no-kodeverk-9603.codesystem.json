@@ -1,0 +1,29 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "no-kodeverk-9603.codesystem",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-9603.codesystem</b></p><a name=\"no-kodeverk-9603.codesystem\"> </a><a name=\"hcno-kodeverk-9603.codesystem\"> </a><a name=\"no-kodeverk-9603.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9603.codesystem</code> defines codes, but no codes are represented here</p></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9603.codesystem",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:2.16.578.1.12.4.1.1.9603"
+  }],
+  "version" : "1.0.0",
+  "name" : "NoKodeverk9603",
+  "title" : "9603 Sperring og nekting av dokumenter",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2024-11-06T23:06:55+01:00",
+  "description" : "Kodeverket benyttes for å angi sperring og nekting av dokumenter. Opprettet for bruk i HIS 1169:2016 IHE XDS metadata inntil en nasjonal løsning for tilgangsstyring/håndtering av sperring er etablert.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "not-present"
+}

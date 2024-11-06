@@ -1,0 +1,67 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-7617.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-7617.codesystem</b></p><a name=\"no-kodeverk-7617.codesystem\"> </a><a name=\"hcno-kodeverk-7617.codesystem\"> </a><a name=\"no-kodeverk-7617.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Ordinær<a name=\"no-kodeverk-7617.codesystem-Ordin.230r\"> </a></td><td>Ordinær time</td></tr><tr><td style=\"white-space:nowrap\">Hastetime<a name=\"no-kodeverk-7617.codesystem-Hastetime\"> </a></td><td>Hastetime</td></tr><tr><td style=\"white-space:nowrap\">Video<a name=\"no-kodeverk-7617.codesystem-Video\"> </a></td><td>Videotime</td></tr><tr><td style=\"white-space:nowrap\">Tidsvindu<a name=\"no-kodeverk-7617.codesystem-Tidsvindu\"> </a></td><td>Tidsvindu</td></tr><tr><td style=\"white-space:nowrap\">Gruppe<a name=\"no-kodeverk-7617.codesystem-Gruppe\"> </a></td><td>Gruppetime</td></tr><tr><td style=\"white-space:nowrap\">Vaksine<a name=\"no-kodeverk-7617.codesystem-Vaksine\"> </a></td><td>Time for vaksine</td></tr><tr><td style=\"white-space:nowrap\">Lab<a name=\"no-kodeverk-7617.codesystem-Lab\"> </a></td><td>Time på lab</td></tr><tr><td style=\"white-space:nowrap\">Koronatest<a name=\"no-kodeverk-7617.codesystem-Koronatest\"> </a></td><td>Innført for håndtering av pandemien</td></tr><tr><td style=\"white-space:nowrap\">Koronavaksine<a name=\"no-kodeverk-7617.codesystem-Koronavaksine\"> </a></td><td>Innført for håndtering av pandemien</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.7617" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk7617"] ; # 
+  fhir:title [ fhir:v "7617 Timetype innbyggerportal"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-03-29"^^xsd:date] ; # 
+  fhir:description [ fhir:v "Tilleggsopplysning til diagnose."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "9"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "Ordinær" ] ;
+     fhir:display [ fhir:v "Ordinær time" ]
+  ] [
+     fhir:code [ fhir:v "Hastetime" ] ;
+     fhir:display [ fhir:v "Hastetime" ]
+  ] [
+     fhir:code [ fhir:v "Video" ] ;
+     fhir:display [ fhir:v "Videotime" ]
+  ] [
+     fhir:code [ fhir:v "Tidsvindu" ] ;
+     fhir:display [ fhir:v "Tidsvindu" ]
+  ] [
+     fhir:code [ fhir:v "Gruppe" ] ;
+     fhir:display [ fhir:v "Gruppetime" ]
+  ] [
+     fhir:code [ fhir:v "Vaksine" ] ;
+     fhir:display [ fhir:v "Time for vaksine" ]
+  ] [
+     fhir:code [ fhir:v "Lab" ] ;
+     fhir:display [ fhir:v "Time på lab" ]
+  ] [
+     fhir:code [ fhir:v "Koronatest" ] ;
+     fhir:display [ fhir:v "Innført for håndtering av pandemien" ]
+  ] [
+     fhir:code [ fhir:v "Koronavaksine" ] ;
+     fhir:display [ fhir:v "Innført for håndtering av pandemien" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

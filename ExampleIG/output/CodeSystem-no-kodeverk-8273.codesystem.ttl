@@ -1,0 +1,58 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8273.codesystem> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "no-kodeverk-8273.codesystem"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem no-kodeverk-8273.codesystem</b></p><a name=\"no-kodeverk-8273.codesystem\"> </a><a name=\"hcno-kodeverk-8273.codesystem\"> </a><a name=\"no-kodeverk-8273.codesystem-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8273.codesystem</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"no-kodeverk-8273.codesystem-S\"> </a></td><td>Snarest</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"no-kodeverk-8273.codesystem-B\"> </a></td><td>Etter behandling</td></tr><tr><td style=\"white-space:nowrap\">M01<a name=\"no-kodeverk-8273.codesystem-M01\"> </a></td><td>Etter 1 måned</td></tr><tr><td style=\"white-space:nowrap\">M03<a name=\"no-kodeverk-8273.codesystem-M03\"> </a></td><td>Etter 3 måneder</td></tr><tr><td style=\"white-space:nowrap\">M06<a name=\"no-kodeverk-8273.codesystem-M06\"> </a></td><td>Etter 6 måneder</td></tr><tr><td style=\"white-space:nowrap\">M12<a name=\"no-kodeverk-8273.codesystem-M12\"> </a></td><td>Etter 12 måneder</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8273.codesystem"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.578.1.12.4.1.1.8273" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:name [ fhir:v "NoKodeverk8273"] ; # 
+  fhir:title [ fhir:v "8273 Hastegrad"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:description [ fhir:v "Anbefalt tidsperspektiv for tiltak."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "NO" ] ;
+       fhir:display [ fhir:v "Norway" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "Snarest" ]
+  ] [
+     fhir:code [ fhir:v "B" ] ;
+     fhir:display [ fhir:v "Etter behandling" ]
+  ] [
+     fhir:code [ fhir:v "M01" ] ;
+     fhir:display [ fhir:v "Etter 1 måned" ]
+  ] [
+     fhir:code [ fhir:v "M03" ] ;
+     fhir:display [ fhir:v "Etter 3 måneder" ]
+  ] [
+     fhir:code [ fhir:v "M06" ] ;
+     fhir:display [ fhir:v "Etter 6 måneder" ]
+  ] [
+     fhir:code [ fhir:v "M12" ] ;
+     fhir:display [ fhir:v "Etter 12 måneder" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+
