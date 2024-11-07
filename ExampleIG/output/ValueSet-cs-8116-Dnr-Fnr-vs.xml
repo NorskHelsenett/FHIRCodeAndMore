@@ -11,7 +11,7 @@
   <title value="DNR og FNR fra Volven 8116"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2024-11-07T10:24:13+01:00"/>
+  <date value="2024-11-07T10:34:59+01:00"/>
   <description value="ValueSet basert på 8116 som inkluderer kun FNR og DNR"/>
   <jurisdiction>
     <coding>

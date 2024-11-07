@@ -11,7 +11,7 @@
   <version value="1.0.0"/>
   <name value="MyPatient"/>
   <status value="active"/>
-  <date value="2024-11-07T10:24:13+01:00"/>
+  <date value="2024-11-07T10:34:59+01:00"/>
   <description value="An example profile of the Patient resource."/>
   <jurisdiction>
     <coding>

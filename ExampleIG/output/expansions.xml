@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="c1eee632-d4c7-4222-b580-2d0d1dee7ad4"/>
+  <id value="538aa2cf-8ee7-46d0-93a8-f025bb4fc47f"/>
   <meta>
-    <lastUpdated value="2024-11-07T10:24:13.335+01:00"/>
+    <lastUpdated value="2024-11-07T10:34:59.037+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -66,11 +66,11 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Personlig"> </a>  
-                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Personlig">Personlig</a>
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Behandlertimebok"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Behandlertimebok">Behandlertimebok</a>
                 </td>
                 <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
-                <td>Personlig</td>
+                <td>Behandlertimebok</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
@@ -89,7 +89,7 @@
         <title value="hn-schedule-type-vs"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2024-11-07T10:24:13+01:00"/>
+        <date value="2024-11-07T10:34:59+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -98,8 +98,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:4c936233-352d-4b16-93d6-fdea49a18766"/>
-          <timestamp value="2024-11-07T10:24:48+01:00"/>
+          <identifier value="urn:uuid:d260b4f3-d8cb-48b8-9d0a-fd8a644f1c53"/>
+          <timestamp value="2024-11-07T10:35:34+01:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -140,8 +140,8 @@
           </contains>
           <contains>
             <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
-            <code value="Personlig"/>
-            <display value="Personlig"/>
+            <code value="Behandlertimebok"/>
+            <display value="Behandlertimebok"/>
           </contains>
           <contains>
             <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
@@ -201,7 +201,7 @@
         <title value="ServiceRequest Category Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2024-11-07T10:24:13+01:00"/>
+        <date value="2024-11-07T10:34:59+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -210,8 +210,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:40d0aa61-b0d6-4b3d-a1fc-4e855a0400c1"/>
-          <timestamp value="2024-11-07T10:24:48+01:00"/>
+          <identifier value="urn:uuid:eb0f74d6-b85d-4be6-a784-48bc371e6c35"/>
+          <timestamp value="2024-11-07T10:35:34+01:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
