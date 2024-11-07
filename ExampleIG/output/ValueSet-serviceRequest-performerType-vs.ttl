@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "ServiceRequest PerformerType Value Set"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-07T10:16:17+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-07T10:24:13+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Koder for valgte profesjonstyper."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

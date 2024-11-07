@@ -3,7 +3,7 @@ CodesExtensionsAndMore : Validation Results
 
 err = 6, warn = 27, info = 12
 IG Publisher Version: 1.7.1
-Generated Thu Nov 07 10:18:23 CET 2024. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
+Generated Thu Nov 07 10:25:51 CET 2024. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 1 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
