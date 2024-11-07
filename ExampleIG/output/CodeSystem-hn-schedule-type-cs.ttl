@@ -10,7 +10,7 @@
   fhir:id [ fhir:v "hn-schedule-type-cs"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-schedule-type-cs</b></p><a name=\"hn-schedule-type-cs\"> </a><a name=\"hchn-schedule-type-cs\"> </a><a name=\"hn-schedule-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Lab<a name=\"hn-schedule-type-cs-Lab\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Vaksine<a name=\"hn-schedule-type-cs-Vaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronavaksine<a name=\"hn-schedule-type-cs-Koronavaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronatest<a name=\"hn-schedule-type-cs-Koronatest\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-schedule-type-cs-Personlig\"> </a></td></tr></table></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-schedule-type-cs</b></p><a name=\"hn-schedule-type-cs\"> </a><a name=\"hchn-schedule-type-cs\"> </a><a name=\"hn-schedule-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Lab<a name=\"hn-schedule-type-cs-Lab\"> </a></td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\">Vaksine<a name=\"hn-schedule-type-cs-Vaksine\"> </a></td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\">Koronavaksine<a name=\"hn-schedule-type-cs-Koronavaksine\"> </a></td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\">Koronatest<a name=\"hn-schedule-type-cs-Koronatest\"> </a></td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-schedule-type-cs-Personlig\"> </a></td><td>Personlig</td></tr><tr><td style=\"white-space:nowrap\">Annen&quot;<a name=\"hn-schedule-type-cs-Annen.34\"> </a></td><td>Annen</td></tr></table></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Codes that should be used for schedule type"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2024-11-06T23:06:55+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-07T10:16:17+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that should be used for schedule type."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -29,7 +29,7 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v "true"^^xsd:boolean] ; # 
   fhir:content [ fhir:v "complete"] ; # 
-  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:count [ fhir:v "6"^^xsd:nonNegativeInteger] ; # 
   fhir:concept ( [
      fhir:code [ fhir:v "Lab" ] ;
      fhir:display [ fhir:v "Lab" ]
@@ -45,6 +45,9 @@
   ] [
      fhir:code [ fhir:v "Personlig" ] ;
      fhir:display [ fhir:v "Personlig" ]
+  ] [
+     fhir:code [ fhir:v "Annen\"" ] ;
+     fhir:display [ fhir:v "Annen" ]
   ] ) . # 
 
 # -------------------------------------------------------------------------------------

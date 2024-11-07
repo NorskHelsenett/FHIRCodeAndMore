@@ -9,7 +9,7 @@
   "version" : "1.0.0",
   "name" : "MyPatient",
   "status" : "active",
-  "date" : "2024-11-06T23:06:55+01:00",
+  "date" : "2024-11-07T10:16:17+01:00",
   "description" : "An example profile of the Patient resource.",
   "jurisdiction" : [{
     "coding" : [{

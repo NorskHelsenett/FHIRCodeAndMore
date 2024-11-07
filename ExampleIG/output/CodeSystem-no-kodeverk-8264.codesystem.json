@@ -15,7 +15,7 @@
   "title" : "8264 Tjenestekoder for timereservasjon",
   "status" : "retired",
   "experimental" : false,
-  "date" : "2024-11-06T23:06:55+01:00",
+  "date" : "2024-11-07T10:16:17+01:00",
   "description" : "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time.",
   "jurisdiction" : [{
     "coding" : [{
