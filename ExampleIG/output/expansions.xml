@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="538aa2cf-8ee7-46d0-93a8-f025bb4fc47f"/>
+  <id value="d99d6738-9071-4343-9379-e9ed4d3ae678"/>
   <meta>
-    <lastUpdated value="2024-11-07T10:34:59.037+01:00"/>
+    <lastUpdated value="2025-02-07T15:58:52.678+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -16,7 +16,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.0.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
@@ -89,7 +89,7 @@
         <title value="hn-schedule-type-vs"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2024-11-07T10:34:59+01:00"/>
+        <date value="2025-02-07T15:58:52+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -98,8 +98,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:d260b4f3-d8cb-48b8-9d0a-fd8a644f1c53"/>
-          <timestamp value="2024-11-07T10:35:34+01:00"/>
+          <identifier value="urn:uuid:27fd9ae3-6b7d-4e00-b492-656bbd95adf9"/>
+          <timestamp value="2025-02-07T15:59:35+01:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -162,7 +162,7 @@
             <p class="res-header-id">
               <b>Generated Narrative: ValueSet </b>
             </p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 01-aug. 2024</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on SNOMED CT 900000000000207008 edition 01-aug. 2024</p>
             <p>This value set contains 2 concepts</p>
             <table class="codes">
               <tr>
@@ -201,7 +201,7 @@
         <title value="ServiceRequest Category Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2024-11-07T10:34:59+01:00"/>
+        <date value="2025-02-07T15:58:52+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -210,8 +210,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:eb0f74d6-b85d-4be6-a784-48bc371e6c35"/>
-          <timestamp value="2024-11-07T10:35:34+01:00"/>
+          <identifier value="urn:uuid:f7627f4d-33fb-4dd4-a504-d1a5d11d3313"/>
+          <timestamp value="2025-02-07T15:59:35+01:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

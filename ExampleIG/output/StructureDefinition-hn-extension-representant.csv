@@ -24,9 +24,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Extension.extension:name.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""name""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
 "Extension.extension:name.value[x]","Extension.extension.value[x]","","","",0,1,"","","","HumanName {[CanonicalType[http://hl7.no/fhir/StructureDefinition/no-basis-HumanName]]} {[]}
-","Norwegian human name","Defines the format of norwegian human name according to norwegian legislation (lov om personnavn).","Names may be changed, or repudiated, or people may have different names in different contexts. Names may be divided into parts of different type that have variable significance depending on context, though the division into parts does not always matter. With personal names, the different parts might or might not be imbued with some implicit meaning; various cultures associate different importance with the name parts and the degree to which systems must care about name parts around the world varies widely.","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"ele-1
+","Value of extension","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-","n/a","EN (actually, PN)"
+","n/a","N/A"
 "Extension.extension:ident","Extension.extension","ident","","",1,1,"Y","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

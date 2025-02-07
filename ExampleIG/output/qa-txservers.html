@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for CodesExtensionsAndMore</h1>
- <p>Generated Thu Nov 07 10:36:37 CET 2024, FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>))</p>
+ <p>Generated Fri Feb 07 16:01:33 CET 2025, FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -21,6 +21,9 @@
   </li>
 </ul>
 <h2>Tx Manager report for 'http://tx.fhir.org/tx-reg'</h2>
+<p>
+  <b>Decisions</b>
+</p>
 <table class="grid">
   <tr>
     <td>
@@ -38,6 +41,20 @@
     <td>
       <b>Choices</b>
     </td>
+  </tr>
+  <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
+    <td>Fallback: primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>null</td>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>auth = , candidates=</td>
   </tr>
   <tr>
     <td>System not handled by any servers. Using primary server</td>
@@ -98,7 +115,7 @@
 </table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
 <a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 4. Code Systems used: </p>
+<p>Use Count: 20. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -113,6 +130,12 @@
     <th>
       <b>Details</b>
     </th>
+  </tr>
+  <tr>
+    <td>http://hl7.org/fhir/fhir-types</td>
+    <td>0</td>
+    <td>1</td>
+    <td></td>
   </tr>
   <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.7617</td>
@@ -139,5 +162,11 @@
     <td></td>
   </tr>
 </table>
+<p>ValueSets fetched:</p>
+<ul>
+  <li>urn:oid:2.16.578.1.12.4.1.1.7617|null</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.8116|null</li>
+  <li>urn:oid:2.16.578.1.12.4.1.1.9060|null</li>
+</ul>
 </body>
 </html>

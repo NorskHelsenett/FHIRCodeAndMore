@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2024-11-07T10:34:59+01:00",
+  "date" : "2025-02-07T15:58:52+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.0.2"
+    "version" : "6.2.0"
   },
   {
     "id" : "hl7ext",
@@ -326,7 +326,7 @@
     },
     {
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency",
-      "valueCode" : "hl7.fhir.uv.tools#0.2.0"
+      "valueCode" : "hl7.fhir.uv.tools.r4#0.3.0"
     },
     {
       "extension" : [{

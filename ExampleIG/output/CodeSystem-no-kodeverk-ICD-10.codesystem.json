@@ -16,7 +16,7 @@
   "title" : "ICD-10",
   "status" : "active",
   "experimental" : false,
-  "date" : "2024-11-07T10:34:59+01:00",
+  "date" : "2025-02-07T15:58:52+01:00",
   "description" : "Klassifikasjon av sykdommer og beslektede helseproblemer.",
   "jurisdiction" : [{
     "coding" : [{

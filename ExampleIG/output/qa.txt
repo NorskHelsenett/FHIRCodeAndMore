@@ -1,10 +1,10 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 6, warn = 27, info = 12
-IG Publisher Version: 1.7.1
-Generated Thu Nov 07 10:36:37 CET 2024. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
- Build Errors : 3 / 1 / 0
+err = 6, warn = 29, info = 11
+IG Publisher Version: 1.8.10
+Generated Fri Feb 07 16:01:33 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
+ Build Errors : 3 / 3 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -59,7 +59,7 @@ Generated Thu Nov 07 10:36:37 CET 2024. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-her-id : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-orgnr : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\NamingSystem-no-basis-resh-id : 0 / 0 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security : 1 / 1 / 3
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security : 1 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-PatientExample : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-example-girl : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\RelatedPerson-line-danser : 0 / 1 / 2
@@ -86,9 +86,11 @@ Generated Thu Nov 07 10:36:37 CET 2024. FHIR version 4.0.1 for fhir.codesandexte
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/hn-basis-serviceRequest-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 498, column 1029: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 761, column 901: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
-ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1675, column 901: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 500, column 1029: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 763, column 901: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1677, column 901: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
 == fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem.json ==
 == fsh-generated\resources\CodeSystem-hn-schedule-type-cs.json ==
 == fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs.json ==
@@ -147,7 +149,6 @@ ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequ
 WARNING: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
 ERROR: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: The code provided (urn:oid:2.16.578.1.12.4.1.1.8116#FNR) was not found in the value set 'DNR og FNR fra Volven 8116' (http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.0.0), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: A definition for CodeSystem 'http://helsenorge.no/fhir/varsling' could not be found, so the code cannot be validated
-INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.category[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/observation-category|4.0.1 from hl7.fhir.r4.core#4.0.1
 == fsh-generated\resources\Patient-PatientExample.json ==
 == fsh-generated\resources\Patient-example-girl.json ==
 == fsh-generated\resources\RelatedPerson-line-danser.json ==
