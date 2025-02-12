@@ -11,7 +11,7 @@
   "title" : "ServiceRequest PerformerType Value Set",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-02-12T12:09:01+01:00",
+  "date" : "2025-02-12T17:25:34+01:00",
   "description" : "Koder for valgte profesjonstyper.",
   "jurisdiction" : [{
     "coding" : [{

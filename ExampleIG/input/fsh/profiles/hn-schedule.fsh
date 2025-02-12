@@ -15,7 +15,7 @@ Description: "FHIR Schedule brukes for å hente timebøker tilgjengelige for tim
 * active = true
 * identifier.system 1..1
 * serviceCategory.coding.system 1..1
-* serviceCategory from http://hl7.org/fhir/ValueSet/service-category
+* serviceCategory from http://hl7.org/fhir/ValueSet/service-category (preferred)
 * serviceCategory.coding obeys inv-4
 * serviceType 1..*
 * serviceType.coding.system 1..1

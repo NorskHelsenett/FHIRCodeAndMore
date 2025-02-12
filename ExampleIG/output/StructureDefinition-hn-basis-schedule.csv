@@ -86,7 +86,7 @@ ref-1:SHALL have a contained resource if a local reference is provided {referenc
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a","FiveWs.status"
 "Schedule.serviceCategory","Schedule.serviceCategory","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
-","High-level category","A broad categorization of the service that is to be performed during this appointment.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"required","","http://hl7.org/fhir/ValueSet/service-category","",,,,"Schedule.serviceCategory",0,*,"ele-1
+","High-level category","A broad categorization of the service that is to be performed during this appointment.","Not all terminology uses fit this general pattern. In some cases, models should not use CodeableConcept and use Coding directly and provide their own structure for managing text, codings, translations and the relationship between elements and pre- and post-coordination.","","","","","","","","",,"preferred","","http://hl7.org/fhir/ValueSet/service-category","",,,,"Schedule.serviceCategory",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a","CD","FiveWs.class"
 "Schedule.serviceCategory.id","Schedule.serviceCategory.id","","","",0,1,"","","","string {[]} {[]}
