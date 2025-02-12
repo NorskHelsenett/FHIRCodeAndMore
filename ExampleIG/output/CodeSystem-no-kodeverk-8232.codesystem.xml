@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8232"/>
   </identifier>
-  <version value="1.0.0"/>
+  <version value="1.1.0"/>
   <name value="NoKodeverk8232"/>
   <title value="8232 Forbehandling"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-02-07T15:58:52+01:00"/>
+  <date value="2025-02-12T12:09:01+01:00"/>
   <description value="Forberedelse før undersøkelse"/>
   <jurisdiction>
     <coding>

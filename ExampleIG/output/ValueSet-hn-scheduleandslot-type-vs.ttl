@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hn-scheduleandslot-type-vs</b></p><a name=\"hn-scheduleandslot-type-vs\"> </a><a name=\"hchn-scheduleandslot-type-vs\"> </a><a name=\"hn-scheduleandslot-type-vs-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>urn:oid:2.16.578.1.12.4.1.1.7617</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Vaksine</td><td>Time for vaksine</td></tr><tr><td>Lab</td><td>Time på lab</td></tr><tr><td>Koronatest</td><td>Innført for håndtering av pandemien</td></tr><tr><td>Koronavaksine</td><td>Innført for håndtering av pandemien</td></tr></table></li><li>Include all codes defined in <a href=\"CodeSystem-hn-scheduleAndSlot-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.0.0"] ; # 
+  fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "HnScheduleAndSlotTypeVS"] ; # 
   fhir:title [ fhir:v "hn-scheduleandslot-type-vs"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-07T15:58:52+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-12T12:09:01+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Value set for schedule and slot type"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

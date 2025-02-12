@@ -1,9 +1,9 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 6, warn = 29, info = 11
-IG Publisher Version: 1.8.10
-Generated Fri Feb 07 16:01:33 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.0.0 (canonical = http://helsenorge.no/fhir)
+err = 10, warn = 31, info = 14
+IG Publisher Version: 1.8.10 Out of date - current version is 1.8.12
+Generated Wed Feb 12 12:11:07 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
@@ -70,7 +70,7 @@ Generated Fri Feb 07 16:01:33 CET 2025. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Schedule-Schedule-Lab : 1 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Schedule-Schedule-Vikar-September-August : 1 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example : 0 / 3 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 3
@@ -78,6 +78,8 @@ Generated Fri Feb 07 16:01:33 CET 2025. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation : 2 / 1 / 2
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp : 2 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-schedule-type-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
@@ -147,7 +149,7 @@ WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, s
 == fsh-generated\resources\NamingSystem-no-basis-resh-id.json ==
 == fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json ==
 WARNING: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
-ERROR: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: The code provided (urn:oid:2.16.578.1.12.4.1.1.8116#FNR) was not found in the value set 'DNR og FNR fra Volven 8116' (http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.0.0), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
+ERROR: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: The code provided (urn:oid:2.16.578.1.12.4.1.1.8116#FNR) was not found in the value set 'DNR og FNR fra Volven 8116' (http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.1.0), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: A definition for CodeSystem 'http://helsenorge.no/fhir/varsling' could not be found, so the code cannot be validated
 == fsh-generated\resources\Patient-PatientExample.json ==
 == fsh-generated\resources\Patient-example-girl.json ==
@@ -161,22 +163,23 @@ WARNING: Schedule/Eksempel-schedule-poliklinikk: Schedule.serviceCategory[0]: Th
 INFORMATION: Schedule/Eksempel-schedule-vaksine: Schedule.serviceCategory[0]: Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/service-category|4.0.1 from hl7.fhir.r4.core#4.0.1
 WARNING: Schedule/Eksempel-schedule-vaksine: Schedule.serviceCategory[0]: The system http://terminology.hl7.org/CodeSystem/service-category was found but did not contain enough information to properly validate the code "17" ("General Practice") (mode = example)
 WARNING: Schedule/Eksempel-schedule-vaksine: Schedule.serviceType[0].coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
-ERROR: Schedule/Eksempel-schedule-vaksine: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.0.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Vaksine)
+ERROR: Schedule/Eksempel-schedule-vaksine: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.1.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Vaksine)
 == fsh-generated\resources\Schedule-Schedule-Fastlege-Hans-Hansen.json ==
-ERROR: Schedule/Schedule-Fastlege-Hans-Hansen: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.0.0), and a coding from this value set is required) (codes = http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs#Personlig)
+ERROR: Schedule/Schedule-Fastlege-Hans-Hansen: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.1.0), and a coding from this value set is required) (codes = http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs#Personlig)
 == fsh-generated\resources\Schedule-Schedule-Koronavaksine.json ==
 WARNING: Schedule/Schedule-Koronavaksine: Schedule.serviceType[0].coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
-ERROR: Schedule/Schedule-Koronavaksine: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.0.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Koronavaksine)
+ERROR: Schedule/Schedule-Koronavaksine: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.1.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Koronavaksine)
 == fsh-generated\resources\Schedule-Schedule-Lab.json ==
 WARNING: Schedule/Schedule-Lab: Schedule.serviceType[0].coding[0]: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated
-ERROR: Schedule/Schedule-Lab: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.0.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Lab)
+ERROR: Schedule/Schedule-Lab: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.1.0), and a coding from this value set is required) (codes = urn:oid:2.16.578.1.12.4.1.1.7617#Lab)
 == fsh-generated\resources\Schedule-Schedule-Vikar-September-August.json ==
-ERROR: Schedule/Schedule-Vikar-September-August: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.0.0), and a coding from this value set is required) (codes = http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs#Personlig)
+ERROR: Schedule/Schedule-Vikar-September-August: Schedule.serviceType[0]: None of the codings provided are in the value set 'hn-schedule-type-vs' (http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs|1.1.0), and a coding from this value set is required) (codes = http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs#Personlig)
 == fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example.json ==
 WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType.coding[0].system: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated
-WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060 was not found
-WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.0.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060 was not found
+WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.1.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060 was not found
+WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performerType: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.9060' could not be found, so the code cannot be validated; Unable to check whether the code is in the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.1.0' because the code system urn:oid:2.16.578.1.12.4.1.1.9060 was not found
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated\resources\StructureDefinition-additional-code.json ==
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
@@ -203,6 +206,16 @@ WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDef
 == fsh-generated\resources\StructureDefinition-hn-extension-representant.json ==
 INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
+== fsh-generated\resources\StructureDefinition-no-basis-Observation.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation) does not match the URL (http://hl7.no/fhir/StructureDefinition/no-basis-Observation)
+INFORMATION: StructureDefinition/no-basis-Observation: StructureDefinition.snapshot.element[52].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation vs http://hl7.no/fhir/StructureDefinition/no-basis-Observation
+== fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp)
+INFORMATION: StructureDefinition/no-basis-Observation-Bodytemp: StructureDefinition.snapshot.element[68].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp vs http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated)
 == fsh-generated\resources\ValueSet-hn-schedule-type-vs.json ==

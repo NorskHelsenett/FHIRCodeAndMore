@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.codesandextensions</b></p><a name=\"fhir.codesandextensions\"> </a><a name=\"hcfhir.codesandextensions\"> </a><a name=\"fhir.codesandextensions-no-NO\"> </a><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   },
   "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-02-07T15:58:52+01:00",
+  "date" : "2025-02-12T12:09:01+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -40,7 +40,7 @@
     }],
     "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
     "packageId" : "hl7.fhir.uv.extensions.r4",
-    "version" : "5.1.0"
+    "version" : "5.2.0"
   },
   {
     "id" : "hl7_fhir_no_basis",
@@ -1182,6 +1182,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Observation"
+      },
+      "name" : "General No Basis Observation",
+      "description" : "Profile for general observations as desfined as base profile in norway.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ServiceRequest"
       }],
       "reference" : {
@@ -1296,6 +1308,18 @@
       },
       "name" : "NCRP",
       "description" : "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-basis-Observation-Bodytemp"
+      },
+      "name" : "No Basis Observation - Body Temperature",
+      "description" : "General Profile for Body Temperature in Norway.",
       "exampleBoolean" : false
     },
     {

@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
-      "version" : "1.0.0",
+      "version" : "1.1.0",
       "status" : "draft",
       "name" : "HnScheduleTypeCS",
       "title" : "Codes that should be used for schedule type",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
-      "version" : "1.0.0",
+      "version" : "1.1.0",
       "status" : "draft",
       "name" : "HnScheduleAndSlotTypeCS",
       "title" : "Codes that should be used for schedule and SlotType.",
@@ -36,6 +36,18 @@
       "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set"
     },
     {
+      "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "DataAbsentReason",
+      "title" : "DataAbsentReason",
+      "description" : "Used to specify why the normally expected content of the data element is missing.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+    },
+    {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",
       "version" : "1.1.1",
       "status" : "active",
@@ -46,6 +58,18 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-service-category.html" : "Service category"
+    },
+    {
+      "url" : "http://unitsofmeasure.org",
+      "version" : "3.0.1",
+      "status" : "active",
+      "name" : "UCUM",
+      "title" : "Unified Code for Units of Measure (UCUM)",
+      "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
+      "oids" : ["2.16.840.1.113883.6.8"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R4/valueset-ucum-bodytemp.html" : "Body Temperature Units"
     }
   ]
 }

@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.9033"/>
   </identifier>
-  <version value="1.0.0"/>
+  <version value="1.1.0"/>
   <name value="NoKodeverk9033"/>
   <title value="9033 Slektskap mv. til pasient"/>
   <status value="active"/>

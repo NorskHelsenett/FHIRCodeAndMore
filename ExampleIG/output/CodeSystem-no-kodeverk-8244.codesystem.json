@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8244"
   }],
-  "version" : "1.0.0",
+  "version" : "1.1.0",
   "name" : "NoKodeverk8244",
   "title" : "8244 Avviksmarkør i svarrapportering av medisinske tjenester",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-07T15:58:52+01:00",
+  "date" : "2025-02-12T12:09:01+01:00",
   "description" : "Angir svarverdi i forhold til referansegrense",
   "jurisdiction" : [{
     "coding" : [{
