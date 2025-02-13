@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="cc62d004-631f-4333-a6ae-74ad450b9adb"/>
+  <id value="93a698e0-98f1-4bab-ae35-5a299c702008"/>
   <meta>
-    <lastUpdated value="2025-02-12T17:25:34.386+01:00"/>
+    <lastUpdated value="2025-02-13T07:45:06.535+01:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -19,7 +19,7 @@
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
               <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.1.0 (CodeSystem)</a>
             </p>
-            <p>This value set contains 6 concepts</p>
+            <p>This value set contains 7 concepts</p>
             <table class="codes">
               <tr>
                 <td style="white-space:nowrap">
@@ -80,6 +80,14 @@
                 <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
                 <td>Annen</td>
               </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Blodbank"> </a>  
+                  <a href="CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Blodbank">Blodbank</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td>
+                <td>Blodbank</td>
+              </tr>
             </table>
           </div>
         </text>
@@ -89,7 +97,7 @@
         <title value="hn-schedule-type-vs"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-02-12T17:25:34+01:00"/>
+        <date value="2025-02-13T07:45:06+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -98,9 +106,9 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:25a7c56b-31a9-42cd-b836-146f4bdb122c"/>
-          <timestamp value="2025-02-12T17:26:14+01:00"/>
-          <total value="6"/>
+          <identifier value="urn:uuid:46078314-d0e0-450b-999f-b2be100f4475"/>
+          <timestamp value="2025-02-13T07:45:46+01:00"/>
+          <total value="7"/>
           <offset value="0"/>
           <parameter>
             <name value="count"/>
@@ -147,6 +155,11 @@
             <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
             <code value="Annen"/>
             <display value="Annen"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
+            <code value="Blodbank"/>
+            <display value="Blodbank"/>
           </contains>
         </expansion>
       </ValueSet>
@@ -201,7 +214,7 @@
         <title value="ServiceRequest Category Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-02-12T17:25:34+01:00"/>
+        <date value="2025-02-13T07:45:06+01:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -210,8 +223,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:af626014-2fb8-4908-bae2-5f570d0ea28c"/>
-          <timestamp value="2025-02-12T17:26:14+01:00"/>
+          <identifier value="urn:uuid:1c2dffa4-1cc7-4992-b634-05ba056b9261"/>
+          <timestamp value="2025-02-13T07:45:47+01:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

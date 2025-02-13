@@ -3,7 +3,7 @@
   "id" : "hn-schedule-type-cs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-schedule-type-cs</b></p><a name=\"hn-schedule-type-cs\"> </a><a name=\"hchn-schedule-type-cs\"> </a><a name=\"hn-schedule-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Lab<a name=\"hn-schedule-type-cs-Lab\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Vaksine<a name=\"hn-schedule-type-cs-Vaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronavaksine<a name=\"hn-schedule-type-cs-Koronavaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronatest<a name=\"hn-schedule-type-cs-Koronatest\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Behandlertimebok<a name=\"hn-schedule-type-cs-Behandlertimebok\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Annen<a name=\"hn-schedule-type-cs-Annen\"> </a></td></tr></table></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-schedule-type-cs</b></p><a name=\"hn-schedule-type-cs\"> </a><a name=\"hchn-schedule-type-cs\"> </a><a name=\"hn-schedule-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">Lab<a name=\"hn-schedule-type-cs-Lab\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Vaksine<a name=\"hn-schedule-type-cs-Vaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronavaksine<a name=\"hn-schedule-type-cs-Koronavaksine\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Koronatest<a name=\"hn-schedule-type-cs-Koronatest\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Behandlertimebok<a name=\"hn-schedule-type-cs-Behandlertimebok\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Annen<a name=\"hn-schedule-type-cs-Annen\"> </a></td></tr><tr><td style=\"white-space:nowrap\">Blodbank<a name=\"hn-schedule-type-cs-Blodbank\"> </a></td></tr></table></div>"
   },
   "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
   "version" : "1.1.0",
@@ -11,7 +11,7 @@
   "title" : "Codes that should be used for schedule type",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-02-12T17:25:34+01:00",
+  "date" : "2025-02-13T07:45:06+01:00",
   "description" : "Codes that should be used for schedule type.",
   "jurisdiction" : [{
     "coding" : [{
@@ -22,7 +22,7 @@
   }],
   "caseSensitive" : true,
   "content" : "complete",
-  "count" : 6,
+  "count" : 7,
   "concept" : [{
     "code" : "Lab",
     "display" : "Lab"
@@ -46,5 +46,9 @@
   {
     "code" : "Annen",
     "display" : "Annen"
+  },
+  {
+    "code" : "Blodbank",
+    "display" : "Blodbank"
   }]
 }

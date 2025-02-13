@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "NCRP"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-12T17:25:34+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-13T07:45:06+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
