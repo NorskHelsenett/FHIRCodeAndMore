@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8231 Type tekstsvar"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-13T07:45:06+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-21T16:49:26+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Begrunnelse for rekvisisjon/henvisning"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

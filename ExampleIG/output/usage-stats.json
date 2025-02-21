@@ -179,16 +179,6 @@
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
         "title": "HnBasisSlot"
       }
-    ],
-    "Observation": [
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Observation",
-        "title": "General No Basis Observation"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp",
-        "title": "No Basis Observation - Body Temperature"
-      }
     ]
   },
   "usage": {
@@ -220,9 +210,6 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [

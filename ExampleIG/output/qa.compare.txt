@@ -1,7 +1,7 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 10, warn = 31, info = 14
+err = 6, warn = 29, info = 12
 $--
 Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
@@ -78,8 +78,6 @@ Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = htt
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation : 2 / 1 / 2
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp : 2 / 1 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-schedule-type-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
@@ -206,16 +204,6 @@ WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDef
 == fsh-generated\resources\StructureDefinition-hn-extension-representant.json ==
 INFORMATION: StructureDefinition/hn-extension-representant: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
-== fsh-generated\resources\StructureDefinition-no-basis-Observation.json ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation) does not match the URL (http://hl7.no/fhir/StructureDefinition/no-basis-Observation)
-INFORMATION: StructureDefinition/no-basis-Observation: StructureDefinition.snapshot.element[52].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation'): The Implementation Guide contains no examples for this profile
-ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation vs http://hl7.no/fhir/StructureDefinition/no-basis-Observation
-== fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp.json ==
-ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp)
-INFORMATION: StructureDefinition/no-basis-Observation-Bodytemp: StructureDefinition.snapshot.element[68].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp'): The Implementation Guide contains no examples for this profile
-ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-basis-Observation-Bodytemp: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp vs http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated)
 == fsh-generated\resources\ValueSet-hn-schedule-type-vs.json ==

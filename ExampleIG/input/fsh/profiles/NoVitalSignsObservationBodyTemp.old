@@ -1,0 +1,33 @@
+Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
+
+Profile: NoVitalSignsObservationBodyTemp
+Parent: $bodytemp
+Id: NoVitalSignsObservationBodyTemp
+Title: "NO VitalSigns Observation - Body Temperature"
+Description: "Base profile for Norwegian Vital Signs Observation Body Temperature information."
+* ^version = "0.1.1"
+* ^status = #draft
+* ^date = "2025-02-21"
+* ^publisher = "HL7 Norway"
+* ^contact.name = "HL7 Norway"
+* ^contact.telecom.system = #url
+* ^contact.telecom.value = "http://www.hl7.no"
+* ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"
+* ^purpose = "Basisprofile for Norwegian  VitalSigns Observation Body Temperature information."
+* code.coding contains BodyTempSnomedCode 0..1
+* code.coding[BodyTempSnomedCode] ^short = "body Temp Snomed Code"
+* code.coding[BodyTempSnomedCode] ^definition = "body Temp Snomed Code"
+* code.coding[BodyTempSnomedCode].system 1..
+* code.coding[BodyTempSnomedCode].system = "http://snomed.info/sct"
+* code.coding[BodyTempSnomedCode].code 1..
+* code.coding[BodyTempSnomedCode].code = #276885007
+* performer ^slicing.discriminator.type = #type
+* performer ^slicing.discriminator.path = "type"
+* performer ^slicing.rules = #open
+* performer contains
+    Author 0..* and
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson)
+* performer[organization] only Reference(Organization)
+* valueQuantity only Quantity
+* valueQuantity ^short = "The measured temperature."

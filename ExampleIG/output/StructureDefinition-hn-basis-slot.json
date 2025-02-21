@@ -10,7 +10,7 @@
   "name" : "HnBasisSlot",
   "title" : "HnBasisSlot",
   "status" : "draft",
-  "date" : "2025-02-13T07:45:06+01:00",
+  "date" : "2025-02-21T16:49:26+01:00",
   "description" : "Profil for slot i Helsenorge. Basert på FHIR Slot (R4)",
   "jurisdiction" : [{
     "coding" : [{

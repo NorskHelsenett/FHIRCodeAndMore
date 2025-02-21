@@ -511,19 +511,5 @@
     "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
     "version" : "1.1.0",
     "name" : "ServiceRequestPerformerTypeVS"
-  },
-  {
-    "id" : "no-basis-Observation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Observation",
-    "version" : "1.1.0",
-    "name" : "NoBasisObservation"
-  },
-  {
-    "id" : "no-basis-Observation-Bodytemp",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.no/fhir/StructureDefinition/no-basis-Observation-Bodytemp",
-    "version" : "1.1.0",
-    "name" : "NoBasisObservationBodytemp"
   }
 ]
