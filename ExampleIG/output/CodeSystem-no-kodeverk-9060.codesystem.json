@@ -15,7 +15,7 @@
   "title" : "9060 Kategori helsepersonell",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-21T16:49:26+01:00",
+  "date" : "2025-02-22T02:39:46+01:00",
   "description" : "Kodeverket inneholder koder som benyttes for å kategorisere helsepersonell med autorisasjon etter Helsepersonelloven § 48, og dyrehelsepersonell med autorisasjon etter Dyrehelsepersonelloven § 4.",
   "jurisdiction" : [{
     "coding" : [{

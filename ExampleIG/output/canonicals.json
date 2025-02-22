@@ -511,5 +511,12 @@
     "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
     "version" : "1.1.0",
     "name" : "ServiceRequestPerformerTypeVS"
+  },
+  {
+    "id" : "NoVitalSignsObservationBloodpressure",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationBloodpressure"
   }
 ]

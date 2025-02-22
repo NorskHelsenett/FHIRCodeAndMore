@@ -1,9 +1,9 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 6, warn = 29, info = 12
+err = 8, warn = 30, info = 12
 IG Publisher Version: 1.8.10 Out of date - current version is 1.8.13
-Generated Fri Feb 21 16:51:24 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sat Feb 22 02:41:55 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
@@ -71,6 +71,7 @@ Generated Fri Feb 21 16:51:24 CET 2025. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\Schedule-Schedule-Vikar-September-August : 1 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example : 0 / 3 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 3
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure : 2 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 3
@@ -179,6 +180,10 @@ WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performe
 == fsh-generated\resources\StructureDefinition-MyPatient.json ==
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[30].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure
 == fsh-generated\resources\StructureDefinition-additional-code.json ==
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==

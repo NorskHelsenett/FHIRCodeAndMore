@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8244 Avviksmarkør i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-21T16:49:26+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T02:39:46+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Angir svarverdi i forhold til referansegrense"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

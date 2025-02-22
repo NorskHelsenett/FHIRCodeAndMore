@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HnBasisSchedule"] ; # 
   fhir:title [ fhir:v "HnBasisSchedule"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-02-21T16:49:26+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T02:39:46+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

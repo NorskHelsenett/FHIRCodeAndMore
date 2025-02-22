@@ -6,14 +6,14 @@
   "status" : "active",
   "package-id" : "fhir.codesandextensions",
   "ig-ver" : "1.1.0",
-  "date" : "Fri, 21 Feb, 2025 16:49:26 +0100",
-  "dateISO8601" : "2025-02-21T16:49:26+01:00",
-  "errs" : 6,
-  "warnings" : 29,
+  "date" : "Sat, 22 Feb, 2025 02:39:46 +0100",
+  "dateISO8601" : "2025-02-22T02:39:46+01:00",
+  "errs" : 8,
+  "warnings" : 30,
   "hints" : 12,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 6,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 852774264
+  "maxMemory" : 908184704
 }

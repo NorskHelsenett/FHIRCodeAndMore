@@ -29,7 +29,7 @@
   <name value="HnBasisSchedule"/>
   <title value="HnBasisSchedule"/>
   <status value="draft"/>
-  <date value="2025-02-21T16:49:26+01:00"/>
+  <date value="2025-02-22T02:39:46+01:00"/>
   <description value="FHIR Schedule brukes for å hente timebøker tilgjengelige for timebestilling for innbygger. Profilen er basert på R4."/>
   <jurisdiction>
     <coding>

@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-02-21T16:49:26+01:00",
+  "date" : "2025-02-22T02:39:46+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1296,6 +1296,18 @@
       },
       "name" : "NCRP",
       "description" : "Kodeverk for radiologi og nukleærmedisin. Kodeverket skal brukes for å dokumentere og skal kunne brukes for å bestille radiologiske tjenester. Det skal benyttes for både polikliniske og innlagte pasienter. Fra 1. januar 2012 har det vært obligatorisk å bruke dette kodeverket for å rapportere poliklinisk radiologisk aktivitet både for offentlige og private virksomheter.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBloodpressure"
+      },
+      "name" : "NO VitalSigns Observation - Blood Pressure",
+      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile.",
       "exampleBoolean" : false
     },
     {
