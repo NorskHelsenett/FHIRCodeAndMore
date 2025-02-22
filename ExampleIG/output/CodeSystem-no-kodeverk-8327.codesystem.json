@@ -15,7 +15,7 @@
   "title" : "8327 Offisiell personidentifikasjon",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T05:08:06+01:00",
+  "date" : "2025-02-22T05:29:40+01:00",
   "description" : "Angir type identifikator for person",
   "jurisdiction" : [{
     "coding" : [{

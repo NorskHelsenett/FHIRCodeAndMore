@@ -54,3 +54,12 @@ Description: "Base profile for Norwegian Vital Signs Observation Blood pressure 
 * component[DiastolicBP].code.coding contains DiastolicBPSnomed 0..1
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].system = "http://snomed.info/sct" (exactly)
 * component[DiastolicBP].code.coding[DiastolicBPSnomed].code = #271650006 (exactly) // SNOMED CT for Diastolic BP
+
+* performer ^slicing.discriminator.type = #type
+* performer ^slicing.discriminator.path = "type"
+* performer ^slicing.rules = #closed
+* performer contains
+    Author 0..* and
+    organization 0..*
+* performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson)
+* performer[organization] only Reference(Organization)
