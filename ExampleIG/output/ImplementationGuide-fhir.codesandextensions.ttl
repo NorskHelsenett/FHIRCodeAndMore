@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-02-22T04:12:23+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T05:08:06+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1009,6 +1009,34 @@
        fhir:name [ fhir:v "Alternative codes på serviceRequest.code" ] ;
        fhir:description [ fhir:v "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code" ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Observation/body-height-example> ;
+         fhir:reference [ fhir:v "Observation/body-height-example" ]
+       ] ;
+       fhir:name [ fhir:v "body-height-example" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight>
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "Observation" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/Observation/body-height-example-loinc> ;
+         fhir:reference [ fhir:v "Observation/body-height-example-loinc" ]
+       ] ;
+       fhir:name [ fhir:v "body-height-example-loinc" ] ;
+       fhir:example [
+         fhir:v "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"^^xsd:anyURI ;
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight>
+       ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

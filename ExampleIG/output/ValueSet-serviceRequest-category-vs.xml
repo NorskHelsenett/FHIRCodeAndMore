@@ -11,7 +11,7 @@
   <title value="ServiceRequest Category Value Set"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2025-02-22T04:12:23+01:00"/>
+  <date value="2025-02-22T05:08:06+01:00"/>
   <description value="Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)"/>
   <jurisdiction>
     <coding>

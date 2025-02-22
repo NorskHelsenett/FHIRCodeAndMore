@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-02-22T04:12:23+01:00",
+  "date" : "2025-02-22T05:08:06+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1094,6 +1094,28 @@
       "name" : "Alternative codes på serviceRequest.code",
       "description" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/body-height-example"
+      },
+      "name" : "body-height-example",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Observation"
+      }],
+      "reference" : {
+        "reference" : "Observation/body-height-example-loinc"
+      },
+      "name" : "body-height-example-loinc",
+      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
     },
     {
       "extension" : [{

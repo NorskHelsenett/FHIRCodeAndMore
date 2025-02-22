@@ -1,0 +1,51 @@
+{
+  "resourceType" : "Observation",
+  "id" : "body-height-example",
+  "meta" : {
+    "profile" : ["http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
+    "http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Observation body-height-example</b></p><a name=\"body-height-example\"> </a><a name=\"hcbody-height-example\"> </a><a name=\"body-height-example-no-NO\"> </a><p><b>status</b>: Final</p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/observation-category vital-signs}\">Vital Signs</span></p><p><b>code</b>: <span title=\"Codes:{http://loinc.org 8302-2}, {http://snomed.info/sct 50373000}\">Body height</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Patient/12345\">Ola Nordmann</a></p><p><b>effective</b>: 2025-02-22 09:00:00+0000</p><p><b>performer</b>: </p><ul><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Practitioner/67890\">Dr. Anne Hansen</a></li><li><a href=\"https://simplifier.net/resolve?scope=hl7.fhir.no.basis@2.2.0&amp;canonical=http://fhir.org/packages/hl7.fhir.no.basis/Organization/456\">Oslo University Hospital</a></li></ul><p><b>value</b>: 181 cm<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codecm = 'cm')</span></p></div>"
+  },
+  "status" : "final",
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/observation-category",
+      "code" : "vital-signs",
+      "display" : "Vital Signs"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://loinc.org",
+      "code" : "8302-2"
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "code" : "50373000",
+      "display" : "Body height"
+    }],
+    "text" : "Body height"
+  },
+  "subject" : {
+    "reference" : "Patient/12345",
+    "display" : "Ola Nordmann"
+  },
+  "effectiveDateTime" : "2025-02-22T09:00:00Z",
+  "performer" : [{
+    "reference" : "Practitioner/67890",
+    "display" : "Dr. Anne Hansen"
+  },
+  {
+    "reference" : "Organization/456",
+    "display" : "Oslo University Hospital"
+  }],
+  "valueQuantity" : {
+    "value" : 181,
+    "unit" : "cm",
+    "system" : "http://unitsofmeasure.org",
+    "code" : "cm"
+  }
+}

@@ -15,7 +15,7 @@
   "title" : "8245 Status for resultat i svarrapportering av medisinske tjenester",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T04:12:23+01:00",
+  "date" : "2025-02-22T05:08:06+01:00",
   "description" : "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse.",
   "jurisdiction" : [{
     "coding" : [{

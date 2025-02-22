@@ -15,7 +15,7 @@
   "title" : "4101 Betalingskategori",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T04:12:23+01:00",
+  "date" : "2025-02-22T05:08:06+01:00",
   "description" : "Dette kodeverket inneholder koder som benyttes for å angi hvem som er betalingsansvarlig.",
   "jurisdiction" : [{
     "coding" : [{
