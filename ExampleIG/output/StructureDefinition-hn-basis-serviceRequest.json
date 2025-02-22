@@ -9,7 +9,7 @@
   "version" : "1.1.0",
   "name" : "HnBasisServiceRequest",
   "status" : "draft",
-  "date" : "2025-02-22T03:36:49+01:00",
+  "date" : "2025-02-22T03:45:56+01:00",
   "description" : "ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren.",
   "jurisdiction" : [{
     "coding" : [{

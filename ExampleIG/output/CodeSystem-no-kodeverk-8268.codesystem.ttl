@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8268 Type identifikator"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-22T03:36:49+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T03:45:56+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Angir type identifikator for person og virksomhet."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

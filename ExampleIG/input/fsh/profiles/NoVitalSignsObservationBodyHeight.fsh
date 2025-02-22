@@ -18,9 +18,9 @@ To be used for recording the measured height or body length of an individual at 
 //* ^copyright = "Some content in this profile builds on the body height archetype: Høyde/Lengde, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.2274"
 
 // Ensure Observation.value[x] is NOT sliced but is constrained to 0..1
-* value[x] 0..1
-* value[x] only Quantity
-* value[x] ^slicing.rules = #closed
+//* value[x] 0..1
+//* value[x] only Quantity
+* value[x] ^slicing.rules = #open
 
 * code.coding contains BodyHeightSnomedCode 0..1
 * code.coding[BodyHeightSnomedCode] ^short = "body Height Snomed Code"
