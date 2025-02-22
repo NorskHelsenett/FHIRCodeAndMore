@@ -89,9 +89,9 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height"
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -105,8 +105,8 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.72"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -135,10 +135,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -152,10 +152,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -169,12 +169,12 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -459,8 +459,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.516"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/servicerequest-orderdetail",

@@ -30,7 +30,7 @@ To be used for recording the measured height or body length of an individual at 
 * subject only Reference(Patient)
 * performer ^slicing.discriminator.type = #type
 * performer ^slicing.discriminator.path = "type"
-* performer ^slicing.rules = #open
+* performer ^slicing.rules = #closed
 * performer contains
     Author 0..* and
     organization 0..*
