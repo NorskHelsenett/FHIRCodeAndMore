@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8239 Forholdsoperatorer i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-22T03:24:26+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T03:36:49+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Forholdsoperatorer i svarrapportering av medisinske tjeneste"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

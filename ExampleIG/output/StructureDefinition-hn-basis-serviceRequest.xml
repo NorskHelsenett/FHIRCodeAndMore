@@ -24,7 +24,7 @@
   <version value="1.1.0"/>
   <name value="HnBasisServiceRequest"/>
   <status value="draft"/>
-  <date value="2025-02-22T03:24:26+01:00"/>
+  <date value="2025-02-22T03:36:49+01:00"/>
   <description value="ServiceRequest sendes til tjenesteytere for å informere om hvilke tjenester som ønskes fra leverandøren."/>
   <jurisdiction>
     <coding>

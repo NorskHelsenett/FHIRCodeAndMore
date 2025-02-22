@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "Norsk laboratoriekodeverk"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-22T03:24:26+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T03:36:49+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Norsk laboratoriekodverk er et felles kodeverk for laboratorieanalyser utarbeidet i samarbeid med de laboratoriefaglige miljøene fordelt på 6 spesialiteter: Immunologi og transfusjonsmedisin, Klinisk farmakologi, Medisinsk biokjemi, Medisinsk genetikk, Medisinsk mikrobiologi og Patologi."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
