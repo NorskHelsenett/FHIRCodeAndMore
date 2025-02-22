@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-02-22T02:39:46+01:00",
+  "date" : "2025-02-22T03:24:26+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1306,8 +1306,20 @@
       "reference" : {
         "reference" : "StructureDefinition/NoVitalSignsObservationBloodpressure"
       },
-      "name" : "NO VitalSigns Observation - Blood Pressure",
+      "name" : "No VitalSigns Observation - Blood Pressure",
       "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBodyHeight"
+      },
+      "name" : "No VitalSigns Observation - Body Height",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time.",
       "exampleBoolean" : false
     },
     {

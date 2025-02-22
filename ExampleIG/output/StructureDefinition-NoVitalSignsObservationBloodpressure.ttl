@@ -15,7 +15,7 @@
   fhir:url [ fhir:v "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.1.0"] ; # 
   fhir:name [ fhir:v "NoVitalSignsObservationBloodpressure"] ; # 
-  fhir:title [ fhir:v "NO VitalSigns Observation - Blood Pressure"] ; # 
+  fhir:title [ fhir:v "No VitalSigns Observation - Blood Pressure"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:date [ fhir:v "2025-02-22"^^xsd:date] ; # 
   fhir:contact ( [

@@ -3,7 +3,7 @@ Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
 Profile: NoVitalSignsObservationBloodpressure
 Parent: $bp
 Id: NoVitalSignsObservationBloodpressure
-Title: "NO VitalSigns Observation - Blood Pressure"
+Title: "No VitalSigns Observation - Blood Pressure"
 Description: "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure"
 * ^version = "0.1.0"

@@ -36,7 +36,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure"/>
   <version value="1.1.0"/>
   <name value="NoVitalSignsObservationBloodpressure"/>
-  <title value="NO VitalSigns Observation - Blood Pressure"/>
+  <title value="No VitalSigns Observation - Blood Pressure"/>
   <status value="draft"/>
   <date value="2025-02-22"/>
   <contact>

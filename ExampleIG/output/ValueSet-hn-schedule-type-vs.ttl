@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "hn-schedule-type-vs"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-22T02:39:46+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T03:24:26+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Value set for schedule type"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

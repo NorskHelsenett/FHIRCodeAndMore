@@ -162,6 +162,12 @@
         "title": "MyPatient"
       }
     ],
+    "Observation": [
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
+        "title": "No VitalSigns Observation - Blood Pressure"
+      }
+    ],
     "Schedule": [
       {
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
@@ -178,12 +184,6 @@
       {
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
         "title": "HnBasisSlot"
-      }
-    ],
-    "Observation": [
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
-        "title": "NO VitalSigns Observation - Blood Pressure"
       }
     ]
   },

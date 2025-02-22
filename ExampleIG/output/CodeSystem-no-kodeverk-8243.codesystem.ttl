@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8243 Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-02-22T02:39:46+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-02-22T03:24:26+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Type tekstsvar i tekstlig resultat i svarrapportering av medisinske tjenester"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -32,6 +32,7 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient.
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json: line 0, col 0, Error - Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure) (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json: line 0, col 0, Error - URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure (BUSINESSRULE)
+C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this profile (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code.json: line 0, col 0, Warning - The Implementation Guide contains no examples for this extension (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule.json: line 1, col 68634, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule.json: line 1, col 125427, Info - The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk (INVALID)
@@ -55,5 +56,5 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-ty
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617 (EXCEPTION)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060 (EXCEPTION)
 
-err = 8, warn = 30, info = 12
+err = 8, warn = 31, info = 12
 IG Publisher Version: 1.8.10
