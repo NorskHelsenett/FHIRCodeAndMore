@@ -20,7 +20,7 @@ To be used for recording the measured height or body length of an individual at 
 // Ensure Observation.value[x] is NOT sliced but is constrained to 0..1
 * value[x] 0..1
 * value[x] only Quantity
-* value[x] ^slicing.rules = #open
+* value[x] ^slicing.rules = #closed
 
 * code.coding contains BodyHeightSnomedCode 0..1
 * code.coding[BodyHeightSnomedCode] ^short = "body Height Snomed Code"
