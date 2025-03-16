@@ -8,7 +8,7 @@
   "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
   "version" : "1.1.0",
   "name" : "NoVitalSignsObservationBodyHeight",
-  "title" : "No VitalSigns Observation - Body Height",
+  "title" : "Norwegian base profile for VitalSigns Observation - Body Height",
   "status" : "draft",
   "date" : "2025-02-22",
   "contact" : [{

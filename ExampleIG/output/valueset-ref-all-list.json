@@ -89,15 +89,15 @@
       "sources" : ["2.16.840.1.113883.4.642.3.141"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
       "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/c80-practice-codes",
@@ -126,14 +126,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.5"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -147,10 +147,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.45"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -164,10 +164,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.57"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
       "StructureDefinition-hn-extension-representant.html" : "Representant",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -181,18 +181,18 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
       "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
       "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
-      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
+      "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -251,14 +251,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.403"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -274,14 +274,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.399"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -295,14 +295,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.395"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -316,14 +316,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.400"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/observation-vitalsignresult",
@@ -337,14 +337,14 @@
       "sources" : ["2.16.840.1.113883.3.88.12.80.62"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -400,14 +400,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.59"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -424,14 +424,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.407"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -447,14 +447,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.397"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/request-intent",
@@ -510,8 +510,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-category",
@@ -568,7 +568,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.958"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height"
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-bodytemp",
@@ -582,7 +582,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.957"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature"
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-bodyweight",
@@ -596,7 +596,7 @@
       "sources" : ["2.16.840.1.113883.4.642.3.956"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/ucum-vitals-common",
@@ -610,14 +610,14 @@
       "sources" : ["2.16.840.1.113883.4.642.3.955"],
       "uses" : {
       },
-      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "NO VitalSigns Observation - Body Temperature",
-      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
-      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "No VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "Norwegian base profile for VitalSigns Observation - Body Height",
       "StructureDefinition-NoVitalSignsObservationHeartRate.html" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
-      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
-      "StructureDefinition-NoVitalSignsObservationBodyHeight.html" : "No VitalSigns Observation - Body Height",
-      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse"
+      "StructureDefinition-NoVitalSignsObservationBodyWeight.html" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "StructureDefinition-NoVitalSignsObservationPulse.html" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "StructureDefinition-NoVitalSignsObservationBloodpressure.html" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "StructureDefinition-NoVitalSignsObservationBodyTemp.html" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "StructureDefinition-NoVitalSignsObservationOxygenSaturation.html" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "StructureDefinition-NoVitalSignsObservationRespirationRate.html" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
     },
     {
       "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",

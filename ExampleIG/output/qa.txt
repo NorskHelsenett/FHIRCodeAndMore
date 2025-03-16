@@ -3,7 +3,7 @@ CodesExtensionsAndMore : Validation Results
 
 err = 37, warn = 42, info = 13
 IG Publisher Version: 1.8.10 Out of date - current version is 1.8.20
-Generated Sun Mar 16 13:01:14 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sun Mar 16 13:21:15 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 5 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1

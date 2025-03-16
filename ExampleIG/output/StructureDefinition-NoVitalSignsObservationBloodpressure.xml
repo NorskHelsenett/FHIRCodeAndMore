@@ -39,7 +39,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure"/>
   <version value="1.1.0"/>
   <name value="NoVitalSignsObservationBloodpressure"/>
-  <title value="No VitalSigns Observation - Blood Pressure"/>
+  <title value="Norwegian base profile for VitalSigns Observation - Blood Pressure"/>
   <status value="draft"/>
   <date value="2025-02-22"/>
   <contact>
@@ -49,7 +49,7 @@
       <value value="http://www.hl7.no"/>
     </telecom>
   </contact>
-  <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile."/>
+  <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information."/>
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
@@ -57,7 +57,7 @@
       <display value="Norway"/>
     </coding>
   </jurisdiction>
-  <purpose value="To record the systemic arterial blood pressure of an individual using SNOMED CT codes in addition to the base profile."/>
+  <purpose value="To record the systemic arterial blood pressure of an individual."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="workflow"/>

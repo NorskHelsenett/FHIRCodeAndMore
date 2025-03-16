@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-03-16T12:58:55+01:00",
+  "date" : "2025-03-16T13:18:55+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1323,42 +1323,6 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoVitalSignsObservationBloodpressure"
-      },
-      "name" : "No VitalSigns Observation - Blood Pressure",
-      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoVitalSignsObservationBodyHeight"
-      },
-      "name" : "No VitalSigns Observation - Body Height",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoVitalSignsObservationBodyTemp"
-      },
-      "name" : "NO VitalSigns Observation - Body Temperature",
-      "description" : "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -1458,6 +1422,54 @@
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBloodpressure"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
+      "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBodyHeight"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Body Height",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBodyTemp"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
+      "description" : "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBodyWeight"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Body Weight",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
         "reference" : "StructureDefinition/NoVitalSignsObservationHeartRate"
       },
       "name" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
@@ -1498,18 +1510,6 @@
       },
       "name" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
       "description" : "Base profile for Norwegian Vital Signs Observation Respiration Rate information.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:resource"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/NoVitalSignsObservationBodyWeight"
-      },
-      "name" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
-      "description" : "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time.",
       "exampleBoolean" : false
     },
     {

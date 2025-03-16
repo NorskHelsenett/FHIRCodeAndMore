@@ -8,7 +8,7 @@
   "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
   "version" : "1.1.0",
   "name" : "NoVitalSignsObservationBloodpressure",
-  "title" : "No VitalSigns Observation - Blood Pressure",
+  "title" : "Norwegian base profile for VitalSigns Observation - Blood Pressure",
   "status" : "draft",
   "date" : "2025-02-22",
   "contact" : [{
@@ -18,7 +18,7 @@
       "value" : "http://www.hl7.no"
     }]
   }],
-  "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile.",
+  "description" : "Base profile for Norwegian Vital Signs Observation Blood pressure information.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -26,7 +26,7 @@
       "display" : "Norway"
     }]
   }],
-  "purpose" : "To record the systemic arterial blood pressure of an individual using SNOMED CT codes in addition to the base profile.",
+  "purpose" : "To record the systemic arterial blood pressure of an individual.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "workflow",

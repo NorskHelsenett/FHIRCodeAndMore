@@ -8,7 +8,7 @@
   "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
   "version" : "1.1.0",
   "name" : "NoVitalSignsObservationBodyTemp",
-  "title" : "NO VitalSigns Observation - Body Temperature",
+  "title" : "Norwegian base profile for VitalSigns Observation - Body Temperature",
   "status" : "draft",
   "date" : "2025-03-16",
   "contact" : [{

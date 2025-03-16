@@ -3,8 +3,8 @@ Alias: $bp = http://hl7.org/fhir/StructureDefinition/bp
 Profile: NoVitalSignsObservationBloodpressure
 Parent: $bp
 Id: NoVitalSignsObservationBloodpressure
-Title: "No VitalSigns Observation - Blood Pressure"
-Description: "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile."
+Title: "Norwegian base profile for VitalSigns Observation - Blood Pressure"
+Description: "Base profile for Norwegian Vital Signs Observation Blood pressure information."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure"
 * ^version = "0.1.0"
 * ^status = #draft
@@ -14,7 +14,7 @@ Description: "Base profile for Norwegian Vital Signs Observation Blood pressure 
 * ^contact.telecom.system = #url
 * ^contact.telecom.value = "http://www.hl7.no"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"
-* ^purpose = "To record the systemic arterial blood pressure of an individual using SNOMED CT codes in addition to the base profile."
+* ^purpose = "To record the systemic arterial blood pressure of an individual."
 
 // Ensure Observation.value[x] is NOT sliced but is constrained to 0..0
 * value[x] 0..0

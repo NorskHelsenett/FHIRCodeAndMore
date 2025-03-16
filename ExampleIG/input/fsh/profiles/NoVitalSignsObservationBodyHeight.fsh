@@ -3,7 +3,7 @@ Alias: $bodyheight = http://hl7.org/fhir/StructureDefinition/bodyheight
 Profile: NoVitalSignsObservationBodyHeight
 Parent: $bodyheight
 Id: NoVitalSignsObservationBodyHeight
-Title: "No VitalSigns Observation - Body Height"
+Title: "Norwegian base profile for VitalSigns Observation - Body Height"
 Description: """Base profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time."""
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"

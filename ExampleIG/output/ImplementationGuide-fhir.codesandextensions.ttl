@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-03-16T12:58:55+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-16T13:18:55+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1252,42 +1252,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure> ;
-         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBloodpressure" ]
-       ] ;
-       fhir:name [ fhir:v "No VitalSigns Observation - Blood Pressure" ] ;
-       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight> ;
-         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyHeight" ]
-       ] ;
-       fhir:name [ fhir:v "No VitalSigns Observation - Body Height" ] ;
-       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp> ;
-         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyTemp" ]
-       ] ;
-       fhir:name [ fhir:v "NO VitalSigns Observation - Body Temperature" ] ;
-       fhir:description [ fhir:v "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "NamingSystem" ]
        ] ) ;
        fhir:reference [
@@ -1387,6 +1351,54 @@
          fhir:value [ fhir:v "StructureDefinition:resource" ]
        ] ) ;
        fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBloodpressure" ]
+       ] ;
+       fhir:name [ fhir:v "Norwegian base profile for VitalSigns Observation - Blood Pressure" ] ;
+       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Blood pressure information." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyHeight" ]
+       ] ;
+       fhir:name [ fhir:v "Norwegian base profile for VitalSigns Observation - Body Height" ] ;
+       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Height information.  \nTo be used for recording the measured height or body length of an individual at any point in time." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyTemp" ]
+       ] ;
+       fhir:name [ fhir:v "Norwegian base profile for VitalSigns Observation - Body Temperature" ] ;
+       fhir:description [ fhir:v "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight> ;
+         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyWeight" ]
+       ] ;
+       fhir:name [ fhir:v "Norwegian base profile for VitalSigns Observation - Body Weight" ] ;
+       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:resource" ]
+       ] ) ;
+       fhir:reference [
          fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate> ;
          fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationHeartRate" ]
        ] ;
@@ -1428,18 +1440,6 @@
        ] ;
        fhir:name [ fhir:v "Norwegian base profiles for VitalSigns Observation - Respiration Rate" ] ;
        fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Respiration Rate information." ] ;
-       fhir:example [ fhir:v "false"^^xsd:boolean ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "StructureDefinition:resource" ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight> ;
-         fhir:reference [ fhir:v "StructureDefinition/NoVitalSignsObservationBodyWeight" ]
-       ] ;
-       fhir:name [ fhir:v "Norwegian basis profile for VitalSigns Observation - Body Weight" ] ;
-       fhir:description [ fhir:v "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [

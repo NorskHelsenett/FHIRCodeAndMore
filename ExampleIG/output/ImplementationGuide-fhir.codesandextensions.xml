@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="active"/>
-  <date value="2025-03-16T12:58:55+01:00"/>
+  <date value="2025-03-16T13:18:55+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1107,39 +1107,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoVitalSignsObservationBloodpressure"/>
-      </reference>
-      <name value="No VitalSigns Observation - Blood Pressure"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information, adding SNOMED CT codes to the base profile."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoVitalSignsObservationBodyHeight"/>
-      </reference>
-      <name value="No VitalSigns Observation - Body Height"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Body Height information.  &#xA;To be used for recording the measured height or body length of an individual at any point in time."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoVitalSignsObservationBodyTemp"/>
-      </reference>
-      <name value="NO VitalSigns Observation - Body Temperature"/>
-      <description value="Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -1231,6 +1198,50 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/NoVitalSignsObservationBloodpressure"/>
+      </reference>
+      <name value="Norwegian base profile for VitalSigns Observation - Blood Pressure"/>
+      <description value="Base profile for Norwegian Vital Signs Observation Blood pressure information."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoVitalSignsObservationBodyHeight"/>
+      </reference>
+      <name value="Norwegian base profile for VitalSigns Observation - Body Height"/>
+      <description value="Base profile for Norwegian Vital Signs Observation Body Height information.  &#xA;To be used for recording the measured height or body length of an individual at any point in time."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoVitalSignsObservationBodyTemp"/>
+      </reference>
+      <name value="Norwegian base profile for VitalSigns Observation - Body Temperature"/>
+      <description value="Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoVitalSignsObservationBodyWeight"/>
+      </reference>
+      <name value="Norwegian base profile for VitalSigns Observation - Body Weight"/>
+      <description value="Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/NoVitalSignsObservationHeartRate"/>
       </reference>
       <name value="Norwegian base profile for VitalSigns Observation - Heart Rate"/>
@@ -1268,17 +1279,6 @@
       </reference>
       <name value="Norwegian base profiles for VitalSigns Observation - Respiration Rate"/>
       <description value="Base profile for Norwegian Vital Signs Observation Respiration Rate information."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/NoVitalSignsObservationBodyWeight"/>
-      </reference>
-      <name value="Norwegian basis profile for VitalSigns Observation - Body Weight"/>
-      <description value="Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

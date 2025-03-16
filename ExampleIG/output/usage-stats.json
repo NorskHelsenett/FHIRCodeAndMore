@@ -183,19 +183,19 @@
     "Observation": [
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
-        "title": "No VitalSigns Observation - Blood Pressure"
+        "title": "Norwegian base profile for VitalSigns Observation - Blood Pressure"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
-        "title": "No VitalSigns Observation - Body Height"
+        "title": "Norwegian base profile for VitalSigns Observation - Body Height"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
-        "title": "NO VitalSigns Observation - Body Temperature"
+        "title": "Norwegian base profile for VitalSigns Observation - Body Temperature"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight",
-        "title": "Norwegian basis profile for VitalSigns Observation - Body Weight"
+        "title": "Norwegian base profile for VitalSigns Observation - Body Weight"
       },
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate",

@@ -20,7 +20,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight"/>
   <version value="1.1.0"/>
   <name value="NoVitalSignsObservationBodyWeight"/>
-  <title value="Norwegian basis profile for VitalSigns Observation - Body Weight"/>
+  <title value="Norwegian base profile for VitalSigns Observation - Body Weight"/>
   <status value="draft"/>
   <date value="2025-03-16"/>
   <contact>

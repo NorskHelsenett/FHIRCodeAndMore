@@ -20,7 +20,7 @@
   <url value="http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp"/>
   <version value="1.1.0"/>
   <name value="NoVitalSignsObservationBodyTemp"/>
-  <title value="NO VitalSigns Observation - Body Temperature"/>
+  <title value="Norwegian base profile for VitalSigns Observation - Body Temperature"/>
   <status value="draft"/>
   <date value="2025-03-16"/>
   <contact>

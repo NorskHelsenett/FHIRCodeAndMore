@@ -3,7 +3,7 @@ Alias: $bodytemp = http://hl7.org/fhir/StructureDefinition/bodytemp
 Profile: NoVitalSignsObservationBodyTemp
 Parent: $bodytemp
 Id: NoVitalSignsObservationBodyTemp
-Title: "NO VitalSigns Observation - Body Temperature"
+Title: "Norwegian base profile for VitalSigns Observation - Body Temperature"
 Description: "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp"
 * ^version = "0.1.0"

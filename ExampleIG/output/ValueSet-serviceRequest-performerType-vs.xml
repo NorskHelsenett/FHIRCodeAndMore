@@ -11,7 +11,7 @@
   <title value="ServiceRequest PerformerType Value Set"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2025-03-16T12:58:55+01:00"/>
+  <date value="2025-03-16T13:18:55+01:00"/>
   <description value="Koder for valgte profesjonstyper."/>
   <jurisdiction>
     <coding>

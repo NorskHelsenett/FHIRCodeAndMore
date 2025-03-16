@@ -3,7 +3,7 @@ Alias: $bodyweight = http://hl7.org/fhir/StructureDefinition/bodyweight
 Profile: NoVitalSignsObservationBodyWeight
 Parent: $bodyweight
 Id: NoVitalSignsObservationBodyWeight
-Title: "Norwegian basis profile for VitalSigns Observation - Body Weight"
+Title: "Norwegian base profile for VitalSigns Observation - Body Weight"
 Description: "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight"
 * ^version = "0.1.0"
