@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-03-16T11:47:10+01:00",
+  "date" : "2025-03-16T12:58:55+01:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1104,7 +1104,7 @@
         "reference" : "Observation/body-height-example"
       },
       "name" : "body-height-example",
-      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
+      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
     },
     {
       "extension" : [{
@@ -1115,7 +1115,7 @@
         "reference" : "Observation/body-height-example-loinc"
       },
       "name" : "body-height-example-loinc",
-      "exampleCanonical" : "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
+      "exampleCanonical" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
     },
     {
       "extension" : [{
@@ -1353,7 +1353,7 @@
         "reference" : "StructureDefinition/NoVitalSignsObservationBodyTemp"
       },
       "name" : "NO VitalSigns Observation - Body Temperature",
-      "description" : "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature.",
+      "description" : "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time.",
       "exampleBoolean" : false
     },
     {
@@ -1450,6 +1450,66 @@
       },
       "name" : "Norsk patologikodeverk (NORPAT)",
       "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationHeartRate"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Heart Rate",
+      "description" : "Base profile for Norwegian Vital Signs Observation Heart Rate information.  \nUse to record the presence or absence of a heart beat.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationOxygenSaturation"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Oxygen Saturation",
+      "description" : "Base profile for Norwegian Vital Signs Observation Oxygen Saturation information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationPulse"
+      },
+      "name" : "Norwegian base profile for VitalSigns Observation - Pulse",
+      "description" : "Base profile for Norwegian Vital Signs Observation Pulse information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationRespirationRate"
+      },
+      "name" : "Norwegian base profiles for VitalSigns Observation - Respiration Rate",
+      "description" : "Base profile for Norwegian Vital Signs Observation Respiration Rate information.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/NoVitalSignsObservationBodyWeight"
+      },
+      "name" : "Norwegian basis profile for VitalSigns Observation - Body Weight",
+      "description" : "Base profile for Norwegian Vital Signs Observation Body Weight information. To be used for recording the measured Body Weight of an individual at any point in time.",
       "exampleBoolean" : false
     },
     {

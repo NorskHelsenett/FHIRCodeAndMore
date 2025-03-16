@@ -14,7 +14,7 @@
   "title" : "Varsling",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-03-16T11:47:10+01:00",
+  "date" : "2025-03-16T12:58:55+01:00",
   "description" : "Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
   "jurisdiction" : [{
     "coding" : [{

@@ -10,7 +10,7 @@
   "name" : "HnExtensionFreeSlotPlanningHorizon",
   "title" : "Periode for første og siste ledige slot i timebok",
   "status" : "active",
-  "date" : "2025-03-16T11:47:10+01:00",
+  "date" : "2025-03-16T12:58:55+01:00",
   "description" : "Periode for første og siste ledige slot i timebok. Tid og referanse",
   "jurisdiction" : [{
     "coding" : [{

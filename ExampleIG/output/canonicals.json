@@ -429,13 +429,6 @@
     "name" : "MyPatient"
   },
   {
-    "id" : "NoVitalSignsObservationBodyHeight",
-    "type" : "StructureDefinition",
-    "url" : "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
-    "version" : "1.1.0",
-    "name" : "NoVitalSignsObservationBodyHeight"
-  },
-  {
     "id" : "additional-code",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/additional-code",
@@ -527,10 +520,52 @@
     "name" : "NoVitalSignsObservationBloodpressure"
   },
   {
+    "id" : "NoVitalSignsObservationBodyHeight",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationBodyHeight"
+  },
+  {
     "id" : "NoVitalSignsObservationBodyTemp",
     "type" : "StructureDefinition",
     "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
     "version" : "1.1.0",
     "name" : "NoVitalSignsObservationBodyTemp"
+  },
+  {
+    "id" : "NoVitalSignsObservationBodyWeight",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationBodyWeight"
+  },
+  {
+    "id" : "NoVitalSignsObservationHeartRate",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationHeartRate"
+  },
+  {
+    "id" : "NoVitalSignsObservationOxygenSaturation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationOxygenSaturation"
+  },
+  {
+    "id" : "NoVitalSignsObservationPulse",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationPulse"
+  },
+  {
+    "id" : "NoVitalSignsObservationRespirationRate",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationRespirationRate"
   }
 ]

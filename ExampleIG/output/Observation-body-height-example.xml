@@ -3,7 +3,7 @@
 <Observation xmlns="http://hl7.org/fhir">
   <id value="body-height-example"/>
   <meta>
-    <profile value="http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"/>
+    <profile value="http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"/>
     <profile value="http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight"/>
   </meta>
   <text>

@@ -2,7 +2,7 @@
   "resourceType" : "Observation",
   "id" : "body-height-example-loinc",
   "meta" : {
-    "profile" : ["http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
+    "profile" : ["http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
     "http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight"]
   },
   "text" : {

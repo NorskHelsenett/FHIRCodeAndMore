@@ -4,7 +4,7 @@ Profile: NoVitalSignsObservationBodyTemp
 Parent: $bodytemp
 Id: NoVitalSignsObservationBodyTemp
 Title: "NO VitalSigns Observation - Body Temperature"
-Description: "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature."
+Description: "Norwegian base profile for Norwegian Vital Signs Observation Body Temperature. To be used for recording the measured body temperatur of an individual at any point in time."
 * ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp"
 * ^version = "0.1.0"
 * ^status = #draft
@@ -15,14 +15,13 @@ Description: "Norwegian base profile for Norwegian Vital Signs Observation Body 
 * ^contact.telecom.value = "http://www.hl7.no"
 * ^jurisdiction = urn:iso:std:iso:3166#NO "Norway"
 * ^purpose = "Basisprofile for Norwegian VitalSigns Observation Body Temperature information. Defined by The Norwegian Directorate of eHealth and HL7 Norway."
-// ^copyright = "Some content in this profile builds on the body temperature archetype: Kroppstemperatur, Publisert arketype [Internet]. openEHR Norge, Nasjonal IKT Clinical Knowledge Manager [sitert: 2024-12-04]. Hentet fra: https://arketyper.no/ckm/archetypes/1078.36.1855"
 * code.coding contains BodyTempSnomedCode 0..1
 * code.coding[BodyTempSnomedCode] ^short = "body Height Snomed Code"
 * code.coding[BodyTempSnomedCode] ^definition = "body Height Snomed Code"
 * code.coding[BodyTempSnomedCode].system 1..
-* code.coding[BodyTempSnomedCode].system = "http://snomed.info/sct"
+* code.coding[BodyTempSnomedCode].system = "http://snomed.info/sct" (exactly)
 * code.coding[BodyTempSnomedCode].code 1..
-* code.coding[BodyTempSnomedCode].code = #276885007
+* code.coding[BodyTempSnomedCode].code = #276885007 (exactly)
 * subject only Reference(Patient)
 * performer ^slicing.discriminator.type = #type
 * performer ^slicing.discriminator.path = "type"
@@ -36,3 +35,5 @@ Description: "Norwegian base profile for Norwegian Vital Signs Observation Body 
 * value[x] 0..1
 * value[x] only Quantity
 * value[x] ^slicing.rules = #closed
+* valueQuantity ^short = "Body temperature (°C), measured as a quantity."
+* valueQuantity ^definition = "The measured temperature of a person's body, expressed as a quantitative value. This can be obtained from various sites such as oral, rectal, axillary, tympanic, or temporal, using a thermometer. The value is typically recorded in degrees Celsius (°C) but may also be expressed in degrees Fahrenheit (°F)."

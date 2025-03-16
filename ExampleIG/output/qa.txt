@@ -1,9 +1,9 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 25, warn = 37, info = 13
+err = 37, warn = 42, info = 13
 IG Publisher Version: 1.8.10 Out of date - current version is 1.8.20
-Generated Sun Mar 16 11:49:07 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
+Generated Sun Mar 16 13:01:14 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 5 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
@@ -74,8 +74,13 @@ Generated Sun Mar 16 11:49:07 CET 2025. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example : 0 / 3 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure : 2 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight : 2 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp : 2 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight : 2 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate : 2 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation : 2 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse : 2 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate : 2 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 3
@@ -157,8 +162,8 @@ WARNING: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.s
 ERROR: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.security[0].extension[0].extension[1].value.ofType(Identifier).type.coding[0]: The code provided (urn:oid:2.16.578.1.12.4.1.1.8116#FNR) was not found in the value set 'DNR og FNR fra Volven 8116' (http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.1.0), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated
 INFORMATION: Observation/Eksempel-representasjon-i-meta-security: Observation.meta.tag[0]: A definition for CodeSystem 'http://helsenorge.no/fhir/varsling' could not be found, so the code cannot be validated
 == fsh-generated\resources\Observation-body-height-example.json ==
-ERROR: Observation/body-height-example: Observation.performer[0]: This element does not match any known slice defined in the profile http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))
-ERROR: Observation/body-height-example: Observation.performer[1]: This element does not match any known slice defined in the profile http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))
+ERROR: Observation/body-height-example: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))
+ERROR: Observation/body-height-example: Observation.performer[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))
 ERROR: Observation/body-height-example: Observation.code.coding[1].display: Wrong Display Name 'Body height' for http://snomed.info/sct#50373000. Valid display is one of 2 choices: 'Body height measure' or 'Body height measure (observable entity)' (for the language(s) 'no-NO')
 ERROR: Observation/body-height-example: Observation.subject: Unable to resolve resource with reference 'Patient/12345'
 ERROR: Observation/body-height-example: Observation.performer[0]: Unable to resolve resource with reference 'Practitioner/67890'
@@ -166,8 +171,8 @@ ERROR: Observation/body-height-example: Observation.performer[1]: Unable to reso
 WARNING: Observation/body-height-example: Observation.value.ofType(Quantity).code: Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct
 WARNING: Observation/body-height-example: Observation.meta.profile[1]: Profile reference 'http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated\resources\Observation-body-height-example-loinc.json ==
-ERROR: Observation/body-height-example-loinc: Observation.performer[0]: This element does not match any known slice defined in the profile http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))
-ERROR: Observation/body-height-example-loinc: Observation.performer[1]: This element does not match any known slice defined in the profile http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))
+ERROR: Observation/body-height-example-loinc: Observation.performer[0]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))
+ERROR: Observation/body-height-example-loinc: Observation.performer[1]: This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))
 INFORMATION: Observation/body-height-example-loinc: Observation.code.coding[0].display: There are no valid display names found for the code http://loinc.org#8302-2 for language(s) 'no-NO'. The display is 'Body height' the default language display
 ERROR: Observation/body-height-example-loinc: Observation.subject: Unable to resolve resource with reference 'Patient/12345'
 ERROR: Observation/body-height-example-loinc: Observation.performer[0]: Unable to resolve resource with reference 'Practitioner/67890'
@@ -213,10 +218,32 @@ ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/N
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure'): The Implementation Guide contains no examples for this profile
 ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure
 == fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight)
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight
 == fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json ==
 ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp)
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp'): The Implementation Guide contains no examples for this profile
 ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationPulse) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationPulse vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationRespirationRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationRespirationRate vs http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate
 == fsh-generated\resources\StructureDefinition-additional-code.json ==
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==

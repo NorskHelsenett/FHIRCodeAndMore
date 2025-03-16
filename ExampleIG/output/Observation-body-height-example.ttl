@@ -12,8 +12,8 @@
   fhir:id [ fhir:v "body-height-example"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"^^xsd:anyURI ;
-       fhir:link <http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight>
+       fhir:v "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"^^xsd:anyURI ;
+       fhir:link <http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight>
      ] [
        fhir:v "http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight"^^xsd:anyURI ;
        fhir:link <http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight>

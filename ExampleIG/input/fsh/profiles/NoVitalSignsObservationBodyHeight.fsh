@@ -6,6 +6,7 @@ Id: NoVitalSignsObservationBodyHeight
 Title: "No VitalSigns Observation - Body Height"
 Description: """Base profile for Norwegian Vital Signs Observation Body Height information.  
 To be used for recording the measured height or body length of an individual at any point in time."""
+* ^url = "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight"
 * ^version = "0.1.0"
 * ^status = #draft
 * ^date = "2025-02-22"
@@ -36,3 +37,5 @@ To be used for recording the measured height or body length of an individual at 
     organization 0..*
 * performer[Author] only Reference(Practitioner or PractitionerRole or CareTeam or Patient or RelatedPerson)
 * performer[organization] only Reference(Organization)
+* valueQuantity ^short = "Body height (cm), measured as a quantity."
+* valueQuantity ^definition = "The measured vertical distance from the bottom of the feet to the top of the head, expressed as a quantitative value. This measurement is typically recorded in centimeters (cm) but may also be expressed in inches (in). It is obtained using a stadiometer or other measuring device."
