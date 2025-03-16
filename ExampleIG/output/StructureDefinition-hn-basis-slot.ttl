@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HnBasisSlot"] ; # 
   fhir:title [ fhir:v "HnBasisSlot"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2025-02-22T05:29:40+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-03-16T11:47:10+01:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Profil for slot i Helsenorge. Basert på FHIR Slot (R4)"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

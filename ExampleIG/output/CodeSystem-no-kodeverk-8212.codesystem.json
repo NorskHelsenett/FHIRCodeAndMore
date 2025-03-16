@@ -15,7 +15,7 @@
   "title" : "8212 Uspesifisert laboratoriekodeverk",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-02-22T05:29:40+01:00",
+  "date" : "2025-03-16T11:47:10+01:00",
   "description" : "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder",
   "jurisdiction" : [{
     "coding" : [{

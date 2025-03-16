@@ -166,6 +166,10 @@
       {
         "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
         "title": "No VitalSigns Observation - Blood Pressure"
+      },
+      {
+        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
+        "title": "NO VitalSigns Observation - Body Temperature"
       }
     ],
     "Schedule": [

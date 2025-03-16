@@ -525,5 +525,12 @@
     "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
     "version" : "1.1.0",
     "name" : "NoVitalSignsObservationBloodpressure"
+  },
+  {
+    "id" : "NoVitalSignsObservationBodyTemp",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
+    "version" : "1.1.0",
+    "name" : "NoVitalSignsObservationBodyTemp"
   }
 ]

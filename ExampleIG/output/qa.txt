@@ -1,9 +1,9 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 23, warn = 36, info = 13
-IG Publisher Version: 1.8.10 Out of date - current version is 1.8.13
-Generated Sat Feb 22 05:31:49 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
+err = 25, warn = 37, info = 13
+IG Publisher Version: 1.8.10 Out of date - current version is 1.8.20
+Generated Sun Mar 16 11:49:07 CET 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 5 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
@@ -75,6 +75,7 @@ Generated Sat Feb 22 05:31:49 CET 2025. FHIR version 4.0.1 for fhir.codesandexte
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure : 2 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight : 0 / 0 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp : 2 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 3
@@ -212,6 +213,10 @@ ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/N
 WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure'): The Implementation Guide contains no examples for this profile
 ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure
 == fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json ==
+== fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json ==
+ERROR: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp)
+WARNING: StructureDefinition.where(url = 'http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp'): The Implementation Guide contains no examples for this profile
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp
 == fsh-generated\resources\StructureDefinition-additional-code.json ==
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==

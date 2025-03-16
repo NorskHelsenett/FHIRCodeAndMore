@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="active"/>
-  <date value="2025-02-22T05:29:40+01:00"/>
+  <date value="2025-03-16T11:47:10+01:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1125,6 +1125,17 @@
       </reference>
       <name value="No VitalSigns Observation - Body Height"/>
       <description value="Base profile for Norwegian Vital Signs Observation Body Height information.  &#xA;To be used for recording the measured height or body length of an individual at any point in time."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/NoVitalSignsObservationBodyTemp"/>
+      </reference>
+      <name value="NO VitalSigns Observation - Body Temperature"/>
+      <description value="Norwegian base profile for Norwegian Vital Signs Observation Body Temperature."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
