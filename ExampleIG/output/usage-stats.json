@@ -179,40 +179,6 @@
         "url": "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
         "title": "HnBasisSlot"
       }
-    ],
-    "Observation": [
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure",
-        "title": "Norwegian base profile for VitalSigns Observation - Blood Pressure"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight",
-        "title": "Norwegian base profile for VitalSigns Observation - Body Height"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp",
-        "title": "Norwegian base profile for VitalSigns Observation - Body Temperature"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight",
-        "title": "Norwegian base profile for VitalSigns Observation - Body Weight"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate",
-        "title": "Norwegian base profile for VitalSigns Observation - Heart Rate"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation",
-        "title": "Norwegian base profile for VitalSigns Observation - Oxygen Saturation"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse",
-        "title": "Norwegian base profile for VitalSigns Observation - Pulse"
-      },
-      {
-        "url": "http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate",
-        "title": "Norwegian base profiles for VitalSigns Observation - Respiration Rate"
-      }
     ]
   },
   "usage": {
@@ -244,12 +210,6 @@
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/performer": [
-      "Observation.performer"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [

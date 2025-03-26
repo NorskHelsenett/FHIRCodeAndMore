@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 3, errors = 37, warn = 42, info = 13-->
+<!-- broken links = 3, errors = 6, warn = 29, info = 12-->
 <head>
   <title>CodesExtensionsAndMore : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -46,9 +46,9 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CodesExtensionsAndMore</h1>
- <p>Generated Sun Mar 16 13:21:15 CET 2025, FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
+ <p>Generated Wed Mar 26 11:36:13 CET 2025, FHIR version 4.0.1 for fhir.codesandextensions#1.1.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>)). See <a href="qa.min.html">Errors Only</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
- <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.8.10, which is out of date. The current version is v1.8.20 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
+ <tr><td>Publisher Version:</td><td><span style="background-color: #ffcccc">IG Publisher Version: v1.8.10, which is out of date. The current version is v1.8.22 <a href="https://github.com/HL7/fhir-ig-publisher/releases/latest/download/publisher.jar">Download Latest</a></span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = fhir.codesandextensions, Canonical = http://helsenorge.no/fhir</td></tr>
  <tr><td>Realm Check for n/a:</td><td><span style="color: maroon; font-weight: bold"></span><ul><li>n/a</li></ul></td></tr>
  <tr><td>Language Info:</td><td>This IG has no language information</td></tr>
@@ -73,67 +73,38 @@
   <li>
 hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-parameter-code.html">GuideParameterCode</a>
  (15 uses),     <a href="http://hl7.org/fhir/R4/valueset-languages.html">CommonLanguages</a>
- (13 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
- (27 uses),     <a href="http://hl7.org/fhir/R4/bodystructure.html">BodyStructure</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4/careteam.html">CareTeam</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/bodystructure.html">BodyStructure</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/organization.html">Organization</a>
- (36 uses),     <a href="http://hl7.org/fhir/R4/account.html">Account</a>
- (126 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
- (29 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
- (27 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
- (27 uses),     <a href="http://hl7.org/fhir/R4/bp.html">observation-bp</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/vitalsigns.html">observation-vitalsigns</a>
- (42 uses),     <a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/devicerequest.html">DeviceRequest</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/immunizationrecommendation.html">ImmunizationRecommendation</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/nutritionorder.html">NutritionOrder</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
- (12 uses),     <a href="http://hl7.org/fhir/R4/medicationadministration.html">MedicationAdministration</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/medicationdispense.html">MedicationDispense</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/immunization.html">Immunization</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/imagingstudy.html">ImagingStudy</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-category.html">ObservationCategoryCodes</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/valueset-observation-methods.html">ObservationMethods</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/specimen.html">Specimen</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/device.html">Device</a>
- (10 uses),     <a href="http://hl7.org/fhir/R4/devicemetric.html">DeviceMetric</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/activitydefinition.html">ActivityDefinition</a>
- (33 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-meaning.html">ObservationReferenceRangeMeaningCodes</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html">ObservationReferenceRangeAppliesToCodes</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/questionnaireresponse.html">QuestionnaireResponse</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/molecularsequence.html">MolecularSequence</a>
- (16 uses),     <a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a>
- (9 uses),     <a href="http://hl7.org/fhir/R4/media.html">Media</a>
- (8 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-vitals-common.html">VitalSignsUnits</a>
- (12 uses),     <a href="http://hl7.org/fhir/R4/bodyheight.html">observation-bodyheight</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-bodylength.html">BodyLengthUnits</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/bodytemp.html">observation-bodytemp</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-bodytemp.html">BodyTemperatureUnits</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/bodyweight.html">observation-bodyweight</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-ucum-bodyweight.html">BodyWeightUnits</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/heartrate.html">observation-heartrate</a>
- (2 uses),     <a href="http://hl7.org/fhir/R4/oxygensat.html">observation-oxygensat</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/resprate.html">observation-resprate</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/schedule.html">Schedule</a>
+ (12 uses),     <a href="http://hl7.org/fhir/R4/account.html">Account</a>
+ (30 uses),     <a href="http://hl7.org/fhir/R4/practitioner.html">Practitioner</a>
+ (5 uses),     <a href="http://hl7.org/fhir/R4/practitionerrole.html">PractitionerRole</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/schedule.html">Schedule</a>
  (3 uses),     <a href="http://hl7.org/fhir/R4/valueset-service-category.html">ServiceCategory</a>
  (4 uses),     <a href="http://hl7.org/fhir/R4/healthcareservice.html">HealthcareService</a>
- (3 uses),     <a href="http://hl7.org/fhir/R4/plandefinition.html">PlanDefinition</a>
+ (3 uses),     <a href="http://hl7.org/fhir/R4/servicerequest.html">ServiceRequest</a>
+ (4 uses),     <a href="http://hl7.org/fhir/R4/activitydefinition.html">ActivityDefinition</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/plandefinition.html">PlanDefinition</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/careplan.html">CarePlan</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/medicationrequest.html">MedicationRequest</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-status.html">RequestStatus</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-intent.html">RequestIntent</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-request-priority.html">RequestPriority</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-procedure-code.html">ProcedureCodes(SNOMEDCT)</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html">ServiceRequestOrderDetailsCodes</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/encounter.html">Encounter</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html">SNOMEDCTMedicationAsNeededReasonCodes</a>
- (1 uses),     <a href="http://hl7.org/fhir/R4/location.html">Location</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/device.html">Device</a>
+ (2 uses),     <a href="http://hl7.org/fhir/R4/location.html">Location</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-procedure-reason.html">ProcedureReasonCodes</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/condition.html">Condition</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/diagnosticreport.html">DiagnosticReport</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/documentreference.html">DocumentReference</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/coverage.html">Coverage</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/claimresponse.html">ClaimResponse</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/specimen.html">Specimen</a>
+ (1 uses),     <a href="http://hl7.org/fhir/R4/valueset-body-site.html">SNOMEDCTBodyStructures</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/provenance.html">Provenance</a>
  (1 uses),     <a href="http://hl7.org/fhir/R4/slot.html">Slot</a>
  (5 uses),     <a href="http://hl7.org/fhir/R4/valueset-slotstatus.html">SlotStatus</a>
@@ -141,7 +112,7 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
   </li>
   <li>
 hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/StructureDefinition-resource-sort.html">ResourceSortExt</a>
- (87 uses)
+ (77 uses)
   </li>
 </ul>
 </td></tr>
@@ -150,14 +121,14 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 37, warn = 42, info = 13, broken links = 3.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 6, warn = 29, info = 12, broken links = 3.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>3</b></td><td><b>5</b></td><td><b>0</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>3</b></td><td><b>3</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_CodeSystem-hn-kodeverk-varsling.codesystem"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
@@ -324,12 +295,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    <tr style="background-color: #ffcccc">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_Observation-Eksempel-representasjon-i-meta-security"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security</b></a></td><td><b>1</b></td><td><b>1</b></td><td><b>1</b></td>
    </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_Observation-body-height-example"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-body-height-example</b></a></td><td><b>6</b></td><td><b>2</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_Observation-body-height-example-loinc"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-body-height-example-loinc</b></a></td><td><b>9</b></td><td><b>2</b></td><td><b>1</b></td>
-   </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_Patient-PatientExample"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\Patient-PatientExample</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>0</b></td>
    </tr>
@@ -362,30 +327,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-MyPatient"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient</b></a></td><td><b>0</b></td><td><b>0</b></td><td><b>2</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBloodpressure"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyHeight"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight</b></a></td><td><b>2</b></td><td><b>0</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyTemp"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyWeight"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationHeartRate"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationOxygenSaturation"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationPulse"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationRespirationRate"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate</b></a></td><td><b>2</b></td><td><b>1</b></td><td><b>0</b></td>
    </tr>
    <tr style="background-color: #EFFFEF">
      <td><a href="#C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-additional-code"><b>C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code</b></a></td><td><b>0</b></td><td><b>1</b></td><td><b>0</b></td>
@@ -429,12 +370,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 <h2><a href="">n/a</a> <span id="sv" class="toggle" onclick="toggle('v')">Show Validation Information</span> <span class="vcount" onclick="toggle('v')"></span></h2>
  <div style="border: 1px grey solid; display: none" id="v"></div>
  <table class="grid">
-   <tr style="background-color: #ffebcc">
-     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/body-height-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b></b></td><td><b>warning</b></td><td><b>Unable to find ImplementationGuide.definition.resource.description for the resource Observation/body-height-example-loinc.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td><b>Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/hn-basis-serviceRequest-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
@@ -1014,89 +949,9 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
 </table>
 <hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Observation-body-height-example"> </a>
-<h2><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-NoVitalSignsObservationBodyHeight.html">Norwegian base profile for VitalSigns Observation - Body Height</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[0] (l36/c6)</b></td><td><b>error</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_NotSlice</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[1] (l40/c6)</b></td><td><b>error</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_NotSlice</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.code&#8203;.coding[1]&#8203;.display (l21&#8203;/c4)</b></td><td><b>error</b></td><td><b>Wrong Display Name 'Body height' for http://snomed.info/sct#50373000. Valid display is one of 2 choices: 'Body height measure' or 'Body height measure (observable entity)' (for the language(s) 'no-NO')</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">Display_Name_for__should_be_one_of__instead_of</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.subject (l52/c4)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Patient/12345'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[0] (l36/c6)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Practitioner/67890'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[1] (l40/c6)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Organization/456'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l48&#8203;/c17)</b></td><td><b>warning</b></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TERMINOLOGY_TX_WARNING</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Observation-body-height-example-loinc"> </a>
-<h2><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>Observation: Validated against <i>this.</i><a href="StructureDefinition-NoVitalSignsObservationBodyHeight.html">Norwegian base profile for VitalSigns Observation - Body Height</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[0] (l32/c6)</b></td><td><b>error</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_NotSlice</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[1] (l42/c6)</b></td><td><b>error</b></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Validation_VAL_Profile_NotSlice</span></td>
-   </tr>
-   <tr style="background-color: #ffffe6">
-     <td><b>Observation&#8203;.code&#8203;.coding[0]&#8203;.display (l21&#8203;/c4)</b></td><td><b>information</b></td><td><b>There are no valid display names found for the code http://loinc.org#8302-2 for language(s) 'no-NO'. The display is 'Body height' the default language display</b> (from <a href="qa-txservers.html#http://tx.fhir.org/r4">http://tx.fhir.org/r4</a>) <span class="code-value code-hidden" style="font-size: 8px; color: navy">NO_VALID_DISPLAY_FOUND_NONE_FOR_LANG_OK</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.subject (l60/c4)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Patient/12345'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[0] (l32/c6)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Practitioner/67890'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.performer[0]&#8203;.extension[0] (l34&#8203;/c10)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/performer could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.performer[0]&#8203;.extension[0]&#8203;.url (l35&#8203;/c69)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/StructureDefinition/performer' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation.performer[1] (l42/c6)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'Organization/456'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.performer[1]&#8203;.extension[0] (l44&#8203;/c10)</b></td><td><b>error</b></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/performer could not be found so is not allowed here</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Extension_EXT_Unknown_NotHere</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>Observation&#8203;.performer[1]&#8203;.extension[0]&#8203;.url (l45&#8203;/c69)</b></td><td><b>error</b></td><td><b>URL value 'http://hl7.org/fhir/StructureDefinition/performer' does not resolve</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Type_Specific_Checks_DT_URL_Resolve</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation&#8203;.value&#8203;.ofType(Quantity)&#8203;.code (l56&#8203;/c17)</b></td><td><b>warning</b></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">TERMINOLOGY_TX_WARNING</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>Observation.meta.profile[1] (l1/c2)</b></td><td><b>warning</b></td><td><b>Profile reference 'http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</span></td>
-   </tr>
-</table>
-<hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Patient-PatientExample"> </a>
-<h2><a href="Patient-PatientExample.html">fsh-generated\resources\Patient-PatientExample.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-MyPatient.html">MyPatient</a></li></ul>
+<h2><a href="Patient-PatientExample.html">fsh-generated\resources\Patient-PatientExample.json</a> <span id="svi56" class="toggle" onclick="toggle('vi56')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi56')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi56"><ul style="font-size: 7px"><li>Patient: Validated against <i>this.</i><a href="StructureDefinition-MyPatient.html">MyPatient</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1105,8 +960,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Patient-example-girl"> </a>
-<h2><a href="Patient-example-girl.html">fsh-generated\resources\Patient-example-girl.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>Patient: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a></li></ul>
+<h2><a href="Patient-example-girl.html">fsh-generated\resources\Patient-example-girl.json</a> <span id="svi57" class="toggle" onclick="toggle('vi57')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi57')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi57"><ul style="font-size: 7px"><li>Patient: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/patient.html">Patient</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1115,8 +970,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_RelatedPerson-line-danser"> </a>
-<h2><a href="RelatedPerson-line-danser.html">fsh-generated\resources\RelatedPerson-line-danser.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>RelatedPerson: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a></li></ul>
+<h2><a href="RelatedPerson-line-danser.html">fsh-generated\resources\RelatedPerson-line-danser.json</a> <span id="svi58" class="toggle" onclick="toggle('vi58')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi58')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi58"><ul style="font-size: 7px"><li>RelatedPerson: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/relatedperson.html">RelatedPerson</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1131,8 +986,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Eksempel-schedule-poliklinikk"> </a>
-<h2><a href="Schedule-Eksempel-schedule-poliklinikk.html">fsh-generated\resources\Schedule-Eksempel-schedule-poliklinikk.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Eksempel-schedule-poliklinikk.html">fsh-generated\resources\Schedule-Eksempel-schedule-poliklinikk.json</a> <span id="svi59" class="toggle" onclick="toggle('vi59')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi59')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi59"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1147,8 +1002,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Eksempel-schedule-vaksine"> </a>
-<h2><a href="Schedule-Eksempel-schedule-vaksine.html">fsh-generated\resources\Schedule-Eksempel-schedule-vaksine.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Eksempel-schedule-vaksine.html">fsh-generated\resources\Schedule-Eksempel-schedule-vaksine.json</a> <span id="svi60" class="toggle" onclick="toggle('vi60')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi60')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi60"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1169,8 +1024,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Schedule-Fastlege-Hans-Hansen"> </a>
-<h2><a href="Schedule-Schedule-Fastlege-Hans-Hansen.html">fsh-generated\resources\Schedule-Schedule-Fastlege-Hans-Hansen.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Schedule-Fastlege-Hans-Hansen.html">fsh-generated\resources\Schedule-Schedule-Fastlege-Hans-Hansen.json</a> <span id="svi61" class="toggle" onclick="toggle('vi61')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi61')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi61"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1182,8 +1037,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Schedule-Koronavaksine"> </a>
-<h2><a href="Schedule-Schedule-Koronavaksine.html">fsh-generated\resources\Schedule-Schedule-Koronavaksine.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Schedule-Koronavaksine.html">fsh-generated\resources\Schedule-Schedule-Koronavaksine.json</a> <span id="svi62" class="toggle" onclick="toggle('vi62')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi62')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi62"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1198,8 +1053,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Schedule-Lab"> </a>
-<h2><a href="Schedule-Schedule-Lab.html">fsh-generated\resources\Schedule-Schedule-Lab.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Schedule-Lab.html">fsh-generated\resources\Schedule-Schedule-Lab.json</a> <span id="svi63" class="toggle" onclick="toggle('vi63')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi63')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi63"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1214,8 +1069,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_Schedule-Schedule-Vikar-September-August"> </a>
-<h2><a href="Schedule-Schedule-Vikar-September-August.html">fsh-generated\resources\Schedule-Schedule-Vikar-September-August.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
+<h2><a href="Schedule-Schedule-Vikar-September-August.html">fsh-generated\resources\Schedule-Schedule-Vikar-September-August.json</a> <span id="svi64" class="toggle" onclick="toggle('vi64')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi64')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi64"><ul style="font-size: 7px"><li>Schedule: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-schedule.html">HnBasisSchedule</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1227,8 +1082,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ServiceRequest-hn-basis-serviceRequest-example"> </a>
-<h2><a href="ServiceRequest-hn-basis-serviceRequest-example.html">fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-serviceRequest.html">HnBasisServiceRequest</a></li></ul>
+<h2><a href="ServiceRequest-hn-basis-serviceRequest-example.html">fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example.json</a> <span id="svi65" class="toggle" onclick="toggle('vi65')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi65')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi65"><ul style="font-size: 7px"><li>ServiceRequest: Validated against <i>this.</i><a href="StructureDefinition-hn-basis-serviceRequest.html">HnBasisServiceRequest</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1246,8 +1101,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-MyPatient"> </a>
-<h2><a href="StructureDefinition-MyPatient.html">fsh-generated\resources\StructureDefinition-MyPatient.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-MyPatient.html">fsh-generated\resources\StructureDefinition-MyPatient.json</a> <span id="svi66" class="toggle" onclick="toggle('vi66')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi66')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi66"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1261,158 +1116,9 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
 </table>
 <hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBloodpressure"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationBloodpressure.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBloodpressure')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBloodpressure')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyHeight"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationBodyHeight.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBodyHeight')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyTemp"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationBodyTemp.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json</a> <span id="svi71" class="toggle" onclick="toggle('vi71')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi71')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi71"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBodyTemp')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBodyTemp')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationBodyWeight"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationBodyWeight.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json</a> <span id="svi72" class="toggle" onclick="toggle('vi72')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi72')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi72"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBodyWeight')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationBodyWeight')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationHeartRate"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationHeartRate.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json</a> <span id="svi73" class="toggle" onclick="toggle('vi73')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi73')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi73"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationHeartRate')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationHeartRate')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationOxygenSaturation"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationOxygenSaturation.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json</a> <span id="svi74" class="toggle" onclick="toggle('vi74')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi74')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi74"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationOxygenSaturation')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationOxygenSaturation')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationPulse"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationPulse.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json</a> <span id="svi75" class="toggle" onclick="toggle('vi75')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi75')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi75"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationPulse')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationPulse) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/NoVitalSignsObservationPulse')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationPulse vs http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
-<a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-NoVitalSignsObservationRespirationRate"> </a>
-<h2><a href="StructureDefinition-NoVitalSignsObservationRespirationRate.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json</a> <span id="svi76" class="toggle" onclick="toggle('vi76')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi76')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi76"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
-</div>
- <table class="grid">
-   <tr>
-     <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/VitalSignsObservationRespirationRate')</b></td><td><b>error</b></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationRespirationRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">RESOURCE_CANONICAL_MISMATCH</span></td>
-   </tr>
-   <tr style="background-color: #ffebcc">
-     <td><b>StructureDefinition&#8203;.where(url = 'http:&#8203;/&#8203;/hl7&#8203;.no&#8203;/fhir&#8203;/StructureDefinition&#8203;/VitalSignsObservationRespirationRate')</b></td><td><b>warning</b></td><td><b>The Implementation Guide contains no examples for this profile</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-   <tr style="background-color: #ffcccc">
-     <td><b>fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate</b></td><td><b>error</b></td><td><b>URL Mismatch http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationRespirationRate vs http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
-   </tr>
-</table>
-<hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-additional-code"> </a>
-<h2><a href="StructureDefinition-additional-code.html">fsh-generated\resources\StructureDefinition-additional-code.json</a> <span id="svi77" class="toggle" onclick="toggle('vi77')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi77')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi77"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-additional-code.html">fsh-generated\resources\StructureDefinition-additional-code.json</a> <span id="svi67" class="toggle" onclick="toggle('vi67')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi67')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi67"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1424,8 +1130,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-basis-schedule"> </a>
-<h2><a href="StructureDefinition-hn-basis-schedule.html">fsh-generated\resources\StructureDefinition-hn-basis-schedule.json</a> <span id="svi78" class="toggle" onclick="toggle('vi78')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi78')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi78"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-basis-schedule.html">fsh-generated\resources\StructureDefinition-hn-basis-schedule.json</a> <span id="svi68" class="toggle" onclick="toggle('vi68')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi68')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi68"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1446,8 +1152,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-basis-serviceRequest"> </a>
-<h2><a href="StructureDefinition-hn-basis-serviceRequest.html">fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json</a> <span id="svi79" class="toggle" onclick="toggle('vi79')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi79')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi79"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-basis-serviceRequest.html">fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json</a> <span id="svi69" class="toggle" onclick="toggle('vi69')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi69')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi69"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1474,8 +1180,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-basis-slot"> </a>
-<h2><a href="StructureDefinition-hn-basis-slot.html">fsh-generated\resources\StructureDefinition-hn-basis-slot.json</a> <span id="svi80" class="toggle" onclick="toggle('vi80')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi80')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi80"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-basis-slot.html">fsh-generated\resources\StructureDefinition-hn-basis-slot.json</a> <span id="svi70" class="toggle" onclick="toggle('vi70')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi70')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi70"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1502,8 +1208,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-extension-free-slot-planningHorizon"> </a>
-<h2><a href="StructureDefinition-hn-extension-free-slot-planningHorizon.html">fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon.json</a> <span id="svi81" class="toggle" onclick="toggle('vi81')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi81')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi81"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-extension-free-slot-planningHorizon.html">fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon.json</a> <span id="svi71" class="toggle" onclick="toggle('vi71')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi71')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi71"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1512,8 +1218,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-extension-representant"> </a>
-<h2><a href="StructureDefinition-hn-extension-representant.html">fsh-generated\resources\StructureDefinition-hn-extension-representant.json</a> <span id="svi82" class="toggle" onclick="toggle('vi82')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi82')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi82"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-extension-representant.html">fsh-generated\resources\StructureDefinition-hn-extension-representant.json</a> <span id="svi72" class="toggle" onclick="toggle('vi72')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi72')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi72"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1525,8 +1231,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_StructureDefinition-hn-extension-varselorganisasjon"> </a>
-<h2><a href="StructureDefinition-hn-extension-varselorganisasjon.html">fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json</a> <span id="svi83" class="toggle" onclick="toggle('vi83')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi83')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi83"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
+<h2><a href="StructureDefinition-hn-extension-varselorganisasjon.html">fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json</a> <span id="svi73" class="toggle" onclick="toggle('vi73')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi73')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi73"><ul style="font-size: 7px"><li>StructureDefinition: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1535,8 +1241,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-cs-8116-Dnr-Fnr-vs"> </a>
-<h2><a href="ValueSet-cs-8116-Dnr-Fnr-vs.html">fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json</a> <span id="svi84" class="toggle" onclick="toggle('vi84')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi84')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi84"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-cs-8116-Dnr-Fnr-vs.html">fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json</a> <span id="svi74" class="toggle" onclick="toggle('vi74')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi74')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi74"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1548,8 +1254,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-hn-schedule-type-vs"> </a>
-<h2><a href="ValueSet-hn-schedule-type-vs.html">fsh-generated\resources\ValueSet-hn-schedule-type-vs.json</a> <span id="svi85" class="toggle" onclick="toggle('vi85')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi85')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi85"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-hn-schedule-type-vs.html">fsh-generated\resources\ValueSet-hn-schedule-type-vs.json</a> <span id="svi75" class="toggle" onclick="toggle('vi75')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi75')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi75"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1558,8 +1264,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-hn-scheduleandslot-type-vs"> </a>
-<h2><a href="ValueSet-hn-scheduleandslot-type-vs.html">fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json</a> <span id="svi86" class="toggle" onclick="toggle('vi86')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi86')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi86"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-hn-scheduleandslot-type-vs.html">fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json</a> <span id="svi76" class="toggle" onclick="toggle('vi76')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi76')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi76"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1574,8 +1280,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-serviceRequest-category-vs"> </a>
-<h2><a href="ValueSet-serviceRequest-category-vs.html">fsh-generated\resources\ValueSet-serviceRequest-category-vs.json</a> <span id="svi87" class="toggle" onclick="toggle('vi87')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi87')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi87"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-serviceRequest-category-vs.html">fsh-generated\resources\ValueSet-serviceRequest-category-vs.json</a> <span id="svi77" class="toggle" onclick="toggle('vi77')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi77')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi77"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1584,8 +1290,8 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 </table>
 <hr/>
 <a name="C__kodesAndMore_ExampleIG_fsh-generated_resources_ValueSet-serviceRequest-performerType-vs"> </a>
-<h2><a href="ValueSet-serviceRequest-performerType-vs.html">fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json</a> <span id="svi88" class="toggle" onclick="toggle('vi88')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi88')">(1)</span></h2>
- <div style="border: 1px grey solid; display: none" id="vi88"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
+<h2><a href="ValueSet-serviceRequest-performerType-vs.html">fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json</a> <span id="svi78" class="toggle" onclick="toggle('vi78')">Show Validation Information</span> <span class="vcount" onclick="toggle('vi78')">(1)</span></h2>
+ <div style="border: 1px grey solid; display: none" id="vi78"><ul style="font-size: 7px"><li>ValueSet: Validated against <a href="http://hl7.org/fhir">fhir</a>.<a href="http://hl7.org/fhir/R4/valueset.html">ValueSet</a></li></ul>
 </div>
  <table class="grid">
    <tr>
@@ -1612,25 +1318,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
 <a name="sorted"> </a>
 <p><b>Errors sorted by type</b></p>
 <hr/>
-<a name="Display_Name_for__should_be_one_of__instead_of"> </a>
-<h2>Display_Name_for__should_be_one_of__instead_of</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Wrong Display Name 'Body height' for http://snomed.info/sct#50373000. Valid display is one of 2 choices: 'Body height measure' or 'Body height measure (observable entity)' (for the language(s) 'no-NO')</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Extension_EXT_Unknown_NotHere"> </a>
-<h2>Extension_EXT_Unknown_NotHere</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/performer could not be found so is not allowed here</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>The extension http://hl7.org/fhir/StructureDefinition/performer could not be found so is not allowed here</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="MSG_DEPENDS_ON_DEPRECATED"> </a>
 <h2>MSG_DEPENDS_ON_DEPRECATED</h2>
  <table class="grid">
@@ -1647,58 +1334,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
    <tr style="background-color: #fffff2">
      <td><a href="Schedule-Eksempel-schedule-vaksine.html">fsh-generated\resources\Schedule-Eksempel-schedule-vaksine.json</a></td><td><b>Reference to draft CodeSystem http://terminology.hl7.org/CodeSystem/service-category|4.0.1 from hl7.fhir.r4.core#4.0.1</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="RESOURCE_CANONICAL_MISMATCH"> </a>
-<h2>RESOURCE_CANONICAL_MISMATCH</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationBloodpressure.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBloodpressure.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBloodpressure)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationBodyHeight.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyHeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationBodyTemp.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyTemp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyTemp)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationBodyWeight.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationBodyWeight.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyWeight)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationHeartRate.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationHeartRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationHeartRate)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationOxygenSaturation.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationOxygenSaturation.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationOxygenSaturation)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationPulse.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationPulse.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationPulse) does not match the URL (http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationPulse)</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="StructureDefinition-NoVitalSignsObservationRespirationRate.html">fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json</a></td><td><b>Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-NoVitalSignsObservationRespirationRate.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/NoVitalSignsObservationRespirationRate) does not match the URL (http://hl7.no/fhir/StructureDefinition/VitalSignsObservationRespirationRate)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Reference_REF_CantResolve"> </a>
-<h2>Reference_REF_CantResolve</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Unable to resolve resource with reference 'Patient/12345'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Unable to resolve resource with reference 'Practitioner/67890'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Unable to resolve resource with reference 'Organization/456'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>Unable to resolve resource with reference 'Patient/12345'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>Unable to resolve resource with reference 'Practitioner/67890'</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>Unable to resolve resource with reference 'Organization/456'</b></td>
    </tr>
 </table>
 <hr/>
@@ -1763,17 +1398,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
 </table>
 <hr/>
-<a name="TERMINOLOGY_TX_WARNING"> </a>
-<h2>TERMINOLOGY_TX_WARNING</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>Resolved system http://unitsofmeasure.org, but the definition is not complete, so assuming value set include is correct</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="Terminology_TX_Confirm_4a"> </a>
 <h2>Terminology_TX_Confirm_4a</h2>
  <table class="grid">
@@ -1810,17 +1434,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
 </table>
 <hr/>
-<a name="Type_Specific_Checks_DT_URL_Resolve"> </a>
-<h2>Type_Specific_Checks_DT_URL_Resolve</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>URL value 'http://hl7.org/fhir/StructureDefinition/performer' does not resolve</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>URL value 'http://hl7.org/fhir/StructureDefinition/performer' does not resolve</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="UNKNOWN_CODESYSTEM"> </a>
 <h2>UNKNOWN_CODESYSTEM</h2>
  <table class="grid">
@@ -1835,17 +1448,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
 </table>
 <hr/>
-<a name="VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY"> </a>
-<h2>VALIDATION_VAL_PROFILE_UNKNOWN_NOT_POLICY</h2>
- <table class="grid">
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>Profile reference 'http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-   <tr style="background-color: #fff4ee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>Profile reference 'http://hl7.no/StructureDefinition/NoVitalSignsObservationBodyHeight' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles</b></td>
-   </tr>
-</table>
-<hr/>
 <a name="VALUESET_UNC_SYSTEM_WARNING"> </a>
 <h2>VALUESET_UNC_SYSTEM_WARNING</h2>
  <table class="grid">
@@ -1854,23 +1456,6 @@ hl7.fhir.uv.tools.r4#0.3.0:     <a href="http://hl7.org/fhir/tools/0.3.0/Structu
    </tr>
    <tr style="background-color: #fff4ee">
      <td><a href="ValueSet-hn-scheduleandslot-type-vs.html">fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json</a></td><td><b>Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated)</b></td>
-   </tr>
-</table>
-<hr/>
-<a name="Validation_VAL_Profile_NotSlice"> </a>
-<h2>Validation_VAL_Profile_NotSlice</h2>
- <table class="grid">
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example.html">fsh-generated\resources\Observation-body-height-example.json</a></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[0]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[0]: Does not match slice 'organization' (discriminator: (type is uri))</b></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
-     <td><a href="Observation-body-height-example-loinc.html">fsh-generated\resources\Observation-body-height-example-loinc.json</a></td><td><b>This element does not match any known slice defined in the profile http://hl7.no/fhir/StructureDefinition/NoVitalSignsObservationBodyHeight|1.1.0 and slicing is CLOSED: Observation.performer[1]: Does not match slice 'Author' (discriminator: (type is uri)), Observation.performer[1]: Does not match slice 'organization' (discriminator: (type is uri))</b></td>
    </tr>
 </table>
 </body>
