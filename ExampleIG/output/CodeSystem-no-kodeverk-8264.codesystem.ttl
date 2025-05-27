@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8264 Tjenestekoder for timereservasjon"] ; # 
   fhir:status [ fhir:v "retired"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-03-26T11:34:28+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-28T01:07:52+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

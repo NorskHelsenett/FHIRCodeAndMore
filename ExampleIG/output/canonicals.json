@@ -478,6 +478,13 @@
     "name" : "HnExtensionVarselorganisasjon"
   },
   {
+    "id" : "order-received",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/order-received",
+    "version" : "1.1.0",
+    "name" : "OrderReceived"
+  },
+  {
     "id" : "cs-8116-Dnr-Fnr-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",

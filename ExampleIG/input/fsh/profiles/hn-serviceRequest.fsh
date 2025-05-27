@@ -10,6 +10,8 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^status = #draft 
 * ^publisher = "Helsenorge"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
+* extension contains OrderReceived named orderReceived 0..1
+* extension[orderReceived] ^short = "Timestamp when order was received"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
@@ -22,8 +24,8 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
 * intent = #order
 * intent obeys IntentOrder
-* category 1..*
-* category from ServiceRequestCategoryVS
+* category 0..*
+* category from ServiceRequestCategoryVS (preferred)
 * category ^short = "Hvis category er brukt og det mangler code bør beskrivelse av bestilling være i note"
 * priority 1..1 
 * priority obeys PriorityUrgentOrRoutine

@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Codes that should be used for schedule and SlotType."] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-03-26T11:34:28+01:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-28T01:07:52+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes that should be used for schedule and SlotType."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

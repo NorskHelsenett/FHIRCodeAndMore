@@ -153,6 +153,13 @@
       "types": [
         "string"
       ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/order-received",
+      "title": "Order Received",
+      "types": [
+        "dateTime"
+      ]
     }
   ],
   "profiles": {
@@ -190,6 +197,9 @@
     ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon": [
       "Observation.meta.tag"
+    ],
+    "http://helsenorge.no/fhir/StructureDefinition/order-received": [
+      "ServiceRequest"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
       "NamingSystem"
