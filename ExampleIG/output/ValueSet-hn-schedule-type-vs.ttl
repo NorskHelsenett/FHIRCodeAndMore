@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hn-schedule-type-vs</b></p><a name=\"hn-schedule-type-vs\"> </a><a name=\"hchn-schedule-type-vs\"> </a><a name=\"hn-schedule-type-vs-no-NO\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hn-schedule-type-cs.html\"><code>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:version [ fhir:v "1.2.0"] ; # 
   fhir:name [ fhir:v "HnScheduleTypeVS"] ; # 
   fhir:title [ fhir:v "hn-schedule-type-vs"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-28T01:07:52+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-28T02:05:36+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Value set for schedule type"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

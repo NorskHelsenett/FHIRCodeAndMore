@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8327"
   }],
-  "version" : "1.1.0",
+  "version" : "1.2.0",
   "name" : "NoKodeverk8327",
   "title" : "8327 Offisiell personidentifikasjon",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-28T01:07:52+02:00",
+  "date" : "2025-05-28T02:05:36+02:00",
   "description" : "Angir type identifikator for person",
   "jurisdiction" : [{
     "coding" : [{

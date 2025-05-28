@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.3108"
   }],
-  "version" : "1.1.0",
+  "version" : "1.2.0",
   "name" : "NoKodeverk3108",
   "title" : "3108 Reservasjon mot registrering",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-28T01:07:52+02:00",
+  "date" : "2025-05-28T02:05:36+02:00",
   "description" : "Opplysning om pasienten holdning til registrering av informasjon i register",
   "jurisdiction" : [{
     "coding" : [{

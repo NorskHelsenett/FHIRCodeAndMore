@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-scheduleAndSlot-type-cs</b></p><a name=\"hn-scheduleAndSlot-type-cs\"> </a><a name=\"hchn-scheduleAndSlot-type-cs\"> </a><a name=\"hn-scheduleAndSlot-type-cs-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Poliklinisktime<a name=\"hn-scheduleAndSlot-type-cs-Poliklinisktime\"> </a></td><td>Poliklinisk time</td></tr><tr><td style=\"white-space:nowrap\">Innleggelse<a name=\"hn-scheduleAndSlot-type-cs-Innleggelse\"> </a></td><td>Innleggelse</td></tr><tr><td style=\"white-space:nowrap\">Dagbehandling<a name=\"hn-scheduleAndSlot-type-cs-Dagbehandling\"> </a></td><td>Dagbehandling</td></tr><tr><td style=\"white-space:nowrap\">Hjemmebesøk<a name=\"hn-scheduleAndSlot-type-cs-Hjemmebes.248k\"> </a></td><td>Hjemmebesøk</td></tr><tr><td style=\"white-space:nowrap\">Konsultasjon<a name=\"hn-scheduleAndSlot-type-cs-Konsultasjon\"> </a></td><td>Konsultasjon</td></tr><tr><td style=\"white-space:nowrap\">Bildediagnostikk<a name=\"hn-scheduleAndSlot-type-cs-Bildediagnostikk\"> </a></td><td>Bildediagnostikk</td></tr><tr><td style=\"white-space:nowrap\">Personlig<a name=\"hn-scheduleAndSlot-type-cs-Personlig\"> </a></td><td>Personlig</td></tr><tr><td style=\"white-space:nowrap\">Blodbank<a name=\"hn-scheduleAndSlot-type-cs-Blodbank\"> </a></td><td>Blodbank</td></tr></table></div>"
   },
   "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
-  "version" : "1.1.0",
+  "version" : "1.2.0",
   "name" : "HnScheduleAndSlotTypeCS",
   "title" : "Codes that should be used for schedule and SlotType.",
   "status" : "draft",
   "experimental" : true,
-  "date" : "2025-05-28T01:07:52+02:00",
+  "date" : "2025-05-28T02:05:36+02:00",
   "description" : "Codes that should be used for schedule and SlotType.",
   "jurisdiction" : [{
     "coding" : [{

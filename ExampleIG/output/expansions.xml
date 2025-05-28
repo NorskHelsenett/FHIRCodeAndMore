@@ -1,11 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="6f7cf4cb-06ef-4b96-8323-29ce8026007b"/>
+  <id value="7f2004b5-a313-4ef1-ba96-e11f0eff3fae"/>
   <meta>
-    <lastUpdated value="2025-05-28T01:07:52.886+02:00"/>
+    <lastUpdated value="2025-05-28T02:05:36.224+02:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p class="res-header-id">
+              <b>Generated Narrative: ValueSet </b>
+            </p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
+              <a href="CodeSystem-hn-henvisningsstatus.html">codesystem Henvisningsstatus (HIS 1206) v1.2.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 6 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-mottatt"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-mottatt">mottatt</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Mottatt</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er mottatt av mottaker.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-behov"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-behov">vurdert-behov</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Vurdert – behov for helsehjelp</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er vurdert, og det er behov for helsehjelp.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-ikke-behov"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-ikke-behov">vurdert-ikke-behov</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Vurdert – ikke behov for helsehjelp</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er vurdert, men det er ikke behov for helsehjelp.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avvist-mangelfull"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avvist-mangelfull">avvist-mangelfull</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Avvist – mangelfull informasjon</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er avvist på grunn av manglende eller feil informasjon.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-planlagt"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-planlagt">planlagt</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Planlagt</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er planlagt for videre oppfølging eller tiltak.</p>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avsluttet"> </a>  
+                  <a href="CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avsluttet">avsluttet</a>
+                </td>
+                <td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td>
+                <td>Avsluttet</td>
+                <td>
+                  <div>
+                    <p>Henvisningen er ferdig behandlet og avsluttet.</p>
+
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs"/>
+        <version value="1.2.0"/>
+        <name value="HenvisningsstatusVS"/>
+        <title value="Henvisningsstatus ValueSet"/>
+        <status value="active"/>
+        <experimental value="true"/>
+        <date value="2025-05-28T02:05:36+02:00"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="NO"/>
+            <display value="Norway"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:603b37a8-f189-48af-b2fb-a0a8340bb2d0"/>
+          <timestamp value="2025-05-28T02:06:09+02:00"/>
+          <total value="6"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus|1.2.0"/>
+          </parameter>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="mottatt"/>
+            <display value="Mottatt"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="vurdert-behov"/>
+            <display value="Vurdert – behov for helsehjelp"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="vurdert-ikke-behov"/>
+            <display value="Vurdert – ikke behov for helsehjelp"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="avvist-mangelfull"/>
+            <display value="Avvist – mangelfull informasjon"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="planlagt"/>
+            <display value="Planlagt"/>
+          </contains>
+          <contains>
+            <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+            <code value="avsluttet"/>
+            <display value="Avsluttet"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
   <entry>
     <fullUrl value="http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"/>
     <resource>
@@ -17,7 +202,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
-              <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.1.0 (CodeSystem)</a>
+              <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.2.0 (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
             <table class="codes">
@@ -92,12 +277,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"/>
-        <version value="1.1.0"/>
+        <version value="1.2.0"/>
         <name value="HnScheduleTypeVS"/>
         <title value="hn-schedule-type-vs"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-05-28T01:07:52+02:00"/>
+        <date value="2025-05-28T02:05:36+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -106,8 +291,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:256c1ec7-242b-42df-af9c-dfe2f2e19d6c"/>
-          <timestamp value="2025-05-28T01:08:26+02:00"/>
+          <identifier value="urn:uuid:90b0e189-d09a-42ac-a5f6-eb291d96a748"/>
+          <timestamp value="2025-05-28T02:06:09+02:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -124,7 +309,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.1.0"/>
+            <valueUri value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.0"/>
           </parameter>
           <contains>
             <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
@@ -209,12 +394,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"/>
-        <version value="1.1.0"/>
+        <version value="1.2.0"/>
         <name value="ServiceRequestCategoryVS"/>
         <title value="ServiceRequest Category Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-05-28T01:07:52+02:00"/>
+        <date value="2025-05-28T02:05:36+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -223,8 +408,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:346ab0c4-bd34-48ab-9cd9-b1679c219ef6"/>
-          <timestamp value="2025-05-28T01:08:26+02:00"/>
+          <identifier value="urn:uuid:0fb2b1c3-bacb-4a7b-b9ec-074889bbce92"/>
+          <timestamp value="2025-05-28T02:06:09+02:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>

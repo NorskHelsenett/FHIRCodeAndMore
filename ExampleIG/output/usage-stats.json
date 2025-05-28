@@ -1,6 +1,6 @@
 {
   "package": "fhir.codesandextensions",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -9,6 +9,13 @@
       "title": "Alternative codes på serviceRequest.code",
       "types": [
         "CodeableConcept"
+      ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus",
+      "title": "Henvisningsstatus (HIS 1206)",
+      "types": [
+        "code"
       ]
     },
     {
@@ -189,6 +196,9 @@
     ]
   },
   "usage": {
+    "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus": [
+      "ServiceRequest"
+    ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon": [
       "Schedule"
     ],

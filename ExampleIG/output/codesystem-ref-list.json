@@ -1,8 +1,19 @@
 {
   "codeSystems" : [
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "HnHenvisningsstatus",
+      "title" : "Henvisningsstatus (HIS 1206)",
+      "description" : "Koder som angir status for henvisning i henhold til HIS 1206:2018.",
+      "uses" : {
+      },
+      "ValueSet-henvisningsstatus-vs.html" : "Henvisningsstatus ValueSet"
+    },
+    {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
-      "version" : "1.1.0",
+      "version" : "1.2.0",
       "status" : "draft",
       "name" : "HnScheduleTypeCS",
       "title" : "Codes that should be used for schedule type",
@@ -13,7 +24,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
-      "version" : "1.1.0",
+      "version" : "1.2.0",
       "status" : "draft",
       "name" : "HnScheduleAndSlotTypeCS",
       "title" : "Codes that should be used for schedule and SlotType.",
@@ -32,8 +43,8 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
-      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set"
+      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",

@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.codesandextensions</b></p><a name=\"fhir.codesandextensions\"> </a><a name=\"hcfhir.codesandextensions\"> </a><a name=\"fhir.codesandextensions-no-NO\"> </a><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.1.0"] ; # 
+  fhir:version [ fhir:v "1.2.0"] ; # 
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-28T01:07:52+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-28T02:05:36+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1099,6 +1099,42 @@
        fhir:name [ fhir:v "example-girl" ] ;
        fhir:description [ fhir:v "Eksampel pasient" ] ;
        fhir:example [ fhir:v "true"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "StructureDefinition:extension" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus> ;
+         fhir:reference [ fhir:v "StructureDefinition/henvisningsstatus" ]
+       ] ;
+       fhir:name [ fhir:v "Henvisningsstatus (HIS 1206)" ] ;
+       fhir:description [ fhir:v "En utvidelse som representerer status på henvisning i henhold til HIS 1206:2018." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/CodeSystem/hn-henvisningsstatus> ;
+         fhir:reference [ fhir:v "CodeSystem/hn-henvisningsstatus" ]
+       ] ;
+       fhir:name [ fhir:v "Henvisningsstatus (HIS 1206)" ] ;
+       fhir:description [ fhir:v "Koder som angir status for henvisning i henhold til HIS 1206:2018." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs> ;
+         fhir:reference [ fhir:v "ValueSet/henvisningsstatus-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Henvisningsstatus ValueSet" ] ;
+       fhir:description [ fhir:v "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;

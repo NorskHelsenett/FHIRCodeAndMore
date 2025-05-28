@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8231"/>
   </identifier>
-  <version value="1.1.0"/>
+  <version value="1.2.0"/>
   <name value="NoKodeverk8231"/>
   <title value="8231 Type tekstsvar"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-05-28T01:07:52+02:00"/>
+  <date value="2025-05-28T02:05:36+02:00"/>
   <description value="Begrunnelse for rekvisisjon/henvisning"/>
   <jurisdiction>
     <coding>

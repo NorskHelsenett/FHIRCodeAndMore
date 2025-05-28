@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="henvisningsstatus-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet henvisningsstatus-vs</b></p><a name="henvisningsstatus-vs"> </a><a name="hchenvisningsstatus-vs"> </a><a name="henvisningsstatus-vs-no-NO"> </a><ul><li>Include all codes defined in <a href="CodeSystem-hn-henvisningsstatus.html"><code>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</code></a></li></ul></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs"/>
+  <version value="1.2.0"/>
+  <name value="HenvisningsstatusVS"/>
+  <title value="Henvisningsstatus ValueSet"/>
+  <status value="active"/>
+  <experimental value="true"/>
+  <date value="2025-05-28T02:05:36+02:00"/>
+  <description value="ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
+    </include>
+  </compose>
+</ValueSet>

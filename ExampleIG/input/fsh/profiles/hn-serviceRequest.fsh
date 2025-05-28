@@ -12,6 +12,8 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
 * extension contains OrderReceived named orderReceived 0..1
 * extension[orderReceived] ^short = "Timestamp when order was received"
+* extension contains HenvisningsstatusExtension named henvisningsstatus 0..1
+* extension[henvisningsstatus] ^short = "Status på henvisning"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
@@ -56,6 +58,13 @@ Description: "Koder for valgte profesjonstyper."
 * ^experimental = true
 * include codes from system $SCT where concept is-a #158965000 "Healthcare professional"
 * include codes from system $9060
+
+ValueSet: HenvisningsstatusVS
+Id: henvisningsstatus-vs
+Title: "Henvisningsstatus ValueSet"
+Description: "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."
+* ^experimental = true
+* include codes from system HnHenvisningsstatus
 
 
 Invariant: PriorityUrgentOrRoutine

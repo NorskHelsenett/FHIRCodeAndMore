@@ -1,30 +1,37 @@
 [
   {
+    "id" : "hn-henvisningsstatus",
+    "type" : "CodeSystem",
+    "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
+    "version" : "1.2.0",
+    "name" : "HnHenvisningsstatus"
+  },
+  {
     "id" : "hn-kodeverk-varsling.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnKodeverkVarsling"
   },
   {
     "id" : "hn-schedule-type-cs",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnScheduleTypeCS"
   },
   {
     "id" : "hn-scheduleAndSlot-type-cs",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnScheduleAndSlotTypeCS"
   },
   {
     "id" : "no-kodeverk-1101.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-1101.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk1101",
     "oids" : ["2.16.578.1.12.4.1.1.1101"]
   },
@@ -32,7 +39,7 @@
     "id" : "no-kodeverk-3108.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-3108.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk3108",
     "oids" : ["2.16.578.1.12.4.1.1.3108"]
   },
@@ -40,7 +47,7 @@
     "id" : "no-kodeverk-4101.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-4101.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk4101",
     "oids" : ["2.16.578.1.12.4.1.1.4101"]
   },
@@ -48,7 +55,7 @@
     "id" : "no-kodeverk-7010-norpat.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7010-norpat.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7010NORPAT",
     "oids" : ["2.16.578.1.12.4.1.1.7010"]
   },
@@ -56,7 +63,7 @@
     "id" : "no-kodeverk-7270-ncrp.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7270-ncrp.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7270NCRP",
     "oids" : ["2.16.578.1.12.4.1.1.7270"]
   },
@@ -64,7 +71,7 @@
     "id" : "no-kodeverk-7280-nlk.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7280-nlk.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7280NLK",
     "oids" : ["2.16.578.1.12.4.1.1.7280"]
   },
@@ -72,7 +79,7 @@
     "id" : "no-kodeverk-7303.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7303.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7303",
     "oids" : ["2.16.578.1.12.4.1.1.7303"]
   },
@@ -80,7 +87,7 @@
     "id" : "no-kodeverk-7305.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7305.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7305",
     "oids" : ["2.16.578.1.12.4.1.1.7305"]
   },
@@ -88,7 +95,7 @@
     "id" : "no-kodeverk-7611.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7611.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7611",
     "oids" : ["2.16.578.1.12.4.1.1.7611"]
   },
@@ -96,7 +103,7 @@
     "id" : "no-kodeverk-7617.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-7617.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk7617",
     "oids" : ["2.16.578.1.12.4.1.1.7617"]
   },
@@ -104,7 +111,7 @@
     "id" : "no-kodeverk-8116.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8116.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8116",
     "oids" : ["2.16.578.1.12.4.1.1.8116"]
   },
@@ -112,7 +119,7 @@
     "id" : "no-kodeverk-8202.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8202.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8202",
     "oids" : ["2.16.578.1.12.4.1.1.8202"]
   },
@@ -120,7 +127,7 @@
     "id" : "no-kodeverk-8212.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8212.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8212",
     "oids" : ["2.16.578.1.12.4.1.1.8212"]
   },
@@ -128,7 +135,7 @@
     "id" : "no-kodeverk-8216.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8216.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8216",
     "oids" : ["2.16.578.1.12.4.1.1.8216"]
   },
@@ -136,7 +143,7 @@
     "id" : "no-kodeverk-8219.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8219.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8219",
     "oids" : ["2.16.578.1.12.4.1.1.8219"]
   },
@@ -144,7 +151,7 @@
     "id" : "no-kodeverk-8231.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8231.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8231",
     "oids" : ["2.16.578.1.12.4.1.1.8231"]
   },
@@ -152,7 +159,7 @@
     "id" : "no-kodeverk-8232.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8232.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8232",
     "oids" : ["2.16.578.1.12.4.1.1.8232"]
   },
@@ -160,7 +167,7 @@
     "id" : "no-kodeverk-8234.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8234.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8234",
     "oids" : ["2.16.578.1.12.4.1.1.8234"]
   },
@@ -168,7 +175,7 @@
     "id" : "no-kodeverk-8239.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8239.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8239",
     "oids" : ["2.16.578.1.12.4.1.1.8239"]
   },
@@ -176,7 +183,7 @@
     "id" : "no-kodeverk-8243.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8243.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8243",
     "oids" : ["2.16.578.1.12.4.1.1.8243"]
   },
@@ -184,7 +191,7 @@
     "id" : "no-kodeverk-8244.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8244.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8244",
     "oids" : ["2.16.578.1.12.4.1.1.8244"]
   },
@@ -192,7 +199,7 @@
     "id" : "no-kodeverk-8245.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8245.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8245",
     "oids" : ["2.16.578.1.12.4.1.1.8245"]
   },
@@ -200,7 +207,7 @@
     "id" : "no-kodeverk-8264.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8264.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8264",
     "oids" : ["2.16.578.1.12.4.1.1.8264"]
   },
@@ -208,7 +215,7 @@
     "id" : "no-kodeverk-8268.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8268.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8268",
     "oids" : ["2.16.578.1.12.4.1.1.8268"]
   },
@@ -216,7 +223,7 @@
     "id" : "no-kodeverk-8269.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8269.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8269",
     "oids" : ["2.16.578.1.12.4.1.1.8269"]
   },
@@ -224,7 +231,7 @@
     "id" : "no-kodeverk-8271.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8271.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8271",
     "oids" : ["2.16.578.1.12.4.1.1.8271"]
   },
@@ -232,7 +239,7 @@
     "id" : "no-kodeverk-8272.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8272.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8272",
     "oids" : ["2.16.578.1.12.4.1.1.8272"]
   },
@@ -240,7 +247,7 @@
     "id" : "no-kodeverk-8273.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8273.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8273",
     "oids" : ["2.16.578.1.12.4.1.1.8273"]
   },
@@ -248,7 +255,7 @@
     "id" : "no-kodeverk-8274.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8274.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8274",
     "oids" : ["2.16.578.1.12.4.1.1.8274"]
   },
@@ -256,7 +263,7 @@
     "id" : "no-kodeverk-8275.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8275.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8275",
     "oids" : ["2.16.578.1.12.4.1.1.8275"]
   },
@@ -264,7 +271,7 @@
     "id" : "no-kodeverk-8327.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8327.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8327",
     "oids" : ["2.16.578.1.12.4.1.1.8327"]
   },
@@ -272,7 +279,7 @@
     "id" : "no-kodeverk-8340.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8340.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8340",
     "oids" : ["2.16.578.1.12.4.1.1.8340"]
   },
@@ -280,7 +287,7 @@
     "id" : "no-kodeverk-8351.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8351.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8351",
     "oids" : ["2.16.578.1.12.4.1.1.8351"]
   },
@@ -288,7 +295,7 @@
     "id" : "no-kodeverk-8406.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8406.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8406",
     "oids" : ["2.16.578.1.12.4.1.1.8406"]
   },
@@ -296,7 +303,7 @@
     "id" : "no-kodeverk-8432.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8432.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8432",
     "oids" : ["2.16.578.1.12.4.1.1.8432"]
   },
@@ -304,7 +311,7 @@
     "id" : "no-kodeverk-8445.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8445.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8445",
     "oids" : ["2.16.578.1.12.4.1.1.8445"]
   },
@@ -312,7 +319,7 @@
     "id" : "no-kodeverk-8446.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8446.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8446",
     "oids" : ["2.16.578.1.12.4.1.1.8446"]
   },
@@ -320,7 +327,7 @@
     "id" : "no-kodeverk-8624.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8624.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8624",
     "oids" : ["2.16.578.1.12.4.1.1.8624"]
   },
@@ -328,7 +335,7 @@
     "id" : "no-kodeverk-8628.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-8628.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk8628",
     "oids" : ["2.16.578.1.12.4.1.1.8628"]
   },
@@ -336,7 +343,7 @@
     "id" : "no-kodeverk-9033.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9033.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk9033",
     "oids" : ["2.16.578.1.12.4.1.1.9033"]
   },
@@ -344,7 +351,7 @@
     "id" : "no-kodeverk-9060.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9060.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk9060",
     "oids" : ["2.16.578.1.12.4.1.1.9060"]
   },
@@ -352,7 +359,7 @@
     "id" : "no-kodeverk-9505.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9505.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk9505",
     "oids" : ["2.16.578.1.12.4.1.1.9505"]
   },
@@ -360,7 +367,7 @@
     "id" : "no-kodeverk-9603.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9603.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverk9603",
     "oids" : ["2.16.578.1.12.4.1.1.9603"]
   },
@@ -368,7 +375,7 @@
     "id" : "no-kodeverk-ICD-10.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-ICD-10.codesystem",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "NoKodeverkICD10",
     "oids" : ["2.16.578.1.12.4.1.1.7110"]
   },
@@ -376,147 +383,161 @@
     "id" : "fhir.codesandextensions",
     "type" : "ImplementationGuide",
     "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "CodesExtensionsAndMore"
   },
   {
     "id" : "no-basis-apotekenes-konsesjonsnr",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-apotekenes-konsesjonsnr",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "ApotekenesKonsesjonsnr"
   },
   {
     "id" : "no-basis-dnummer",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-dnummer",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "Dnummer"
   },
   {
     "id" : "no-basis-foedselsnummer",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-foedselsnummer",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "Foedselsnummer"
   },
   {
     "id" : "no-basis-her-id",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-her-id",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HERId"
   },
   {
     "id" : "no-basis-orgnr",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-orgnr",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "Organisasjonsnummer"
   },
   {
     "id" : "no-basis-resh-id",
     "type" : "NamingSystem",
     "url" : "http://helsenorge.no/fhir/NamingSystem/no-basis-resh-id",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "RESHid"
   },
   {
     "id" : "MyPatient",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/MyPatient",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "MyPatient"
   },
   {
     "id" : "additional-code",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/additional-code",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "AdditionalCode"
+  },
+  {
+    "id" : "henvisningsstatus",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus",
+    "version" : "1.2.0",
+    "name" : "HenvisningsstatusExtension"
   },
   {
     "id" : "hn-basis-schedule",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-schedule",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnBasisSchedule"
   },
   {
     "id" : "hn-basis-serviceRequest",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnBasisServiceRequest"
   },
   {
     "id" : "hn-basis-slot",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-basis-slot",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnBasisSlot"
   },
   {
     "id" : "hn-extension-free-slot-planningHorizon",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnExtensionFreeSlotPlanningHorizon"
   },
   {
     "id" : "hn-extension-representant",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-representant",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnExtensionRepresentant"
   },
   {
     "id" : "hn-extension-varselorganisasjon",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnExtensionVarselorganisasjon"
   },
   {
     "id" : "order-received",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/order-received",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "OrderReceived"
   },
   {
     "id" : "cs-8116-Dnr-Fnr-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "CS8116DnrFnrVS"
+  },
+  {
+    "id" : "henvisningsstatus-vs",
+    "type" : "ValueSet",
+    "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
+    "version" : "1.2.0",
+    "name" : "HenvisningsstatusVS"
   },
   {
     "id" : "hn-schedule-type-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnScheduleTypeVS"
   },
   {
     "id" : "hn-scheduleandslot-type-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "HnScheduleAndSlotTypeVS"
   },
   {
     "id" : "serviceRequest-category-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "ServiceRequestCategoryVS"
   },
   {
     "id" : "serviceRequest-performerType-vs",
     "type" : "ValueSet",
     "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
-    "version" : "1.1.0",
+    "version" : "1.2.0",
     "name" : "ServiceRequestPerformerTypeVS"
   }
 ]
