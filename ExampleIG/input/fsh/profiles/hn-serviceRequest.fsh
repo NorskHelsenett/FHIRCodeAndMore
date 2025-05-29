@@ -21,8 +21,8 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * status = #active
 * status from HnExtendedServiceRequestStatus (required)
 //* status obeys StatusActiveOrCompleted
-//* status ^short = "Default status er active"
-//* status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
+* status ^short = "Extended valueset for status"
+* status ^definition = "Status er extended med koder fra 9148."
 * intent = #order
 //* intent obeys IntentOrder
 // intent ^definition = "Helsenorge "
