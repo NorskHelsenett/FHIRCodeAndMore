@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="hn-extended-servicerequest-status"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet hn-extended-servicerequest-status</b></p><a name="hn-extended-servicerequest-status"> </a><a name="hchn-extended-servicerequest-status"> </a><a name="hn-extended-servicerequest-status-no-NO"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-request-status.html"><code>http://hl7.org/fhir/request-status</code></a></li><li>Include all codes defined in <a href="CodeSystem-no-kodeverk-9148.codesystem.html"><code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet hn-extended-servicerequest-status</b></p><a name="hn-extended-servicerequest-status"> </a><a name="hchn-extended-servicerequest-status"> </a><a name="hn-extended-servicerequest-status-no-NO"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://hl7.org/fhir/R4/codesystem-request-status.html"><code>http://hl7.org/fhir/request-status</code></a></li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9148</code></li></ul></div>
   </text>
   <url value="http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status"/>
   <version value="1.2.0"/>
   <name value="HnExtendedServiceRequestStatus"/>
   <title value="Extended ServiceRequest Status"/>
   <status value="active"/>
-  <date value="2025-05-29T20:33:03+02:00"/>
+  <date value="2025-05-29T20:44:52+02:00"/>
   <description value="Includes standard request-status codes and volven 9148 codes"/>
   <jurisdiction>
     <coding>
@@ -24,7 +24,7 @@
       <system value="http://hl7.org/fhir/request-status"/>
     </include>
     <include>
-      <system value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem"/>
+      <system value="urn:oid:2.16.578.1.12.4.1.1.9148"/>
     </include>
   </compose>
 </ValueSet>

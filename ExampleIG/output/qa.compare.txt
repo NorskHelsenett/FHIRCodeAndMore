@@ -1,7 +1,7 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 10, warn = 37, info = 13
+err = 9, warn = 39, info = 13
 $--
 Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
@@ -76,7 +76,7 @@ Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = htt
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-henvisningsstatus : 0 / 4 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 3
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 1 / 4 / 3
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 5 / 3
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot : 0 / 5 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 2
@@ -84,7 +84,7 @@ Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = htt
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-order-received : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-henvisningsstatus-vs : 0 / 0 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-extended-servicerequest-status : 0 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-extended-servicerequest-status : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-schedule-type-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-category-vs : 0 / 0 / 1
@@ -92,7 +92,7 @@ Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = htt
 </table>
 == n/a ==
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource ServiceRequest/hn-basis-serviceRequest-example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 504, column 1029: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
+ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest-definitions.html#/html/body/div/div/div/div/div/div/div/table/tr/td/p/a at Line 506, column 1029: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 790, column 903: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1740, column 903: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -205,7 +205,7 @@ INFORMATION: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.differential.element[10].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[32].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
 == fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest.json ==
-ERROR: HnBasisServiceRequest.ServiceRequest.status: Binding http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status is not a subset of binding http://hl7.org/fhir/ValueSet/request-status|4.0.1
+WARNING: HnBasisServiceRequest.ServiceRequest.status: Binding http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status could not be expanded
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[17].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.snapshot.element[44].mapping[2].map: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: StructureDefinition/hn-basis-serviceRequest: StructureDefinition.differential.element[7].binding: The definition for the element 'ServiceRequest.category' binds to the value set 'http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs' which is experimental, but this structure is not labeled as experimental
@@ -231,6 +231,7 @@ WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown Syste
 == fsh-generated\resources\ValueSet-henvisningsstatus-vs.json ==
 == fsh-generated\resources\ValueSet-hn-extended-servicerequest-status.json ==
 WARNING: ValueSet/hn-extended-servicerequest-status: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+WARNING: ValueSet.where(id = 'hn-extended-servicerequest-status'): Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9148
 == fsh-generated\resources\ValueSet-hn-schedule-type-vs.json ==
 == fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json ==
 WARNING: ValueSet/hn-scheduleandslot-type-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated)

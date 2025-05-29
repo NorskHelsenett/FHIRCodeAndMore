@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HnHenvisningsstatus"] ; # 
   fhir:title [ fhir:v "Henvisningsstatus (HIS 1206)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:44:52+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Koder som angir status for henvisning i henhold til HIS 1206:2018."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

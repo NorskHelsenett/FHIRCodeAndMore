@@ -24,7 +24,7 @@
   <name value="HnBasisSlot"/>
   <title value="HnBasisSlot"/>
   <status value="draft"/>
-  <date value="2025-05-29T20:33:03+02:00"/>
+  <date value="2025-05-29T20:44:52+02:00"/>
   <description value="Profil for slot i Helsenorge. Basert på FHIR Slot (R4)"/>
   <jurisdiction>
     <coding>

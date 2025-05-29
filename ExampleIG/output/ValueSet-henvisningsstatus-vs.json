@@ -11,7 +11,7 @@
   "title" : "Henvisningsstatus ValueSet",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-05-29T20:33:03+02:00",
+  "date" : "2025-05-29T20:44:52+02:00",
   "description" : "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018.",
   "jurisdiction" : [{
     "coding" : [{

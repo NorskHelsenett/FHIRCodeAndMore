@@ -32,7 +32,7 @@
       "title" : "Extended ServiceRequest Status",
       "description" : "Includes standard request-status codes and volven 9148 codes",
       "systems" : [
-        "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+        "urn:oid:2.16.578.1.12.4.1.1.9148",
         "http://hl7.org/fhir/request-status"
       ],
       "uses" : {
@@ -146,9 +146,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-extension-representant.html" : "Representant"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -163,9 +163,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-extension-representant.html" : "Representant"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -180,9 +180,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-MyPatient.html" : "MyPatient",
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-MyPatient.html" : "MyPatient"
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",

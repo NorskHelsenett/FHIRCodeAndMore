@@ -11,7 +11,7 @@
   <title value="Henvisningsstatus ValueSet"/>
   <status value="active"/>
   <experimental value="true"/>
-  <date value="2025-05-29T20:33:03+02:00"/>
+  <date value="2025-05-29T20:44:52+02:00"/>
   <description value="ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."/>
   <jurisdiction>
     <coding>

@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8273 Hastegrad"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:44:52+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Anbefalt tidsperspektiv for tiltak."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

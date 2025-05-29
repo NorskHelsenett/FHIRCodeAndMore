@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8212 Uspesifisert laboratoriekodeverk"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:44:52+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

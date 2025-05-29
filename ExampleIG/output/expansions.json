@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "bed68806-33e0-494c-82be-9d516eaa1c8c",
+  "id" : "96022cef-7218-42cf-809f-eb0ec365531e",
   "meta" : {
-    "lastUpdated" : "2025-05-29T20:33:03.084+02:00"
+    "lastUpdated" : "2025-05-29T20:44:52.580+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -19,7 +19,7 @@
       "title" : "Henvisningsstatus ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-05-29T20:33:03+02:00",
+      "date" : "2025-05-29T20:44:52+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:d3de99b6-5d83-47d3-8851-eed8490b7240",
-        "timestamp" : "2025-05-29T20:33:39+02:00",
+        "identifier" : "urn:uuid:866f4e92-ad61-41d1-8835-5fb929f6d6d3",
+        "timestamp" : "2025-05-29T20:45:33+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -82,119 +82,6 @@
     }
   },
   {
-    "fullUrl" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
-    "resource" : {
-      "resourceType" : "ValueSet",
-      "text" : {
-        "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><div style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\"><p>Expansion done internally based on:</p><ul><li><a href=\"CodeSystem-no-kodeverk-9148.codesystem.html\">codesystem 9148 Henvisning (elektronisk melding) v1.2.0 (CodeSystem)</a></li><li><a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html\">codesystem RequestStatus v4.0.1 (CodeSystem)</a></li></ul></div><p>This value set contains 12 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-draft\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-draft\">draft</a></td><td>http://hl7.org/fhir/request-status</td><td>Draft</td><td><div><p>The request has been created but is not yet complete or ready for action.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-active\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-active\">active</a></td><td>http://hl7.org/fhir/request-status</td><td>Active</td><td><div><p>The request is in force and ready to be acted upon.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-on-hold\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-on-hold\">on-hold</a></td><td>http://hl7.org/fhir/request-status</td><td>On Hold</td><td><div><p>The request (and any implicit authorization to act) has been temporarily withdrawn but is expected to resume in the future.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-revoked\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-revoked\">revoked</a></td><td>http://hl7.org/fhir/request-status</td><td>Revoked</td><td><div><p>The request (and any implicit authorization to act) has been terminated prior to the known full completion of the intended actions.  No further activity should occur.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-completed\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-completed\">completed</a></td><td>http://hl7.org/fhir/request-status</td><td>Completed</td><td><div><p>The activity described by the request has been fully performed.  No further activity will occur.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-entered-in-error\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-entered-in-error\">entered-in-error</a></td><td>http://hl7.org/fhir/request-status</td><td>Entered in Error</td><td><div><p>This request should never have existed and should be considered 'void'.  (It is possible that real-world decisions were based on it.  If real-world activity has occurred, the status should be &quot;revoked&quot; rather than &quot;entered-in-error&quot;.).</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://hl7.org/fhir/request-status-unknown\"> </a>\u00a0\u00a0<a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html#request-status-unknown\">unknown</a></td><td>http://hl7.org/fhir/request-status</td><td>Unknown</td><td><div><p>The authoring/source system does not know which of the status values currently applies for this request.  Note: This concept is not to be used for &quot;other&quot; - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem-1\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-kodeverk-9148.codesystem.html#no-kodeverk-9148.codesystem-1\">1</a></td><td>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</td><td>Innkalles til helsehjelp</td><td><div/></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem-2\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-kodeverk-9148.codesystem.html#no-kodeverk-9148.codesystem-2\">2</a></td><td>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</td><td>Rett til helsehjelp, tidspunkt kommer</td><td><div/></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem-3\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-kodeverk-9148.codesystem.html#no-kodeverk-9148.codesystem-3\">3</a></td><td>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</td><td>Henvisningen er videresendt</td><td><div/></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem-4\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-kodeverk-9148.codesystem.html#no-kodeverk-9148.codesystem-4\">4</a></td><td>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</td><td>Henvisningen er avvist</td><td><div/></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem-11\"> </a>\u00a0\u00a0<a href=\"CodeSystem-no-kodeverk-9148.codesystem.html#no-kodeverk-9148.codesystem-11\">11</a></td><td>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</td><td>Råd til henviser</td><td><div/></td></tr></table></div>"
-      },
-      "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
-      "version" : "1.2.0",
-      "name" : "HnExtendedServiceRequestStatus",
-      "title" : "Extended ServiceRequest Status",
-      "status" : "active",
-      "date" : "2025-05-29T20:33:03+02:00",
-      "jurisdiction" : [{
-        "coding" : [{
-          "system" : "urn:iso:std:iso:3166",
-          "code" : "NO",
-          "display" : "Norway"
-        }]
-      }],
-      "expansion" : {
-        "identifier" : "urn:uuid:2d55c66f-60b3-4c9d-a3e9-50ccc2ee58c6",
-        "timestamp" : "2025-05-29T20:33:39+02:00",
-        "total" : 12,
-        "offset" : 0,
-        "parameter" : [{
-          "name" : "count",
-          "valueInteger" : 1000
-        },
-        {
-          "name" : "offset",
-          "valueInteger" : 0
-        },
-        {
-          "name" : "excludeNested",
-          "valueBoolean" : false
-        },
-        {
-          "name" : "warning-draft",
-          "valueUri" : "http://hl7.org/fhir/request-status|4.0.1"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://hl7.org/fhir/request-status|4.0.1"
-        },
-        {
-          "name" : "used-codesystem",
-          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem|1.2.0"
-        }],
-        "contains" : [{
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "draft",
-          "display" : "Draft"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "active",
-          "display" : "Active"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "on-hold",
-          "display" : "On Hold"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "revoked",
-          "display" : "Revoked"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "completed",
-          "display" : "Completed"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "entered-in-error",
-          "display" : "Entered in Error"
-        },
-        {
-          "system" : "http://hl7.org/fhir/request-status",
-          "code" : "unknown",
-          "display" : "Unknown"
-        },
-        {
-          "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
-          "code" : "1",
-          "display" : "Innkalles til helsehjelp"
-        },
-        {
-          "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
-          "code" : "2",
-          "display" : "Rett til helsehjelp, tidspunkt kommer"
-        },
-        {
-          "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
-          "code" : "3",
-          "display" : "Henvisningen er videresendt"
-        },
-        {
-          "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
-          "code" : "4",
-          "display" : "Henvisningen er avvist"
-        },
-        {
-          "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
-          "code" : "11",
-          "display" : "Råd til henviser"
-        }]
-      }
-    }
-  },
-  {
     "fullUrl" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
     "resource" : {
       "resourceType" : "ValueSet",
@@ -208,7 +95,7 @@
       "title" : "hn-schedule-type-vs",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-05-29T20:33:03+02:00",
+      "date" : "2025-05-29T20:44:52+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -217,8 +104,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ff3ff24d-a8e2-4640-b96f-4d499b763313",
-        "timestamp" : "2025-05-29T20:33:40+02:00",
+        "identifier" : "urn:uuid:ec217c57-1bf9-4dc7-9973-2ed3de84b40b",
+        "timestamp" : "2025-05-29T20:45:34+02:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -289,7 +176,7 @@
       "title" : "ServiceRequest Category Value Set",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-05-29T20:33:03+02:00",
+      "date" : "2025-05-29T20:44:52+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -298,8 +185,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:fe73b2ea-8b21-4a77-bf38-791fb0422a06",
-        "timestamp" : "2025-05-29T20:33:40+02:00",
+        "identifier" : "urn:uuid:747221b6-1380-4eed-9837-bcd6efc40854",
+        "timestamp" : "2025-05-29T20:45:34+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

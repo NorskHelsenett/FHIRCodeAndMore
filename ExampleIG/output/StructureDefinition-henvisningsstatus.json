@@ -10,7 +10,7 @@
   "name" : "HenvisningsstatusExtension",
   "title" : "Henvisningsstatus (HIS 1206)",
   "status" : "active",
-  "date" : "2025-05-29T20:33:03+02:00",
+  "date" : "2025-05-29T20:44:52+02:00",
   "description" : "En utvidelse som representerer status på henvisning i henhold til HIS 1206:2018.",
   "jurisdiction" : [{
     "coding" : [{

@@ -32,7 +32,7 @@
       "title" : "Extended ServiceRequest Status",
       "description" : "Includes standard request-status codes and volven 9148 codes",
       "systems" : [
-        "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+        "urn:oid:2.16.578.1.12.4.1.1.9148",
         "http://hl7.org/fhir/request-status"
       ],
       "uses" : {

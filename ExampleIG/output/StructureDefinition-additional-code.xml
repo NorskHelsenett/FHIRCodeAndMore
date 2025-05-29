@@ -14,7 +14,7 @@
   <name value="AdditionalCode"/>
   <title value="Alternative codes på serviceRequest.code"/>
   <status value="active"/>
-  <date value="2025-05-29T20:33:03+02:00"/>
+  <date value="2025-05-29T20:44:52+02:00"/>
   <description value="Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"/>
   <jurisdiction>
     <coding>
