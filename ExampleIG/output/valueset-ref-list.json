@@ -25,6 +25,21 @@
       "StructureDefinition-henvisningsstatus.html" : "Henvisningsstatus (HIS 1206)"
     },
     {
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "HnExtendedServiceRequestStatus",
+      "title" : "Extended ServiceRequest Status",
+      "description" : "Includes standard request-status codes and volven 9148 codes",
+      "systems" : [
+        "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+        "http://hl7.org/fhir/request-status"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
       "version" : "1.2.0",
       "status" : "draft",

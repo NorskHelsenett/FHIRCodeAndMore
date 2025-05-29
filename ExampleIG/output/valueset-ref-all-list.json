@@ -25,6 +25,21 @@
       "StructureDefinition-henvisningsstatus.html" : "Henvisningsstatus (HIS 1206)"
     },
     {
+      "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "HnExtendedServiceRequestStatus",
+      "title" : "Extended ServiceRequest Status",
+      "description" : "Includes standard request-status codes and volven 9148 codes",
+      "systems" : [
+        "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+        "http://hl7.org/fhir/request-status"
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+    },
+    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
       "version" : "1.2.0",
       "status" : "draft",
@@ -131,9 +146,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -148,9 +163,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-extension-representant.html" : "Representant",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -165,9 +180,9 @@
       "uses" : {
       },
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
       "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-MyPatient.html" : "MyPatient",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-MyPatient.html" : "MyPatient"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -285,20 +300,6 @@
       "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/request-status",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "RequestStatus",
-      "title" : "RequestStatus",
-      "description" : "Codes identifying the lifecycle stage of a request.",
-      "systems" : ["http://hl7.org/fhir/request-status"],
-      "oids" : ["2.16.840.1.113883.4.642.3.111"],
-      "sources" : ["2.16.840.1.113883.4.642.3.111"],
-      "uses" : {
-      },
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
-    },
-    {
       "url" : "http://hl7.org/fhir/ValueSet/resource-types",
       "version" : "4.0.1",
       "status" : "active",
@@ -310,8 +311,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-category",

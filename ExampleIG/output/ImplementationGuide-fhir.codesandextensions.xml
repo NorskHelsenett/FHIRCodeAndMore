@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="active"/>
-  <date value="2025-05-28T02:05:36+02:00"/>
+  <date value="2025-05-29T20:33:03+02:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -29,7 +29,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.3.0"/>
+    <version value="6.4.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -871,6 +871,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/no-kodeverk-9148.codesystem"/>
+      </reference>
+      <name value="9148 Henvisning (elektronisk melding)"/>
+      <description value="Henvisning (elektronisk melding)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/no-kodeverk-9505.codesystem"/>
       </reference>
       <name value="9505 Alderstrinn"/>
@@ -975,6 +986,17 @@
       <name value="example-girl"/>
       <description value="Eksampel pasient"/>
       <exampleBoolean value="true"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/hn-extended-servicerequest-status"/>
+      </reference>
+      <name value="Extended ServiceRequest Status"/>
+      <description value="Includes standard request-status codes and volven 9148 codes"/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

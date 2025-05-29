@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8234 Type tekstsvar i kommentar til rekvisisjon og henvisning"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-28T02:05:36+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Type tekstsvar i kommentar til rekvisisjon og henvisning. kodeverket har ikke noen beskrivelse."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

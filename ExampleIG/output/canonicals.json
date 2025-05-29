@@ -356,6 +356,14 @@
     "oids" : ["2.16.578.1.12.4.1.1.9060"]
   },
   {
+    "id" : "no-kodeverk-9148.codesystem",
+    "type" : "CodeSystem",
+    "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+    "version" : "1.2.0",
+    "name" : "NoKodeverk9148",
+    "oids" : ["2.16.578.1.12.4.1.1.9148"]
+  },
+  {
     "id" : "no-kodeverk-9505.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9505.codesystem",
@@ -511,6 +519,13 @@
     "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
     "version" : "1.2.0",
     "name" : "HenvisningsstatusVS"
+  },
+  {
+    "id" : "hn-extended-servicerequest-status",
+    "type" : "ValueSet",
+    "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
+    "version" : "1.2.0",
+    "name" : "HnExtendedServiceRequestStatus"
   },
   {
     "id" : "hn-schedule-type-vs",

@@ -3,7 +3,7 @@
   "id" : "serviceRequest-category-vs",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet serviceRequest-category-vs</b></p><a name=\"serviceRequest-category-vs\"> </a><a name=\"hcserviceRequest-category-vs\"> </a><a name=\"serviceRequest-category-vs-no-NO\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet serviceRequest-category-vs</b></p><a name=\"serviceRequest-category-vs\"> </a><a name=\"hcserviceRequest-category-vs\"> </a><a name=\"serviceRequest-category-vs-no-NO\"> </a><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>Face to face consultation with patient</td></tr><tr><td><a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>Consultation via video conference</td></tr><tr><td><a href=\"http://snomed.info/id/3457005\">3457005</a></td><td>Patient referral</td></tr></table></li></ul></div>"
   },
   "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
   "version" : "1.2.0",
@@ -11,7 +11,7 @@
   "title" : "ServiceRequest Category Value Set",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-05-28T02:05:36+02:00",
+  "date" : "2025-05-29T20:33:03+02:00",
   "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",
   "jurisdiction" : [{
     "coding" : [{
@@ -30,6 +30,10 @@
       {
         "code" : "719410009",
         "display" : "Consultation via video conference"
+      },
+      {
+        "code" : "3457005",
+        "display" : "Patient referral"
       }]
     }]
   }

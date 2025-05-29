@@ -18,7 +18,7 @@
   fhir:title [ fhir:v "Henvisningsstatus ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-28T02:05:36+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

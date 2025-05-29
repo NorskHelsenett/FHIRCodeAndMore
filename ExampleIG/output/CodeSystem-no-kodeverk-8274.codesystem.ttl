@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8274 Anbefaling om supplerende undersøkelser"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-28T02:05:36+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-05-29T20:33:03+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Om rekvirenten gir tjenesteyter tillatelse til å utføre ytterligere undersøkelser eller andre tiltak basert på resultater og medisinskfaglig skjønn."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

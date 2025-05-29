@@ -12,8 +12,6 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
 * extension contains OrderReceived named orderReceived 0..1
 * extension[orderReceived] ^short = "Timestamp when order was received"
-* extension contains HenvisningsstatusExtension named henvisningsstatus 0..1
-* extension[henvisningsstatus] ^short = "Status på henvisning"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
@@ -21,11 +19,13 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * identifier.value 1..1 
 //* identifier.value obeys uuid-format
 * status = #active
-* status obeys StatusActiveOrCompleted
-* status ^short = "Default status er active"
-* status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
+* status from HnExtendedServiceRequestStatus (required)
+//* status obeys StatusActiveOrCompleted
+//* status ^short = "Default status er active"
+//* status ^definition = "Status active betyr at serviceRequest er sendt fra Helsenorge og status completed betyr at status er oppdatert fra behandler."
 * intent = #order
-* intent obeys IntentOrder
+//* intent obeys IntentOrder
+// intent ^definition = "Helsenorge "
 * category 0..*
 * category from ServiceRequestCategoryVS (preferred)
 * category ^short = "Hvis category er brukt og det mangler code bør beskrivelse av bestilling være i note"
@@ -49,6 +49,7 @@ Description: "Kode som klassifiserer tjenesten for søk, sortering og visningsfo
 * ^experimental = true
 * $SCT#1269515004 "Face to face consultation with patient"
 * $SCT#719410009 "Consultation via video conference"
+* $SCT#3457005 "Patient referral"
 
 
 ValueSet: ServiceRequestPerformerTypeVS
@@ -113,8 +114,9 @@ Usage: #example
 * identifier.value = "cdeaceeb-4119-42c6-8a3a-b8d495970cb9"
 * status = #active
 * intent = #order
-* category.coding[0] = $SCT#1269515004 "Face to face consultation with patient" 
-* category.coding[+] = $SCT#719410009 "Consultation via video conference"
+//* category.coding[0] = $SCT#1269515004 "Face to face consultation with patient" 
+//* category.coding[+] = $SCT#719410009 "Consultation via video conference"
+
 * priority = #routine
 * subject.type = "Patient"
 * subject.identifier.system = "urn:oid:2.16.578.1.12.4.1.4.1"

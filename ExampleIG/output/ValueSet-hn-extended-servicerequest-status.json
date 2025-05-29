@@ -1,0 +1,30 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "hn-extended-servicerequest-status",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet hn-extended-servicerequest-status</b></p><a name=\"hn-extended-servicerequest-status\"> </a><a name=\"hchn-extended-servicerequest-status\"> </a><a name=\"hn-extended-servicerequest-status-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://hl7.org/fhir/R4/codesystem-request-status.html\"><code>http://hl7.org/fhir/request-status</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-no-kodeverk-9148.codesystem.html\"><code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</code></a></li></ul></div>"
+  },
+  "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
+  "version" : "1.2.0",
+  "name" : "HnExtendedServiceRequestStatus",
+  "title" : "Extended ServiceRequest Status",
+  "status" : "active",
+  "date" : "2025-05-29T20:33:03+02:00",
+  "description" : "Includes standard request-status codes and volven 9148 codes",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "NO",
+      "display" : "Norway"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/request-status"
+    },
+    {
+      "system" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem"
+    }]
+  }
+}

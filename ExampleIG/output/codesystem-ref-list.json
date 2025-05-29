@@ -34,6 +34,30 @@
       "ValueSet-hn-scheduleandslot-type-vs.html" : "hn-scheduleandslot-type-vs"
     },
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "NoKodeverk9148",
+      "title" : "9148 Henvisning (elektronisk melding)",
+      "description" : "Henvisning (elektronisk melding).",
+      "oids" : ["2.16.578.1.12.4.1.1.9148"],
+      "uses" : {
+      },
+      "ValueSet-hn-extended-servicerequest-status.html" : "Extended ServiceRequest Status"
+    },
+    {
+      "url" : "http://hl7.org/fhir/request-status",
+      "version" : "4.0.1",
+      "status" : "draft",
+      "name" : "RequestStatus",
+      "title" : "RequestStatus",
+      "description" : "Codes identifying the lifecycle stage of a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.112"],
+      "uses" : {
+      },
+      "ValueSet-hn-extended-servicerequest-status.html" : "Extended ServiceRequest Status"
+    },
+    {
       "url" : "http://snomed.info/sct",
       "version" : null,
       "status" : "active",

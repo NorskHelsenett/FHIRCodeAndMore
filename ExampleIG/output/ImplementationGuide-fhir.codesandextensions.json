@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-05-28T02:05:36+02:00",
+  "date" : "2025-05-29T20:33:03+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -30,7 +30,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.3.0"
+    "version" : "6.4.0"
   },
   {
     "id" : "hl7ext",
@@ -1065,6 +1065,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/no-kodeverk-9148.codesystem"
+      },
+      "name" : "9148 Henvisning (elektronisk melding)",
+      "description" : "Henvisning (elektronisk melding).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/no-kodeverk-9505.codesystem"
       },
       "name" : "9505 Alderstrinn",
@@ -1178,6 +1190,18 @@
       "name" : "example-girl",
       "description" : "Eksampel pasient",
       "exampleBoolean" : true
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/hn-extended-servicerequest-status"
+      },
+      "name" : "Extended ServiceRequest Status",
+      "description" : "Includes standard request-status codes and volven 9148 codes",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

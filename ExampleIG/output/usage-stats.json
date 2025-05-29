@@ -196,9 +196,6 @@
     ]
   },
   "usage": {
-    "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus": [
-      "ServiceRequest"
-    ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon": [
       "Schedule"
     ],

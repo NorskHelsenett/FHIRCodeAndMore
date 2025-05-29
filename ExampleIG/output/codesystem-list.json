@@ -402,6 +402,15 @@
       "oids" : ["2.16.578.1.12.4.1.1.9060"]
     },
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "NoKodeverk9148",
+      "title" : "9148 Henvisning (elektronisk melding)",
+      "description" : "Henvisning (elektronisk melding).",
+      "oids" : ["2.16.578.1.12.4.1.1.9148"]
+    },
+    {
       "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9505.codesystem",
       "version" : "1.2.0",
       "status" : "retired",

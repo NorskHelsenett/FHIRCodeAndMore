@@ -34,6 +34,18 @@
       "ValueSet-hn-scheduleandslot-type-vs.html" : "hn-scheduleandslot-type-vs"
     },
     {
+      "url" : "http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem",
+      "version" : "1.2.0",
+      "status" : "active",
+      "name" : "NoKodeverk9148",
+      "title" : "9148 Henvisning (elektronisk melding)",
+      "description" : "Henvisning (elektronisk melding).",
+      "oids" : ["2.16.578.1.12.4.1.1.9148"],
+      "uses" : {
+      },
+      "ValueSet-hn-extended-servicerequest-status.html" : "Extended ServiceRequest Status"
+    },
+    {
       "url" : "http://hl7.org/fhir/administrative-gender",
       "version" : "4.0.1",
       "status" : "active",
@@ -103,7 +115,7 @@
       "oids" : ["2.16.840.1.113883.4.642.4.112"],
       "uses" : {
       },
-      "http://hl7.org/fhir/R4/valueset-request-status.html" : "RequestStatus"
+      "ValueSet-hn-extended-servicerequest-status.html" : "Extended ServiceRequest Status"
     },
     {
       "url" : "http://hl7.org/fhir/resource-types",
@@ -138,14 +150,14 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
-      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
       "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
       "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
       "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set"
+      "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+      "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",
@@ -217,7 +229,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.3.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {
       "url" : "urn:ietf:bcp:47",

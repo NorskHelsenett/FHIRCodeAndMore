@@ -6,7 +6,7 @@
     <profile value="http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"/>
   </meta>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ServiceRequest hn-basis-serviceRequest-example</b></p><a name="hn-basis-serviceRequest-example"> </a><a name="hchn-basis-serviceRequest-example"> </a><a name="hn-basis-serviceRequest-example-no-NO"> </a><p><b>identifier</b>: <code>http://helsenorge.no/fhir/identifiers/uuid</code>/cdeaceeb-4119-42c6-8a3a-b8d495970cb9</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>category</b>: <span title="Codes:{http://snomed.info/sct 1269515004}, {http://snomed.info/sct 719410009}">Face to face consultation with patient</span></p><p><b>priority</b>: Routine</p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/12345678901</p><p><b>occurrence</b>: 2023-11-15 09:00:00+0000 --&gt; 2023-11-20 15:30:00+0000</p><p><b>performerType</b>: <span title="Codes:{urn:oid:2.16.578.1.12.4.1.1.9060 LE}">Lege</span></p><p><b>reasonCode</b>: <span title="Codes:{http://snomed.info/sct 49436004}">Atrial fibrillation</span></p><p><b>note</b>: Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ServiceRequest hn-basis-serviceRequest-example</b></p><a name="hn-basis-serviceRequest-example"> </a><a name="hchn-basis-serviceRequest-example"> </a><a name="hn-basis-serviceRequest-example-no-NO"> </a><p><b>identifier</b>: <code>http://helsenorge.no/fhir/identifiers/uuid</code>/cdeaceeb-4119-42c6-8a3a-b8d495970cb9</p><p><b>status</b>: Active</p><p><b>intent</b>: Order</p><p><b>priority</b>: Routine</p><p><b>subject</b>: Identifier: <code>urn:oid:2.16.578.1.12.4.1.4.1</code>/12345678901</p><p><b>occurrence</b>: 2023-11-15 09:00:00+0000 --&gt; 2023-11-20 15:30:00+0000</p><p><b>performerType</b>: <span title="Codes:{urn:oid:2.16.578.1.12.4.1.1.9060 LE}">Lege</span></p><p><b>reasonCode</b>: <span title="Codes:{http://snomed.info/sct 49436004}">Atrial fibrillation</span></p><p><b>note</b>: Jeg har fått beskjed om at jeg trenger regelmessig oppfølging på grunn av hjertetilstanden min og ønsker meg time på legesenteret eller via vidoe konultasjon</p></div>
   </text>
   <identifier>
     <system value="http://helsenorge.no/fhir/identifiers/uuid"/>
@@ -14,18 +14,6 @@
   </identifier>
   <status value="active"/>
   <intent value="order"/>
-  <category>
-    <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="1269515004"/>
-      <display value="Face to face consultation with patient"/>
-    </coding>
-    <coding>
-      <system value="http://snomed.info/sct"/>
-      <code value="719410009"/>
-      <display value="Consultation via video conference"/>
-    </coding>
-  </category>
   <priority value="routine"/>
   <subject>
     <type value="Patient"/>

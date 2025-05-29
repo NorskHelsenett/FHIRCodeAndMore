@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="no-kodeverk-9148.codesystem"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem no-kodeverk-9148.codesystem</b></p><a name="no-kodeverk-9148.codesystem"> </a><a name="hcno-kodeverk-9148.codesystem"> </a><a name="no-kodeverk-9148.codesystem-no-NO"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">1<a name="no-kodeverk-9148.codesystem-1"> </a></td><td>Innkalles til helsehjelp</td></tr><tr><td style="white-space:nowrap">2<a name="no-kodeverk-9148.codesystem-2"> </a></td><td>Rett til helsehjelp, tidspunkt kommer</td></tr><tr><td style="white-space:nowrap">3<a name="no-kodeverk-9148.codesystem-3"> </a></td><td>Henvisningen er videresendt</td></tr><tr><td style="white-space:nowrap">4<a name="no-kodeverk-9148.codesystem-4"> </a></td><td>Henvisningen er avvist</td></tr><tr><td style="white-space:nowrap">11<a name="no-kodeverk-9148.codesystem-11"> </a></td><td>Råd til henviser</td></tr></table></div>
+  </text>
+  <url value="http://helsenorge.no/fhir/CodeSystem/no-kodeverk-9148.codesystem"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:2.16.578.1.12.4.1.1.9148"/>
+  </identifier>
+  <version value="1.2.0"/>
+  <name value="NoKodeverk9148"/>
+  <title value="9148 Henvisning (elektronisk melding)"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2025-05-29T20:33:03+02:00"/>
+  <description value="Henvisning (elektronisk melding)."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="NO"/>
+      <display value="Norway"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="1"/>
+    <display value="Innkalles til helsehjelp"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="Rett til helsehjelp, tidspunkt kommer"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="Henvisningen er videresendt"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="Henvisningen er avvist"/>
+  </concept>
+  <concept>
+    <code value="11"/>
+    <display value="Råd til henviser"/>
+  </concept>
+</CodeSystem>
