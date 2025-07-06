@@ -1,5 +1,4 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus,1.2.1,active,,HnHenvisningsstatus,Henvisningsstatus (HIS 1206),"Koder som angir status for henvisning i henhold til HIS 1206:2018.",
 http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem,1.2.1,active,,HnKodeverkVarsling,Varsling,"Angir om innbygger skal varsles når en ekstern aktør lagrer eller endrer en ressurs på Helsenorge. I tillegg hvordan avsender organisasjonen skal framstå (navn) i SMS- og e-post varsler til innbygger.",
 http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs,1.2.1,draft,,HnScheduleTypeCS,Codes that should be used for schedule type,"Codes that should be used for schedule type.",
 http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs,1.2.1,draft,,HnScheduleAndSlotTypeCS,Codes that should be used for schedule and SlotType.,"Codes that should be used for schedule and SlotType.",

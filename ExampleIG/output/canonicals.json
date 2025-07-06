@@ -1,12 +1,5 @@
 [
   {
-    "id" : "hn-henvisningsstatus",
-    "type" : "CodeSystem",
-    "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
-    "version" : "1.2.1",
-    "name" : "HnHenvisningsstatus"
-  },
-  {
     "id" : "hn-kodeverk-varsling.codesystem",
     "type" : "CodeSystem",
     "url" : "http://helsenorge.no/fhir/CodeSystem/hn-kodeverk-varsling.codesystem",
@@ -526,13 +519,6 @@
     "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
     "version" : "1.2.1",
     "name" : "CS8116DnrFnrVS"
-  },
-  {
-    "id" : "henvisningsstatus-vs",
-    "type" : "ValueSet",
-    "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-    "version" : "1.2.1",
-    "name" : "HenvisningsstatusVS"
   },
   {
     "id" : "hn-schedule-type-vs",

@@ -13,15 +13,6 @@
       "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
-      "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-      "version" : "1.2.1",
-      "status" : "active",
-      "name" : "HenvisningsstatusVS",
-      "title" : "Henvisningsstatus ValueSet",
-      "description" : "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018.",
-      "systems" : ["http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"]
-    },
-    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
       "version" : "1.2.1",
       "status" : "draft",

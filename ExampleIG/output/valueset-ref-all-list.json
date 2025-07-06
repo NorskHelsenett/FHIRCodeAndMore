@@ -13,15 +13,6 @@
       "StructureDefinition-hn-extension-representant.html" : "Representant"
     },
     {
-      "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-      "version" : "1.2.1",
-      "status" : "active",
-      "name" : "HenvisningsstatusVS",
-      "title" : "Henvisningsstatus ValueSet",
-      "description" : "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018.",
-      "systems" : ["http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"]
-    },
-    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
       "version" : "1.2.1",
       "status" : "draft",
@@ -129,8 +120,8 @@
       },
       "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -146,8 +137,8 @@
       },
       "StructureDefinition-hn-extension-representant.html" : "Representant",
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/languages",
@@ -161,10 +152,10 @@
       "sources" : ["2.16.840.1.113883.4.642.3.20"],
       "uses" : {
       },
-      "StructureDefinition-MyPatient.html" : "MyPatient",
       "StructureDefinition-hn-basis-slot.html" : "HnBasisSlot",
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-MyPatient.html" : "MyPatient",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -307,8 +298,8 @@
       "sources" : ["2.16.840.1.113883.4.642.3.27"],
       "uses" : {
       },
-      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule",
-      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest"
+      "StructureDefinition-hn-basis-serviceRequest.html" : "HnBasisServiceRequest",
+      "StructureDefinition-hn-basis-schedule.html" : "HnBasisSchedule"
     },
     {
       "url" : "http://hl7.org/fhir/ValueSet/service-category",

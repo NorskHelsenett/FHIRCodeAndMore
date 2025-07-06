@@ -1,17 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
-      "version" : "1.2.1",
-      "status" : "active",
-      "name" : "HnHenvisningsstatus",
-      "title" : "Henvisningsstatus (HIS 1206)",
-      "description" : "Koder som angir status for henvisning i henhold til HIS 1206:2018.",
-      "uses" : {
-      },
-      "ValueSet-henvisningsstatus-vs.html" : "Henvisningsstatus ValueSet"
-    },
-    {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
       "version" : "1.2.1",
       "status" : "draft",

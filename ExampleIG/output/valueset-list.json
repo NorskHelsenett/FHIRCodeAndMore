@@ -10,15 +10,6 @@
       "systems" : ["urn:oid:2.16.578.1.12.4.1.1.8116"]
     },
     {
-      "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-      "version" : "1.2.1",
-      "status" : "active",
-      "name" : "HenvisningsstatusVS",
-      "title" : "Henvisningsstatus ValueSet",
-      "description" : "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018.",
-      "systems" : ["http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"]
-    },
-    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
       "version" : "1.2.1",
       "status" : "draft",

@@ -7,10 +7,6 @@ Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagno
 Generic: line 0, col 0, Error - The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters (BUSINESSRULE)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json: line 0, col 0, Error - Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json - the canonical URL (http://helsenorge.no/fhir/CodeSystem/hn-henvisningsstatus) does not match the URL (http://helsenorge.no/fhir/CodeSystem/henvisningsstatus) (INVALID)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json: line 0, col 0, Error - Resource id/url mismatch: hn-henvisningsstatus/http://helsenorge.no/fhir/CodeSystem/henvisningsstatus (INVARIANT)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json: line 1, col 3058, Warning - Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present (REQUIRED)
-C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json: line 0, col 0, Error - URL Mismatch http://helsenorge.no/fhir/CodeSystem/hn-henvisningsstatus vs http://helsenorge.no/fhir/CodeSystem/henvisningsstatus (BUSINESSRULE)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json: line 40, col 20, Warning - A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated (NOTFOUND)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json: line 42, col 24, Error - The code provided (urn:oid:2.16.578.1.12.4.1.1.8116#FNR) was not found in the value set 'DNR og FNR fra Volven 8116' (http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.2.1), and a code from this value set is required: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated (CODEINVALID)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\Observation-Eksempel-representasjon-i-meta-security.json: line 6, col 8, Info - A definition for CodeSystem 'http://helsenorge.no/fhir/varsling' could not be found, so the code cannot be validated (UNKNOWN)
@@ -56,5 +52,5 @@ C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-ty
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.7617 (EXCEPTION)
 C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-performerType-vs.json: line 0, col 0, Warning - Error from http://tx.fhir.org/r4: Unable to provide support for code system urn:oid:2.16.578.1.12.4.1.1.9060 (EXCEPTION)
 
-err = 12, warn = 36, info = 3
+err = 9, warn = 35, info = 3
 IG Publisher Version: 1.8.10

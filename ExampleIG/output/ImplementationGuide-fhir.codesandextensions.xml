@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="active"/>
-  <date value="2025-07-07T00:15:54+02:00"/>
+  <date value="2025-07-07T00:32:38+02:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -1019,28 +1019,6 @@
       <name value="example-girl"/>
       <description value="Eksampel pasient"/>
       <exampleBoolean value="true"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/hn-henvisningsstatus"/>
-      </reference>
-      <name value="Henvisningsstatus (HIS 1206)"/>
-      <description value="Koder som angir status for henvisning i henhold til HIS 1206:2018."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/henvisningsstatus-vs"/>
-      </reference>
-      <name value="Henvisningsstatus ValueSet"/>
-      <description value="ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."/>
-      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

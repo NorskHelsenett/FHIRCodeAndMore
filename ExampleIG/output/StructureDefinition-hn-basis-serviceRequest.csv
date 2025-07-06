@@ -25,15 +25,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ServiceRequest.extension:no-ansiennitets-dato","ServiceRequest.extension","no-ansiennitets-dato","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato]]} {[]}
+"ServiceRequest.extension:ansiennitetsDato","ServiceRequest.extension","ansiennitetsDato","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato]]} {[]}
 ","Ansiennitets dato","Seniority date is the first date a referral was received by specialist health","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ServiceRequest.extension:no-mottatt-dato","ServiceRequest.extension","no-mottatt-dato","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato]]} {[]}
+"ServiceRequest.extension:mottattDato","ServiceRequest.extension","mottattDato","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato]]} {[]}
 ","Mottatt dato","Date and time when the order was received.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ServiceRequest.extension:no-frist-for-helsehjelp","ServiceRequest.extension","no-frist-for-helsehjelp","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp]]} {[]}
+"ServiceRequest.extension:fristDatoForHelsehjelp","ServiceRequest.extension","fristDatoForHelsehjelp","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp]]} {[]}
 ","Dato for frist for helsehjelp","Dato for frist for helsehjelp.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

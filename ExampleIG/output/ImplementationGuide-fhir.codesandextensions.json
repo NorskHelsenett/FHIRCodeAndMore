@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-07-07T00:15:54+02:00",
+  "date" : "2025-07-07T00:32:38+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1226,30 +1226,6 @@
       "name" : "example-girl",
       "description" : "Eksampel pasient",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/hn-henvisningsstatus"
-      },
-      "name" : "Henvisningsstatus (HIS 1206)",
-      "description" : "Koder som angir status for henvisning i henhold til HIS 1206:2018.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/henvisningsstatus-vs"
-      },
-      "name" : "Henvisningsstatus ValueSet",
-      "description" : "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{

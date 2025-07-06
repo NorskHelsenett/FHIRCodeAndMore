@@ -1,11 +1,10 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 12, warn = 36, info = 3
+err = 9, warn = 35, info = 3
 IG Publisher Version: 1.8.10 Out of date - current version is 2.0.8
-Generated Mon Jul 07 00:18:22 CEST 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.2.1 (canonical = http://helsenorge.no/fhir)
+Generated Mon Jul 07 00:34:58 CEST 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.2.1 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus : 3 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs : 0 / 0 / 1
@@ -85,7 +84,6 @@ Generated Mon Jul 07 00:18:22 CEST 2025. FHIR version 4.0.1 for fhir.codesandext
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-frist-for-helsehjelp : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-mottatt-dato : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-henvisningsstatus-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-schedule-type-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-serviceRequest-category-vs : 0 / 0 / 1
@@ -98,11 +96,6 @@ ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequ
 ERROR: C:\kodesAndMore\ExampleIG\output\StructureDefinition-hn-basis-serviceRequest.html#/html/body/div/div/div/div/div/div/div/div/div/table/tr/td/a at Line 1893, column 901: The link 'http://hl7.org/fhir/R4/valueset-diagnostic-requests.html' for "here" cannot be resolved
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 WARNING: IG: The IG is not for the international realm, and it uses SNOMED CT, so it should fix the SCT edition in the expansion parameters
-== fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json ==
-ERROR: CodeSystem.where(url = 'http://helsenorge.no/fhir/CodeSystem/henvisningsstatus'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus.json - the canonical URL (http://helsenorge.no/fhir/CodeSystem/hn-henvisningsstatus) does not match the URL (http://helsenorge.no/fhir/CodeSystem/henvisningsstatus)
-ERROR: CodeSystem.url: Resource id/url mismatch: hn-henvisningsstatus/http://helsenorge.no/fhir/CodeSystem/henvisningsstatus
-WARNING: CodeSystem/hn-henvisningsstatus: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
-ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-henvisningsstatus: URL Mismatch http://helsenorge.no/fhir/CodeSystem/hn-henvisningsstatus vs http://helsenorge.no/fhir/CodeSystem/henvisningsstatus
 == fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem.json ==
 == fsh-generated\resources\CodeSystem-hn-schedule-type-cs.json ==
 == fsh-generated\resources\CodeSystem-hn-scheduleAndSlot-type-cs.json ==
@@ -223,7 +216,6 @@ WARNING: StructureDefinition/no-mottatt-dato: StructureDefinition.context[0]: Re
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato'): The Implementation Guide contains no examples for this extension
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated)
-== fsh-generated\resources\ValueSet-henvisningsstatus-vs.json ==
 == fsh-generated\resources\ValueSet-hn-schedule-type-vs.json ==
 == fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs.json ==
 WARNING: ValueSet/hn-scheduleandslot-type-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.7617' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.7617' could not be found, so the code cannot be validated)

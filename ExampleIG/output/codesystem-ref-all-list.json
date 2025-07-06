@@ -1,17 +1,6 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
-      "version" : "1.2.1",
-      "status" : "active",
-      "name" : "HnHenvisningsstatus",
-      "title" : "Henvisningsstatus (HIS 1206)",
-      "description" : "Koder som angir status for henvisning i henhold til HIS 1206:2018.",
-      "uses" : {
-      },
-      "ValueSet-henvisningsstatus-vs.html" : "Henvisningsstatus ValueSet"
-    },
-    {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
       "version" : "1.2.1",
       "status" : "draft",
@@ -138,14 +127,14 @@
       "oids" : ["2.16.840.1.113883.6.96"],
       "uses" : {
       },
+      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
+      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
       "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
       "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
-      "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set"
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",

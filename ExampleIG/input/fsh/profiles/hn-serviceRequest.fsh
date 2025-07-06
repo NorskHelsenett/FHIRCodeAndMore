@@ -10,9 +10,9 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^status = #draft 
 * ^publisher = "Helsenorge"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
-* extension contains no-ansiennitets-dato named no-ansiennitets-dato 0..1
-* extension contains no-mottatt-dato named no-mottatt-dato 0..1
-* extension contains no-frist-for-helsehjelp named no-frist-for-helsehjelp 0..1
+* extension contains no-ansiennitets-dato named ansiennitetsDato 0..1
+* extension contains no-mottatt-dato named mottattDato 0..1
+* extension contains no-frist-for-helsehjelp named fristDatoForHelsehjelp 0..1
 * extension contains businessStatus named businessStatus 0..*
 * extension[businessStatus] ^short = "Request Business Status"
 * identifier 1..* 
@@ -63,13 +63,14 @@ Description: "Koder for valgte profesjonstyper."
 * include codes from system $SCT where concept is-a #158965000 "Healthcare professional"
 * include codes from system $9060
 
+/*
 ValueSet: HenvisningsstatusVS
 Id: henvisningsstatus-vs
 Title: "Henvisningsstatus ValueSet"
 Description: "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."
 * ^experimental = true
 * include codes from system HnHenvisningsstatus
-
+*/
 
 Invariant: PriorityUrgentOrRoutine
 Description: "priority må være enten 'routine' eller 'urgent'."
