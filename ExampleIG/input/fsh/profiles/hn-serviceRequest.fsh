@@ -10,8 +10,11 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^status = #draft 
 * ^publisher = "Helsenorge"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
-* extension contains OrderReceived named orderReceived 0..1
-* extension[orderReceived] ^short = "Timestamp when order was received"
+* extension contains no-ansiennitets-dato named no-ansiennitets-dato 0..1
+* extension contains no-mottatt-dato named no-mottatt-dato 0..1
+* extension contains no-frist-for-helsehjelp named no-frist-for-helsehjelp 0..1
+* extension contains businessStatus named businessStatus 0..*
+* extension[businessStatus] ^short = "Request Business Status"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."
@@ -19,10 +22,10 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * identifier.value 1..1 
 //* identifier.value obeys uuid-format
 * status = #active
-* status from HnExtendedServiceRequestStatus (required)
+//status from HnExtendedServiceRequestStatus (required)
 //* status obeys StatusActiveOrCompleted
-* status ^short = "Extended valueset for status"
-* status ^definition = "Status er extended med koder fra 9148."
+//* status ^short = "Extended valueset for status"
+//* status ^definition = "Status er extended med koder fra 9148."
 * intent = #order
 //* intent obeys IntentOrder
 // intent ^definition = "Helsenorge "

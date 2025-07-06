@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.8219"/>
   </identifier>
-  <version value="1.2.0"/>
+  <version value="1.2.1"/>
   <name value="NoKodeverk8219"/>
   <title value="8219 Kodeverk for patologisk-anatomiske undersøkelser"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-05-29T20:44:52+02:00"/>
+  <date value="2025-07-07T00:15:54+02:00"/>
   <description value="Kodene beskriver ulike typer patologi-undersøkelser."/>
   <jurisdiction>
     <coding>

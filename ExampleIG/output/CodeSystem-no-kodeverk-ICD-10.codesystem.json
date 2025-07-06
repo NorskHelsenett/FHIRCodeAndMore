@@ -11,12 +11,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.7110"
   }],
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "NoKodeverkICD10",
   "title" : "ICD-10",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-29T20:44:52+02:00",
+  "date" : "2025-07-07T00:15:54+02:00",
   "description" : "Klassifikasjon av sykdommer og beslektede helseproblemer.",
   "jurisdiction" : [{
     "coding" : [{

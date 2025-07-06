@@ -1,9 +1,12 @@
-Extension: HenvisningsstatusExtension
-Id: henvisningsstatus
-Title: "Henvisningsstatus (HIS 1206)"
-Description: "En utvidelse som representerer status på henvisning i henhold til HIS 1206:2018."
-* ^url = "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus"
-* value[x] only code
-* valueCode 1..1
-* valueCode from http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs (required)
-* valueCode ^short = "Status på henvisningen i henhold til nasjonal standard HIS 1206"
+Extension: BusinessStatusExtension
+Id: businessStatus
+Title: "Business status of a request - including referals"
+Description: "Business status of a request - including referals"
+* ^url = "http://helsenorge.no/fhir/StructureDefinition/businessstatus"
+* ^status = #active
+* valueCodeableConcept 0..1
+* valueCodeableConcept only CodeableConcept
+* valueCodeableConcept.coding 1..* // must have at least one coding
+* valueCodeableConcept.coding.system 1..1
+* valueCodeableConcept.coding.code 1..1
+* valueCodeableConcept.coding.code ^short = "Request business status"

@@ -13,12 +13,12 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet henvisningsstatus-vs</b></p><a name=\"henvisningsstatus-vs\"> </a><a name=\"hchenvisningsstatus-vs\"> </a><a name=\"henvisningsstatus-vs-no-NO\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-hn-henvisningsstatus.html\"><code>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</code></a></li></ul></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.2.0"] ; # 
+  fhir:version [ fhir:v "1.2.1"] ; # 
   fhir:name [ fhir:v "HenvisningsstatusVS"] ; # 
   fhir:title [ fhir:v "Henvisningsstatus ValueSet"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-05-29T20:44:52+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-07T00:15:54+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:2018."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

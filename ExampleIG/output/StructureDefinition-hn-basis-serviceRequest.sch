@@ -12,7 +12,9 @@
   <sch:pattern>
     <sch:title>f:ServiceRequest</sch:title>
     <sch:rule context="f:ServiceRequest">
-      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/order-received']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/order-received': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp']) &lt;= 1">extension with URL = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:priority) &gt;= 1">priority: minimum cardinality of 'priority' is 1</sch:assert>
     </sch:rule>

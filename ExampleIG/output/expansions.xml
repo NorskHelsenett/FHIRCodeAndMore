@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="96022cef-7218-42cf-809f-eb0ec365531e"/>
+  <id value="54a9ad1c-c04d-4da5-bb85-88808eb7ee1d"/>
   <meta>
-    <lastUpdated value="2025-05-29T20:44:52.580+02:00"/>
+    <lastUpdated value="2025-07-07T00:15:54.500+02:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -17,7 +17,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
-              <a href="CodeSystem-hn-henvisningsstatus.html">codesystem Henvisningsstatus (HIS 1206) v1.2.0 (CodeSystem)</a>
+              <a href="CodeSystem-hn-henvisningsstatus.html">codesystem Henvisningsstatus (HIS 1206) v1.2.1 (CodeSystem)</a>
             </p>
             <p>This value set contains 6 concepts</p>
             <table class="codes">
@@ -123,12 +123,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs"/>
-        <version value="1.2.0"/>
+        <version value="1.2.1"/>
         <name value="HenvisningsstatusVS"/>
         <title value="Henvisningsstatus ValueSet"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-05-29T20:44:52+02:00"/>
+        <date value="2025-07-07T00:15:54+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -137,8 +137,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:866f4e92-ad61-41d1-8835-5fb929f6d6d3"/>
-          <timestamp value="2025-05-29T20:45:33+02:00"/>
+          <identifier value="urn:uuid:6463e44a-c72b-4d26-af4b-d13e58528493"/>
+          <timestamp value="2025-07-07T00:16:44+02:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -155,7 +155,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus|1.2.0"/>
+            <valueUri value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus|1.2.1"/>
           </parameter>
           <contains>
             <system value="http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"/>
@@ -202,7 +202,7 @@
               <b>Generated Narrative: ValueSet </b>
             </p>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion done internally based on 
-              <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.2.0 (CodeSystem)</a>
+              <a href="CodeSystem-hn-schedule-type-cs.html">codesystem Codes that should be used for schedule type v1.2.1 (CodeSystem)</a>
             </p>
             <p>This value set contains 7 concepts</p>
             <table class="codes">
@@ -277,12 +277,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs"/>
-        <version value="1.2.0"/>
+        <version value="1.2.1"/>
         <name value="HnScheduleTypeVS"/>
         <title value="hn-schedule-type-vs"/>
         <status value="draft"/>
         <experimental value="true"/>
-        <date value="2025-05-29T20:44:52+02:00"/>
+        <date value="2025-07-07T00:15:54+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -291,8 +291,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ec217c57-1bf9-4dc7-9973-2ed3de84b40b"/>
-          <timestamp value="2025-05-29T20:45:34+02:00"/>
+          <identifier value="urn:uuid:2fe1d595-59fb-4e1b-a09d-0a0de2e2999d"/>
+          <timestamp value="2025-07-07T00:16:44+02:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -309,7 +309,7 @@
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.0"/>
+            <valueUri value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.1"/>
           </parameter>
           <contains>
             <system value="http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs"/>
@@ -402,12 +402,12 @@
           </div>
         </text>
         <url value="http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs"/>
-        <version value="1.2.0"/>
+        <version value="1.2.1"/>
         <name value="ServiceRequestCategoryVS"/>
         <title value="ServiceRequest Category Value Set"/>
         <status value="active"/>
         <experimental value="true"/>
-        <date value="2025-05-29T20:44:52+02:00"/>
+        <date value="2025-07-07T00:15:54+02:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -416,8 +416,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:747221b6-1380-4eed-9837-bcd6efc40854"/>
-          <timestamp value="2025-05-29T20:45:34+02:00"/>
+          <identifier value="urn:uuid:b48286de-2668-45eb-af31-29440419ea4e"/>
+          <timestamp value="2025-07-07T00:16:45+02:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>

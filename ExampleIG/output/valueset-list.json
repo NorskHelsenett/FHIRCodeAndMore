@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "active",
       "name" : "CS8116DnrFnrVS",
       "title" : "DNR og FNR fra Volven 8116",
@@ -11,7 +11,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "active",
       "name" : "HenvisningsstatusVS",
       "title" : "Henvisningsstatus ValueSet",
@@ -19,20 +19,8 @@
       "systems" : ["http://helsenorge.no/fhir/CodeSystem/henvisningsstatus"]
     },
     {
-      "url" : "http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status",
-      "version" : "1.2.0",
-      "status" : "active",
-      "name" : "HnExtendedServiceRequestStatus",
-      "title" : "Extended ServiceRequest Status",
-      "description" : "Includes standard request-status codes and volven 9148 codes",
-      "systems" : [
-        "urn:oid:2.16.578.1.12.4.1.1.9148",
-        "http://hl7.org/fhir/request-status"
-      ]
-    },
-    {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "draft",
       "name" : "HnScheduleTypeVS",
       "title" : "hn-schedule-type-vs",
@@ -41,7 +29,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "draft",
       "name" : "HnScheduleAndSlotTypeVS",
       "title" : "hn-scheduleandslot-type-vs",
@@ -53,7 +41,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "active",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
@@ -62,7 +50,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "active",
       "name" : "ServiceRequestPerformerTypeVS",
       "title" : "ServiceRequest PerformerType Value Set",

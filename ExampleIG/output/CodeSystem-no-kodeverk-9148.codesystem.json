@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.9148"
   }],
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "NoKodeverk9148",
   "title" : "9148 Henvisning (elektronisk melding)",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-05-29T20:44:52+02:00",
+  "date" : "2025-07-07T00:15:54+02:00",
   "description" : "Henvisning (elektronisk melding).",
   "jurisdiction" : [{
     "coding" : [{

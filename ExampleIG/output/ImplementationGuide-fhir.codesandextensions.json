@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.codesandextensions</b></p><a name=\"fhir.codesandextensions\"> </a><a name=\"hcfhir.codesandextensions\"> </a><a name=\"fhir.codesandextensions-no-NO\"> </a><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   },
   "url" : "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions",
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-05-29T20:44:52+02:00",
+  "date" : "2025-07-07T00:15:54+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -56,7 +56,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2023+"
+        "valueString" : "2025+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -335,7 +335,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "2023+"
+        "valueString" : "2025+"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1110,6 +1110,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-ansiennitets-dato"
+      },
+      "name" : "Ansiennitets dato",
+      "description" : "Seniority date is the first date a referral was received by specialist health",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/businessStatus"
+      },
+      "name" : "Business status of a request - including referals",
+      "description" : "Business status of a request - including referals",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -1129,6 +1153,18 @@
       },
       "name" : "Codes that should be used for schedule type",
       "description" : "Codes that should be used for schedule type.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-frist-for-helsehjelp"
+      },
+      "name" : "Dato for frist for helsehjelp",
+      "description" : "Dato for frist for helsehjelp.",
       "exampleBoolean" : false
     },
     {
@@ -1190,30 +1226,6 @@
       "name" : "example-girl",
       "description" : "Eksampel pasient",
       "exampleBoolean" : true
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "ValueSet"
-      }],
-      "reference" : {
-        "reference" : "ValueSet/hn-extended-servicerequest-status"
-      },
-      "name" : "Extended ServiceRequest Status",
-      "description" : "Includes standard request-status codes and volven 9148 codes",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/henvisningsstatus"
-      },
-      "name" : "Henvisningsstatus (HIS 1206)",
-      "description" : "En utvidelse som representerer status på henvisning i henhold til HIS 1206:2018.",
-      "exampleBoolean" : false
     },
     {
       "extension" : [{
@@ -1337,6 +1349,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/no-mottatt-dato"
+      },
+      "name" : "Mottatt dato",
+      "description" : "Date and time when the order was received.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"
       }],
       "reference" : {
@@ -1452,18 +1476,6 @@
       },
       "name" : "Norsk patologikodeverk (NORPAT)",
       "description" : "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015.",
-      "exampleBoolean" : false
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/order-received"
-      },
-      "name" : "Order Received",
-      "description" : "Date and time when the order was received.",
       "exampleBoolean" : false
     },
     {

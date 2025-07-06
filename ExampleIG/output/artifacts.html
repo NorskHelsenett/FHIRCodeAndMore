@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Codes, extension, profiles and more v1.2.0</title>
+    <title>Artifacts Summary - Codes, extension, profiles and more v1.2.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -52,7 +52,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Codes, extension, profiles and more</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - ci-build
+            <span style="display:inline-block;">1.2.1 - ci-build
 
 
 
@@ -124,7 +124,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">Codes, extension, profiles and more - Local Development build (v1.2.0) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Codes, extension, profiles and more - Local Development build (v1.2.1) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href="http://helsenorge.no/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -220,17 +220,35 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-henvisningsstatus.html"
-                  title="StructureDefinition/henvisningsstatus">Henvisningsstatus (HIS 1206)</a>
+               <a href="StructureDefinition-no-ansiennitets-dato.html"
+                  title="StructureDefinition/no-ansiennitets-dato">Ansiennitets dato</a>
             </td>
             <td>
-<p>En utvidelse som representerer status på henvisning i henhold til HIS 1206:2018.</p>
+<p>Seniority date is the first date a referral was received by specialist health</p>
 </td>
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="StructureDefinition-order-received.html"
-                  title="StructureDefinition/order-received">Order Received</a>
+               <a href="StructureDefinition-businessStatus.html"
+                  title="StructureDefinition/businessStatus">Business status of a request - including referals</a>
+            </td>
+            <td>
+<p>Business status of a request - including referals</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-no-frist-for-helsehjelp.html"
+                  title="StructureDefinition/no-frist-for-helsehjelp">Dato for frist for helsehjelp</a>
+            </td>
+            <td>
+<p>Dato for frist for helsehjelp.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="StructureDefinition-no-mottatt-dato.html"
+                  title="StructureDefinition/no-mottatt-dato">Mottatt dato</a>
             </td>
             <td>
 <p>Date and time when the order was received.</p>
@@ -278,15 +296,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>ValueSet basert på 8116 som inkluderer kun FNR og DNR</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-hn-extended-servicerequest-status.html"
-                  title="ValueSet/hn-extended-servicerequest-status">Extended ServiceRequest Status</a>
-            </td>
-            <td>
-<p>Includes standard request-status codes and volven 9148 codes</p>
 </td>
          </tr>
          <tr>
@@ -968,7 +977,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2023+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 29, 2025 20:44+0200">2025-05-29</span>
+          IG &#169; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href=""></a>.  Package fhir.codesandextensions#1.2.1 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Jul 7, 2025 00:15+0200">2025-07-07</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

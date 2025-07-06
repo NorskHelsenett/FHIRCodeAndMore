@@ -6,12 +6,12 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet serviceRequest-performerType-vs</b></p><a name=\"serviceRequest-performerType-vs\"> </a><a name=\"hcserviceRequest-performerType-vs\"> </a><a name=\"serviceRequest-performerType-vs-no-NO\"> </a><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from<a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  is-a 158965000 (Medical practitioner)</li><li>Include all codes defined in <code>urn:oid:2.16.578.1.12.4.1.1.9060</code></li></ul></div>"
   },
   "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs",
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "ServiceRequestPerformerTypeVS",
   "title" : "ServiceRequest PerformerType Value Set",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-05-29T20:44:52+02:00",
+  "date" : "2025-07-07T00:15:54+02:00",
   "description" : "Koder for valgte profesjonstyper.",
   "jurisdiction" : [{
     "coding" : [{

@@ -11,7 +11,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Terminology Server Report for CodesExtensionsAndMore</h1>
- <p>Generated Thu May 29 20:46:41 CEST 2025, FHIR version 4.0.1 for fhir.codesandextensions#1.2.0 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>))</p>
+ <p>Generated Mon Jul 07 00:18:22 CEST 2025, FHIR version 4.0.1 for fhir.codesandextensions#1.2.1 (canonical = <a href="http://helsenorge.no/fhir">http://helsenorge.no/fhir</a> (<a href="http://helsenorge.no/fhir/history.html">history</a>))</p>
 <p>This page provides a report on which terminology servers were used while publishing this IG. Note that terminology caching reduces the server hit count - this page only reports content that wasn't cached</p>
 <h2>Terminology Parameters</h2>
 <ul>
@@ -45,20 +45,6 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
-    <td></td>
-    <td>urn:oid:2.16.578.1.12.4.1.1.9148</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>Systems handled by multiple servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
-    <td>http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status|1.2.0</td>
-    <td>[urn:oid:2.16.578.1.12.4.1.1.9148, http://hl7.org/fhir/request-status]</td>
-    <td>[auth = , candidates=, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4]</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
     <td>http://hl7.org/fhir/fhir-types</td>
     <td>auth = , candidates=</td>
@@ -115,13 +101,6 @@
   <tr>
     <td>System not handled by any servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>urn:uuid:92b5613c-881f-449a-937c-aa86d3ec5a8e</td>
-    <td>urn:oid:2.16.578.1.12.4.1.1.9148</td>
-    <td>auth = , candidates=</td>
-  </tr>
-  <tr>
-    <td>System not handled by any servers. Using primary server</td>
-    <td>http://tx.fhir.org/r4</td>
     <td>null</td>
     <td>urn:oid:2.16.578.1.12.4.1.1.9060</td>
     <td>auth = , candidates=</td>
@@ -134,35 +113,30 @@
     <td>auth = , candidates=</td>
   </tr>
   <tr>
+    <td>System not handled by any servers. Using primary server</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs|1.2.1</td>
+    <td>urn:oid:2.16.578.1.12.4.1.1.8116</td>
+    <td>auth = , candidates=</td>
+  </tr>
+  <tr>
     <td>Systems handled by multiple servers. Using primary server</td>
     <td>http://tx.fhir.org/r4</td>
-    <td>http://helsenorge.no/fhir/ValueSet/hn-extended-servicerequest-status|1.2.0</td>
-    <td>[urn:oid:2.16.578.1.12.4.1.1.9148, http://hl7.org/fhir/request-status]</td>
-    <td>[auth = , candidates=, auth = http://tx.fhir.org/r4, candidates=https://tx.ontoserver.csiro.au/fhir|http://tx.hl7europe.eu/r4|https://tx.fhir.ch/r4]</td>
-  </tr>
-</table>
-<p>
-  <b>Errors</b>
-</p>
-<table class="grid">
-  <tr>
-    <td>
-      <b>URL</b>
-    </td>
-    <td>
-      <b>Message</b>
-    </td>
+    <td>http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs|1.2.1</td>
+    <td>[http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs, urn:oid:2.16.578.1.12.4.1.1.7617]</td>
+    <td>[auth = , candidates=, auth = , candidates=]</td>
   </tr>
   <tr>
-    <td>urn:oid:2.16.578.1.12.4.1.1.9148|null</td>
-    <td style="background-color: #ffe3e3">
-      <span title="http://tx.fhir.org/r4/ValueSet?_format=json&amp;url=urn%3Aoid%3A2.16.578.1.12.4.1.1.9148&amp;version=null">Error resolving valueSet urn:oid:2.16.578.1.12.4.1.1.9148|null: Error from http://tx.fhir.org/r4: Invalid type cast</span>
-    </td>
+    <td>Use primary server for http://snomed.info/sct</td>
+    <td>http://tx.fhir.org/r4</td>
+    <td>http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs|1.2.1</td>
+    <td>[http://snomed.info/sct, urn:oid:2.16.578.1.12.4.1.1.9060]</td>
+    <td>[auth = , candidates=http://tx.fhir.org/r4|https://tx.ontoserver.csiro.au/fhir, auth = , candidates=]</td>
   </tr>
 </table>
 <h2>Primary Server: http://tx.fhir.org/r4</h2>
 <a href="http://tx.fhir.org/r4"></a>
-<p>Use Count: 11. Code Systems used: </p>
+<p>Use Count: 8. Code Systems used: </p>
 <table class="grid">
   <tr>
     <th>
@@ -179,28 +153,28 @@
     </th>
   </tr>
   <tr>
+    <td>http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs</td>
+    <td>1</td>
+    <td>0</td>
+    <td>
+      <a href="CodeSystem-hn-scheduleAndSlot-type-cs.html">Codes that should be used for schedule and SlotType.</a>
+    </td>
+  </tr>
+  <tr>
     <td>http://hl7.org/fhir/fhir-types</td>
     <td>0</td>
     <td>1</td>
     <td></td>
   </tr>
   <tr>
-    <td>http://hl7.org/fhir/request-status</td>
-    <td>2</td>
-    <td>0</td>
-    <td>
-      <a href="http://hl7.org/fhir/R4/codesystem-request-status.html">RequestStatus</a>
-    </td>
-  </tr>
-  <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.7617</td>
-    <td>0</td>
+    <td>1</td>
     <td>1</td>
     <td></td>
   </tr>
   <tr>
     <td>urn:oid:2.16.578.1.12.4.1.1.8116</td>
-    <td>0</td>
+    <td>1</td>
     <td>1</td>
     <td></td>
   </tr>
@@ -216,16 +190,6 @@
     <td>1</td>
     <td></td>
   </tr>
-  <tr>
-    <td>urn:oid:2.16.578.1.12.4.1.1.9148</td>
-    <td>3</td>
-    <td>1</td>
-    <td></td>
-  </tr>
 </table>
-<p>ValueSets fetched:</p>
-<ul>
-  <li>urn:oid:2.16.578.1.12.4.1.1.9148|null</li>
-</ul>
 </body>
 </html>

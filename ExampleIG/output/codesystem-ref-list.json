@@ -2,7 +2,7 @@
   "codeSystems" : [
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "active",
       "name" : "HnHenvisningsstatus",
       "title" : "Henvisningsstatus (HIS 1206)",
@@ -13,7 +13,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "draft",
       "name" : "HnScheduleTypeCS",
       "title" : "Codes that should be used for schedule type",
@@ -24,7 +24,7 @@
     },
     {
       "url" : "http://helsenorge.no/fhir/CodeSystem/hn-scheduleAndSlot-type-cs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "status" : "draft",
       "name" : "HnScheduleAndSlotTypeCS",
       "title" : "Codes that should be used for schedule and SlotType.",
@@ -32,18 +32,6 @@
       "uses" : {
       },
       "ValueSet-hn-scheduleandslot-type-vs.html" : "hn-scheduleandslot-type-vs"
-    },
-    {
-      "url" : "http://hl7.org/fhir/request-status",
-      "version" : "4.0.1",
-      "status" : "draft",
-      "name" : "RequestStatus",
-      "title" : "RequestStatus",
-      "description" : "Codes identifying the lifecycle stage of a request.",
-      "oids" : ["2.16.840.1.113883.4.642.4.112"],
-      "uses" : {
-      },
-      "ValueSet-hn-extended-servicerequest-status.html" : "Extended ServiceRequest Status"
     },
     {
       "url" : "http://snomed.info/sct",

@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "96022cef-7218-42cf-809f-eb0ec365531e",
+  "id" : "54a9ad1c-c04d-4da5-bb85-88808eb7ee1d",
   "meta" : {
-    "lastUpdated" : "2025-05-29T20:44:52.580+02:00"
+    "lastUpdated" : "2025-07-07T00:15:54.500+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,15 +11,15 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-henvisningsstatus.html\">codesystem Henvisningsstatus (HIS 1206) v1.2.0 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-mottatt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-mottatt\">mottatt</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Mottatt</td><td><div><p>Henvisningen er mottatt av mottaker.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-behov\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-behov\">vurdert-behov</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Vurdert – behov for helsehjelp</td><td><div><p>Henvisningen er vurdert, og det er behov for helsehjelp.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-ikke-behov\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-ikke-behov\">vurdert-ikke-behov</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Vurdert – ikke behov for helsehjelp</td><td><div><p>Henvisningen er vurdert, men det er ikke behov for helsehjelp.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avvist-mangelfull\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avvist-mangelfull\">avvist-mangelfull</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Avvist – mangelfull informasjon</td><td><div><p>Henvisningen er avvist på grunn av manglende eller feil informasjon.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-planlagt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-planlagt\">planlagt</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Planlagt</td><td><div><p>Henvisningen er planlagt for videre oppfølging eller tiltak.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avsluttet\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avsluttet\">avsluttet</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Avsluttet</td><td><div><p>Henvisningen er ferdig behandlet og avsluttet.</p>\n</div></td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-henvisningsstatus.html\">codesystem Henvisningsstatus (HIS 1206) v1.2.1 (CodeSystem)</a></p><p>This value set contains 6 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-mottatt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-mottatt\">mottatt</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Mottatt</td><td><div><p>Henvisningen er mottatt av mottaker.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-behov\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-behov\">vurdert-behov</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Vurdert – behov for helsehjelp</td><td><div><p>Henvisningen er vurdert, og det er behov for helsehjelp.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-vurdert-ikke-behov\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-vurdert-ikke-behov\">vurdert-ikke-behov</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Vurdert – ikke behov for helsehjelp</td><td><div><p>Henvisningen er vurdert, men det er ikke behov for helsehjelp.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avvist-mangelfull\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avvist-mangelfull\">avvist-mangelfull</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Avvist – mangelfull informasjon</td><td><div><p>Henvisningen er avvist på grunn av manglende eller feil informasjon.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-planlagt\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-planlagt\">planlagt</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Planlagt</td><td><div><p>Henvisningen er planlagt for videre oppfølging eller tiltak.</p>\n</div></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/henvisningsstatus-avsluttet\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-henvisningsstatus.html#hn-henvisningsstatus-avsluttet\">avsluttet</a></td><td>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</td><td>Avsluttet</td><td><div><p>Henvisningen er ferdig behandlet og avsluttet.</p>\n</div></td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/henvisningsstatus-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "name" : "HenvisningsstatusVS",
       "title" : "Henvisningsstatus ValueSet",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-05-29T20:44:52+02:00",
+      "date" : "2025-07-07T00:15:54+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:866f4e92-ad61-41d1-8835-5fb929f6d6d3",
-        "timestamp" : "2025-05-29T20:45:33+02:00",
+        "identifier" : "urn:uuid:6463e44a-c72b-4d26-af4b-d13e58528493",
+        "timestamp" : "2025-07-07T00:16:44+02:00",
         "total" : 6,
         "offset" : 0,
         "parameter" : [{
@@ -46,7 +46,7 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus|1.2.0"
+          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus|1.2.1"
         }],
         "contains" : [{
           "system" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
@@ -87,15 +87,15 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-schedule-type-cs.html\">codesystem Codes that should be used for schedule type v1.2.0 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab\">Lab</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine\">Vaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine\">Koronavaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest\">Koronatest</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Behandlertimebok\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Behandlertimebok\">Behandlertimebok</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Behandlertimebok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Annen\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Annen\">Annen</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Annen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Blodbank\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Blodbank\">Blodbank</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Blodbank</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-schedule-type-cs.html\">codesystem Codes that should be used for schedule type v1.2.1 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab\">Lab</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine\">Vaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine\">Koronavaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest\">Koronatest</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Behandlertimebok\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Behandlertimebok\">Behandlertimebok</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Behandlertimebok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Annen\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Annen\">Annen</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Annen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Blodbank\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Blodbank\">Blodbank</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Blodbank</td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "name" : "HnScheduleTypeVS",
       "title" : "hn-schedule-type-vs",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-05-29T20:44:52+02:00",
+      "date" : "2025-07-07T00:15:54+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -104,8 +104,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:ec217c57-1bf9-4dc7-9973-2ed3de84b40b",
-        "timestamp" : "2025-05-29T20:45:34+02:00",
+        "identifier" : "urn:uuid:2fe1d595-59fb-4e1b-a09d-0a0de2e2999d",
+        "timestamp" : "2025-07-07T00:16:44+02:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -122,7 +122,7 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.0"
+          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.1"
         }],
         "contains" : [{
           "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
@@ -171,12 +171,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-feb. 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1269515004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>http://snomed.info/sct</td><td>Face to face consultation with patient (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-719410009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>http://snomed.info/sct</td><td>Consultation via video conference (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-3457005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/3457005\">3457005</a></td><td>http://snomed.info/sct</td><td>Patient referral</td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-      "version" : "1.2.0",
+      "version" : "1.2.1",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-05-29T20:44:52+02:00",
+      "date" : "2025-07-07T00:15:54+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -185,8 +185,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:747221b6-1380-4eed-9837-bcd6efc40854",
-        "timestamp" : "2025-05-29T20:45:34+02:00",
+        "identifier" : "urn:uuid:b48286de-2668-45eb-af31-29440419ea4e",
+        "timestamp" : "2025-07-07T00:16:45+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{

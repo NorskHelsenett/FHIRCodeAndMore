@@ -1,6 +1,6 @@
 {
   "package": "fhir.codesandextensions",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "NO",
   "extensions": [
@@ -12,10 +12,71 @@
       ]
     },
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/henvisningsstatus",
-      "title": "Henvisningsstatus (HIS 1206)",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/businessstatus",
+      "title": "Business status of a request - including referals",
       "types": [
-        "code"
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage",
+        "Meta",
+        "CodeableConcept",
+        "string",
+        "Extension",
+        "Coding",
+        "string",
+        "Extension",
+        "uri",
+        "string",
+        "code",
+        "string",
+        "boolean",
+        "string"
       ]
     },
     {
@@ -162,8 +223,22 @@
       ]
     },
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/order-received",
-      "title": "Order Received",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato",
+      "title": "Ansiennitets dato",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp",
+      "title": "Dato for frist for helsehjelp",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
+      "title": "Mottatt dato",
       "types": [
         "dateTime"
       ]
@@ -196,6 +271,9 @@
     ]
   },
   "usage": {
+    "http://helsenorge.no/fhir/StructureDefinition/businessstatus": [
+      "ServiceRequest"
+    ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon": [
       "Schedule"
     ],
@@ -205,7 +283,13 @@
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-varselorganisasjon": [
       "Observation.meta.tag"
     ],
-    "http://helsenorge.no/fhir/StructureDefinition/order-received": [
+    "http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato": [
+      "ServiceRequest"
+    ],
+    "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp": [
+      "ServiceRequest"
+    ],
+    "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato": [
       "ServiceRequest"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
@@ -234,12 +318,6 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
       "StructureDefinition.snapshot.element.type"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
-      "StructureDefinition.snapshot.element"
-    ],
-    "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
-      "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-internal-dependency": [
       "ImplementationGuide.definition"

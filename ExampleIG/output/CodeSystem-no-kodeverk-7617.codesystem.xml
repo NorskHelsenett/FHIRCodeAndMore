@@ -10,7 +10,7 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7617"/>
   </identifier>
-  <version value="1.2.0"/>
+  <version value="1.2.1"/>
   <name value="NoKodeverk7617"/>
   <title value="7617 Timetype innbyggerportal"/>
   <status value="active"/>

@@ -1,7 +1,7 @@
 {
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20250529204400",
+  "date" : "20250707001441",
   "name" : "fhir.codesandextensions",
   "jurisdiction" : "urn:iso:std:iso:3166#NO"
 }

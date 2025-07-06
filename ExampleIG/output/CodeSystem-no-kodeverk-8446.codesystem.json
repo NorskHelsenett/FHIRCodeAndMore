@@ -10,7 +10,7 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8446"
   }],
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "NoKodeverk8446",
   "title" : "8446 Utsettelseskode",
   "status" : "active",

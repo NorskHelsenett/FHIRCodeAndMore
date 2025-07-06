@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem hn-henvisningsstatus</b></p><a name=\"hn-henvisningsstatus\"> </a><a name=\"hchn-henvisningsstatus\"> </a><a name=\"hn-henvisningsstatus-no-NO\"> </a><p>This case-sensitive code system <code>http://helsenorge.no/fhir/CodeSystem/henvisningsstatus</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">mottatt<a name=\"hn-henvisningsstatus-mottatt\"> </a></td><td>Mottatt</td><td>Henvisningen er mottatt av mottaker.</td></tr><tr><td style=\"white-space:nowrap\">vurdert-behov<a name=\"hn-henvisningsstatus-vurdert-behov\"> </a></td><td>Vurdert – behov for helsehjelp</td><td>Henvisningen er vurdert, og det er behov for helsehjelp.</td></tr><tr><td style=\"white-space:nowrap\">vurdert-ikke-behov<a name=\"hn-henvisningsstatus-vurdert-ikke-behov\"> </a></td><td>Vurdert – ikke behov for helsehjelp</td><td>Henvisningen er vurdert, men det er ikke behov for helsehjelp.</td></tr><tr><td style=\"white-space:nowrap\">avvist-mangelfull<a name=\"hn-henvisningsstatus-avvist-mangelfull\"> </a></td><td>Avvist – mangelfull informasjon</td><td>Henvisningen er avvist på grunn av manglende eller feil informasjon.</td></tr><tr><td style=\"white-space:nowrap\">planlagt<a name=\"hn-henvisningsstatus-planlagt\"> </a></td><td>Planlagt</td><td>Henvisningen er planlagt for videre oppfølging eller tiltak.</td></tr><tr><td style=\"white-space:nowrap\">avsluttet<a name=\"hn-henvisningsstatus-avsluttet\"> </a></td><td>Avsluttet</td><td>Henvisningen er ferdig behandlet og avsluttet.</td></tr></table></div>"
   },
   "url" : "http://helsenorge.no/fhir/CodeSystem/henvisningsstatus",
-  "version" : "1.2.0",
+  "version" : "1.2.1",
   "name" : "HnHenvisningsstatus",
   "title" : "Henvisningsstatus (HIS 1206)",
   "status" : "active",
-  "date" : "2025-05-29T20:44:52+02:00",
+  "date" : "2025-07-07T00:15:54+02:00",
   "description" : "Koder som angir status for henvisning i henhold til HIS 1206:2018.",
   "jurisdiction" : [{
     "coding" : [{
