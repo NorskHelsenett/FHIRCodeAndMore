@@ -10,7 +10,7 @@
   "name" : "CodesExtensionsAndMore",
   "title" : "Codes, extension, profiles and more",
   "status" : "active",
-  "date" : "2025-07-07T00:32:38+02:00",
+  "date" : "2025-07-07T08:59:22+02:00",
   "description" : "Codes, extension, profiles and more",
   "jurisdiction" : [{
     "coding" : [{
@@ -1113,7 +1113,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-ansiennitets-dato"
+        "reference" : "StructureDefinition/ansiennitetsDato"
       },
       "name" : "Ansiennitets dato",
       "description" : "Seniority date is the first date a referral was received by specialist health",
@@ -1161,7 +1161,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-frist-for-helsehjelp"
+        "reference" : "StructureDefinition/fristDatoForHelsehjelp"
       },
       "name" : "Dato for frist for helsehjelp",
       "description" : "Dato for frist for helsehjelp.",
@@ -1328,7 +1328,7 @@
         "valueString" : "StructureDefinition:extension"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/no-mottatt-dato"
+        "reference" : "StructureDefinition/mottattDato"
       },
       "name" : "Mottatt dato",
       "description" : "Date and time when the order was received.",

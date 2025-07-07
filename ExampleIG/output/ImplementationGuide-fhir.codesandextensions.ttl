@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-07-07T00:32:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-07T08:59:22+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
@@ -1027,8 +1027,8 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato> ;
-         fhir:reference [ fhir:v "StructureDefinition/no-ansiennitets-dato" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/ansiennitetsDato> ;
+         fhir:reference [ fhir:v "StructureDefinition/ansiennitetsDato" ]
        ] ;
        fhir:name [ fhir:v "Ansiennitets dato" ] ;
        fhir:description [ fhir:v "Seniority date is the first date a referral was received by specialist health" ] ;
@@ -1075,8 +1075,8 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp> ;
-         fhir:reference [ fhir:v "StructureDefinition/no-frist-for-helsehjelp" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/fristDatoForHelsehjelp> ;
+         fhir:reference [ fhir:v "StructureDefinition/fristDatoForHelsehjelp" ]
        ] ;
        fhir:name [ fhir:v "Dato for frist for helsehjelp" ] ;
        fhir:description [ fhir:v "Dato for frist for helsehjelp." ] ;
@@ -1251,8 +1251,8 @@
          fhir:value [ fhir:v "StructureDefinition:extension" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato> ;
-         fhir:reference [ fhir:v "StructureDefinition/no-mottatt-dato" ]
+         fhir:link <http://helsenorge.no/fhir/StructureDefinition/mottattDato> ;
+         fhir:reference [ fhir:v "StructureDefinition/mottattDato" ]
        ] ;
        fhir:name [ fhir:v "Mottatt dato" ] ;
        fhir:description [ fhir:v "Date and time when the order was received." ] ;

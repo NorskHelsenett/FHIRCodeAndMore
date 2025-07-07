@@ -1,9 +1,9 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 9, warn = 35, info = 3
+err = 18, warn = 35, info = 3
 IG Publisher Version: 1.8.10 Out of date - current version is 2.0.8
-Generated Mon Jul 07 00:34:58 CEST 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.2.1 (canonical = http://helsenorge.no/fhir)
+Generated Mon Jul 07 09:01:43 CEST 2025. FHIR version 4.0.1 for fhir.codesandextensions#1.2.1 (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 3 / 0
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-kodeverk-varsling.codesystem : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\CodeSystem-hn-schedule-type-cs : 0 / 0 / 1
@@ -73,16 +73,16 @@ Generated Mon Jul 07 00:34:58 CEST 2025. FHIR version 4.0.1 for fhir.codesandext
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ServiceRequest-hn-basis-serviceRequest-example : 0 / 3 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-MyPatient : 0 / 0 / 2
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-additional-code : 0 / 1 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-ansiennitetsDato : 3 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-businessStatus : 3 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForHelsehjelp : 3 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot : 0 / 5 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-representant : 0 / 1 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon : 0 / 1 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-ansiennitets-dato : 0 / 2 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-frist-for-helsehjelp : 0 / 2 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-no-mottatt-dato : 0 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-mottattDato : 3 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-schedule-type-vs : 0 / 0 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\ValueSet-hn-scheduleandslot-type-vs : 0 / 2 / 1
@@ -182,12 +182,24 @@ WARNING: ServiceRequest/hn-basis-serviceRequest-example: ServiceRequest.performe
 INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
 == fsh-generated\resources\StructureDefinition-additional-code.json ==
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/additional-code'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-ansiennitetsDato.json ==
+ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-ansiennitetsDato.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/ansiennitetsDato) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato)
+ERROR: StructureDefinition.url: Resource id/url mismatch: ansiennitetsDato/http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato
+WARNING: StructureDefinition/ansiennitetsDato: StructureDefinition.context[0]: Review the extension type for ansiennitetsDato: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato'): The Implementation Guide contains no examples for this extension
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-ansiennitetsDato: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/ansiennitetsDato vs http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato
 == fsh-generated\resources\StructureDefinition-businessStatus.json ==
 ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/businessstatus'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-businessStatus.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/businessStatus) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/businessstatus)
 ERROR: StructureDefinition.url: Resource id/url mismatch: businessStatus/http://helsenorge.no/fhir/StructureDefinition/businessstatus
 WARNING: StructureDefinition/businessStatus: StructureDefinition.context[0]: Review the extension type for businessStatus: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/businessstatus'): The Implementation Guide contains no examples for this extension
 ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-businessStatus: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/businessStatus vs http://helsenorge.no/fhir/StructureDefinition/businessstatus
+== fsh-generated\resources\StructureDefinition-fristDatoForHelsehjelp.json ==
+ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForHelsehjelp.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/fristDatoForHelsehjelp) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp)
+ERROR: StructureDefinition.url: Resource id/url mismatch: fristDatoForHelsehjelp/http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp
+WARNING: StructureDefinition/fristDatoForHelsehjelp: StructureDefinition.context[0]: Review the extension type for fristDatoForHelsehjelp: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp'): The Implementation Guide contains no examples for this extension
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForHelsehjelp: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/fristDatoForHelsehjelp vs http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.differential.element[11].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[32].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
@@ -205,15 +217,12 @@ WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDef
 == fsh-generated\resources\StructureDefinition-hn-extension-free-slot-planningHorizon.json ==
 == fsh-generated\resources\StructureDefinition-hn-extension-representant.json ==
 == fsh-generated\resources\StructureDefinition-hn-extension-varselorganisasjon.json ==
-== fsh-generated\resources\StructureDefinition-no-ansiennitets-dato.json ==
-WARNING: StructureDefinition/no-ansiennitets-dato: StructureDefinition.context[0]: Review the extension type for no-ansiennitets-dato: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-no-frist-for-helsehjelp.json ==
-WARNING: StructureDefinition/no-frist-for-helsehjelp: StructureDefinition.context[0]: Review the extension type for no-frist-for-helsehjelp: extensions should not have a context of Element unless it's really intended that they can be used anywhere
-WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp'): The Implementation Guide contains no examples for this extension
-== fsh-generated\resources\StructureDefinition-no-mottatt-dato.json ==
-WARNING: StructureDefinition/no-mottatt-dato: StructureDefinition.context[0]: Review the extension type for no-mottatt-dato: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+== fsh-generated\resources\StructureDefinition-mottattDato.json ==
+ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-mottattDato.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/mottattDato) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato)
+ERROR: StructureDefinition.url: Resource id/url mismatch: mottattDato/http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato
+WARNING: StructureDefinition/mottattDato: StructureDefinition.context[0]: Review the extension type for mottattDato: extensions should not have a context of Element unless it's really intended that they can be used anywhere
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato'): The Implementation Guide contains no examples for this extension
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-mottattDato: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/mottattDato vs http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato
 == fsh-generated\resources\ValueSet-cs-8116-Dnr-Fnr-vs.json ==
 WARNING: ValueSet/cs-8116-Dnr-Fnr-vs: ValueSet.compose.include[0]: Unknown System 'urn:oid:2.16.578.1.12.4.1.1.8116' specified, so Concepts and Filters can't be checked (Details: A definition for CodeSystem 'urn:oid:2.16.578.1.12.4.1.1.8116' could not be found, so the code cannot be validated)
 == fsh-generated\resources\ValueSet-hn-schedule-type-vs.json ==

@@ -493,21 +493,21 @@
     "name" : "HnExtensionVarselorganisasjon"
   },
   {
-    "id" : "no-ansiennitets-dato",
+    "id" : "ansiennitetsDato",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato",
     "version" : "1.2.1",
     "name" : "NoAnsiennitetsDato"
   },
   {
-    "id" : "no-frist-for-helsehjelp",
+    "id" : "fristDatoForHelsehjelp",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp",
     "version" : "1.2.1",
     "name" : "NoFristForHelsehjelp"
   },
   {
-    "id" : "no-mottatt-dato",
+    "id" : "mottattDato",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
     "version" : "1.2.1",

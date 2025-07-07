@@ -10,7 +10,7 @@
   "name" : "AdditionalCode",
   "title" : "Alternative codes på serviceRequest.code",
   "status" : "active",
-  "date" : "2025-07-07T00:32:38+02:00",
+  "date" : "2025-07-07T08:59:22+02:00",
   "description" : "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code",
   "jurisdiction" : [{
     "coding" : [{

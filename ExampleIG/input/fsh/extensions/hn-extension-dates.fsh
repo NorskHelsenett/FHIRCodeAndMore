@@ -1,5 +1,5 @@
 Extension: NoAnsiennitetsDato
-Id: no-ansiennitets-dato
+Id: ansiennitetsDato
 Title: "Ansiennitets dato"
 Description: "Seniority date is the first date a referral was received by specialist health"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/no-ansiennitets-dato"
@@ -8,7 +8,7 @@ Description: "Seniority date is the first date a referral was received by specia
 * valueDateTime ^short = "Ansiennitetsdato er definert som den første mottaksdatoen for en henvisning til spesialisthelsetjenesten"
 
 Extension: NoMottattDato
-Id: no-mottatt-dato
+Id: mottattDato
 Title: "Mottatt dato"
 Description: "Date and time when the order was received."
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato"
@@ -17,7 +17,7 @@ Description: "Date and time when the order was received."
 * valueDateTime ^short = "Mottattdato er den formelle datoen en henvisning blir registrert og mottatt av mottaker"
 
 Extension: NoFristForHelsehjelp
-Id: no-frist-for-helsehjelp
+Id: fristDatoForHelsehjelp
 Title: "Dato for frist for helsehjelp"
 Description: "Dato for frist for helsehjelp."
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp"

@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "8351 Prøvemateriale"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-07-07T00:32:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-07T08:59:22+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Kodeverk for prøvemateriale til bruk i rekvisisjon og svar av laboratorieundersøkelser."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "AdditionalCode"] ; # 
   fhir:title [ fhir:v "Alternative codes på serviceRequest.code"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-07-07T00:32:38+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-07-07T08:59:22+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Ekstensjon som muliggjør å legge til flere koder som alternative codes på serviceRequest.code"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

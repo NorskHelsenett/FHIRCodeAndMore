@@ -10,9 +10,9 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * ^status = #draft 
 * ^publisher = "Helsenorge"
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/hn-basis-serviceRequest"
-* extension contains no-ansiennitets-dato named ansiennitetsDato 0..1
-* extension contains no-mottatt-dato named mottattDato 0..1
-* extension contains no-frist-for-helsehjelp named fristDatoForHelsehjelp 0..1
+* extension contains ansiennitetsDato named ansiennitetsDato 0..1
+* extension contains mottattDato named mottattDato 0..1
+* extension contains fristDatoForHelsehjelp named fristDatoForHelsehjelp 0..1
 * extension contains businessStatus named businessStatus 0..*
 * extension[businessStatus] ^short = "Request Business Status"
 * identifier 1..* 
