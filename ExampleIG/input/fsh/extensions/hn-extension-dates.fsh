@@ -24,3 +24,12 @@ Description: "Dato for frist for helsehjelp."
 * value[x] only dateTime
 * valueDateTime 1..1  // This is required
 * valueDateTime ^short = "Frist for helsehjelp er den datoen spesialisthelsetjenesten har vurdert at pasienten senest må få nødvendig helsehjelp innen, for at det ikke skal oppstå alvorlig helserisiko."
+
+Extension: NoFristDatoForVurdering
+Id: FristDatoForVurdering
+Title: "Dato for frist for vurdering"
+Description: "Dato for frist for vurdering."
+* ^url = "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering"
+* value[x] only dateTime
+* valueDateTime 1..1  // This is required
+* valueDateTime ^short = "Frist for vurdering."
