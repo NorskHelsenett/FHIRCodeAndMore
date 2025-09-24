@@ -13,6 +13,7 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * extension contains ansiennitetsDato named ansiennitetsDato 0..1
 * extension contains mottattDato named mottattDato 0..1
 * extension contains fristDatoForHelsehjelp named fristDatoForHelsehjelp 0..1
+* extension contains fristDatoForVurdering named fristDatoForVurdering 0..1
 * extension contains businessStatus named businessStatus 0..*
 * extension[businessStatus] ^short = "Request Business Status"
 * identifier 1..* 
