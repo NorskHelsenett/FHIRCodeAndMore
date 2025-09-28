@@ -11,7 +11,7 @@
   <name value="CodesExtensionsAndMore"/>
   <title value="Codes, extension, profiles and more"/>
   <status value="active"/>
-  <date value="2025-07-07T08:59:22+02:00"/>
+  <date value="2025-09-28T17:18:13+02:00"/>
   <description value="Codes, extension, profiles and more"/>
   <jurisdiction>
     <coding>
@@ -23,18 +23,7 @@
   <packageId value="fhir.codesandextensions"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
-  <dependsOn id="hl7tx">
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
-      <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
-    </extension>
-    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
-    <packageId value="hl7.terminology.r4"/>
-    <version value="6.4.0"/>
-  </dependsOn>
-  <dependsOn id="hl7ext">
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
-      <valueMarkdown value="Automatically added as a dependency - all IGs depend on the HL7 Extension Pack"/>
-    </extension>
+  <dependsOn id="hl7_fhir_uv_extensions_r4">
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
     <version value="5.2.0"/>
@@ -42,7 +31,12 @@
   <dependsOn id="hl7_fhir_no_basis">
     <uri value="http://fhir.org/packages/hl7.fhir.no.basis/ImplementationGuide/hl7.fhir.no.basis"/>
     <packageId value="hl7.fhir.no.basis"/>
-    <version value="2.2.0"/>
+    <version value="2.2.2"/>
+  </dependsOn>
+  <dependsOn id="hl7_terminology_r4">
+    <uri value="http://terminology.hl7.org"/>
+    <packageId value="hl7.terminology.r4"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <definition>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -967,6 +961,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/fristDatoForVurdering"/>
+      </reference>
+      <name value="Dato for frist for vurdering"/>
+      <description value="Dato for frist for vurdering."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -1325,6 +1330,17 @@
       </reference>
       <name value="ServiceRequest PerformerType Value Set"/>
       <description value="Koder for valgte profesjonstyper."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/servicerequest-statusReason"/>
+      </reference>
+      <name value="ServiceRequest Status Reason"/>
+      <description value="Reason for the current status of the ServiceRequest (R5 parity)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -237,10 +237,24 @@
       ]
     },
     {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering",
+      "title": "Dato for frist for vurdering",
+      "types": [
+        "dateTime"
+      ]
+    },
+    {
       "url": "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
       "title": "Mottatt dato",
       "types": [
         "dateTime"
+      ]
+    },
+    {
+      "url": "http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason",
+      "title": "ServiceRequest Status Reason",
+      "types": [
+        "CodeableConcept"
       ]
     }
   ],
@@ -271,9 +285,6 @@
     ]
   },
   "usage": {
-    "http://helsenorge.no/fhir/StructureDefinition/businessstatus": [
-      "ServiceRequest"
-    ],
     "http://helsenorge.no/fhir/StructureDefinition/hn-extension-free-slot-planningHorizon": [
       "Schedule"
     ],
@@ -289,7 +300,13 @@
     "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-helsehjelp": [
       "ServiceRequest"
     ],
+    "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering": [
+      "ServiceRequest"
+    ],
     "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato": [
+      "ServiceRequest"
+    ],
+    "http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason": [
       "ServiceRequest"
     ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.url": [
@@ -328,9 +345,6 @@
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
-    ],
-    "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment": [
-      "ImplementationGuide.dependsOn"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"

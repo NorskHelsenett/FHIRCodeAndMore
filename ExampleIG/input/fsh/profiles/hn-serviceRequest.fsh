@@ -14,8 +14,12 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * extension contains mottattDato named mottattDato 0..1
 * extension contains fristDatoForHelsehjelp named fristDatoForHelsehjelp 0..1
 * extension contains fristDatoForVurdering named fristDatoForVurdering 0..1
-* extension contains businessStatus named businessStatus 0..*
-* extension[businessStatus] ^short = "Request Business Status"
+//* extension contains businessStatus named businessStatus 0..*
+* extension contains servicerequest-statusReason named statusReason 0..1
+* extension[statusReason] ^short = "Reason for the current status"
+* extension[statusReason] ^definition = "Provides the rationale behind the current status (e.g., on-hold due to patient request)."
+* extension[statusReason] MS
+//* extension[businessStatus] ^short = "Request Business Status"
 * identifier 1..* 
 * identifier ^short = "Skal være UUID"
 * identifier ^definition = "Identifier er identifikator som identifiserer serviceRequest uavhengig av ressursens id på en FHIR-server. Skal være en UUID. Kan benyttes for å knytte ServiceRequest sammen med eventuelle etterfølgende oppdateringer."

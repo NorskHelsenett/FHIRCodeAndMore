@@ -128,13 +128,13 @@
       "uses" : {
       },
       "http://hl7.org/fhir/R4/valueset-medication-as-needed-reason.html" : "SNOMED CT Medication As Needed Reason Codes",
-      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set",
       "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
       "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
-      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set",
       "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
       "ValueSet-serviceRequest-category-vs.html" : "ServiceRequest Category Value Set",
-      "ValueSet-serviceRequest-performerType-vs.html" : "ServiceRequest PerformerType Value Set"
+      "http://hl7.org/fhir/R4/valueset-servicerequest-orderdetail.html" : "Service Request Order Details Codes",
+      "http://hl7.org/fhir/R4/valueset-c80-practice-codes.html" : "Practice Setting Code Value Set"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/service-category",
@@ -162,7 +162,7 @@
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v2-0203",
-      "version" : "4.0.0",
+      "version" : "5.0.0",
       "status" : "active",
       "name" : "IdentifierType",
       "title" : "identifierType",
@@ -206,7 +206,7 @@
       "oids" : ["2.16.840.1.113883.5.111"],
       "uses" : {
       },
-      "http://terminology.hl7.org/6.4.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
+      "http://terminology.hl7.org/6.5.0/ValueSet-v3-ServiceDeliveryLocationRoleType.html" : "ServiceDeliveryLocationRoleType"
     },
     {
       "url" : "urn:ietf:bcp:47",

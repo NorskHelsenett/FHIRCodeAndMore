@@ -507,11 +507,25 @@
     "name" : "NoFristForHelsehjelp"
   },
   {
+    "id" : "fristDatoForVurdering",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering",
+    "version" : "1.2.1",
+    "name" : "NoFristDatoForVurdering"
+  },
+  {
     "id" : "mottattDato",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
     "version" : "1.2.1",
     "name" : "NoMottattDato"
+  },
+  {
+    "id" : "servicerequest-statusReason",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason",
+    "version" : "1.2.1",
+    "name" : "ServiceRequestStatusReason"
   },
   {
     "id" : "cs-8116-Dnr-Fnr-vs",

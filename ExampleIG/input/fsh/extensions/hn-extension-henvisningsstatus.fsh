@@ -10,3 +10,20 @@ Description: "Business status of a request - including referals"
 * valueCodeableConcept.coding.system 1..1
 * valueCodeableConcept.coding.code 1..1
 * valueCodeableConcept.coding.code ^short = "Request business status"
+
+
+// servicerequest-statusReason.fsh
+Extension: ServiceRequestStatusReason
+Id: servicerequest-statusReason
+Title: "ServiceRequest Status Reason"
+Description: "Reason for the current status of the ServiceRequest (R5 parity)."
+* ^url = "http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason"
+* ^status = #active
+* ^context[0].type = #element
+* ^context[0].expression = "ServiceRequest"
+
+// Value mirrors R5: CodeableConcept
+* value[x] only CodeableConcept
+
+
+

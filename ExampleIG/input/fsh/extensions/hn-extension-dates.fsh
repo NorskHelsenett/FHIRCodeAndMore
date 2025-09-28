@@ -26,7 +26,7 @@ Description: "Dato for frist for helsehjelp."
 * valueDateTime ^short = "Frist for helsehjelp er den datoen spesialisthelsetjenesten har vurdert at pasienten senest må få nødvendig helsehjelp innen, for at det ikke skal oppstå alvorlig helserisiko."
 
 Extension: NoFristDatoForVurdering
-Id: FristDatoForVurdering
+Id: fristDatoForVurdering
 Title: "Dato for frist for vurdering"
 Description: "Dato for frist for vurdering."
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering"

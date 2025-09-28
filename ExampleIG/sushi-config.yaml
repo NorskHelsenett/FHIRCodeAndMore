@@ -25,7 +25,9 @@ jurisdiction: urn:iso:std:iso:3166#NO "Norway" # https://www.hl7.org/fhir/values
 # use cases, the value can be an object with keys for id, uri, and version.
 #
 dependencies:
-    hl7.fhir.no.basis: 2.2.0
+     hl7.fhir.uv.extensions.r4: 5.2.0
+     hl7.fhir.no.basis: 2.2.2
+     hl7.terminology.r4: 6.5.0     
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode

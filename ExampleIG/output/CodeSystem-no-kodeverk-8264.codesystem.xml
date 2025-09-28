@@ -15,7 +15,7 @@
   <title value="8264 Tjenestekoder for timereservasjon"/>
   <status value="retired"/>
   <experimental value="false"/>
-  <date value="2025-07-07T08:59:22+02:00"/>
+  <date value="2025-09-28T17:18:13+02:00"/>
   <description value="Foreløpig kodeverk basert på tilgjengelige tjenester. Anvendes til booking av time."/>
   <jurisdiction>
     <coding>
