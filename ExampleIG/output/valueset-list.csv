@@ -1,6 +1,6 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
-http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs,1.2.1,active,,CS8116DnrFnrVS,DNR og FNR fra Volven 8116,"ValueSet basert på 8116 som inkluderer kun FNR og DNR",,"Other"
-http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs,1.2.1,draft,,HnScheduleTypeVS,hn-schedule-type-vs,"Value set for schedule type",,"Internal"
-http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs,1.2.1,draft,,HnScheduleAndSlotTypeVS,hn-scheduleandslot-type-vs,"Value set for schedule and slot type",,"Internal,Other"
-http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs,1.2.1,active,,ServiceRequestCategoryVS,ServiceRequest Category Value Set,"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",,"SCT"
-http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs,1.2.1,active,,ServiceRequestPerformerTypeVS,ServiceRequest PerformerType Value Set,"Koder for valgte profesjonstyper.",,"SCT,Other"
+http://helsenorge.no/fhir/ValueSet/cs-8116-Dnr-Fnr-vs,1.3.0,active,,CS8116DnrFnrVS,DNR og FNR fra Volven 8116,"ValueSet basert på 8116 som inkluderer kun FNR og DNR",,"Other"
+http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs,1.3.0,draft,,HnScheduleTypeVS,hn-schedule-type-vs,"Value set for schedule type",,"Internal"
+http://helsenorge.no/fhir/ValueSet/hn-scheduleandslot-type-vs,1.3.0,draft,,HnScheduleAndSlotTypeVS,hn-scheduleandslot-type-vs,"Value set for schedule and slot type",,"Internal,Other"
+http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs,1.3.0,active,,ServiceRequestCategoryVS,ServiceRequest Category Value Set,"Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",,"SCT"
+http://helsenorge.no/fhir/ValueSet/serviceRequest-performerType-vs,1.3.0,active,,ServiceRequestPerformerTypeVS,ServiceRequest PerformerType Value Set,"Koder for valgte profesjonstyper.",,"SCT,Other"

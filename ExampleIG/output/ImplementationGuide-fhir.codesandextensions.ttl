@@ -13,11 +13,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide fhir.codesandextensions</b></p><a name=\"fhir.codesandextensions\"> </a><a name=\"hcfhir.codesandextensions\"> </a><a name=\"fhir.codesandextensions-no-NO\"> </a><h2>CodesExtensionsAndMore</h2><p>The official URL for this implementation guide is: </p><pre>http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions</pre><div><p>Codes, extension, profiles and more</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "http://helsenorge.no/fhir/ImplementationGuide/fhir.codesandextensions"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.2.1"] ; # 
+  fhir:version [ fhir:v "1.3.0"] ; # 
   fhir:name [ fhir:v "CodesExtensionsAndMore"] ; # 
   fhir:title [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-29T13:11:32+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-29T13:18:42+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Codes, extension, profiles and more"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8245"
   }],
-  "version" : "1.2.1",
+  "version" : "1.3.0",
   "name" : "NoKodeverk8245",
   "title" : "8245 Status for resultat i svarrapportering av medisinske tjenester",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-29T13:11:32+02:00",
+  "date" : "2025-09-29T13:18:42+02:00",
   "description" : "Benyttes for å angi status/steg i arbeidsflyt for en enkelt lab- /røntgenundersøkelse.",
   "jurisdiction" : [{
     "coding" : [{

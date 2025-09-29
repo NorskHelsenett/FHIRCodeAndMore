@@ -1,8 +1,8 @@
 {
   "resourceType" : "Bundle",
-  "id" : "f0912357-407b-45c1-a680-7470bc954fd9",
+  "id" : "8152931d-0893-4127-843d-25c5ab1a2dfd",
   "meta" : {
-    "lastUpdated" : "2025-09-29T13:11:32.062+02:00"
+    "lastUpdated" : "2025-09-29T13:18:42.519+02:00"
   },
   "type" : "collection",
   "entry" : [{
@@ -11,15 +11,15 @@
       "resourceType" : "ValueSet",
       "text" : {
         "status" : "generated",
-        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-schedule-type-cs.html\">codesystem Codes that should be used for schedule type v1.2.1 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab\">Lab</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine\">Vaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine\">Koronavaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest\">Koronatest</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Behandlertimebok\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Behandlertimebok\">Behandlertimebok</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Behandlertimebok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Annen\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Annen\">Annen</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Annen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Blodbank\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Blodbank\">Blodbank</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Blodbank</td></tr></table></div>"
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion done internally based on <a href=\"CodeSystem-hn-schedule-type-cs.html\">codesystem Codes that should be used for schedule type v1.3.0 (CodeSystem)</a></p><p>This value set contains 7 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Lab\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Lab\">Lab</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Lab</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Vaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Vaksine\">Vaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Vaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronavaksine\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronavaksine\">Koronavaksine</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronavaksine</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Koronatest\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Koronatest\">Koronatest</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Koronatest</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Behandlertimebok\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Behandlertimebok\">Behandlertimebok</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Behandlertimebok</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Annen\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Annen\">Annen</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Annen</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs-Blodbank\"> </a>\u00a0\u00a0<a href=\"CodeSystem-hn-schedule-type-cs.html#hn-schedule-type-cs-Blodbank\">Blodbank</a></td><td>http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs</td><td>Blodbank</td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs",
-      "version" : "1.2.1",
+      "version" : "1.3.0",
       "name" : "HnScheduleTypeVS",
       "title" : "hn-schedule-type-vs",
       "status" : "draft",
       "experimental" : true,
-      "date" : "2025-09-29T13:11:32+02:00",
+      "date" : "2025-09-29T13:18:42+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -28,8 +28,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:8ced5185-a31d-4ce0-817e-783234010765",
-        "timestamp" : "2025-09-29T13:12:16+02:00",
+        "identifier" : "urn:uuid:4ccc4d27-eab5-4944-a573-a7b9b1a3165a",
+        "timestamp" : "2025-09-29T13:19:27+02:00",
         "total" : 7,
         "offset" : 0,
         "parameter" : [{
@@ -46,7 +46,7 @@
         },
         {
           "name" : "used-codesystem",
-          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.2.1"
+          "valueUri" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs|1.3.0"
         }],
         "contains" : [{
           "system" : "http://helsenorge.no/fhir/CodeSystem/hn-schedule-type-cs",
@@ -95,12 +95,12 @@
         "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet </b></p><p style=\"border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px\">Expansion from tx.fhir.org based on SNOMED CT 900000000000207008 edition 01-feb. 2025</p><p>This value set contains 3 concepts</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-1269515004\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/1269515004\">1269515004</a></td><td>http://snomed.info/sct</td><td>Face to face consultation with patient (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-719410009\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/719410009\">719410009</a></td><td>http://snomed.info/sct</td><td>Consultation via video conference (procedure)</td></tr><tr><td style=\"white-space:nowrap\"><a name=\"x-http://snomed.info/sct-3457005\"> </a>\u00a0\u00a0<a href=\"http://snomed.info/id/3457005\">3457005</a></td><td>http://snomed.info/sct</td><td>Patient referral</td></tr></table></div>"
       },
       "url" : "http://helsenorge.no/fhir/ValueSet/serviceRequest-category-vs",
-      "version" : "1.2.1",
+      "version" : "1.3.0",
       "name" : "ServiceRequestCategoryVS",
       "title" : "ServiceRequest Category Value Set",
       "status" : "active",
       "experimental" : true,
-      "date" : "2025-09-29T13:11:32+02:00",
+      "date" : "2025-09-29T13:18:42+02:00",
       "jurisdiction" : [{
         "coding" : [{
           "system" : "urn:iso:std:iso:3166",
@@ -109,8 +109,8 @@
         }]
       }],
       "expansion" : {
-        "identifier" : "urn:uuid:6011f1a6-56f1-400d-bd76-aa21cca07cd1",
-        "timestamp" : "2025-09-29T13:12:16+02:00",
+        "identifier" : "urn:uuid:41a49389-dc99-469e-b9ec-adc20e64048b",
+        "timestamp" : "2025-09-29T13:19:28+02:00",
         "total" : 3,
         "offset" : 0,
         "parameter" : [{
