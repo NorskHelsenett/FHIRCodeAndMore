@@ -244,15 +244,15 @@
       ]
     },
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering",
-      "title": "Vurdert dato",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
+      "title": "Mottatt dato",
       "types": [
         "dateTime"
       ]
     },
     {
-      "url": "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",
-      "title": "Mottatt dato",
+      "url": "http://helsenorge.no/fhir/StructureDefinition/no-vurdert-dato",
+      "title": "Vurdert dato",
       "types": [
         "dateTime"
       ]
@@ -311,6 +311,9 @@
       "ServiceRequest"
     ],
     "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato": [
+      "ServiceRequest"
+    ],
+    "http://helsenorge.no/fhir/StructureDefinition/no-vurdert-dato": [
       "ServiceRequest"
     ],
     "http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason": [
