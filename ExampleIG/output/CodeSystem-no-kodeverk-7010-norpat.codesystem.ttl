@@ -22,7 +22,7 @@
   fhir:title [ fhir:v "Norsk patologikodeverk (NORPAT)"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
-  fhir:date [ fhir:v "2025-09-29T11:26:30+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-29T11:54:59+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

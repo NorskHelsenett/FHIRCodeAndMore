@@ -35,7 +35,7 @@ Description: "Dato for frist for vurdering."
 * valueDateTime ^short = "Frist for vurdering."
 
 Extension: NoVurdertDato
-Id: fristVurdertDato
+Id: vurdertDato
 Title: "Vurdert dato"
 Description: "Brukes når forespørsel er vurdert og/eller henvisning er avvist/avsluttet."
 * ^url = "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering"

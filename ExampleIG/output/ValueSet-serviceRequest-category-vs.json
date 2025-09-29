@@ -11,7 +11,7 @@
   "title" : "ServiceRequest Category Value Set",
   "status" : "active",
   "experimental" : true,
-  "date" : "2025-09-29T11:26:30+02:00",
+  "date" : "2025-09-29T11:54:59+02:00",
   "description" : "Kode som klassifiserer tjenesten for søk, sortering og visningsformål. (flere koder vil leggest til senere)",
   "jurisdiction" : [{
     "coding" : [{

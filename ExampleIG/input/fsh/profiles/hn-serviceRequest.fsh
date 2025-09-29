@@ -14,6 +14,7 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * extension contains mottattDato named mottattDato 0..1
 * extension contains fristDatoForHelsehjelp named fristDatoForHelsehjelp 0..1
 * extension contains fristDatoForVurdering named fristDatoForVurdering 0..1
+* extension contains vurdertDato named vurdertDato 0..1
 //* extension contains businessStatus named businessStatus 0..*
 * extension contains servicerequest-statusReason named statusReason 0..1
 * extension[statusReason] ^short = "Reason for the current status"

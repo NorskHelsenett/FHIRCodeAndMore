@@ -514,7 +514,7 @@
     "name" : "NoFristDatoForVurdering"
   },
   {
-    "id" : "fristVurdertDato",
+    "id" : "vurdertDato",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering",
     "version" : "1.2.1",
