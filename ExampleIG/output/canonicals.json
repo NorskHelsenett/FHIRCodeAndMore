@@ -514,6 +514,13 @@
     "name" : "NoFristDatoForVurdering"
   },
   {
+    "id" : "fristVurdertDato",
+    "type" : "StructureDefinition",
+    "url" : "http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering",
+    "version" : "1.2.1",
+    "name" : "NoVurdertDato"
+  },
+  {
     "id" : "mottattDato",
     "type" : "StructureDefinition",
     "url" : "http://helsenorge.no/fhir/StructureDefinition/no-mottatt-dato",

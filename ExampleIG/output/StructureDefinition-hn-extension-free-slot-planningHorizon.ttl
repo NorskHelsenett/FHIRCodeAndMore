@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "HnExtensionFreeSlotPlanningHorizon"] ; # 
   fhir:title [ fhir:v "Periode for første og siste ledige slot i timebok"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-09-28T17:18:13+02:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-09-29T11:26:30+02:00"^^xsd:dateTime] ; # 
   fhir:description [ fhir:v "Periode for første og siste ledige slot i timebok. Tid og referanse"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [

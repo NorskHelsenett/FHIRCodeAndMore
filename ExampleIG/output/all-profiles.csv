@@ -278,6 +278,21 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "fristDatoForVurdering","Extension.value[x]","Extension.value[x]","","","",1,1,"","","","dateTime {[]} {[]}
 ","Frist for vurdering.","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
+"fristVurdertDato","Extension","Extension","","","",0,*,"","","","null {[]} {[]}
+","Vurdert dato","Brukes når forespørsel er vurdert og/eller henvisning er avvist/avsluttet.","","","","","","","","","",,,,,"",,,,"Extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"fristVurdertDato","Extension.id","Extension.id","","","",0,1,"","","","string {[]} {[]}
+","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
+"fristVurdertDato","Extension.extension","Extension.extension","","","",0,0,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"fristVurdertDato","Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering""/>","","","","",,,,,"",,,,"Extension.url",1,1,"",""
+"fristVurdertDato","Extension.value[x]","Extension.value[x]","","","",1,1,"","","","dateTime {[]} {[]}
+","Vurdert dato.","Value of extension - must be one of a constrained set of the data types (see [Extensibility](http://hl7.org/fhir/R4/extensibility.html) for a list).","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"
 "hn-basis-schedule","Schedule","Schedule","","Availability
 ","",0,*,"","","","null {[]} {[]}
 ","A container for slots of time that may be available for booking appointments","A container for slots of time that may be available for booking appointments.","","","","","","","","","",,,,,"",,,,"Schedule",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}
@@ -513,7 +528,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hn-basis-serviceRequest","ServiceRequest.extension:fristDatoForVurdering","ServiceRequest.extension","fristDatoForVurdering","","",0,1,"","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering]]} {[]}
-","Dato for frist for vurdering","Dato for frist for vurdering.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Vurdert dato","Brukes når forespørsel er vurdert og/eller henvisning er avvist/avsluttet.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "hn-basis-serviceRequest","ServiceRequest.extension:statusReason","ServiceRequest.extension","statusReason","","",0,1,"Y","","","Extension {[CanonicalType[http://helsenorge.no/fhir/StructureDefinition/servicerequest-statusReason]]} {[]}

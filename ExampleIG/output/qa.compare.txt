@@ -1,7 +1,7 @@
 CodesExtensionsAndMore : Validation Results
 =========================================
 
-err = 21, warn = 39, info = 4
+err = 26, warn = 41, info = 4
 $--
 Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = http://helsenorge.no/fhir)
  Build Errors : 3 / 4 / 0
@@ -76,7 +76,8 @@ Generated $--. FHIR version $-- for fhir.codesandextensions#$-- (canonical = htt
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-ansiennitetsDato : 3 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-businessStatus : 3 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForHelsehjelp : 3 / 2 / 1
- C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForVurdering : 3 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForVurdering : 4 / 2 / 1
+ C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristVurdertDato : 4 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-schedule : 0 / 2 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-serviceRequest : 0 / 4 / 1
  C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-hn-basis-slot : 0 / 5 / 1
@@ -208,8 +209,16 @@ ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fri
 ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForVurdering.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/fristDatoForVurdering) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering)
 ERROR: StructureDefinition.url: Resource id/url mismatch: fristDatoForVurdering/http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering
 WARNING: StructureDefinition/fristDatoForVurdering: StructureDefinition.context[0]: Review the extension type for fristDatoForVurdering: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: Resource: The URL 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering' is also used by fristVurdertDato in C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristVurdertDato
 WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering'): The Implementation Guide contains no examples for this extension
 ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForVurdering: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/fristDatoForVurdering vs http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering
+== fsh-generated\resources\StructureDefinition-fristVurdertDato.json ==
+ERROR: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering'): Conformance resource C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristVurdertDato.json - the canonical URL (http://helsenorge.no/fhir/StructureDefinition/fristVurdertDato) does not match the URL (http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering)
+ERROR: StructureDefinition.url: Resource id/url mismatch: fristVurdertDato/http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering
+WARNING: StructureDefinition/fristVurdertDato: StructureDefinition.context[0]: Review the extension type for fristVurdertDato: extensions should not have a context of Element unless it's really intended that they can be used anywhere
+ERROR: Resource: The URL 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering' has already been used by fristDatoForVurdering in C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristDatoForVurdering
+WARNING: StructureDefinition.where(url = 'http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering'): The Implementation Guide contains no examples for this extension
+ERROR: C:\kodesAndMore\ExampleIG\fsh-generated\resources\StructureDefinition-fristVurdertDato: URL Mismatch http://helsenorge.no/fhir/StructureDefinition/fristVurdertDato vs http://helsenorge.no/fhir/StructureDefinition/no-frist-for-vurdering
 == fsh-generated\resources\StructureDefinition-hn-basis-schedule.json ==
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.differential.element[11].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
 WARNING: StructureDefinition/hn-basis-schedule: StructureDefinition.snapshot.element[32].binding: The definition for the element 'Schedule.serviceType' binds to the value set 'http://helsenorge.no/fhir/ValueSet/hn-schedule-type-vs' which is experimental, but this structure is not labeled as experimental
