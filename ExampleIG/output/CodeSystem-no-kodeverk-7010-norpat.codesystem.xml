@@ -10,12 +10,12 @@
     <system value="urn:ietf:rfc:3986"/>
     <value value="urn:oid:2.16.578.1.12.4.1.1.7010"/>
   </identifier>
-  <version value="1.3.0"/>
+  <version value="1.3.1"/>
   <name value="NoKodeverk7010NORPAT"/>
   <title value="Norsk patologikodeverk (NORPAT)"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-29T13:18:42+02:00"/>
+  <date value="2025-10-01T13:36:52+02:00"/>
   <description value="Norsk patologikodeverk er et kodeverk som benyttes ved norske patologiavdelinger. Kodeverket ble utarbeidet av Den norske patologforenings kode- og nomenklaturutvalg i samarbeid med KITH på grunnlag av The Systematized Nomenclature of Medicine (SNOMED, 1984). Endret navn fra Den norske SNOMED til Norsk patologikodeverk 3. november 2015."/>
   <jurisdiction>
     <coding>

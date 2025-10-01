@@ -39,7 +39,7 @@ Description: "ServiceRequest sendes til tjenesteytere for å informere om hvilke
 * category from ServiceRequestCategoryVS (preferred)
 * category ^short = "Hvis category er brukt og det mangler code bør beskrivelse av bestilling være i note"
 * priority 1..1 
-* priority obeys PriorityUrgentOrRoutine
+* priority obeys PriorityUrgentOrRoutineOrStat
 * subject only Reference(Patient)
 * subject.reference 0..0
 * subject.type = "Patient"
@@ -78,9 +78,9 @@ Description: "ValueSet som refererer til henvisningsstatuskoder fra HIS 1206:201
 * include codes from system HnHenvisningsstatus
 */
 
-Invariant: PriorityUrgentOrRoutine
-Description: "priority må være enten 'routine' eller 'urgent'."
-Expression: "value='routine' or value='urgent'"
+Invariant: PriorityUrgentOrRoutineOrStat
+Description: "priority må være enten 'routine','urgent' eller 'stat'. Stat brukes for Øhjelp henvisninger."
+Expression: "value='routine' or value='urgent' or value='stat'"
 Severity: #error
 
 

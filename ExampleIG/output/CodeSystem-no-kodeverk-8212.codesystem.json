@@ -10,12 +10,12 @@
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.578.1.12.4.1.1.8212"
   }],
-  "version" : "1.3.0",
+  "version" : "1.3.1",
   "name" : "NoKodeverk8212",
   "title" : "8212 Uspesifisert laboratoriekodeverk",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-29T13:18:42+02:00",
+  "date" : "2025-10-01T13:36:52+02:00",
   "description" : "Dette kodeverk skal benyttes i tilfeller der det er uavklart hvilket type koder som skal være med i en melding. Kodeverket inneholder ingen koder",
   "jurisdiction" : [{
     "coding" : [{
